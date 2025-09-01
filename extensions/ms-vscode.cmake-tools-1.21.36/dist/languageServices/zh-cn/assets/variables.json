@@ -1,0 +1,5050 @@
+{
+	"ANDROID": {
+		"name": "ANDROID",
+		"description": "目标系统(CMAKE_SYSTEM_NAME)为 Android 时设置为 1。"
+	},
+	"APPLE": {
+		"name": "APPLE",
+		"description": "目标系统为 Apple 平台(macOS、iOS、tvOS、visionOS 或 watchOS)时设置为 True。"
+	},
+	"BORLAND": {
+		"name": "BORLAND",
+		"description": "如果正在使用 Borland 编译器，则为 true。"
+	},
+	"BSD": {
+		"name": "BSD",
+		"description": "当目标系统为 BSD 时设置为字符串值。此值可以是下列值之一: DragonFlyBSD、FreeBSD、OpenBSD 或 NetBSD。"
+	},
+	"BUILD_SHARED_LIBS": {
+		"name": "BUILD_SHARED_LIBS",
+		"description": "在未指定显式库类型的情况下进行调用时，告诉 add_library 默认使用 SHARED 库，而不是 STATIC 库。"
+	},
+	"CACHE": {
+		"name": "CACHE",
+		"description": "用于读取缓存变量的运算符。"
+	},
+	"CMAKE_ABSOLUTE_DESTINATION_FILES": {
+		"name": "CMAKE_ABSOLUTE_DESTINATION_FILES",
+		"description": "已使用绝对目标路径安装的文件列表。"
+	},
+	"CMAKE_ADD_CUSTOM_COMMAND_DEPENDS_EXPLICIT_ONLY": {
+		"name": "CMAKE_ADD_CUSTOM_COMMAND_DEPENDS_EXPLICIT_ONLY",
+		"description": "是否在 add_custom_command 中默认启用 DEPENDS_EXPLICIT_ONLY 选项。"
+	},
+	"CMAKE_ADSP_ROOT": {
+		"name": "CMAKE_ADSP_ROOT",
+		"description": "当 :ref:`CROSS Compiling for ADSP SHARC/Blackfin` 时，此变量保留最新 CCES 或 VDSP++ 安装的绝对路径。目录应包含 cc21k.exe 和 ccblkfn.exe 编译器。如果可以找到 CCES 或 VDSP++ 的默认安装，则将自动设置此项。"
+	},
+	"CMAKE_AIX_EXPORT_ALL_SYMBOLS": {
+		"name": "CMAKE_AIX_EXPORT_ALL_SYMBOLS",
+		"description": "AIX_EXPORT_ALL_SYMBOLS 目标属性的默认值。此变量用于初始化每个目标上的属性(在创建该属性时)。"
+	},
+	"CMAKE_ANDROID_ANT_ADDITIONAL_OPTIONS": {
+		"name": "CMAKE_ANDROID_ANT_ADDITIONAL_OPTIONS",
+		"description": "ANDROID_ANT_ADDITIONAL_OPTIONS 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_API": {
+		"name": "CMAKE_ANDROID_API",
+		"description": "使用 NVIDIA Nsight Tegra Visual Studio Edition 针对 Android 进行交叉编译时，可通过设置此属性指定 ANDROID_API 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_API_MIN": {
+		"name": "CMAKE_ANDROID_API_MIN",
+		"description": "ANDROID_API_MIN 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_ARCH": {
+		"name": "CMAKE_ANDROID_ARCH",
+		"description": "使用 NVIDIA Nsight Tegra Visual Studio Edition 针对 Android 进行交叉编译时，可通过设置此属性指定 ANDROID_ARCH 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_ARCH_ABI": {
+		"name": "CMAKE_ANDROID_ARCH_ABI",
+		"description": "针对 Android 进行交叉编译时，此变量可指定要使用的目标体系结构和 ABI。有效值为:"
+	},
+	"CMAKE_ANDROID_ARM_MODE": {
+		"name": "CMAKE_ANDROID_ARM_MODE",
+		"description": "针对 Android 进行交叉编译，并且将 CMAKE_ANDROID_ARCH_ABI 设置为某个 armeabi 体系结构时，将 CMAKE_ANDROID_ARM_MODE 设为开启可将 32 位 ARM 处理器(-marm)作为目标。否则，默认将 16 位 Thumb 处理器(-mthumb)作为目标。"
+	},
+	"CMAKE_ANDROID_ARM_NEON": {
+		"name": "CMAKE_ANDROID_ARM_NEON",
+		"description": "针对 Android 进行交叉编译，并且将 CMAKE_ANDROID_ARCH_ABI 设置为 armeabi-v7a 时，将 CMAKE_ANDROID_ARM_NEON 设置为开启可将 ARM NEON 设备作为目标。"
+	},
+	"CMAKE_ANDROID_ASSETS_DIRECTORIES": {
+		"name": "CMAKE_ANDROID_ASSETS_DIRECTORIES",
+		"description": "ANDROID_ASSETS_DIRECTORIES 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_EXCEPTIONS": {
+		"name": "CMAKE_ANDROID_EXCEPTIONS",
+		"description": "使用 NDK 针对 Android 进行交叉编译时，可通过设置此变量指定是否支持例外。"
+	},
+	"CMAKE_ANDROID_GUI": {
+		"name": "CMAKE_ANDROID_GUI",
+		"description": "可执行文件的 ANDROID_GUI 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_JAR_DEPENDENCIES": {
+		"name": "CMAKE_ANDROID_JAR_DEPENDENCIES",
+		"description": "ANDROID_JAR_DEPENDENCIES 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_JAR_DIRECTORIES": {
+		"name": "CMAKE_ANDROID_JAR_DIRECTORIES",
+		"description": "ANDROID_JAR_DIRECTORIES 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_JAVA_SOURCE_DIR": {
+		"name": "CMAKE_ANDROID_JAVA_SOURCE_DIR",
+		"description": "ANDROID_JAVA_SOURCE_DIR 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_NATIVE_LIB_DEPENDENCIES": {
+		"name": "CMAKE_ANDROID_NATIVE_LIB_DEPENDENCIES",
+		"description": "ANDROID_NATIVE_LIB_DEPENDENCIES 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_NATIVE_LIB_DIRECTORIES": {
+		"name": "CMAKE_ANDROID_NATIVE_LIB_DIRECTORIES",
+		"description": "ANDROID_NATIVE_LIB_DIRECTORIES 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_NDK": {
+		"name": "CMAKE_ANDROID_NDK",
+		"description": "使用 NDK 针对 Android 进行交叉编译时，此变量包含 NDK 的根目录的绝对路径。该目录必须包含一个含有 android-<api> 目录的平台子目录。"
+	},
+	"CMAKE_ANDROID_NDK_DEPRECATED_HEADERS": {
+		"name": "CMAKE_ANDROID_NDK_DEPRECATED_HEADERS",
+		"description": "使用 NDK 针对 Android 进行交叉编译时，可通过设置此变量指定是否使用已弃用的每 API 级别标头而不是统一的标头。"
+	},
+	"CMAKE_ANDROID_NDK_TOOLCHAIN_HOST_TAG": {
+		"name": "CMAKE_ANDROID_NDK_TOOLCHAIN_HOST_TAG",
+		"description": "使用 NDK 针对 Android 进行交叉编译时，此变量提供 NDK 的“主机标记”，用于构造在主机上运行的预生成工具链的路径。"
+	},
+	"CMAKE_ANDROID_NDK_TOOLCHAIN_VERSION": {
+		"name": "CMAKE_ANDROID_NDK_TOOLCHAIN_VERSION",
+		"description": "使用 NDK 针对 Android 进行交叉编译时，可通过设置此变量指定要用作编译器的工具链版本。"
+	},
+	"CMAKE_ANDROID_NDK_VERSION": {
+		"name": "CMAKE_ANDROID_NDK_VERSION",
+		"description": "当使用 NDK 和 Android NDK 版本 11 或更高版本针对 Android 进行交叉编译时，此变量由 CMake 提供以报告 NDK 版本号。"
+	},
+	"CMAKE_ANDROID_PROCESS_MAX": {
+		"name": "CMAKE_ANDROID_PROCESS_MAX",
+		"description": "ANDROID_PROCESS_MAX 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_PROGUARD": {
+		"name": "CMAKE_ANDROID_PROGUARD",
+		"description": "ANDROID_PROGUARD 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_PROGUARD_CONFIG_PATH": {
+		"name": "CMAKE_ANDROID_PROGUARD_CONFIG_PATH",
+		"description": "ANDROID_PROGUARD_CONFIG_PATH 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_RTTI": {
+		"name": "CMAKE_ANDROID_RTTI",
+		"description": "使用 NDK 针对 Android 进行交叉编译时，可通过设置此变量指定是否启用 RTTI。"
+	},
+	"CMAKE_ANDROID_SECURE_PROPS_PATH": {
+		"name": "CMAKE_ANDROID_SECURE_PROPS_PATH",
+		"description": "ANDROID_SECURE_PROPS_PATH 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_SKIP_ANT_STEP": {
+		"name": "CMAKE_ANDROID_SKIP_ANT_STEP",
+		"description": "ANDROID_SKIP_ANT_STEP 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_ANDROID_STANDALONE_TOOLCHAIN": {
+		"name": "CMAKE_ANDROID_STANDALONE_TOOLCHAIN",
+		"description": "使用独立工具链针对 Android 进行交叉编译时，此变量包含工具链的根目录的绝对路径。指定的目录必须包含 sysroot 子目录。"
+	},
+	"CMAKE_ANDROID_STL_TYPE": {
+		"name": "CMAKE_ANDROID_STL_TYPE",
+		"description": "使用 NVIDIA Nsight Tegra Visual Studio Edition 针对 Android 进行交叉编译时，可通过设置此属性指定 ANDROID_STL_TYPE 目标属性的默认值。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_APPBUNDLE_PATH": {
+		"name": "CMAKE_APPBUNDLE_PATH",
+		"description": "分号分隔的目录列表，这些目录指定 find_program 和 find_package 命令使用的 macOS 应用程序捆绑包的搜索路径。"
+	},
+	"CMAKE_APPLE_SILICON_PROCESSOR": {
+		"name": "CMAKE_APPLE_SILICON_PROCESSOR",
+		"description": "在运行 macOS 的 Apple Silicon 主机上，通过设置此变量可以告知 CMake 要用于 CMAKE_HOST_SYSTEM_PROCESSOR 的体系结构。值必须是 arm64 或 x86_64。"
+	},
+	"CMAKE_AR": {
+		"name": "CMAKE_AR",
+		"description": "静态库的存档工具名称。"
+	},
+	"CMAKE_ARCHIVE_OUTPUT_DIRECTORY": {
+		"name": "CMAKE_ARCHIVE_OUTPUT_DIRECTORY",
+		"description": "生成时，所有存档目标文件的存放位置。"
+	},
+	"CMAKE_ARCHIVE_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "CMAKE_ARCHIVE_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "针对特定配置进行生成时，所有存档目标文件的存放位置。"
+	},
+	"CMAKE_ARGC": {
+		"name": "CMAKE_ARGC",
+		"description": "在脚本模式下传递给 CMake 的命令行参数的数目。"
+	},
+	"CMAKE_ARGV0": {
+		"name": "CMAKE_ARGV0",
+		"description": "在脚本模式下传递给 CMake 的命令行。"
+	},
+	"CMAKE_AUTOGEN_BETTER_GRAPH_MULTI_CONFIG": {
+		"name": "CMAKE_AUTOGEN_BETTER_GRAPH_MULTI_CONFIG",
+		"description": "此变量用于在创建所有目标时初始化这些目标上的 AUTOGEN_BETTER_GRAPH_MULTI_CONFIG 属性。请查看该目标属性以了解其他信息。"
+	},
+	"CMAKE_AUTOGEN_COMMAND_LINE_LENGTH_MAX": {
+		"name": "CMAKE_AUTOGEN_COMMAND_LINE_LENGTH_MAX",
+		"description": "autogen 目标(即 moc 或 uic)的命令行长度限制，达到该限制时将触发在 Windows 上使用响应文件，而不是将所有参数传递到命令行。"
+	},
+	"CMAKE_AUTOGEN_ORIGIN_DEPENDS": {
+		"name": "CMAKE_AUTOGEN_ORIGIN_DEPENDS",
+		"description": "用于将源目标依赖项转移到相应 <ORIGIN>_autogen 目标的切换选项。"
+	},
+	"CMAKE_AUTOGEN_PARALLEL": {
+		"name": "CMAKE_AUTOGEN_PARALLEL",
+		"description": "使用 AUTOMOC 和 AUTOUIC 时要启动的并行 moc 或 uic 进程数。"
+	},
+	"CMAKE_AUTOGEN_USE_SYSTEM_INCLUDE": {
+		"name": "CMAKE_AUTOGEN_USE_SYSTEM_INCLUDE",
+		"description": "此变量用于在创建目标时初始化所有目标上的 AUTOGEN_USE_SYSTEM_INCLUDE 属性。请查看该目标属性以了解其他信息。"
+	},
+	"CMAKE_AUTOGEN_VERBOSE": {
+		"name": "CMAKE_AUTOGEN_VERBOSE",
+		"description": "设置 AUTOMOC、AUTOUIC 和 AUTORCC 的详细程度。通过设置正整数值或实际布尔值，AUTO* 生成器可输出其他处理信息。"
+	},
+	"CMAKE_AUTOMOC": {
+		"name": "CMAKE_AUTOMOC",
+		"description": "是否自动为 Qt 目标处理 moc。"
+	},
+	"CMAKE_AUTOMOC_COMPILER_PREDEFINES": {
+		"name": "CMAKE_AUTOMOC_COMPILER_PREDEFINES",
+		"description": "此变量用于初始化所有目标上的 AUTOMOC_COMPILER_PREDEFINES 属性。请查看该目标属性以了解详细信息。"
+	},
+	"CMAKE_AUTOMOC_DEPEND_FILTERS": {
+		"name": "CMAKE_AUTOMOC_DEPEND_FILTERS",
+		"description": "CMAKE_AUTOMOC 用于从源代码中提取文件名的筛选器定义，这些文件名将用作 moc 文件的附加依赖项。"
+	},
+	"CMAKE_AUTOMOC_EXECUTABLE": {
+		"name": "CMAKE_AUTOMOC_EXECUTABLE",
+		"description": "此变量用于初始化所有目标上的 AUTOMOC_EXECUTABLE 属性。请查看该目标属性以了解其他信息。"
+	},
+	"CMAKE_AUTOMOC_MACRO_NAMES": {
+		"name": "CMAKE_AUTOMOC_MACRO_NAMES",
+		"description": "分号分隔的宏名列表，由 CMAKE_AUTOMOC 用于确定是否需要通过 moc 处理 C++ 文件。"
+	},
+	"CMAKE_AUTOMOC_MOC_OPTIONS": {
+		"name": "CMAKE_AUTOMOC_MOC_OPTIONS",
+		"description": "使用 CMAKE_AUTOMOC 时适用于 moc 的其他选项。"
+	},
+	"CMAKE_AUTOMOC_PATH_PREFIX": {
+		"name": "CMAKE_AUTOMOC_PATH_PREFIX",
+		"description": "是否对已启用 AUTOMOC 的 Qt 目标上的 moc 生成 -p 路径前缀选项。"
+	},
+	"CMAKE_AUTOMOC_RELAXED_MODE": {
+		"name": "CMAKE_AUTOMOC_RELAXED_MODE",
+		"description": "在严格和宽松 automoc 模式之间切换。"
+	},
+	"CMAKE_AUTORCC": {
+		"name": "CMAKE_AUTORCC",
+		"description": "是否自动为 Qt 目标处理 rcc。"
+	},
+	"CMAKE_AUTORCC_EXECUTABLE": {
+		"name": "CMAKE_AUTORCC_EXECUTABLE",
+		"description": "此变量用于初始化所有目标上的 AUTORCC_EXECUTABLE 属性。请查看该目标属性以了解其他信息。"
+	},
+	"CMAKE_AUTORCC_OPTIONS": {
+		"name": "CMAKE_AUTORCC_OPTIONS",
+		"description": "使用 CMAKE_AUTORCC 时适用于 rcc 的其他选项。"
+	},
+	"CMAKE_AUTOUIC": {
+		"name": "CMAKE_AUTOUIC",
+		"description": "是否自动为 Qt 目标处理 uic。"
+	},
+	"CMAKE_AUTOUIC_EXECUTABLE": {
+		"name": "CMAKE_AUTOUIC_EXECUTABLE",
+		"description": "此变量用于初始化所有目标上的 AUTOUIC_EXECUTABLE 属性。请查看该目标属性以了解其他信息。"
+	},
+	"CMAKE_AUTOUIC_OPTIONS": {
+		"name": "CMAKE_AUTOUIC_OPTIONS",
+		"description": "使用 CMAKE_AUTOUIC 时适用于 uic 的其他选项。"
+	},
+	"CMAKE_AUTOUIC_SEARCH_PATHS": {
+		"name": "CMAKE_AUTOUIC_SEARCH_PATHS",
+		"description": "CMAKE_AUTOUIC 用于查找包含的 .ui 文件的搜索路径列表。"
+	},
+	"CMAKE_BACKWARDS_COMPATIBILITY": {
+		"name": "CMAKE_BACKWARDS_COMPATIBILITY",
+		"description": "已弃用。请参阅 CMake 策略 CMP0001 文档。"
+	},
+	"CMAKE_BINARY_DIR": {
+		"name": "CMAKE_BINARY_DIR",
+		"description": "生成树的顶层路径。"
+	},
+	"CMAKE_BUILD_RPATH": {
+		"name": "CMAKE_BUILD_RPATH",
+		"description": "分号分隔的列表，指定要添加到生成树中链接的二进制文件的运行时路径(RPATH)条目(适用于支持生成树的平台)。这些条目不会用于安装树中的二进制文件。另请参阅 CMAKE_INSTALL_RPATH 变量。"
+	},
+	"CMAKE_BUILD_RPATH_USE_ORIGIN": {
+		"name": "CMAKE_BUILD_RPATH_USE_ORIGIN",
+		"description": "是否对生成 RPATH 使用相对路径。"
+	},
+	"CMAKE_BUILD_TOOL": {
+		"name": "CMAKE_BUILD_TOOL",
+		"description": "此变量仅用于实现向后兼容性。它包含与 CMAKE_MAKE_PROGRAM 相同的值。请改用该变量。"
+	},
+	"CMAKE_BUILD_TYPE": {
+		"name": "CMAKE_BUILD_TYPE",
+		"description": "指定单配置生成器(例如 Makefile 生成器或 Ninja)上的生成类型。典型值包括 Debug、Release、RelWithDebInfo 和 MinSizeRel，但也可以定义自定义生成类型。"
+	},
+	"CMAKE_BUILD_WITH_INSTALL_NAME_DIR": {
+		"name": "CMAKE_BUILD_WITH_INSTALL_NAME_DIR",
+		"description": "是否要在生成树中的目标上使用 INSTALL_NAME_DIR。"
+	},
+	"CMAKE_BUILD_WITH_INSTALL_RPATH": {
+		"name": "CMAKE_BUILD_WITH_INSTALL_RPATH",
+		"description": "使用 RPATH 的安装路径。"
+	},
+	"CMAKE_CACHEFILE_DIR": {
+		"name": "CMAKE_CACHEFILE_DIR",
+		"description": "此变量由 CMake 在内部使用，并且在生成树的第一次配置期间可能不会被设置。设置后，它具有与 CMAKE_BINARY_DIR 相同的值。请改用该变量。"
+	},
+	"CMAKE_CACHE_MAJOR_VERSION": {
+		"name": "CMAKE_CACHE_MAJOR_VERSION",
+		"description": "用于创建 CMakeCache.txt 文件的 CMake 的主版本"
+	},
+	"CMAKE_CACHE_MINOR_VERSION": {
+		"name": "CMAKE_CACHE_MINOR_VERSION",
+		"description": "用于创建 CMakeCache.txt 文件的 CMake 的次要版本"
+	},
+	"CMAKE_CACHE_PATCH_VERSION": {
+		"name": "CMAKE_CACHE_PATCH_VERSION",
+		"description": "用于创建 CMakeCache.txt 文件的 CMake 的修补程序版本"
+	},
+	"CMAKE_CFG_INTDIR": {
+		"name": "CMAKE_CFG_INTDIR",
+		"description": "对每配置输出子目录的生成时间引用。"
+	},
+	"CMAKE_CLANG_VFS_OVERLAY": {
+		"name": "CMAKE_CLANG_VFS_OVERLAY",
+		"description": "当使用 clang-cl 针对 Windows 进行交叉编译时，此变量可以是指向 clang 虚拟文件系统 yaml 文件的绝对路径，它将启用 clang-cl 来解析区分大小写的文件系统上的 Windows 标头名称。"
+	},
+	"CMAKE_CL_64": {
+		"name": "CMAKE_CL_64",
+		"description": "不推荐。请改用 CMAKE_SIZEOF_VOID_P。"
+	},
+	"CMAKE_CODEBLOCKS_COMPILER_ID": {
+		"name": "CMAKE_CODEBLOCKS_COMPILER_ID",
+		"description": "更改生成的 CodeBlocks 项目文件中的编译器 ID。"
+	},
+	"CMAKE_CODEBLOCKS_EXCLUDE_EXTERNAL_FILES": {
+		"name": "CMAKE_CODEBLOCKS_EXCLUDE_EXTERNAL_FILES",
+		"description": "更改 CodeBlocks 生成器创建项目文件的方式。"
+	},
+	"CMAKE_CODELITE_USE_TARGETS": {
+		"name": "CMAKE_CODELITE_USE_TARGETS",
+		"description": "更改 CodeLite 生成器创建项目文件的方式。"
+	},
+	"CMAKE_COLOR_DIAGNOSTICS": {
+		"name": "CMAKE_COLOR_DIAGNOSTICS",
+		"description": "在整个过程中启用颜色诊断。"
+	},
+	"CMAKE_COLOR_MAKEFILE": {
+		"name": "CMAKE_COLOR_MAKEFILE",
+		"description": "在使用 Makefile 生成器时启用颜色输出。"
+	},
+	"CMAKE_COMMAND": {
+		"name": "CMAKE_COMMAND",
+		"description": "cmake 可执行文件的完整路径。"
+	},
+	"CMAKE_COMPILER_2005": {
+		"name": "CMAKE_COMPILER_2005",
+		"description": "使用来自 Microsoft 的 Visual Studio 2005 编译器"
+	},
+	"CMAKE_COMPILER_IS_GNUCC": {
+		"name": "CMAKE_COMPILER_IS_GNUCC",
+		"description": "如果 C 编译器为 GNU，则为 True。"
+	},
+	"CMAKE_COMPILER_IS_GNUCXX": {
+		"name": "CMAKE_COMPILER_IS_GNUCXX",
+		"description": "如果 C++ (CXX)编译器为 GNU，则为 True。"
+	},
+	"CMAKE_COMPILER_IS_GNUG77": {
+		"name": "CMAKE_COMPILER_IS_GNUG77",
+		"description": "如果 Fortran 编译器为 GNU，则为 True。"
+	},
+	"CMAKE_COMPILE_PDB_OUTPUT_DIRECTORY": {
+		"name": "CMAKE_COMPILE_PDB_OUTPUT_DIRECTORY",
+		"description": "生成源文件时，编译器生成的 MS 调试符号 .pdb 文件的输出目录。"
+	},
+	"CMAKE_COMPILE_PDB_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "CMAKE_COMPILE_PDB_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "生成源文件时，编译器生成的 MS 调试符号 .pdb 文件的每配置输出目录。"
+	},
+	"CMAKE_COMPILE_WARNING_AS_ERROR": {
+		"name": "CMAKE_COMPILE_WARNING_AS_ERROR",
+		"description": "指定是否将编译时出现的警告视为错误。"
+	},
+	"CMAKE_CONFIGURATION_TYPES": {
+		"name": "CMAKE_CONFIGURATION_TYPES",
+		"description": "以分号分隔列表的形式指定多配置生成器(例如 Visual Studio、Xcode 或 Ninja Multi-Config)上的可用生成类型(配置)。典型条目包括 Debug、Release、RelWithDebInfo 和 MinSizeRel，但也可以定义自定义生成类型。"
+	},
+	"CMAKE_<CONFIG>_POSTFIX": {
+		"name": "CMAKE_<CONFIG>_POSTFIX",
+		"description": "配置 <CONFIG> 下的库的默认文件名后缀。"
+	},
+	"CMAKE_CPACK_COMMAND": {
+		"name": "CMAKE_CPACK_COMMAND",
+		"description": "与 CMake 一起安装的 cpack 命令的完整路径。"
+	},
+	"CMAKE_CROSSCOMPILING": {
+		"name": "CMAKE_CROSSCOMPILING",
+		"description": "此变量由 CMake 设置，用于指示它是否交叉编译，但请注意下面讨论的限制。"
+	},
+	"CMAKE_CROSSCOMPILING_EMULATOR": {
+		"name": "CMAKE_CROSSCOMPILING_EMULATOR",
+		"description": "仅当 CMAKE_CROSSCOMPILING 开启时才使用此变量。它应指向主机系统上的一个命令，该主机系统可以运行为目标系统生成的可执行文件。"
+	},
+	"CMAKE_CROSS_CONFIGS": {
+		"name": "CMAKE_CROSS_CONFIGS",
+		"description": "指定一个以分号分隔的列表，该列表列出了可从 Ninja 多配置生成器中的所有 build-<Config>.ninja 文件生成的配置。此变量将激活交叉配置模式。在此变量中指定的每个配置中的目标都可以从任何 build-<Config>.ninja 文件生成。自定义命令将使用 build-<Config>.ninja 的本机配置。如果设置为“全部”，则 CMAKE_CONFIGURATION_TYPES 的所有配置都是跨配置的。如果未指定或为空，则每个 build-<Config>.ninja 文件都将仅包含其自身配置的生成规则。"
+	},
+	"CMAKE_CTEST_ARGUMENTS": {
+		"name": "CMAKE_CTEST_ARGUMENTS",
+		"description": "通过生成的生成系统的测试(或 RUN_TESTS)目标运行测试时，将此值设置为要传递到 ctest 的命令行参数的列表(以分号分隔)。"
+	},
+	"CMAKE_CTEST_COMMAND": {
+		"name": "CMAKE_CTEST_COMMAND",
+		"description": "与 CMake 一起安装的 ctest 命令的完整路径。"
+	},
+	"CMAKE_CUDA_ARCHITECTURES": {
+		"name": "CMAKE_CUDA_ARCHITECTURES",
+		"description": "CUDA_ARCHITECTURES 目标属性的默认值。"
+	},
+	"CMAKE_CUDA_COMPILE_FEATURES": {
+		"name": "CMAKE_CUDA_COMPILE_FEATURES",
+		"description": "CUDA 编译器的已知功能列表"
+	},
+	"CMAKE_CUDA_EXTENSIONS": {
+		"name": "CMAKE_CUDA_EXTENSIONS",
+		"description": "创建目标时设置 CUDA_EXTENSIONS 目标属性时的默认值。"
+	},
+	"CMAKE_CUDA_HOST_COMPILER": {
+		"name": "CMAKE_CUDA_HOST_COMPILER",
+		"description": "这是更常规 CMAKE_<LANG>_HOST_COMPILER 变量的原始 CUDA 特定名称。有关详细信息，请参阅后者。"
+	},
+	"CMAKE_CUDA_RESOLVE_DEVICE_SYMBOLS": {
+		"name": "CMAKE_CUDA_RESOLVE_DEVICE_SYMBOLS",
+		"description": "CUDA_RESOLVE_DEVICE_SYMBOLS 目标属性在定义时的默认值。默认情况下，此变量是未定义的。"
+	},
+	"CMAKE_CUDA_RUNTIME_LIBRARY": {
+		"name": "CMAKE_CUDA_RUNTIME_LIBRARY",
+		"description": "选择编译和链接 CUDA 时使用的 CUDA 运行时库。此变量用于在创建所有目标时初始化其 CUDA_RUNTIME_LIBRARY 属性。"
+	},
+	"CMAKE_CUDA_SEPARABLE_COMPILATION": {
+		"name": "CMAKE_CUDA_SEPARABLE_COMPILATION",
+		"description": "CUDA_SEPARABLE_COMPILATION 目标属性的默认值。此变量用于初始化每个目标上的属性(在创建该属性时)。"
+	},
+	"CMAKE_CUDA_STANDARD": {
+		"name": "CMAKE_CUDA_STANDARD",
+		"description": "创建目标时设置 CUDA_STANDARD 目标属性时的默认值。"
+	},
+	"CMAKE_CUDA_STANDARD_REQUIRED": {
+		"name": "CMAKE_CUDA_STANDARD_REQUIRED",
+		"description": "创建目标时设置 CUDA_STANDARD_REQUIRED 目标属性时的默认值。"
+	},
+	"CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES": {
+		"name": "CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES",
+		"description": "启用 CUDA 语言时，这会提供 CUDA 工具包提供的包含目录的分号分隔列表。该值可能对于要包含 CUDA 标头的 C++ 源文件非常有用。"
+	},
+	"CMAKE_CURRENT_BINARY_DIR": {
+		"name": "CMAKE_CURRENT_BINARY_DIR",
+		"description": "当前正在处理的二进制目录的路径。"
+	},
+	"CMAKE_CURRENT_FUNCTION": {
+		"name": "CMAKE_CURRENT_FUNCTION",
+		"description": "在函数中执行代码时，此变量包含当前函数的名称。它对于诊断或调试消息可能很有用。"
+	},
+	"CMAKE_CURRENT_FUNCTION_LIST_DIR": {
+		"name": "CMAKE_CURRENT_FUNCTION_LIST_DIR",
+		"description": "在函数中执行代码时，此变量包含定义当前函数的 listfile 的完整目录。"
+	},
+	"CMAKE_CURRENT_FUNCTION_LIST_FILE": {
+		"name": "CMAKE_CURRENT_FUNCTION_LIST_FILE",
+		"description": "在函数中执行代码时，此变量包含定义当前函数的 listfile 的完整路径。"
+	},
+	"CMAKE_CURRENT_FUNCTION_LIST_LINE": {
+		"name": "CMAKE_CURRENT_FUNCTION_LIST_LINE",
+		"description": "在函数中执行代码时，此变量包含定义了当前函数的 listfile 中的行号。"
+	},
+	"CMAKE_CURRENT_LIST_DIR": {
+		"name": "CMAKE_CURRENT_LIST_DIR",
+		"description": "当前正在处理的列表文件的完整目录。"
+	},
+	"CMAKE_CURRENT_LIST_FILE": {
+		"name": "CMAKE_CURRENT_LIST_FILE",
+		"description": "当前正在处理的列表文件的完整路径。"
+	},
+	"CMAKE_CURRENT_LIST_LINE": {
+		"name": "CMAKE_CURRENT_LIST_LINE",
+		"description": "当前正在处理的文件的行数。"
+	},
+	"CMAKE_CURRENT_SOURCE_DIR": {
+		"name": "CMAKE_CURRENT_SOURCE_DIR",
+		"description": "当前正在处理的源目录的路径。"
+	},
+	"CMAKE_CXX_COMPILER_IMPORT_STD": {
+		"name": "CMAKE_CXX_COMPILER_IMPORT_STD",
+		"description": "当前 C++ 工具链存在导入 std 支持的 C++ 标准级别列表。使用带有 if 命令的 <NN> IN_LIST CMAKE_CXX_COMPILER_IMPORT_STD 谓词可以检测到对 C++<NN> 的支持。"
+	},
+	"CMAKE_CXX_COMPILE_FEATURES": {
+		"name": "CMAKE_CXX_COMPILE_FEATURES",
+		"description": "C++ 编译器的已知功能列表"
+	},
+	"CMAKE_CXX_EXTENSIONS": {
+		"name": "CMAKE_CXX_EXTENSIONS",
+		"description": "创建目标时设置 CXX_EXTENSIONS 目标属性时的默认值。"
+	},
+	"CMAKE_CXX_MODULE_STD": {
+		"name": "CMAKE_CXX_MODULE_STD",
+		"description": "是否将实用工具目标添加为至少包含 cxx_std_23 的目标的依赖项。"
+	},
+	"CMAKE_CXX_SCAN_FOR_MODULES": {
+		"name": "CMAKE_CXX_SCAN_FOR_MODULES",
+		"description": "是否扫描 C++ 源文件以查找模块依赖项。"
+	},
+	"CMAKE_CXX_STANDARD": {
+		"name": "CMAKE_CXX_STANDARD",
+		"description": "创建目标时设置 CXX_STANDARD 目标属性时的默认值。"
+	},
+	"CMAKE_CXX_STANDARD_REQUIRED": {
+		"name": "CMAKE_CXX_STANDARD_REQUIRED",
+		"description": "创建目标时设置 CXX_STANDARD_REQUIRED 目标属性时的默认值。"
+	},
+	"CMAKE_C_COMPILE_FEATURES": {
+		"name": "CMAKE_C_COMPILE_FEATURES",
+		"description": "C 编译器的已知功能列表"
+	},
+	"CMAKE_C_EXTENSIONS": {
+		"name": "CMAKE_C_EXTENSIONS",
+		"description": "创建目标时设置 C_EXTENSIONS 目标属性时的默认值。"
+	},
+	"CMAKE_C_STANDARD": {
+		"name": "CMAKE_C_STANDARD",
+		"description": "创建目标时设置 C_STANDARD 目标属性时的默认值。"
+	},
+	"CMAKE_C_STANDARD_REQUIRED": {
+		"name": "CMAKE_C_STANDARD_REQUIRED",
+		"description": "创建目标时设置 C_STANDARD_REQUIRED 目标属性时的默认值。"
+	},
+	"CMAKE_DEBUG_POSTFIX": {
+		"name": "CMAKE_DEBUG_POSTFIX",
+		"description": "请参阅变量 CMAKE_<CONFIG>_POSTFIX。"
+	},
+	"CMAKE_DEBUG_TARGET_PROPERTIES": {
+		"name": "CMAKE_DEBUG_TARGET_PROPERTIES",
+		"description": "启用目标属性的跟踪输出。"
+	},
+	"CMAKE_DEFAULT_BUILD_TYPE": {
+		"name": "CMAKE_DEFAULT_BUILD_TYPE",
+		"description": "指定默认情况下在 Ninja 多配置生成器的 build.ninja 文件中要使用的配置。如果指定了此变量，则 build.ninja 将默认使用 build-<Config>.ninja 中的生成规则。所有自定义命令都使用此配置执行。如果未指定该变量，则改用 CMAKE_CONFIGURATION_TYPES 中的第一项。"
+	},
+	"CMAKE_DEFAULT_CONFIGS": {
+		"name": "CMAKE_DEFAULT_CONFIGS",
+		"description": "指定当 Ninja 多配置生成器中未指定 :<Config> 前缀时要在 build.ninja 中为目标生成的配置列表(以分号分隔)。如果设置为“全部”，则使用 CMAKE_CROSS_CONFIGS 中的所有配置。如果未指定，则默认为 CMAKE_DEFAULT_BUILD_TYPE。"
+	},
+	"CMAKE_DEPENDS_IN_PROJECT_ONLY": {
+		"name": "CMAKE_DEPENDS_IN_PROJECT_ONLY",
+		"description": "在目录中设置为 TRUE 时，Makefile 生成器生成的生成系统设置为仅考虑源目录或二进制目录中源文件上的依赖项。对这些目录以外的源文件进行更改不会导致重新生成。"
+	},
+	"CMAKE_DEPENDS_USE_COMPILER": {
+		"name": "CMAKE_DEPENDS_USE_COMPILER",
+		"description": "如果使用 Makefile 生成器，对于一系列编译器，源依赖项现在由编译器自身生成。通过使用值 FALSE 定义此变量，可以还原旧行为(即，将 CMake 用于依赖项发现) 。"
+	},
+	"CMAKE_DIRECTORY_LABELS": {
+		"name": "CMAKE_DIRECTORY_LABELS",
+		"description": "指定当前目录的标签。"
+	},
+	"CMAKE_DISABLE_FIND_PACKAGE_<PackageName>": {
+		"name": "CMAKE_DISABLE_FIND_PACKAGE_<PackageName>",
+		"description": "用于禁用 find_package 调用的变量。"
+	},
+	"CMAKE_DISABLE_PRECOMPILE_HEADERS": {
+		"name": "CMAKE_DISABLE_PRECOMPILE_HEADERS",
+		"description": "DISABLE_PRECOMPILE_HEADERS 目标属性的默认值。"
+	},
+	"CMAKE_DLL_NAME_WITH_SOVERSION": {
+		"name": "CMAKE_DLL_NAME_WITH_SOVERSION",
+		"description": "此变量用于初始化 Windows 平台共享库目标上的 DLL_NAME_WITH_SOVERSION 属性，它是在设置 WIN32 变量时选择的。"
+	},
+	"CMAKE_DL_LIBS": {
+		"name": "CMAKE_DL_LIBS",
+		"description": "包含 dlopen 和 dlclose 的库的名称。"
+	},
+	"CMAKE_DOTNET_SDK": {
+		"name": "CMAKE_DOTNET_SDK",
+		"description": "目标的 DOTNET_SDK 属性的默认值。"
+	},
+	"CMAKE_DOTNET_TARGET_FRAMEWORK": {
+		"name": "CMAKE_DOTNET_TARGET_FRAMEWORK",
+		"description": "DOTNET_TARGET_FRAMEWORK 目标属性的默认值。"
+	},
+	"CMAKE_DOTNET_TARGET_FRAMEWORK_VERSION": {
+		"name": "CMAKE_DOTNET_TARGET_FRAMEWORK_VERSION",
+		"description": "目标的 DOTNET_TARGET_FRAMEWORK_VERSION 属性的默认值。"
+	},
+	"CMAKE_ECLIPSE_GENERATE_LINKED_RESOURCES": {
+		"name": "CMAKE_ECLIPSE_GENERATE_LINKED_RESOURCES",
+		"description": "此缓存变量由 Eclipse 项目生成器使用。请参阅 cmake-generators。"
+	},
+	"CMAKE_ECLIPSE_GENERATE_SOURCE_PROJECT": {
+		"name": "CMAKE_ECLIPSE_GENERATE_SOURCE_PROJECT",
+		"description": "此缓存变量由 Eclipse 项目生成器使用。请参阅 cmake-generators。"
+	},
+	"CMAKE_ECLIPSE_MAKE_ARGUMENTS": {
+		"name": "CMAKE_ECLIPSE_MAKE_ARGUMENTS",
+		"description": "此缓存变量由 Eclipse 项目生成器使用。请参阅 cmake-generators。"
+	},
+	"CMAKE_ECLIPSE_RESOURCE_ENCODING": {
+		"name": "CMAKE_ECLIPSE_RESOURCE_ENCODING",
+		"description": "此缓存变量指示 Eclipse CDT4 项目生成器在生成的项目文件中将资源编码设置为给定的值。如果未提供任何值，则不会设置任何编码。"
+	},
+	"CMAKE_ECLIPSE_VERSION": {
+		"name": "CMAKE_ECLIPSE_VERSION",
+		"description": "此缓存变量由 Eclipse 项目生成器使用。请参阅 cmake-generators。"
+	},
+	"CMAKE_EDIT_COMMAND": {
+		"name": "CMAKE_EDIT_COMMAND",
+		"description": "cmake-gui 或 ccmake 的完整路径。只有在不使用任何额外生成器时为生成文件生成器和 Ninja 生成器定义。"
+	},
+	"CMAKE_ENABLE_EXPORTS": {
+		"name": "CMAKE_ENABLE_EXPORTS",
+		"description": "指定可执行文件是否导出可加载模块的符号。"
+	},
+	"CMAKE_ERROR_DEPRECATED": {
+		"name": "CMAKE_ERROR_DEPRECATED",
+		"description": "是否为已弃用的功能颁发错误。"
+	},
+	"CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION": {
+		"name": "CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION",
+		"description": "让 cmake_install.cmake 脚本在遇到有绝对安装目标的文件时立即报错。"
+	},
+	"CMAKE_EXECUTABLE_ENABLE_EXPORTS": {
+		"name": "CMAKE_EXECUTABLE_ENABLE_EXPORTS",
+		"description": "指定可执行文件是否导出可加载模块的符号。"
+	},
+	"CMAKE_EXECUTABLE_SUFFIX": {
+		"name": "CMAKE_EXECUTABLE_SUFFIX",
+		"description": "此平台上的可执行文件的后缀。"
+	},
+	"CMAKE_EXECUTABLE_SUFFIX_<LANG>": {
+		"name": "CMAKE_EXECUTABLE_SUFFIX_<LANG>",
+		"description": "用于 <LANG> 编译器目标体系结果的可执行文件名末尾的后缀(如果有此体系结构)。"
+	},
+	"CMAKE_EXECUTE_PROCESS_COMMAND_ECHO": {
+		"name": "CMAKE_EXECUTE_PROCESS_COMMAND_ECHO",
+		"description": "如果将此变量设置为 STDERR、STDOUT 或 NONE，则会将 execute_process 调用中的命令输出到 stderr 或 STDOUT，或者不打印。"
+	},
+	"CMAKE_EXE_LINKER_FLAGS": {
+		"name": "CMAKE_EXE_LINKER_FLAGS",
+		"description": "要用于创建可执行文件的链接器标志。"
+	},
+	"CMAKE_EXE_LINKER_FLAGS_<CONFIG>": {
+		"name": "CMAKE_EXE_LINKER_FLAGS_<CONFIG>",
+		"description": "链接可执行文件时要使用的标志。"
+	},
+	"CMAKE_EXE_LINKER_FLAGS_<CONFIG>_INIT": {
+		"name": "CMAKE_EXE_LINKER_FLAGS_<CONFIG>_INIT",
+		"description": "第一次配置生成树时，用于初始化 CMAKE_EXE_LINKER_FLAGS_ 缓存项的值。此变量由工具链文件设置。CMake 可能基于环境和目标平台将内容预置或追加到值中。"
+	},
+	"CMAKE_EXE_LINKER_FLAGS_INIT": {
+		"name": "CMAKE_EXE_LINKER_FLAGS_INIT",
+		"description": "第一次配置生成树时，用于初始化 CMAKE_EXE_LINKER_FLAGS 缓存项的值。此变量由工具链文件设置。CMake 可能基于环境和目标平台将内容预置或追加到值中。"
+	},
+	"CMAKE_EXPORT_COMPILE_COMMANDS": {
+		"name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+		"description": "在生成期间启用/禁用编译命令输出。"
+	},
+	"CMAKE_EXPORT_FIND_PACKAGE_NAME": {
+		"name": "CMAKE_EXPORT_FIND_PACKAGE_NAME",
+		"description": "初始化 EXPORT_FIND_PACKAGE_NAME 的值。"
+	},
+	"CMAKE_EXPORT_NO_PACKAGE_REGISTRY": {
+		"name": "CMAKE_EXPORT_NO_PACKAGE_REGISTRY",
+		"description": "当 CMP0090 未设置为 NEW 时，禁用导出命令。"
+	},
+	"CMAKE_EXPORT_PACKAGE_REGISTRY": {
+		"name": "CMAKE_EXPORT_PACKAGE_REGISTRY",
+		"description": "在 CMP0090 设置为 NEW 时启用导出命令。"
+	},
+	"CMAKE_EXTRA_GENERATOR": {
+		"name": "CMAKE_EXTRA_GENERATOR",
+		"description": "用于生成项目的额外生成器。请参阅 cmake-generators。"
+	},
+	"CMAKE_EXTRA_SHARED_LIBRARY_SUFFIXES": {
+		"name": "CMAKE_EXTRA_SHARED_LIBRARY_SUFFIXES",
+		"description": "共享库的其他后缀。"
+	},
+	"CMAKE_FIND_APPBUNDLE": {
+		"name": "CMAKE_FIND_APPBUNDLE",
+		"description": "此变量会影响 find_* 命令在 macOS 应用程序捆绑包和 unix 样式包组件之间进行选择的方式。"
+	},
+	"CMAKE_FIND_DEBUG_MODE": {
+		"name": "CMAKE_FIND_DEBUG_MODE",
+		"description": "将下列命令的额外查找调用信息输出到标准错误:"
+	},
+	"CMAKE_FIND_FRAMEWORK": {
+		"name": "CMAKE_FIND_FRAMEWORK",
+		"description": "此变量会影响 find_* 命令在 macOS 框架和 unix 样式包组件之间进行选择的方式。"
+	},
+	"CMAKE_FIND_LIBRARY_CUSTOM_LIB_SUFFIX": {
+		"name": "CMAKE_FIND_LIBRARY_CUSTOM_LIB_SUFFIX",
+		"description": "指定 <suffix> 以告知 find_library 命令在对通常要搜索的每个库目录进行搜索之前，先在 lib<suffix> 目录中进行搜索。"
+	},
+	"CMAKE_FIND_LIBRARY_PREFIXES": {
+		"name": "CMAKE_FIND_LIBRARY_PREFIXES",
+		"description": "查找库时要追加的前缀。"
+	},
+	"CMAKE_FIND_LIBRARY_SUFFIXES": {
+		"name": "CMAKE_FIND_LIBRARY_SUFFIXES",
+		"description": "查找库时要追加的后缀。"
+	},
+	"CMAKE_FIND_NO_INSTALL_PREFIX": {
+		"name": "CMAKE_FIND_NO_INSTALL_PREFIX",
+		"description": "从 CMAKE_SYSTEM_PREFIX_PATH 中排除 CMAKE_INSTALL_PREFIX 和 CMAKE_STAGING_PREFIX 变量的值。默认情况下，CMake 将这些项目目标前缀添加到 CMAKE_SYSTEM_PREFIX_PATH，以支持生成一系列相关程序包并将其安装到共同前缀中。将 CMAKE_FIND_NO_INSTALL_PREFIX 设置为 TRUE 可取消此行为。"
+	},
+	"CMAKE_FIND_PACKAGE_NAME": {
+		"name": "CMAKE_FIND_PACKAGE_NAME",
+		"description": "加载查找模块以记录特定于调用方的包名称时，由 find_package 命令定义。请参阅命令文档了解详细信息。"
+	},
+	"CMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY": {
+		"name": "CMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY",
+		"description": "默认情况下，未设置此变量。如果 CMAKE_FIND_USE_PACKAGE_REGISTRY 或 CMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY 均未设置，则 find_package() 将使用用户包注册表，除非提供了 NO_CMAKE_PACKAGE_REGISTRY 选项。"
+	},
+	"CMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY": {
+		"name": "CMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY",
+		"description": "默认情况下，未设置此变量。如果 CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY 或 CMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY 均未设置，则 find_package() 将使用系统包注册表，除非提供了 NO_CMAKE_SYSTEM_PACKAGE_REGISTRY 选项。"
+	},
+	"CMAKE_FIND_PACKAGE_PREFER_CONFIG": {
+		"name": "CMAKE_FIND_PACKAGE_PREFER_CONFIG",
+		"description": "如果未指定任何模式，则指示 find_package 在“Module”模式之前尝试“Config”模式。"
+	},
+	"CMAKE_FIND_PACKAGE_REDIRECTS_DIR": {
+		"name": "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+		"description": "此只读变量指定一个目录，find_package 命令将先检查该目录，然后再在任何其他位置搜索模块或配置包文件。将始终优先于任何其他 Find 模块文件或配置包文件找到此目录中的配置包文件。"
+	},
+	"CMAKE_FIND_PACKAGE_RESOLVE_SYMLINKS": {
+		"name": "CMAKE_FIND_PACKAGE_RESOLVE_SYMLINKS",
+		"description": "设置为 TRUE，以指示 find_package 调用解析 <PackageName>_DIR 值中的符号链接。"
+	},
+	"CMAKE_FIND_PACKAGE_SORT_DIRECTION": {
+		"name": "CMAKE_FIND_PACKAGE_SORT_DIRECTION",
+		"description": "CMAKE_FIND_PACKAGE_SORT_ORDER 使用的排序方向。它可以假定下列值之一:"
+	},
+	"CMAKE_FIND_PACKAGE_SORT_ORDER": {
+		"name": "CMAKE_FIND_PACKAGE_SORT_ORDER",
+		"description": "使用 find_package 找到的包的默认排序顺序。它可以假定下列值之一:"
+	},
+	"CMAKE_FIND_PACKAGE_TARGETS_GLOBAL": {
+		"name": "CMAKE_FIND_PACKAGE_TARGETS_GLOBAL",
+		"description": "设置为 TRUE 会将 find_package 发现的所有 IMPORTED 目标提升为全局范围。"
+	},
+	"CMAKE_FIND_PACKAGE_WARN_NO_MODULE": {
+		"name": "CMAKE_FIND_PACKAGE_WARN_NO_MODULE",
+		"description": "告知 find_package 在非显式模式下调用时发出警告。"
+	},
+	"CMAKE_FIND_ROOT_PATH": {
+		"name": "CMAKE_FIND_ROOT_PATH",
+		"description": "要在文件系统上搜索的根路径的分号分隔列表。"
+	},
+	"CMAKE_FIND_ROOT_PATH_MODE_INCLUDE": {
+		"name": "CMAKE_FIND_ROOT_PATH_MODE_INCLUDE",
+		"description": "此变量控制 FIND_XXX 是否使用 CMAKE_FIND_ROOT_PATH 和 CMAKE_SYSROOT。"
+	},
+	"CMAKE_FIND_ROOT_PATH_MODE_LIBRARY": {
+		"name": "CMAKE_FIND_ROOT_PATH_MODE_LIBRARY",
+		"description": "此变量控制 FIND_XXX 是否使用 CMAKE_FIND_ROOT_PATH 和 CMAKE_SYSROOT。"
+	},
+	"CMAKE_FIND_ROOT_PATH_MODE_PACKAGE": {
+		"name": "CMAKE_FIND_ROOT_PATH_MODE_PACKAGE",
+		"description": "此变量控制 FIND_XXX 是否使用 CMAKE_FIND_ROOT_PATH 和 CMAKE_SYSROOT。"
+	},
+	"CMAKE_FIND_ROOT_PATH_MODE_PROGRAM": {
+		"name": "CMAKE_FIND_ROOT_PATH_MODE_PROGRAM",
+		"description": "此变量控制 FIND_XXX 是否使用 CMAKE_FIND_ROOT_PATH 和 CMAKE_SYSROOT。"
+	},
+	"CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH": {
+		"name": "CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH",
+		"description": "控制以下命令的默认行为，以确定是否搜索由 cmake 特定环境变量提供的路径:"
+	},
+	"CMAKE_FIND_USE_CMAKE_PATH": {
+		"name": "CMAKE_FIND_USE_CMAKE_PATH",
+		"description": "控制以下命令的默认行为，以确定是否搜索由 cmake 特定的缓存变量提供的路径:"
+	},
+	"CMAKE_FIND_USE_CMAKE_SYSTEM_PATH": {
+		"name": "CMAKE_FIND_USE_CMAKE_SYSTEM_PATH",
+		"description": "控制以下命令的默认行为，以确定是否搜索由平台特定的 cmake 变量提供的路径:"
+	},
+	"CMAKE_FIND_USE_INSTALL_PREFIX": {
+		"name": "CMAKE_FIND_USE_INSTALL_PREFIX",
+		"description": "控制以下命令的默认行为，以确定是否在 CMAKE_INSTALL_PREFIX 和 CMAKE_STAGING_PREFIX 变量中搜索位置。"
+	},
+	"CMAKE_FIND_USE_PACKAGE_REGISTRY": {
+		"name": "CMAKE_FIND_USE_PACKAGE_REGISTRY",
+		"description": "控制 find_package 命令的默认行为，以确定是否搜索用户包注册表提供的路径。"
+	},
+	"CMAKE_FIND_USE_PACKAGE_ROOT_PATH": {
+		"name": "CMAKE_FIND_USE_PACKAGE_ROOT_PATH",
+		"description": "控制以下命令的默认行为，以确定是否搜索 <PackageName>_ROOT 变量提供的路径:"
+	},
+	"CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH": {
+		"name": "CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH",
+		"description": "控制以下命令的默认行为，以确定是否搜索标准系统环境变量提供的路径:"
+	},
+	"CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY": {
+		"name": "CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY",
+		"description": "控制如何通过 find_package 命令搜索系统包注册表。"
+	},
+	"CMAKE_FOLDER": {
+		"name": "CMAKE_FOLDER",
+		"description": "设置文件夹名称。用于整理 IDE 中的目标。"
+	},
+	"CMAKE_Fortran_FORMAT": {
+		"name": "CMAKE_Fortran_FORMAT",
+		"description": "设置为固定或免费以表示 Fortran 源布局。"
+	},
+	"CMAKE_Fortran_MODDIR_DEFAULT": {
+		"name": "CMAKE_Fortran_MODDIR_DEFAULT",
+		"description": "Fortran 默认模块输出目录。"
+	},
+	"CMAKE_Fortran_MODDIR_FLAG": {
+		"name": "CMAKE_Fortran_MODDIR_FLAG",
+		"description": "模块输出目录的 Fortran 标志。"
+	},
+	"CMAKE_Fortran_MODOUT_FLAG": {
+		"name": "CMAKE_Fortran_MODOUT_FLAG",
+		"description": "用于启用模块输出的 Fortran 标志。"
+	},
+	"CMAKE_Fortran_MODULE_DIRECTORY": {
+		"name": "CMAKE_Fortran_MODULE_DIRECTORY",
+		"description": "Fortran 模块输出目录。"
+	},
+	"CMAKE_Fortran_PREPROCESS": {
+		"name": "CMAKE_Fortran_PREPROCESS",
+		"description": "Fortran_PREPROCESS 目标属性的默认值。"
+	},
+	"CMAKE_FRAMEWORK": {
+		"name": "CMAKE_FRAMEWORK",
+		"description": "FRAMEWORK 目标属性的默认值。"
+	},
+	"CMAKE_FRAMEWORK_MULTI_CONFIG_POSTFIX_<CONFIG>": {
+		"name": "CMAKE_FRAMEWORK_MULTI_CONFIG_POSTFIX_<CONFIG>",
+		"description": "使用多配置生成器时，在配置 <CONFIG> 下使用默认框架文件名后缀。"
+	},
+	"CMAKE_FRAMEWORK_PATH": {
+		"name": "CMAKE_FRAMEWORK_PATH",
+		"description": "分号分隔的目录列表，这些目录指定 find_library、find_package、find_path 和 find_file 命令使用的 macOS 框架的搜索路径。"
+	},
+	"CMAKE_GENERATOR": {
+		"name": "CMAKE_GENERATOR",
+		"description": "用于生成项目的生成器。请参阅 cmake-generators。"
+	},
+	"CMAKE_GENERATOR_INSTANCE": {
+		"name": "CMAKE_GENERATOR_INSTANCE",
+		"description": "用户提供的特定于生成器的实例规范。"
+	},
+	"CMAKE_GENERATOR_PLATFORM": {
+		"name": "CMAKE_GENERATOR_PLATFORM",
+		"description": "用户提供的特定于生成器的目标平台规范。"
+	},
+	"CMAKE_GENERATOR_TOOLSET": {
+		"name": "CMAKE_GENERATOR_TOOLSET",
+		"description": "用户提供的本机生成系统工具集规范。"
+	},
+	"CMAKE_GHS_NO_SOURCE_GROUP_FILE": {
+		"name": "CMAKE_GHS_NO_SOURCE_GROUP_FILE",
+		"description": "ON/OFF 布尔值，用于控制目标的项目文件应为单个文件还是多个文件。有关详细信息，请参阅 GHS_NO_SOURCE_GROUP_FILE。"
+	},
+	"CMAKE_GLOBAL_AUTOGEN_TARGET": {
+		"name": "CMAKE_GLOBAL_AUTOGEN_TARGET",
+		"description": "用于启用全局 autogen 目标的生成的切换选项。"
+	},
+	"CMAKE_GLOBAL_AUTOGEN_TARGET_NAME": {
+		"name": "CMAKE_GLOBAL_AUTOGEN_TARGET_NAME",
+		"description": "更改全局 autogen 目标的名称。"
+	},
+	"CMAKE_GLOBAL_AUTORCC_TARGET": {
+		"name": "CMAKE_GLOBAL_AUTORCC_TARGET",
+		"description": "用于启用全局 autorcc 目标的生成的切换选项。"
+	},
+	"CMAKE_GLOBAL_AUTORCC_TARGET_NAME": {
+		"name": "CMAKE_GLOBAL_AUTORCC_TARGET_NAME",
+		"description": "更改全局 autorcc 目标的名称。"
+	},
+	"CMAKE_GNUtoMS": {
+		"name": "CMAKE_GNUtoMS",
+		"description": "将 GNU 导入库(.dll.a)转换为 MS 格式(.lib)。"
+	},
+	"CMAKE_HIP_ARCHITECTURES": {
+		"name": "CMAKE_HIP_ARCHITECTURES",
+		"description": "要为其生成设备代码的 GPU 体系结构列表。根据 CMAKE_HIP_PLATFORM 解释体系结构名称。"
+	},
+	"CMAKE_HIP_COMPILE_FEATURES": {
+		"name": "CMAKE_HIP_COMPILE_FEATURES",
+		"description": "HIP 编译程序的已知功能列表"
+	},
+	"CMAKE_HIP_EXTENSIONS": {
+		"name": "CMAKE_HIP_EXTENSIONS",
+		"description": "创建目标时设置 HIP_EXTENSIONS 目标属性时的默认值。"
+	},
+	"CMAKE_HIP_PLATFORM": {
+		"name": "CMAKE_HIP_PLATFORM",
+		"description": "要为其编译 HIP 语言源的 GPU 平台。"
+	},
+	"CMAKE_HIP_STANDARD": {
+		"name": "CMAKE_HIP_STANDARD",
+		"description": "创建目标时设置 HIP_STANDARD 目标属性时的默认值。"
+	},
+	"CMAKE_HIP_STANDARD_REQUIRED": {
+		"name": "CMAKE_HIP_STANDARD_REQUIRED",
+		"description": "创建目标时设置 HIP_STANDARD_REQUIRED 目标属性时的默认值。"
+	},
+	"CMAKE_HOME_DIRECTORY": {
+		"name": "CMAKE_HOME_DIRECTORY",
+		"description": "指向源树顶部的路径。与 CMAKE_SOURCE_DIR 相同。"
+	},
+	"CMAKE_HOST_APPLE": {
+		"name": "CMAKE_HOST_APPLE",
+		"description": "适用于 Apple macOS 操作系统。"
+	},
+	"CMAKE_HOST_BSD": {
+		"name": "CMAKE_HOST_BSD",
+		"description": "当主机系统为 BSD 时设置为字符串值。此值可以是下列值之一: DragonFlyBSD、FreeBSD、OpenBSD 或 NetBSD。"
+	},
+	"CMAKE_HOST_LINUX": {
+		"name": "CMAKE_HOST_LINUX",
+		"description": "当主机系统为 Linux 时，设置为 true。"
+	},
+	"CMAKE_HOST_SOLARIS": {
+		"name": "CMAKE_HOST_SOLARIS",
+		"description": "适用于 Oracle Solaris 操作系统。"
+	},
+	"CMAKE_HOST_SYSTEM": {
+		"name": "CMAKE_HOST_SYSTEM",
+		"description": "CMake 正在其上运行的 OS 的复合名称。"
+	},
+	"CMAKE_HOST_SYSTEM_NAME": {
+		"name": "CMAKE_HOST_SYSTEM_NAME",
+		"description": "CMake 正在其上运行的 OS 的名称。"
+	},
+	"CMAKE_HOST_SYSTEM_PROCESSOR": {
+		"name": "CMAKE_HOST_SYSTEM_PROCESSOR",
+		"description": "CMake 正在其上运行的 CPU 的名称。"
+	},
+	"CMAKE_HOST_SYSTEM_VERSION": {
+		"name": "CMAKE_HOST_SYSTEM_VERSION",
+		"description": "CMake 正在其上运行的 OS 版本。"
+	},
+	"CMAKE_HOST_UNIX": {
+		"name": "CMAKE_HOST_UNIX",
+		"description": "适用于 UNIX 和类似 UNIX 的操作系统。"
+	},
+	"CMAKE_HOST_WIN32": {
+		"name": "CMAKE_HOST_WIN32",
+		"description": "如果主机系统正在运行 Windows (包括 Windows 64 位和 MSYS)，则为 true。"
+	},
+	"CMAKE_IGNORE_PATH": {
+		"name": "CMAKE_IGNORE_PATH",
+		"description": "以分号分隔的目录列表，供各种查找忽略...() 命令。"
+	},
+	"CMAKE_IGNORE_PREFIX_PATH": {
+		"name": "CMAKE_IGNORE_PREFIX_PATH",
+		"description": "要由 find_program、find_library、find_file 和 find_path 命令忽略的搜索前缀的分号分隔列表。find_package 命令的配置模式也会忽略前缀(模块模式不受影响)。若要改为忽略特定目录，请参阅 CMAKE_IGNORE_NONPREFIX_VAR。"
+	},
+	"CMAKE_IMPORT_LIBRARY_PREFIX": {
+		"name": "CMAKE_IMPORT_LIBRARY_PREFIX",
+		"description": "链接到的导入库的前缀。"
+	},
+	"CMAKE_IMPORT_LIBRARY_SUFFIX": {
+		"name": "CMAKE_IMPORT_LIBRARY_SUFFIX",
+		"description": "链接到的导入库的后缀。"
+	},
+	"CMAKE_INCLUDE_CURRENT_DIR": {
+		"name": "CMAKE_INCLUDE_CURRENT_DIR",
+		"description": "自动将当前源和生成目录添加到包含路径。"
+	},
+	"CMAKE_INCLUDE_CURRENT_DIR_IN_INTERFACE": {
+		"name": "CMAKE_INCLUDE_CURRENT_DIR_IN_INTERFACE",
+		"description": "自动将当前源和生成目录添加到 INTERFACE_INCLUDE_DIRECTORIES 目标属性。"
+	},
+	"CMAKE_INCLUDE_DIRECTORIES_BEFORE": {
+		"name": "CMAKE_INCLUDE_DIRECTORIES_BEFORE",
+		"description": "是否默认在 include_directories 中追加或预置目录。"
+	},
+	"CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE": {
+		"name": "CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE",
+		"description": "是否强制预置项目包含目录。"
+	},
+	"CMAKE_INCLUDE_PATH": {
+		"name": "CMAKE_INCLUDE_PATH",
+		"description": "分号分隔的目录列表，这些目录指定 find_file 和 find_path 命令的搜索路径。默认情况，此列表为空，由项目进行设置。"
+	},
+	"CMAKE_INSTALL_DEFAULT_COMPONENT_NAME": {
+		"name": "CMAKE_INSTALL_DEFAULT_COMPONENT_NAME",
+		"description": "安装命令中使用的默认组件。"
+	},
+	"CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS": {
+		"name": "CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS",
+		"description": "文件安装期间由 install 和 file 命令隐式创建的目录的默认权限。"
+	},
+	"CMAKE_INSTALL_MESSAGE": {
+		"name": "CMAKE_INSTALL_MESSAGE",
+		"description": "指定安装命令(使用文件命令)生成的安装脚本代码的详细程度。对于新安装或更新的路径，安装可能打印如下行:"
+	},
+	"CMAKE_INSTALL_NAME_DIR": {
+		"name": "CMAKE_INSTALL_NAME_DIR",
+		"description": "Apple 平台上已安装目标的目录名。"
+	},
+	"CMAKE_INSTALL_PREFIX": {
+		"name": "CMAKE_INSTALL_PREFIX",
+		"description": "安装使用的安装目录。"
+	},
+	"CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT": {
+		"name": "CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT",
+		"description": "在将 CMAKE_INSTALL_PREFIX 初始化为其默认值后，CMake 会立即将此变量设置为 TRUE 值，这通常是在新生成树中首次运行 CMake 时发生的，但在首次运行 CMake 时不会设置 CMAKE_INSTALL_PREFIX 环境变量。项目代码可将此用于更改默认值，而不替代用户提供的值:"
+	},
+	"CMAKE_INSTALL_REMOVE_ENVIRONMENT_RPATH": {
+		"name": "CMAKE_INSTALL_REMOVE_ENVIRONMENT_RPATH",
+		"description": "设置为默认值，以指示是否应在安装过程中移除工具链定义的 rpath。"
+	},
+	"CMAKE_INSTALL_RPATH": {
+		"name": "CMAKE_INSTALL_RPATH",
+		"description": "用于已安装目标的 rpath。"
+	},
+	"CMAKE_INSTALL_RPATH_USE_LINK_PATH": {
+		"name": "CMAKE_INSTALL_RPATH_USE_LINK_PATH",
+		"description": "添加链接器搜索和已安装的 rpath 的路径。"
+	},
+	"CMAKE_INTERNAL_PLATFORM_ABI": {
+		"name": "CMAKE_INTERNAL_PLATFORM_ABI",
+		"description": "要更改的内部变量。"
+	},
+	"CMAKE_INTERPROCEDURAL_OPTIMIZATION": {
+		"name": "CMAKE_INTERPROCEDURAL_OPTIMIZATION",
+		"description": "目标的 INTERPROCEDURAL_OPTIMIZATION 的默认值。"
+	},
+	"CMAKE_INTERPROCEDURAL_OPTIMIZATION_<CONFIG>": {
+		"name": "CMAKE_INTERPROCEDURAL_OPTIMIZATION_<CONFIG>",
+		"description": "目标的 INTERPROCEDURAL_OPTIMIZATION_ 的默认值。"
+	},
+	"CMAKE_IOS_INSTALL_COMBINED": {
+		"name": "CMAKE_IOS_INSTALL_COMBINED",
+		"description": "目标的 IOS_INSTALL_COMBINED 的默认值。"
+	},
+	"CMAKE_ISPC_HEADER_DIRECTORY": {
+		"name": "CMAKE_ISPC_HEADER_DIRECTORY",
+		"description": "ISPC 生成的标头输出目录。"
+	},
+	"CMAKE_ISPC_HEADER_SUFFIX": {
+		"name": "CMAKE_ISPC_HEADER_SUFFIX",
+		"description": "要用于 ISPC 生成的标头的输出后缀。"
+	},
+	"CMAKE_ISPC_INSTRUCTION_SETS": {
+		"name": "CMAKE_ISPC_INSTRUCTION_SETS",
+		"description": "目标的 ISPC_INSTRUCTION_SETS 属性的默认值。"
+	},
+	"CMAKE_JOB_POOLS": {
+		"name": "CMAKE_JOB_POOLS",
+		"description": "如果未设置 JOB_POOLS 全局属性，则此变量的值在其位置中使用。请参阅 JOB_POOLS 以了解详细信息。"
+	},
+	"CMAKE_JOB_POOL_COMPILE": {
+		"name": "CMAKE_JOB_POOL_COMPILE",
+		"description": "此变量用于初始化所有目标上的 JOB_POOL_COMPILE 属性。请查看 JOB_POOL_COMPILE 以了解详细信息。"
+	},
+	"CMAKE_JOB_POOL_LINK": {
+		"name": "CMAKE_JOB_POOL_LINK",
+		"description": "此变量用于初始化所有目标上的 JOB_POOL_LINK 属性。请查看 JOB_POOL_LINK 以了解详细信息。"
+	},
+	"CMAKE_JOB_POOL_PRECOMPILE_HEADER": {
+		"name": "CMAKE_JOB_POOL_PRECOMPILE_HEADER",
+		"description": "此变量用于初始化所有目标上的 JOB_POOL_PRECOMPILE_HEADER 属性。有关详细信息，请参阅 JOB_POOL_PRECOMPILE_HEADER。"
+	},
+	"CMAKE_KATE_FILES_MODE": {
+		"name": "CMAKE_KATE_FILES_MODE",
+		"description": "此缓存变量由 Kate 项目生成器使用，并控制项目文件中的文件条目将设置为何种模式。请参阅 cmake-generators。"
+	},
+	"CMAKE_KATE_MAKE_ARGUMENTS": {
+		"name": "CMAKE_KATE_MAKE_ARGUMENTS",
+		"description": "此缓存变量由 Kate 项目生成器使用。请参阅 cmake-generators。"
+	},
+	"CMAKE_<LANG>_ANDROID_TOOLCHAIN_MACHINE": {
+		"name": "CMAKE_<LANG>_ANDROID_TOOLCHAIN_MACHINE",
+		"description": "针对 Android 进行交叉编译时，此变量包含工具链 binutils 计算机名称(例如 gcc -dumpmachine)。binutils 的名称通常包含 <machine>- 前缀。"
+	},
+	"CMAKE_<LANG>_ANDROID_TOOLCHAIN_PREFIX": {
+		"name": "CMAKE_<LANG>_ANDROID_TOOLCHAIN_PREFIX",
+		"description": "针对 Android 进行交叉编译时，此变量包含以工具链 GNU 编译器及其 binutils 作为前缀的绝对路径。"
+	},
+	"CMAKE_<LANG>_ANDROID_TOOLCHAIN_SUFFIX": {
+		"name": "CMAKE_<LANG>_ANDROID_TOOLCHAIN_SUFFIX",
+		"description": "针对 Android 进行交叉编译时，此变量包含工具链 GNU 编译器及其 binutils 的主机平台后缀。"
+	},
+	"CMAKE_<LANG>_ARCHIVE_APPEND": {
+		"name": "CMAKE_<LANG>_ARCHIVE_APPEND",
+		"description": "要追加到静态存档的规则变量。"
+	},
+	"CMAKE_<LANG>_ARCHIVE_CREATE": {
+		"name": "CMAKE_<LANG>_ARCHIVE_CREATE",
+		"description": "用于创建新静态存档的规则变量。"
+	},
+	"CMAKE_<LANG>_ARCHIVE_FINISH": {
+		"name": "CMAKE_<LANG>_ARCHIVE_FINISH",
+		"description": "用于完成现有静态存档的规则变量。"
+	},
+	"CMAKE_<LANG>_BYTE_ORDER": {
+		"name": "CMAKE_<LANG>_BYTE_ORDER",
+		"description": "<LANG> 编译器目标体系结构的字节顺序(如果已知)。如果已定义且不为空，则值为以下项之一:"
+	},
+	"CMAKE_<LANG>_CLANG_TIDY": {
+		"name": "CMAKE_<LANG>_CLANG_TIDY",
+		"description": "当 <LANG> 是 C、CXX、OBJC 或 OBJCXX 时，<LANG>_CLANG_TIDY 目标属性的默认值。"
+	},
+	"CMAKE_<LANG>_CLANG_TIDY_EXPORT_FIXES_DIR": {
+		"name": "CMAKE_<LANG>_CLANG_TIDY_EXPORT_FIXES_DIR",
+		"description": "当 <LANG> 是 C、CXX、OBJC 或 OBJCXX 时，<LANG>_CLANG_TIDY_EXPORT_FIXES_DIR 目标属性的默认值。"
+	},
+	"CMAKE_<LANG>_COMPILER": {
+		"name": "CMAKE_<LANG>_COMPILER",
+		"description": "LANG 的编译器的完整路径。"
+	},
+	"CMAKE_<LANG>_COMPILER_ABI": {
+		"name": "CMAKE_<LANG>_COMPILER_ABI",
+		"description": "要更改的内部变量。"
+	},
+	"CMAKE_<LANG>_COMPILER_AR": {
+		"name": "CMAKE_<LANG>_COMPILER_AR",
+		"description": "AR 的包装器，为编译器添加合适的 --plugin 选项。"
+	},
+	"CMAKE_<LANG>_COMPILER_ARCHITECTURE_ID": {
+		"name": "CMAKE_<LANG>_COMPILER_ARCHITECTURE_ID",
+		"description": "要更改的内部变量。"
+	},
+	"CMAKE_<LANG>_COMPILER_EXTERNAL_TOOLCHAIN": {
+		"name": "CMAKE_<LANG>_COMPILER_EXTERNAL_TOOLCHAIN",
+		"description": "用于交叉编译的外部工具链(如果支持)。"
+	},
+	"CMAKE_<LANG>_COMPILER_FRONTEND_VARIANT": {
+		"name": "CMAKE_<LANG>_COMPILER_FRONTEND_VARIANT",
+		"description": "编译器前端变体的标识字符串。"
+	},
+	"CMAKE_<LANG>_COMPILER_ID": {
+		"name": "CMAKE_<LANG>_COMPILER_ID",
+		"description": "编译器标识字符串。"
+	},
+	"CMAKE_<LANG>_COMPILER_LAUNCHER": {
+		"name": "CMAKE_<LANG>_COMPILER_LAUNCHER",
+		"description": "<LANG>_COMPILER_LAUNCHER 目标属性的默认值。此变量用于在创建目标时初始化每个目标上的属性。仅当 <LANG> 为 C、CXX、Fortran、HIP、ISPC、OBJC、OBJCXX 或 CUDA 时才执行此操作。"
+	},
+	"CMAKE_<LANG>_COMPILER_LINKER": {
+		"name": "CMAKE_<LANG>_COMPILER_LINKER",
+		"description": "指向 LANG 链接器的完整路径。"
+	},
+	"CMAKE_<LANG>_COMPILER_LINKER_FRONTEND_VARIANT": {
+		"name": "CMAKE_<LANG>_COMPILER_LINKER_FRONTEND_VARIANT",
+		"description": "链接器前端变体的标识字符串。"
+	},
+	"CMAKE_<LANG>_COMPILER_LINKER_ID": {
+		"name": "CMAKE_<LANG>_COMPILER_LINKER_ID",
+		"description": "链接器标识字符串。"
+	},
+	"CMAKE_<LANG>_COMPILER_LINKER_VERSION": {
+		"name": "CMAKE_<LANG>_COMPILER_LINKER_VERSION",
+		"description": "链接器版本字符串。"
+	},
+	"CMAKE_<LANG>_COMPILER_LOADED": {
+		"name": "CMAKE_<LANG>_COMPILER_LOADED",
+		"description": "如果已启用该语言，则定义为 true。"
+	},
+	"CMAKE_<LANG>_COMPILER_PREDEFINES_COMMAND": {
+		"name": "CMAKE_<LANG>_COMPILER_PREDEFINES_COMMAND",
+		"description": "用于输出编译器预定义的命令。"
+	},
+	"CMAKE_<LANG>_COMPILER_RANLIB": {
+		"name": "CMAKE_<LANG>_COMPILER_RANLIB",
+		"description": "ranlib 的包装器，为编译器添加合适的 --plugin 选项。"
+	},
+	"CMAKE_<LANG>_COMPILER_TARGET": {
+		"name": "CMAKE_<LANG>_COMPILER_TARGET",
+		"description": "交叉编译的目标(如果支持)。"
+	},
+	"CMAKE_<LANG>_COMPILER_VERSION": {
+		"name": "CMAKE_<LANG>_COMPILER_VERSION",
+		"description": "编译器版本字符串。"
+	},
+	"CMAKE_<LANG>_COMPILER_VERSION_INTERNAL": {
+		"name": "CMAKE_<LANG>_COMPILER_VERSION_INTERNAL",
+		"description": "要更改的内部变量。"
+	},
+	"CMAKE_<LANG>_COMPILE_OBJECT": {
+		"name": "CMAKE_<LANG>_COMPILE_OBJECT",
+		"description": "用于编译单个对象文件的规则变量。"
+	},
+	"CMAKE_<LANG>_CPPCHECK": {
+		"name": "CMAKE_<LANG>_CPPCHECK",
+		"description": "<LANG>_CPPCHECK 目标属性的默认值。此变量用于初始化每个目标上的属性(在创建该属性时)。仅当 <LANG> 为 C 或 CXX 时，才能完成此操作。"
+	},
+	"CMAKE_<LANG>_CPPLINT": {
+		"name": "CMAKE_<LANG>_CPPLINT",
+		"description": "<LANG>_CPPLINT 目标属性的默认值。此变量用于初始化每个目标上的属性(在创建该属性时)。仅当 <LANG> 为 C 或 CXX 时，才能完成此操作。"
+	},
+	"CMAKE_<LANG>_CREATE_SHARED_LIBRARY": {
+		"name": "CMAKE_<LANG>_CREATE_SHARED_LIBRARY",
+		"description": "用于创建共享库的规则变量。"
+	},
+	"CMAKE_<LANG>_CREATE_SHARED_MODULE": {
+		"name": "CMAKE_<LANG>_CREATE_SHARED_MODULE",
+		"description": "用于创建共享模块的规则变量。"
+	},
+	"CMAKE_<LANG>_CREATE_STATIC_LIBRARY": {
+		"name": "CMAKE_<LANG>_CREATE_STATIC_LIBRARY",
+		"description": "用于创建静态库的规则变量。"
+	},
+	"CMAKE_<LANG>_EXTENSIONS": {
+		"name": "CMAKE_<LANG>_EXTENSIONS",
+		"description": "变体为:"
+	},
+	"CMAKE_<LANG>_EXTENSIONS_DEFAULT": {
+		"name": "CMAKE_<LANG>_EXTENSIONS_DEFAULT",
+		"description": "编译器的默认扩展模式。未设置CMAKE_<LANG>_EXTENSIONS 时用作<LANG>_EXTENSIONS 目标属性的默认值(请参阅 CMP0128)。"
+	},
+	"CMAKE_<LANG>_FLAGS": {
+		"name": "CMAKE_<LANG>_FLAGS",
+		"description": "为所有配置生成时使用的语言 <LANG> 语言范围的标志。这些标志将传递给编译器的所有调用。这包括用于驱动编译的调用以及驱动链接的调用。"
+	},
+	"CMAKE_<LANG>_FLAGS_<CONFIG>": {
+		"name": "CMAKE_<LANG>_FLAGS_<CONFIG>",
+		"description": "为 <CONFIG> 配置生成时使用的语言 <LANG> 语言范围的标志。这些标志将传递给相应配置中编译器的所有调用。这包括用于驱动编译的调用以及驱动链接的调用。"
+	},
+	"CMAKE_<LANG>_FLAGS_<CONFIG>_INIT": {
+		"name": "CMAKE_<LANG>_FLAGS_<CONFIG>_INIT",
+		"description": "第一次针对 <LANG> 语言配置生成树时，用于初始化 CMAKE_<LANG>_FLAGS_ 缓存项的值。此变量由工具链文件设置。CMake 可能基于环境和目标平台将内容预置或追加到值中。"
+	},
+	"CMAKE_<LANG>_FLAGS_DEBUG": {
+		"name": "CMAKE_<LANG>_FLAGS_DEBUG",
+		"description": "此变量是 CMAKE_<LANG>_FLAGS_ 变量的调试变体。"
+	},
+	"CMAKE_<LANG>_FLAGS_DEBUG_INIT": {
+		"name": "CMAKE_<LANG>_FLAGS_DEBUG_INIT",
+		"description": "此变量是 CMAKE_<LANG>_FLAGS_<CONFIG>_INIT 变量的调试变体。"
+	},
+	"CMAKE_<LANG>_FLAGS_INIT": {
+		"name": "CMAKE_<LANG>_FLAGS_INIT",
+		"description": "首次为语言 <LANG> 配置生成树时，用于初始化 CMAKE_<LANG>_FLAGS 缓存条目的值。此变量应由工具链文件设置。CMake 可能根据环境和目标平台为该值预置或追加内容。例如，将预置 xxxFLAGS 环境变量的内容，其中 xxx 将是特定于语言的，但不一定与 <LANG> 一样，例如 CXX 的值为 CXXFLAGS，而 Fortran 的值为 FFLAGS，以此类推。此值是命令行字符串片段。因此，应当使用空格分隔多个选项，并且应当引用带空格的选项。"
+	},
+	"CMAKE_<LANG>_FLAGS_MINSIZEREL": {
+		"name": "CMAKE_<LANG>_FLAGS_MINSIZEREL",
+		"description": "此变量是 CMAKE_<LANG>_FLAGS_ 变量的 MinSizeRel 变体。"
+	},
+	"CMAKE_<LANG>_FLAGS_MINSIZEREL_INIT": {
+		"name": "CMAKE_<LANG>_FLAGS_MINSIZEREL_INIT",
+		"description": "此变量是 CMAKE_<LANG>_FLAGS_<CONFIG>_INIT 变量的 MinSizeRel 变体。"
+	},
+	"CMAKE_<LANG>_FLAGS_RELEASE": {
+		"name": "CMAKE_<LANG>_FLAGS_RELEASE",
+		"description": "此变量是 CMAKE_<LANG>_FLAGS_ 变量的版本变体。"
+	},
+	"CMAKE_<LANG>_FLAGS_RELEASE_INIT": {
+		"name": "CMAKE_<LANG>_FLAGS_RELEASE_INIT",
+		"description": "此变量是 CMAKE_<LANG>_FLAGS_<CONFIG>_INIT 变量的版本变体。"
+	},
+	"CMAKE_<LANG>_FLAGS_RELWITHDEBINFO": {
+		"name": "CMAKE_<LANG>_FLAGS_RELWITHDEBINFO",
+		"description": "此变量是 CMAKE_<LANG>_FLAGS_ 变量的 RelWithDebInfo 变体。"
+	},
+	"CMAKE_<LANG>_FLAGS_RELWITHDEBINFO_INIT": {
+		"name": "CMAKE_<LANG>_FLAGS_RELWITHDEBINFO_INIT",
+		"description": "此变量是 CMAKE_<LANG>_FLAGS_<CONFIG>_INIT 变量的 RelWithDebInfo 变体。"
+	},
+	"CMAKE_<LANG>_HOST_COMPILER": {
+		"name": "CMAKE_<LANG>_HOST_COMPILER",
+		"description": "当 <LANG> 为 CUDA 或 HIP 时，此变量可用。"
+	},
+	"CMAKE_<LANG>_IGNORE_EXTENSIONS": {
+		"name": "CMAKE_<LANG>_IGNORE_EXTENSIONS",
+		"description": "生成应忽略的文件扩展名。"
+	},
+	"CMAKE_<LANG>_IMPLICIT_INCLUDE_DIRECTORIES": {
+		"name": "CMAKE_<LANG>_IMPLICIT_INCLUDE_DIRECTORIES",
+		"description": "编译器在其中隐式搜索头文件的目录。"
+	},
+	"CMAKE_<LANG>_IMPLICIT_LINK_DIRECTORIES": {
+		"name": "CMAKE_<LANG>_IMPLICIT_LINK_DIRECTORIES",
+		"description": "针对 <LANG> 语言检测的隐式链接器搜索路径。"
+	},
+	"CMAKE_<LANG>_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES": {
+		"name": "CMAKE_<LANG>_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES",
+		"description": "针对 <LANG> 语言检测的隐式链接器框架搜索路径。"
+	},
+	"CMAKE_<LANG>_IMPLICIT_LINK_LIBRARIES": {
+		"name": "CMAKE_<LANG>_IMPLICIT_LINK_LIBRARIES",
+		"description": "针对 <LANG> 语言检测的隐式链接库和标志。"
+	},
+	"CMAKE_<LANG>_INCLUDE_WHAT_YOU_USE": {
+		"name": "CMAKE_<LANG>_INCLUDE_WHAT_YOU_USE",
+		"description": "<LANG>_INCLUDE_WHAT_YOU_USE 目标属性的默认值。此变量用于初始化每个目标上的属性(在创建该属性时)。仅当 <LANG> 为 C 或 CXX 时，才能完成此操作。"
+	},
+	"CMAKE_<LANG>_LIBRARY_ARCHITECTURE": {
+		"name": "CMAKE_<LANG>_LIBRARY_ARCHITECTURE",
+		"description": "针对 <LANG> 检测的目标体系结构库目录名称。"
+	},
+	"CMAKE_<LANG>_LINKER_LAUNCHER": {
+		"name": "CMAKE_<LANG>_LINKER_LAUNCHER",
+		"description": "<LANG>_LINKER_LAUNCHER 目标属性的默认值。此变量用于初始化创建目标时每个目标上的属性。仅当 <LANG> 为 C、CXX、OBJC 或 OBJCXX 时，才能完成此操作。"
+	},
+	"CMAKE_<LANG>_LINKER_PREFERENCE": {
+		"name": "CMAKE_<LANG>_LINKER_PREFERENCE",
+		"description": "要更改的内部变量。"
+	},
+	"CMAKE_<LANG>_LINKER_PREFERENCE_PROPAGATES": {
+		"name": "CMAKE_<LANG>_LINKER_PREFERENCE_PROPAGATES",
+		"description": "要更改的内部变量。"
+	},
+	"CMAKE_<LANG>_LINKER_WRAPPER_FLAG": {
+		"name": "CMAKE_<LANG>_LINKER_WRAPPER_FLAG",
+		"description": "定义编译器驱动程序的语法，以将选项传递到链接器工具。该语法将用于翻译链接选项中的 LINKER: 前缀(请参阅 add_link_options 和 target_link_options)。"
+	},
+	"CMAKE_<LANG>_LINKER_WRAPPER_FLAG_SEP": {
+		"name": "CMAKE_<LANG>_LINKER_WRAPPER_FLAG_SEP",
+		"description": "此变量与 CMAKE_<LANG>_LINKER_WRAPPER_FLAG 变量结合使用，用于设置链接选项中 LINKER: 前缀的格式(查看 add_link_options 和 target_link_options)。"
+	},
+	"CMAKE_<LANG>_LINK_EXECUTABLE": {
+		"name": "CMAKE_<LANG>_LINK_EXECUTABLE",
+		"description": "要链接可执行文件的规则变量。"
+	},
+	"CMAKE_<LANG>_LINK_GROUP_USING_<FEATURE>": {
+		"name": "CMAKE_<LANG>_LINK_GROUP_USING_<FEATURE>",
+		"description": "当使用 LINK_GROUP 生成器表达式且目标的链接语言为 <LANG> 时，此变量定义如何链接指定 <FEATURE> 的一组库。要使此变量生效，必须将关联的 CMAKE_<LANG>_LINK_GROUP_USING_<FEATURE>_SUPPORTED 变量设置为 true。"
+	},
+	"CMAKE_<LANG>_LINK_GROUP_USING_<FEATURE>_SUPPORTED": {
+		"name": "CMAKE_<LANG>_LINK_GROUP_USING_<FEATURE>_SUPPORTED",
+		"description": "此变量指定链接语言 <LANG> 是否支持 <FEATURE>。如果此变量为 true，则 <FEATURE> 必须由 CMAKE_<LANG>_LINK_GROUP_USING_ 定义，并且不使用更通用的 CMAKE_LINK_GROUP_USING_<FEATURE>_SUPPORTED 和 CMAKE_LINK_GROUP_USING_ 变量。"
+	},
+	"CMAKE_<LANG>_LINK_LIBRARY_<FEATURE>_ATTRIBUTES": {
+		"name": "CMAKE_<LANG>_LINK_LIBRARY_<FEATURE>_ATTRIBUTES",
+		"description": "此变量定义与链接语言 <LANG> 链接时指定的链接库 <FEATURE> 的语义。如果该变量也是为同一 <FEATURE> 定义的，则它优先于 CMAKE_LINK_LIBRARY_<FEATURE>_ATTRIBUTES，但除此之外，它的功能是类似的。有关进一步详细信息，请参阅 CMAKE_LINK_LIBRARY_<FEATURE>_ATTRIBUTES。"
+	},
+	"CMAKE_<LANG>_LINK_LIBRARY_FILE_FLAG": {
+		"name": "CMAKE_<LANG>_LINK_LIBRARY_FILE_FLAG",
+		"description": "特定于语言的标志，用于将路径指定的库链接到其文件。"
+	},
+	"CMAKE_<LANG>_LINK_LIBRARY_FLAG": {
+		"name": "CMAKE_<LANG>_LINK_LIBRARY_FLAG",
+		"description": "用于将库链接到共享库或可执行文件中的标志。"
+	},
+	"CMAKE_<LANG>_LINK_LIBRARY_SUFFIX": {
+		"name": "CMAKE_<LANG>_LINK_LIBRARY_SUFFIX",
+		"description": "链接到的库的特定于语言的后缀。"
+	},
+	"CMAKE_<LANG>_LINK_LIBRARY_USING_<FEATURE>": {
+		"name": "CMAKE_<LANG>_LINK_LIBRARY_USING_<FEATURE>",
+		"description": "当使用 LINK_LIBRARY 生成器表达式且目标的链接语言为 <LANG> 时，此变量定义如何链接指定 <FEATURE> 的库或框架。要使此变量生效，必须将关联的 CMAKE_<LANG>_LINK_LIBRARY_USING_<FEATURE>_SUPPORTED 变量设置为 true。"
+	},
+	"CMAKE_<LANG>_LINK_LIBRARY_USING_<FEATURE>_SUPPORTED": {
+		"name": "CMAKE_<LANG>_LINK_LIBRARY_USING_<FEATURE>_SUPPORTED",
+		"description": "如果链接器语言 <LANG> 支持由变量 CMAKE_<LANG>_LINK_LIBRARY_USING_ 定义的 <FEATURE>，则设置为 TRUE。"
+	},
+	"CMAKE_<LANG>_LINK_WHAT_YOU_USE_FLAG": {
+		"name": "CMAKE_<LANG>_LINK_WHAT_YOU_USE_FLAG",
+		"description": "用于配置链接器的链接器标志，以便将命令行上的所有指定库链接到目标中。"
+	},
+	"CMAKE_<LANG>_OUTPUT_EXTENSION": {
+		"name": "CMAKE_<LANG>_OUTPUT_EXTENSION",
+		"description": "单个文件的编译输出的扩展。"
+	},
+	"CMAKE_<LANG>_PLATFORM_ID": {
+		"name": "CMAKE_<LANG>_PLATFORM_ID",
+		"description": "要更改的内部变量。"
+	},
+	"CMAKE_<LANG>_SIMULATE_ID": {
+		"name": "CMAKE_<LANG>_SIMULATE_ID",
+		"description": "“模拟”编译器的标识字符串。"
+	},
+	"CMAKE_<LANG>_SIMULATE_VERSION": {
+		"name": "CMAKE_<LANG>_SIMULATE_VERSION",
+		"description": "“模拟”编译器的版本字符串。"
+	},
+	"CMAKE_<LANG>_SIZEOF_DATA_PTR": {
+		"name": "CMAKE_<LANG>_SIZEOF_DATA_PTR",
+		"description": "<LANG> 语言的指针到数据类型的大小。"
+	},
+	"CMAKE_<LANG>_SOURCE_FILE_EXTENSIONS": {
+		"name": "CMAKE_<LANG>_SOURCE_FILE_EXTENSIONS",
+		"description": "给定语言的源文件扩展名。"
+	},
+	"CMAKE_<LANG>_STANDARD": {
+		"name": "CMAKE_<LANG>_STANDARD",
+		"description": "变体为:"
+	},
+	"CMAKE_<LANG>_STANDARD_DEFAULT": {
+		"name": "CMAKE_<LANG>_STANDARD_DEFAULT",
+		"description": "语言<LANG>的编译器默认标准。如果编译器没有标准级别的概念，则为空。"
+	},
+	"CMAKE_<LANG>_STANDARD_INCLUDE_DIRECTORIES": {
+		"name": "CMAKE_<LANG>_STANDARD_INCLUDE_DIRECTORIES",
+		"description": "要用于通过 <LANG> 编译器进行编译的每个源文件的包含目录。这用于指定当前平台语言所需的系统包含目录。这些目录始终显示在传递给编译器的包含路径末尾。"
+	},
+	"CMAKE_<LANG>_STANDARD_LATEST": {
+		"name": "CMAKE_<LANG>_STANDARD_LATEST",
+		"description": "此变量表示当前编译程序支持的语言 <LANG> 标准的最新版本与 CMake 支持的最新版本之间的最小值。其值将设置为相应 <LANG>_STANDARD 目标属性支持的值之一。请参阅受支持语言列表的该属性的文档。"
+	},
+	"CMAKE_<LANG>_STANDARD_LIBRARIES": {
+		"name": "CMAKE_<LANG>_STANDARD_LIBRARIES",
+		"description": "链接到每个可执行文件的库以及为 <LANG> 语言链接的共享库。这用于指定当前平台语言所需的系统库。"
+	},
+	"CMAKE_<LANG>_STANDARD_REQUIRED": {
+		"name": "CMAKE_<LANG>_STANDARD_REQUIRED",
+		"description": "变体为:"
+	},
+	"CMAKE_<LANG>_USING_LINKER_MODE": {
+		"name": "CMAKE_<LANG>_USING_LINKER_MODE",
+		"description": "这控制应如何解释 CMAKE_<LANG>_USING_LINKER_ 变量的值。支持的链接器模式值包括:"
+	},
+	"CMAKE_<LANG>_USING_LINKER_<TYPE>": {
+		"name": "CMAKE_<LANG>_USING_LINKER_<TYPE>",
+		"description": "此变量定义如何为链接步骤指定 <TYPE> 链接器，就像 CMAKE_LINKER_TYPE 变量或 LINKER_TYPE 目标属性所控制的那样。根据 CMAKE_<LANG>_USING_LINKER_MODE 变量的值，CMAKE_<LANG>_USING_LINKER_<TYPE> 可以保存链接步骤的编译器标志，或保存将直接提供给链接器工具的标志。"
+	},
+	"CMAKE_<LANG>_VISIBILITY_PRESET": {
+		"name": "CMAKE_<LANG>_VISIBILITY_PRESET",
+		"description": "创建目标时，<LANG>_VISIBILITY_PRESET 目标属性的默认值。"
+	},
+	"CMAKE_LIBRARY_ARCHITECTURE": {
+		"name": "CMAKE_LIBRARY_ARCHITECTURE",
+		"description": "目标体系结构库目录名称(如果检测到)。"
+	},
+	"CMAKE_LIBRARY_ARCHITECTURE_REGEX": {
+		"name": "CMAKE_LIBRARY_ARCHITECTURE_REGEX",
+		"description": "匹配可能的目标体系结构库目录名称的正则表达式。"
+	},
+	"CMAKE_LIBRARY_OUTPUT_DIRECTORY": {
+		"name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+		"description": "生成时，所有库目标文件的存放位置。"
+	},
+	"CMAKE_LIBRARY_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "针对特定配置进行生成时，所有库目标文件的存放位置。"
+	},
+	"CMAKE_LIBRARY_PATH": {
+		"name": "CMAKE_LIBRARY_PATH",
+		"description": "分号分隔的目录列表，这些目录指定 find_library 命令的搜索路径。默认情况，此列表为空，由项目进行设置。"
+	},
+	"CMAKE_LIBRARY_PATH_FLAG": {
+		"name": "CMAKE_LIBRARY_PATH_FLAG",
+		"description": "用于将库搜索路径添加到编译器的标志。"
+	},
+	"CMAKE_LINKER_TYPE": {
+		"name": "CMAKE_LINKER_TYPE",
+		"description": "指定将用于链接步骤的链接器。"
+	},
+	"CMAKE_LINK_DEF_FILE_FLAG": {
+		"name": "CMAKE_LINK_DEF_FILE_FLAG",
+		"description": "用于为创建 dll 指定 .def 文件的链接器标志。"
+	},
+	"CMAKE_LINK_DEPENDS_NO_SHARED": {
+		"name": "CMAKE_LINK_DEPENDS_NO_SHARED",
+		"description": "是否跳过共享库文件上的链接依赖项。"
+	},
+	"CMAKE_LINK_DEPENDS_USE_LINKER": {
+		"name": "CMAKE_LINK_DEPENDS_USE_LINKER",
+		"description": "对于 Makefile 和 Ninja 生成器，一组精选链接器的链接依赖项现在是由链接器本身生成的。通过使用值 FALSE 定义此变量，可以停用此功能。"
+	},
+	"CMAKE_LINK_DIRECTORIES_BEFORE": {
+		"name": "CMAKE_LINK_DIRECTORIES_BEFORE",
+		"description": "是否默认在 link_directories 中追加或预置目录。"
+	},
+	"CMAKE_LINK_GROUP_USING_<FEATURE>": {
+		"name": "CMAKE_LINK_GROUP_USING_<FEATURE>",
+		"description": "当使用 LINK_GROUP 生成器表达式时，此变量定义如何链接指定 <FEATURE> 的一组库。。必须满足以下两个条件，此变量才会生效:"
+	},
+	"CMAKE_LINK_GROUP_USING_<FEATURE>_SUPPORTED": {
+		"name": "CMAKE_LINK_GROUP_USING_<FEATURE>_SUPPORTED",
+		"description": "此变量指定是否无论链接语言如何都支持 <FEATURE>。如果此变量为 true，则 <FEATURE> 必须由 CMAKE_LINK_GROUP_USING_ 定义。"
+	},
+	"CMAKE_LINK_INTERFACE_LIBRARIES": {
+		"name": "CMAKE_LINK_INTERFACE_LIBRARIES",
+		"description": "目标的 LINK_INTERFACE_LIBRARIES 的默认值。"
+	},
+	"CMAKE_LINK_LIBRARIES_ONLY_TARGETS": {
+		"name": "CMAKE_LINK_LIBRARIES_ONLY_TARGETS",
+		"description": "设置此变量以在创建非导入目标时初始化其 LINK_LIBRARIES_ONLY_TARGETS 属性。如果将其设置为 true，则可以额外检查 target_link_libraries 命名的所有项(可以是目标名称)实际上是现有目标的名称。有关详细信息，请参阅目标属性文档。"
+	},
+	"CMAKE_LINK_LIBRARY_<FEATURE>_ATTRIBUTES": {
+		"name": "CMAKE_LINK_LIBRARY_<FEATURE>_ATTRIBUTES",
+		"description": "此变量定义指定链接库 <FEATURE> 的行为。它指定在应该应用 <FEATURE> 时 <FEATURE> 如何与其他功能交互，以及当 CMake 组装最终链接器命令行 (例如，取消复制) 时应如何处理 <FEATURE> 的各个方面。"
+	},
+	"CMAKE_LINK_LIBRARY_FILE_FLAG": {
+		"name": "CMAKE_LINK_LIBRARY_FILE_FLAG",
+		"description": "用于将路径指定的库链接到其文件的标志。"
+	},
+	"CMAKE_LINK_LIBRARY_FLAG": {
+		"name": "CMAKE_LINK_LIBRARY_FLAG",
+		"description": "用于将库链接到可执行文件中的标志。"
+	},
+	"CMAKE_LINK_LIBRARY_SUFFIX": {
+		"name": "CMAKE_LINK_LIBRARY_SUFFIX",
+		"description": "链接到的库的后缀。"
+	},
+	"CMAKE_LINK_LIBRARY_USING_<FEATURE>": {
+		"name": "CMAKE_LINK_LIBRARY_USING_<FEATURE>",
+		"description": "当使用 LINK_LIBRARY 生成器表达式时，此变量定义如何链接指定 <FEATURE> 的库或框架。。必须满足以下两个条件才能使此变量产生生效:"
+	},
+	"CMAKE_LINK_LIBRARY_USING_<FEATURE>_SUPPORTED": {
+		"name": "CMAKE_LINK_LIBRARY_USING_<FEATURE>_SUPPORTED",
+		"description": "如果无论链接器语言如何，由变量 CMAKE_LINK_LIBRARY_USING_ 定义的 <FEATURE> 都受支持，则设置为 TRUE。"
+	},
+	"CMAKE_LINK_SEARCH_END_STATIC": {
+		"name": "CMAKE_LINK_SEARCH_END_STATIC",
+		"description": "结束链接线，以便使用静态系统库。"
+	},
+	"CMAKE_LINK_SEARCH_START_STATIC": {
+		"name": "CMAKE_LINK_SEARCH_START_STATIC",
+		"description": "假设链接器默认查找静态库。"
+	},
+	"CMAKE_LINK_WHAT_YOU_USE": {
+		"name": "CMAKE_LINK_WHAT_YOU_USE",
+		"description": "LINK_WHAT_YOU_USE 目标属性的默认值。此变量用于初始化每个目标上的属性(在创建该属性时)。"
+	},
+	"CMAKE_LINK_WHAT_YOU_USE_CHECK": {
+		"name": "CMAKE_LINK_WHAT_YOU_USE_CHECK",
+		"description": "定义在链接步骤后执行的命令，从而检查库使用情况。此检查当前仅在值为 ldd -u -r 的 ELF 平台上定义。"
+	},
+	"CMAKE_MACOSX_BUNDLE": {
+		"name": "CMAKE_MACOSX_BUNDLE",
+		"description": "目标的 MACOSX_BUNDLE 的默认值。"
+	},
+	"CMAKE_MACOSX_RPATH": {
+		"name": "CMAKE_MACOSX_RPATH",
+		"description": "是否在 macOS 和 iOS 上使用 rpath。"
+	},
+	"CMAKE_MAJOR_VERSION": {
+		"name": "CMAKE_MAJOR_VERSION",
+		"description": "CMAKE_VERSION 变量的第一个版本号组件。"
+	},
+	"CMAKE_MAKE_PROGRAM": {
+		"name": "CMAKE_MAKE_PROGRAM",
+		"description": "可以启动本机生成系统的工具。该值可能是可执行文件的完整路径或者仅仅是工具名称(如果该值应存在于路径中)。"
+	},
+	"CMAKE_MAP_IMPORTED_CONFIG_<CONFIG>": {
+		"name": "CMAKE_MAP_IMPORTED_CONFIG_<CONFIG>",
+		"description": "目标的 MAP_IMPORTED_CONFIG_ 的默认值。"
+	},
+	"CMAKE_MATCH_COUNT": {
+		"name": "CMAKE_MATCH_COUNT",
+		"description": "最后一个正则表达式的匹配项数目。"
+	},
+	"CMAKE_MATCH_<n>": {
+		"name": "CMAKE_MATCH_<n>",
+		"description": "对于组 0 到 9，捕获与最后一个正则表达式匹配的组 <n>。组 0 是整个匹配。组 1 到 9 是 () 语法捕获的子表达式。"
+	},
+	"CMAKE_MAXIMUM_RECURSION_DEPTH": {
+		"name": "CMAKE_MAXIMUM_RECURSION_DEPTH",
+		"description": "CMake 脚本的最大递归深度。应在包含 -DCMAKE_MAXIMUM_RECURSION_DEPTH=<x> 的命令行或需要较大递归深度的项目的 CMakeLists.txt 中设置。设置此变量的项目应为该用户提供重写它的方法。例如:"
+	},
+	"CMAKE_MESSAGE_CONTEXT": {
+		"name": "CMAKE_MESSAGE_CONTEXT",
+		"description": "当通过 cmake --log-context 命令行选项或 CMAKE_MESSAGE_CONTEXT_SHOW 变量启用时，消息命令会将 CMAKE_MESSAGE_CONTEXT 列表转换为由方括号包围的点分隔字符串，并将其前置到日志级别 NOTICE 及以下的消息的每一行。"
+	},
+	"CMAKE_MESSAGE_CONTEXT_SHOW": {
+		"name": "CMAKE_MESSAGE_CONTEXT_SHOW",
+		"description": "如果将此变量设置为 true，则显示一个上下文，包含消息命令记录的每一行(请参阅 CMAKE_MESSAGE_CONTEXT，了解如何指定该上下文本身)。"
+	},
+	"CMAKE_MESSAGE_INDENT": {
+		"name": "CMAKE_MESSAGE_INDENT",
+		"description": "消息命令联接此列表中的字符串，对于 \"NOTICE\" 及更低的日志级别，它会将结果字符串预置到消息的每一行。"
+	},
+	"CMAKE_MESSAGE_LOG_LEVEL": {
+		"name": "CMAKE_MESSAGE_LOG_LEVEL",
+		"description": "设置后，此变量指定由消息命令使用的日志记录级别。有效值与 cmake 程序的 --log-level <cmake --log-level> 命令行选项的值相同。如果设置了此变量，且提供了 --log-level <cmake --log-level> 命令行选项，则命令行选项优先。"
+	},
+	"CMAKE_MFC_FLAG": {
+		"name": "CMAKE_MFC_FLAG",
+		"description": "将 MFC 库用于可执行文件或 dll。"
+	},
+	"CMAKE_MINIMUM_REQUIRED_VERSION": {
+		"name": "CMAKE_MINIMUM_REQUIRED_VERSION",
+		"description": "向当前变量范围或任何父级变量范围中 cmake_minimum_required 命令的最新调用提供的 <min> 版本 的 CMake。"
+	},
+	"CMAKE_MINOR_VERSION": {
+		"name": "CMAKE_MINOR_VERSION",
+		"description": "CMAKE_VERSION 变量的第二个版本号组件。"
+	},
+	"CMAKE_MODULE_LINKER_FLAGS": {
+		"name": "CMAKE_MODULE_LINKER_FLAGS",
+		"description": "用于创建模块的链接器标志。"
+	},
+	"CMAKE_MODULE_LINKER_FLAGS_<CONFIG>": {
+		"name": "CMAKE_MODULE_LINKER_FLAGS_<CONFIG>",
+		"description": "链接模块时要使用的标志。"
+	},
+	"CMAKE_MODULE_LINKER_FLAGS_<CONFIG>_INIT": {
+		"name": "CMAKE_MODULE_LINKER_FLAGS_<CONFIG>_INIT",
+		"description": "第一次配置生成树时，用于初始化 CMAKE_MODULE_LINKER_FLAGS_ 缓存项的值。此变量由工具链文件设置。CMake 可能基于环境和目标平台将内容预置或追加到值中。"
+	},
+	"CMAKE_MODULE_LINKER_FLAGS_INIT": {
+		"name": "CMAKE_MODULE_LINKER_FLAGS_INIT",
+		"description": "第一次配置生成树时，用于初始化 CMAKE_MODULE_LINKER_FLAGS 缓存项的值。此变量由工具链文件设置。CMake 可能基于环境和目标平台将内容预置或追加到值中。"
+	},
+	"CMAKE_MODULE_PATH": {
+		"name": "CMAKE_MODULE_PATH",
+		"description": "分号分隔的目录列表，使用正斜杠表示，用于指定在检查 CMake 附带的默认模块之前，由 include 或 find_package 命令加载的 CMake 模块的搜索路径。默认情况下，此列表为空，由项目进行设置。"
+	},
+	"CMAKE_MSVCIDE_RUN_PATH": {
+		"name": "CMAKE_MSVCIDE_RUN_PATH",
+		"description": "在使用 Visual Studio 12 2013 (或更高版本) 生成器的情况下，在执行 add_custom_command 或 add_custom_target 时应使用的额外路径位置。这允许运行命令并使用 IDE 环境不知道的 dll。"
+	},
+	"CMAKE_MSVC_DEBUG_INFORMATION_FORMAT": {
+		"name": "CMAKE_MSVC_DEBUG_INFORMATION_FORMAT",
+		"description": "选择面向 MSVC ABI 的 MSVC 调试信息格式。此变量用于在创建目标时时初始化所有目标上的 MSVC_DEBUG_INFORMATION_FORMAT 属性。它还通过对 try_compile 命令的调用传播到测试项目中。"
+	},
+	"CMAKE_MSVC_RUNTIME_LIBRARY": {
+		"name": "CMAKE_MSVC_RUNTIME_LIBRARY",
+		"description": "选择供面向 MSVC ABI 的编译器使用的 MSVC 运行时库。此变量用于在创建时初始化所有目标上的 MSVC_RUNTIME_LIBRARY 属性。它还通过对 try_compile 命令的调用传播到测试项目中。"
+	},
+	"CMAKE_NETRC": {
+		"name": "CMAKE_NETRC",
+		"description": "此变量用于初始化文件和文件命令的 NETRC 选项。有关其他信息，请参阅这些命令。"
+	},
+	"CMAKE_NETRC_FILE": {
+		"name": "CMAKE_NETRC_FILE",
+		"description": "此变量用于初始化文件和文件命令的 NETRC_FILE 选项。有关其他信息，请参阅这些命令。"
+	},
+	"CMAKE_NINJA_OUTPUT_PATH_PREFIX": {
+		"name": "CMAKE_NINJA_OUTPUT_PATH_PREFIX",
+		"description": "告诉 Ninja 生成器向 build.ninja 中的每个输出路径添加前缀。尾部斜杠会追加到前缀(如果缺失)。"
+	},
+	"CMAKE_NOT_USING_CONFIG_FLAGS": {
+		"name": "CMAKE_NOT_USING_CONFIG_FLAGS",
+		"description": "如果为 true，则跳过 _BUILD_TYPE 标志。"
+	},
+	"CMAKE_NO_BUILTIN_CHRPATH": {
+		"name": "CMAKE_NO_BUILTIN_CHRPATH",
+		"description": "请不要在安装时使用内置二进制编辑器修复运行时库搜索路径。"
+	},
+	"CMAKE_NO_SYSTEM_FROM_IMPORTED": {
+		"name": "CMAKE_NO_SYSTEM_FROM_IMPORTED",
+		"description": "目标的 NO_SYSTEM_FROM_IMPORTED 的默认值。"
+	},
+	"CMAKE_OBJCXX_EXTENSIONS": {
+		"name": "CMAKE_OBJCXX_EXTENSIONS",
+		"description": "创建目标时设置 OBJCXX_EXTENSIONS 目标属性时的默认值。"
+	},
+	"CMAKE_OBJCXX_STANDARD": {
+		"name": "CMAKE_OBJCXX_STANDARD",
+		"description": "创建目标时设置 OBJCXX_STANDARD 目标属性时的默认值。"
+	},
+	"CMAKE_OBJCXX_STANDARD_REQUIRED": {
+		"name": "CMAKE_OBJCXX_STANDARD_REQUIRED",
+		"description": "创建目标时设置 OBJCXX_STANDARD_REQUIRED 目标属性时的默认值。"
+	},
+	"CMAKE_OBJC_EXTENSIONS": {
+		"name": "CMAKE_OBJC_EXTENSIONS",
+		"description": "创建目标时设置 OBJC_EXTENSIONS 目标属性时的默认值。"
+	},
+	"CMAKE_OBJC_STANDARD": {
+		"name": "CMAKE_OBJC_STANDARD",
+		"description": "创建目标时设置 OBJC_STANDARD 目标属性时的默认值。"
+	},
+	"CMAKE_OBJC_STANDARD_REQUIRED": {
+		"name": "CMAKE_OBJC_STANDARD_REQUIRED",
+		"description": "创建目标时设置 OBJC_STANDARD_REQUIRED 目标属性时的默认值。"
+	},
+	"CMAKE_OBJECT_PATH_MAX": {
+		"name": "CMAKE_OBJECT_PATH_MAX",
+		"description": "本机生成工具允许的对象文件完整路径的最大长度。"
+	},
+	"CMAKE_OPTIMIZE_DEPENDENCIES": {
+		"name": "CMAKE_OPTIMIZE_DEPENDENCIES",
+		"description": "初始化 OPTIMIZE_DEPENDENCIES 目标属性。"
+	},
+	"CMAKE_OSX_ARCHITECTURES": {
+		"name": "CMAKE_OSX_ARCHITECTURES",
+		"description": "macOS 和 iOS 的目标特定体系结构。"
+	},
+	"CMAKE_OSX_DEPLOYMENT_TARGET": {
+		"name": "CMAKE_OSX_DEPLOYMENT_TARGET",
+		"description": "指定将在其上部署目标二进制文件的目标平台(例如 macOS 或 iOS)的最低版本。CMake 将此变量值用于 -mmacosx-version-min 标志或其各自的目标平台等效对象。对于已发送多个 macOS SDK 的旧版 Xcode，此变量也有助于在未设置 CMAKE_OSX_SYSROOT 时选择 SDK。"
+	},
+	"CMAKE_OSX_SYSROOT": {
+		"name": "CMAKE_OSX_SYSROOT",
+		"description": "指定要使用的 macOS 平台 SDK 的位置或名称。CMake 使用此值计算 -isysroot 标志或等效对象的值，并帮助 find_* 命令在 SDK 中查找文件。"
+	},
+	"CMAKE_PARENT_LIST_FILE": {
+		"name": "CMAKE_PARENT_LIST_FILE",
+		"description": "包含当前文件的 CMake 文件的完整路径。"
+	},
+	"CMAKE_PATCH_VERSION": {
+		"name": "CMAKE_PATCH_VERSION",
+		"description": "CMAKE_VERSION 变量的第三个版本号组件。"
+	},
+	"CMAKE_PCH_INSTANTIATE_TEMPLATES": {
+		"name": "CMAKE_PCH_INSTANTIATE_TEMPLATES",
+		"description": "此变量用于在创建时初始化目标的 PCH_INSTANTIATE_TEMPLATES 属性。"
+	},
+	"CMAKE_PCH_WARN_INVALID": {
+		"name": "CMAKE_PCH_WARN_INVALID",
+		"description": "此变量用于在创建时初始化目标的 PCH_WARN_INVALID 属性。"
+	},
+	"CMAKE_PDB_OUTPUT_DIRECTORY": {
+		"name": "CMAKE_PDB_OUTPUT_DIRECTORY",
+		"description": "链接器为可执行文件和共享库目标生成的 MS 调试符号 .pdb 文件的输出目录。"
+	},
+	"CMAKE_PDB_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "CMAKE_PDB_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "链接器为可执行文件和共享库目标生成的 MS 调试符号 .pdb 文件的每配置输出目录。"
+	},
+	"CMAKE_PLATFORM_NO_VERSIONED_SONAME": {
+		"name": "CMAKE_PLATFORM_NO_VERSIONED_SONAME",
+		"description": "此变量用于全局控制是否应将 VERSION 和 SOVERSION 目标属性用于共享库。设置为 true 时，将禁用向每个共享库目标添加版本信息。"
+	},
+	"CMAKE_POLICY_DEFAULT_CMP<NNNN>": {
+		"name": "CMAKE_POLICY_DEFAULT_CMP<NNNN>",
+		"description": "未设置时，使用 CMake 策略 CMP<NNNN> 的默认值。"
+	},
+	"CMAKE_POLICY_WARNING_CMP<NNNN>": {
+		"name": "CMAKE_POLICY_WARNING_CMP<NNNN>",
+		"description": "当 CMake 策略 CMP<NNNN>未由 cmake_policy 显式设置或由 cmake_minimum_required 隐式设置时，显式启用或禁用警告。这仅对默认不发出警告的策略有意义:"
+	},
+	"CMAKE_POSITION_INDEPENDENT_CODE": {
+		"name": "CMAKE_POSITION_INDEPENDENT_CODE",
+		"description": "目标的 POSITION_INDEPENDENT_CODE 的默认值。"
+	},
+	"CMAKE_PREFIX_PATH": {
+		"name": "CMAKE_PREFIX_PATH",
+		"description": "目录的分号分隔列表，这些目录指定了要按 find_package、find_program、find_library、find_file 和 find_path 命令搜索的安装前缀。每个命令根据其自己的文档中指定的要求添加适当的子目录(如 bin、lib 或 include)。"
+	},
+	"CMAKE_PROGRAM_PATH": {
+		"name": "CMAKE_PROGRAM_PATH",
+		"description": "分号分隔的目录列表，这些目录指定 find_program 命令的搜索路径。默认情况，此列表为空，由项目进行设置。"
+	},
+	"CMAKE_PROJECT_DESCRIPTION": {
+		"name": "CMAKE_PROJECT_DESCRIPTION",
+		"description": "顶级项目的说明。"
+	},
+	"CMAKE_PROJECT_HOMEPAGE_URL": {
+		"name": "CMAKE_PROJECT_HOMEPAGE_URL",
+		"description": "顶级项目的主页 URL。"
+	},
+	"CMAKE_PROJECT_INCLUDE": {
+		"name": "CMAKE_PROJECT_INCLUDE",
+		"description": "要作为所有项目命令调用的最后一步包含的 CMake 语言文件。这用于将自定义代码注入项目编译内容，而不修改其源代码。有关在项目调用期间可能包含的文件的更详细讨论，请参阅《代码注入》。"
+	},
+	"CMAKE_PROJECT_INCLUDE_BEFORE": {
+		"name": "CMAKE_PROJECT_INCLUDE_BEFORE",
+		"description": "要作为所有项目命令调用的第一步包含的 CMake 语言文件。这用于将自定义代码注入项目编译内容，而不修改其源代码。有关在项目调用期间可能包含的文件的更详细讨论，请参阅《代码注入》。"
+	},
+	"CMAKE_PROJECT_NAME": {
+		"name": "CMAKE_PROJECT_NAME",
+		"description": "顶级项目的名称。"
+	},
+	"CMAKE_PROJECT_<PROJECT-NAME>_INCLUDE": {
+		"name": "CMAKE_PROJECT_<PROJECT-NAME>_INCLUDE",
+		"description": "对于指定 <PROJECT-NAME> 作为项目名称的任何项目命令调用，要作为该类调用的最后一步包含的 CMake 语言文件。这用于将自定义代码注入项目编译内容，而不修改其源代码。有关在项目调用期间可能包含的文件的更详细讨论，请参阅《代码注入》。"
+	},
+	"CMAKE_PROJECT_<PROJECT-NAME>_INCLUDE_BEFORE": {
+		"name": "CMAKE_PROJECT_<PROJECT-NAME>_INCLUDE_BEFORE",
+		"description": "对于指定 <PROJECT-NAME> 作为项目名称的任何项目命令调用，要作为该类调用的第一步包含的 CMake 语言文件。这用于将自定义代码注入项目编译内容，而不修改其源代码。有关在项目调用期间可能包含的文件的更详细讨论，请参阅《代码注入》。"
+	},
+	"CMAKE_PROJECT_TOP_LEVEL_INCLUDES": {
+		"name": "CMAKE_PROJECT_TOP_LEVEL_INCLUDES",
+		"description": "要包括为第一个项目调用一部分的分号分隔的 CMake 语言文件列表。在读取了工具链文件(如果指定了一个)并设置了平台变量之后，但在启用任何语言之前，将立即包括这些文件。因此，可能不会设置特定于语言的变量，包括 CMAKE_<LANG>_COMPILER。有关在项目调用期间可能包含的文件的更详细讨论，请参阅《代码注入》。"
+	},
+	"CMAKE_PROJECT_VERSION": {
+		"name": "CMAKE_PROJECT_VERSION",
+		"description": "顶级项目的版本。"
+	},
+	"CMAKE_PROJECT_VERSION_MAJOR": {
+		"name": "CMAKE_PROJECT_VERSION_MAJOR",
+		"description": "顶级项目的主版本。"
+	},
+	"CMAKE_PROJECT_VERSION_MINOR": {
+		"name": "CMAKE_PROJECT_VERSION_MINOR",
+		"description": "顶级项目的次要版本。"
+	},
+	"CMAKE_PROJECT_VERSION_PATCH": {
+		"name": "CMAKE_PROJECT_VERSION_PATCH",
+		"description": "顶级项目的修补程序版本。"
+	},
+	"CMAKE_PROJECT_VERSION_TWEAK": {
+		"name": "CMAKE_PROJECT_VERSION_TWEAK",
+		"description": "顶级项目的调整版本。"
+	},
+	"CMAKE_RANLIB": {
+		"name": "CMAKE_RANLIB",
+		"description": "用于静态库的随机化工具的名称。"
+	},
+	"CMAKE_REQUIRE_FIND_PACKAGE_<PackageName>": {
+		"name": "CMAKE_REQUIRE_FIND_PACKAGE_<PackageName>",
+		"description": "使 find_package 调用为“必需项”的变量。"
+	},
+	"CMAKE_ROOT": {
+		"name": "CMAKE_ROOT",
+		"description": "运行 cmake 的安装目录。"
+	},
+	"CMAKE_RULE_MESSAGES": {
+		"name": "CMAKE_RULE_MESSAGES",
+		"description": "指定是否为每个创建规则报告消息。"
+	},
+	"CMAKE_RUNTIME_OUTPUT_DIRECTORY": {
+		"name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
+		"description": "生成时，所有运行时目标文件的存放位置。"
+	},
+	"CMAKE_RUNTIME_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "针对特定配置进行生成时，所有运行时目标文件的存放位置。"
+	},
+	"CMAKE_SCRIPT_MODE_FILE": {
+		"name": "CMAKE_SCRIPT_MODE_FILE",
+		"description": "当前正在处理的 cmake -P 脚本文件的完整路径。"
+	},
+	"CMAKE_SHARED_LIBRARY_ENABLE_EXPORTS": {
+		"name": "CMAKE_SHARED_LIBRARY_ENABLE_EXPORTS",
+		"description": "指定共享库是否生成导入文件。"
+	},
+	"CMAKE_SHARED_LIBRARY_PREFIX": {
+		"name": "CMAKE_SHARED_LIBRARY_PREFIX",
+		"description": "链接到的共享库的前缀。"
+	},
+	"CMAKE_SHARED_LIBRARY_SUFFIX": {
+		"name": "CMAKE_SHARED_LIBRARY_SUFFIX",
+		"description": "链接到的共享库的后缀。"
+	},
+	"CMAKE_SHARED_LINKER_FLAGS": {
+		"name": "CMAKE_SHARED_LINKER_FLAGS",
+		"description": "用于创建共享库的链接器标志。"
+	},
+	"CMAKE_SHARED_LINKER_FLAGS_<CONFIG>": {
+		"name": "CMAKE_SHARED_LINKER_FLAGS_<CONFIG>",
+		"description": "链接共享库时要使用的标志。"
+	},
+	"CMAKE_SHARED_LINKER_FLAGS_<CONFIG>_INIT": {
+		"name": "CMAKE_SHARED_LINKER_FLAGS_<CONFIG>_INIT",
+		"description": "第一次配置生成树时，用于初始化 CMAKE_SHARED_LINKER_FLAGS_ 缓存项的值。此变量由工具链文件设置。CMake 可能基于环境和目标平台将内容预置或追加到值中。"
+	},
+	"CMAKE_SHARED_LINKER_FLAGS_INIT": {
+		"name": "CMAKE_SHARED_LINKER_FLAGS_INIT",
+		"description": "第一次配置生成树时，用于初始化 CMAKE_SHARED_LINKER_FLAGS 缓存项的值。此变量由工具链文件设置。CMake 可能基于环境和目标平台将内容预置或追加到值中。"
+	},
+	"CMAKE_SHARED_MODULE_PREFIX": {
+		"name": "CMAKE_SHARED_MODULE_PREFIX",
+		"description": "链接到的可加载模块的前缀。"
+	},
+	"CMAKE_SHARED_MODULE_SUFFIX": {
+		"name": "CMAKE_SHARED_MODULE_SUFFIX",
+		"description": "链接到的共享库的后缀。"
+	},
+	"CMAKE_SIZEOF_VOID_P": {
+		"name": "CMAKE_SIZEOF_VOID_P",
+		"description": "void 指针的大小。"
+	},
+	"CMAKE_SKIP_BUILD_RPATH": {
+		"name": "CMAKE_SKIP_BUILD_RPATH",
+		"description": "请勿在生成树中包含 RPATH。"
+	},
+	"CMAKE_SKIP_INSTALL_ALL_DEPENDENCY": {
+		"name": "CMAKE_SKIP_INSTALL_ALL_DEPENDENCY",
+		"description": "请勿使安装目标依赖于所有目标。"
+	},
+	"CMAKE_SKIP_INSTALL_RPATH": {
+		"name": "CMAKE_SKIP_INSTALL_RPATH",
+		"description": "请勿在安装树中包含 RPATH。"
+	},
+	"CMAKE_SKIP_INSTALL_RULES": {
+		"name": "CMAKE_SKIP_INSTALL_RULES",
+		"description": "是否禁用生成安装规则。"
+	},
+	"CMAKE_SKIP_RPATH": {
+		"name": "CMAKE_SKIP_RPATH",
+		"description": "如果为 true，请勿添加运行时路径信息。"
+	},
+	"CMAKE_SKIP_TEST_ALL_DEPENDENCY": {
+		"name": "CMAKE_SKIP_TEST_ALL_DEPENDENCY",
+		"description": "控制测试目标是否取决于所有目标。"
+	},
+	"CMAKE_SOURCE_DIR": {
+		"name": "CMAKE_SOURCE_DIR",
+		"description": "源树的顶层路径。"
+	},
+	"CMAKE_STAGING_PREFIX": {
+		"name": "CMAKE_STAGING_PREFIX",
+		"description": "进行交叉编译时，此变量可能设置为要安装的路径。如果 CMAKE_SYSROOT 中的路径为只读，或者应该保持原始状态，则此变量非常有用。"
+	},
+	"CMAKE_STATIC_LIBRARY_PREFIX": {
+		"name": "CMAKE_STATIC_LIBRARY_PREFIX",
+		"description": "链接到的静态库的前缀。"
+	},
+	"CMAKE_STATIC_LIBRARY_SUFFIX": {
+		"name": "CMAKE_STATIC_LIBRARY_SUFFIX",
+		"description": "链接到的静态库的后缀。"
+	},
+	"CMAKE_STATIC_LINKER_FLAGS": {
+		"name": "CMAKE_STATIC_LINKER_FLAGS",
+		"description": "用于创建静态库的标志。这些标志将在创建静态库时传递给存档程序。"
+	},
+	"CMAKE_STATIC_LINKER_FLAGS_<CONFIG>": {
+		"name": "CMAKE_STATIC_LINKER_FLAGS_<CONFIG>",
+		"description": "用于创建静态库的标志。在 <CONFIG> 配置中创建静态库时，这些标志将传递给存档程序。"
+	},
+	"CMAKE_STATIC_LINKER_FLAGS_<CONFIG>_INIT": {
+		"name": "CMAKE_STATIC_LINKER_FLAGS_<CONFIG>_INIT",
+		"description": "第一次配置生成树时，用于初始化 CMAKE_STATIC_LINKER_FLAGS_ 缓存项的值。此变量由工具链文件设置。CMake 可能基于环境和目标平台将内容预置或追加到值中。"
+	},
+	"CMAKE_STATIC_LINKER_FLAGS_INIT": {
+		"name": "CMAKE_STATIC_LINKER_FLAGS_INIT",
+		"description": "第一次配置生成树时，用于初始化 CMAKE_STATIC_LINKER_FLAGS 缓存项的值。此变量由工具链文件设置。CMake 可能基于环境和目标平台将内容预置或追加到值中。"
+	},
+	"CMAKE_SUBLIME_TEXT_2_ENV_SETTINGS": {
+		"name": "CMAKE_SUBLIME_TEXT_2_ENV_SETTINGS",
+		"description": "此变量包含 env vars 列表，作为包含语法 var=value 的令牌列表。"
+	},
+	"CMAKE_SUBLIME_TEXT_2_EXCLUDE_BUILD_TREE": {
+		"name": "CMAKE_SUBLIME_TEXT_2_EXCLUDE_BUILD_TREE",
+		"description": "如果此变量在顶级 CMakeLists.txt 文件末尾的计算结果为 ON，并且如果 Sublime 文本 2 额外生成器包含在源树内，则该生成器会从 .sublime-project 中排除生成树。"
+	},
+	"CMAKE_SUPPRESS_REGENERATION": {
+		"name": "CMAKE_SUPPRESS_REGENERATION",
+		"description": "如果 CMAKE_SUPPRESS_REGENERATION 处于关闭状态(默认状态)，则 CMake 会添加所有其他目标都依赖的特殊目标，该目标检查生成系统并可选择性重新运行 CMake，以在目标规范源更改时重新生成生成系统。"
+	},
+	"CMAKE_Swift_COMPILATION_MODE": {
+		"name": "CMAKE_Swift_COMPILATION_MODE",
+		"description": "指定 Swift 如何编译目标。此变量用于在创建目标时初始化目标的 Swift_COMPILATION_MODE 属性。"
+	},
+	"CMAKE_Swift_LANGUAGE_VERSION": {
+		"name": "CMAKE_Swift_LANGUAGE_VERSION",
+		"description": "设置为 Swift 语言版本号。如果未设置，则假定为主机 Xcode 版本中可用的最旧版本:"
+	},
+	"CMAKE_Swift_MODULE_DIRECTORY": {
+		"name": "CMAKE_Swift_MODULE_DIRECTORY",
+		"description": "Swift 模块输出目录。"
+	},
+	"CMAKE_Swift_NUM_THREADS": {
+		"name": "CMAKE_Swift_NUM_THREADS",
+		"description": "Swift 目标的并行编译的线程数。"
+	},
+	"CMAKE_SYSROOT": {
+		"name": "CMAKE_SYSROOT",
+		"description": "要在 -sysroot 标志中传递给编译器的路径。"
+	},
+	"CMAKE_SYSROOT_COMPILE": {
+		"name": "CMAKE_SYSROOT_COMPILE",
+		"description": "编译源文件时，要在 --sysroot 标志中传递给编译器的路径。这与 CMAKE_SYSROOT 相同，但仅用于编译源，而不用于链接。"
+	},
+	"CMAKE_SYSROOT_LINK": {
+		"name": "CMAKE_SYSROOT_LINK",
+		"description": "链接时，要在 --sysroot 标志中传递给编译器的路径。这与 CMAKE_SYSROOT 相同，但仅用于链接，而不用于编译源。"
+	},
+	"CMAKE_SYSTEM": {
+		"name": "CMAKE_SYSTEM",
+		"description": "CMake 正在对其编译的操作系统的复合名称。"
+	},
+	"CMAKE_SYSTEM_APPBUNDLE_PATH": {
+		"name": "CMAKE_SYSTEM_APPBUNDLE_PATH",
+		"description": "find_program 和 find_package 命令使用的 macOS 应用程序捆绑包的搜索路径。默认情况下，该路径包含当前系统的标准目录。项目不会修改该路径，请对其使用 CMAKE_APPBUNDLE_PATH。"
+	},
+	"CMAKE_SYSTEM_FRAMEWORK_PATH": {
+		"name": "CMAKE_SYSTEM_FRAMEWORK_PATH",
+		"description": "find_library、find_package、find_path 和 find_file 命令使用的 macOS 框架的搜索路径。默认情况下，该路径包含当前系统的标准目录。项目不会修改该路径，请对其使用 CMAKE_FRAMEWORK_PATH。"
+	},
+	"CMAKE_SYSTEM_IGNORE_PATH": {
+		"name": "CMAKE_SYSTEM_IGNORE_PATH",
+		"description": "以分号分隔的目录列表，供各种查找忽略...() 命令。"
+	},
+	"CMAKE_SYSTEM_IGNORE_PREFIX_PATH": {
+		"name": "CMAKE_SYSTEM_IGNORE_PREFIX_PATH",
+		"description": "要由 find_program、find_library、find_file 和 find_path 命令忽略的搜索前缀的分号分隔列表。find_package 命令的配置模式也会忽略前缀(模块模式不受影响)。若要改为忽略特定目录，请参阅 CMAKE_IGNORE_NONPREFIX_VAR。"
+	},
+	"CMAKE_SYSTEM_INCLUDE_PATH": {
+		"name": "CMAKE_SYSTEM_INCLUDE_PATH",
+		"description": "分号分隔的目录列表，这些目录指定 find_file 和 find_path 命令的搜索路径。默认情况下，该路径包含当前系统的标准目录。项目不会修改该路径；请对其使用 CMAKE_INCLUDE_PATH。另请参阅 CMAKE_SYSTEM_PREFIX_PATH。"
+	},
+	"CMAKE_SYSTEM_LIBRARY_PATH": {
+		"name": "CMAKE_SYSTEM_LIBRARY_PATH",
+		"description": "分号分隔的目录列表，这些目录指定 find_library 命令的搜索路径。默认情况下，该路径包含当前系统的标准目录。项目不会修改该路径；请对其使用 CMAKE_LIBRARY_PATH。另请参阅 CMAKE_SYSTEM_PREFIX_PATH。"
+	},
+	"CMAKE_SYSTEM_NAME": {
+		"name": "CMAKE_SYSTEM_NAME",
+		"description": "CMake 要针对其进行生成的操作系统的名称。请参阅 CMAKE_SYSTEM_VERSION 变量以了解 OS 版本。"
+	},
+	"CMAKE_SYSTEM_PREFIX_PATH": {
+		"name": "CMAKE_SYSTEM_PREFIX_PATH",
+		"description": "目录的分号分隔列表，这些目录指定了要按 find_package、find_program、find_library、find_file 和 find_path 命令搜索的安装前缀。每个命令根据其自己的文档中指定的要求添加适当的子目录(如 bin、lib 或 include)。"
+	},
+	"CMAKE_SYSTEM_PROCESSOR": {
+		"name": "CMAKE_SYSTEM_PROCESSOR",
+		"description": "当不进行交叉编译时，此变量与 CMAKE_HOST_SYSTEM_PROCESSOR 变量具有相同的值。在许多情况下，这将与生成的目标体系结构相对应，但不能保证这一点。(例如，对于 Windows，主机即使是在将 MSVC cl 编译器用于 32 位目标时，也可能是 AMD64。)"
+	},
+	"CMAKE_SYSTEM_PROGRAM_PATH": {
+		"name": "CMAKE_SYSTEM_PROGRAM_PATH",
+		"description": "分号分隔的目录列表，这些目录指定 find_program 命令的搜索路径。默认情况下，该路径包含当前系统的标准目录。项目不会修改该路径；请对其使用 CMAKE_PROGRAM_PATH。另请参阅 CMAKE_SYSTEM_PREFIX_PATH。"
+	},
+	"CMAKE_SYSTEM_VERSION": {
+		"name": "CMAKE_SYSTEM_VERSION",
+		"description": "CMake 要针对其进行生成的操作系统的版本。请参阅 CMAKE_SYSTEM_NAME 变量以了解 OS 名称。"
+	},
+	"CMAKE_TASKING_TOOLSET": {
+		"name": "CMAKE_TASKING_TOOLSET",
+		"description": "选择提供编译器的任务工具集"
+	},
+	"CMAKE_TEST_LAUNCHER": {
+		"name": "CMAKE_TEST_LAUNCHER",
+		"description": "此变量用于在创建可执行目标时初始化可执行目标的 TEST_LAUNCHER 目标属性。它用于指定将运行可执行目标的启动器来运行测试，这些测试由 add_test 命令添加。"
+	},
+	"CMAKE_TLS_CAINFO": {
+		"name": "CMAKE_TLS_CAINFO",
+		"description": "指定文件和文件命令的 TLS_CAINFO 选项的默认值。默认情况下，其未设置。"
+	},
+	"CMAKE_TLS_VERIFY": {
+		"name": "CMAKE_TLS_VERIFY",
+		"description": "指定文件和文件命令的 TLS_VERIFY 选项的默认值。如果未设置此变量，则该命令会检查 CMAKE_TLS_VERIFY 环境变量。如果两者均未设置，则默认设置为关闭。"
+	},
+	"CMAKE_TLS_VERSION": {
+		"name": "CMAKE_TLS_VERSION",
+		"description": "指定文件和文件命令的 TLS_VERSION 选项的默认值。如果未设置此变量，则该命令会检查 CMAKE_TLS_VERSION 环境变量。"
+	},
+	"CMAKE_TOOLCHAIN_FILE": {
+		"name": "CMAKE_TOOLCHAIN_FILE",
+		"description": "提供给 cmake 的工具链文件的路径。"
+	},
+	"CMAKE_TRY_COMPILE_CONFIGURATION": {
+		"name": "CMAKE_TRY_COMPILE_CONFIGURATION",
+		"description": "生成用于 try_compile 和 try_run 项目的配置。"
+	},
+	"CMAKE_TRY_COMPILE_NO_PLATFORM_VARIABLES": {
+		"name": "CMAKE_TRY_COMPILE_NO_PLATFORM_VARIABLES",
+		"description": "设置为 true 值，以告知 try_compile 命令不要将任何平台变量传播到测试项目中。"
+	},
+	"CMAKE_TRY_COMPILE_PLATFORM_VARIABLES": {
+		"name": "CMAKE_TRY_COMPILE_PLATFORM_VARIABLES",
+		"description": "变量列表，try_compile 命令源文件签名必须将这些变量传播到测试项目，以便将主机项目的同一平台作为目标。"
+	},
+	"CMAKE_TRY_COMPILE_TARGET_TYPE": {
+		"name": "CMAKE_TRY_COMPILE_TARGET_TYPE",
+		"description": "使用源文件签名为 try_compile 调用生成的目标类型。有效值为:"
+	},
+	"CMAKE_TWEAK_VERSION": {
+		"name": "CMAKE_TWEAK_VERSION",
+		"description": "定义为 0，以便与为可能定义了更高值的旧版 CMake 编写的代码兼容。"
+	},
+	"CMAKE_UNITY_BUILD": {
+		"name": "CMAKE_UNITY_BUILD",
+		"description": "此变量用于在创建时初始化目标的 UNITY_BUILD 属性。将其设置为 true，可在每个目标中批量编译多个源。此功能称为 Unity 或 Jumbo 生成。"
+	},
+	"CMAKE_UNITY_BUILD_BATCH_SIZE": {
+		"name": "CMAKE_UNITY_BUILD_BATCH_SIZE",
+		"description": "此变量用于在创建时初始化目标的 UNITY_BUILD_BATCH_SIZE 属性。在为目标启用 Unity 生成时，它指定可在任意一个 Unity 源文件中合并的源文件数的默认上限。"
+	},
+	"CMAKE_UNITY_BUILD_UNIQUE_ID": {
+		"name": "CMAKE_UNITY_BUILD_UNIQUE_ID",
+		"description": "此变量用于在创建目标时初始化目标的 UNITY_BUILD_UNIQUE_ID 属性。它指定统一生成中每个文件生成的唯一标识符的名称。"
+	},
+	"CMAKE_USER_MAKE_RULES_OVERRIDE": {
+		"name": "CMAKE_USER_MAKE_RULES_OVERRIDE",
+		"description": "指定重写平台信息的 CMake 文件。"
+	},
+	"CMAKE_USER_MAKE_RULES_OVERRIDE_<LANG>": {
+		"name": "CMAKE_USER_MAKE_RULES_OVERRIDE_<LANG>",
+		"description": "指定重写 <LANG> 的平台信息的 CMake 文件。"
+	},
+	"CMAKE_USE_RELATIVE_PATHS": {
+		"name": "CMAKE_USE_RELATIVE_PATHS",
+		"description": "此变量无效。CMake 3.4 中移除了它在之前版本中部分实现的效果。"
+	},
+	"CMAKE_VERBOSE_MAKEFILE": {
+		"name": "CMAKE_VERBOSE_MAKEFILE",
+		"description": "启用 Makefile 生成的详细输出。"
+	},
+	"CMAKE_VERIFY_INTERFACE_HEADER_SETS": {
+		"name": "CMAKE_VERIFY_INTERFACE_HEADER_SETS",
+		"description": "此变量用于在创建目标时初始化目标的 VERIFY_INTERFACE_HEADER_SETS 属性。将其设置为 true 可启用标头集验证。"
+	},
+	"CMAKE_VERSION": {
+		"name": "CMAKE_VERSION",
+		"description": "CMake 版本字符串由三部分以 . 分隔的非负整数组成，后面可能带有 - 和其他信息。前两个部分表示功能级别，第三个部分表示 bug 修复级别或开发日期。"
+	},
+	"CMAKE_VISIBILITY_INLINES_HIDDEN": {
+		"name": "CMAKE_VISIBILITY_INLINES_HIDDEN",
+		"description": "创建目标时，VISIBILITY_INLINES_HIDDEN 目标属性的默认值。"
+	},
+	"CMAKE_VS_DEBUGGER_COMMAND": {
+		"name": "CMAKE_VS_DEBUGGER_COMMAND",
+		"description": "此变量用于在创建目标时初始化每个目标上的 VS_DEBUGGER_COMMAND 属性。请查看该目标属性以了解其他信息。"
+	},
+	"CMAKE_VS_DEBUGGER_COMMAND_ARGUMENTS": {
+		"name": "CMAKE_VS_DEBUGGER_COMMAND_ARGUMENTS",
+		"description": "此变量用于在创建目标时初始化每个目标上的 VS_DEBUGGER_COMMAND_ARGUMENTS 属性。请查看该目标属性以了解其他信息。"
+	},
+	"CMAKE_VS_DEBUGGER_ENVIRONMENT": {
+		"name": "CMAKE_VS_DEBUGGER_ENVIRONMENT",
+		"description": "此变量用于在创建目标时初始化每个目标上的 VS_DEBUGGER_ENVIRONMENT 属性。请查看该目标属性以了解其他信息。"
+	},
+	"CMAKE_VS_DEBUGGER_WORKING_DIRECTORY": {
+		"name": "CMAKE_VS_DEBUGGER_WORKING_DIRECTORY",
+		"description": "此变量用于在创建目标时初始化每个目标上的 VS_DEBUGGER_WORKING_DIRECTORY 属性。请查看该目标属性以了解其他信息。"
+	},
+	"CMAKE_VS_DEVENV_COMMAND": {
+		"name": "CMAKE_VS_DEVENV_COMMAND",
+		"description": "Visual Studio 12 2013 及更高版本的生成器将此变量设置为使用相应 Visual Studio 版本安装的 devenv.com 命令。请注意，此变量在 Visual Studio Express 版本上可能为空，因为这些版本不提供此工具。"
+	},
+	"CMAKE_VS_GLOBALS": {
+		"name": "CMAKE_VS_GLOBALS",
+		"description": "Key=Value 记录列表，每个目标的目标属性设置为 VS_GLOBAL_ 和 variable=Key，值设置为 Value。"
+	},
+	"CMAKE_VS_INCLUDE_INSTALL_TO_DEFAULT_BUILD": {
+		"name": "CMAKE_VS_INCLUDE_INSTALL_TO_DEFAULT_BUILD",
+		"description": "包括要默认生成的安装目标。"
+	},
+	"CMAKE_VS_INCLUDE_PACKAGE_TO_DEFAULT_BUILD": {
+		"name": "CMAKE_VS_INCLUDE_PACKAGE_TO_DEFAULT_BUILD",
+		"description": "包括要默认生成的包目标。"
+	},
+	"CMAKE_VS_INTEL_Fortran_PROJECT_VERSION": {
+		"name": "CMAKE_VS_INTEL_Fortran_PROJECT_VERSION",
+		"description": "针对已安装 Intel Fortran 插件的 Visual Studio 12 2013 或更高版本进行生成时，这将指定 .vfproj 项目文件格式版本。这供 CMake 在内部使用，并且不应由项目代码使用。"
+	},
+	"CMAKE_VS_JUST_MY_CODE_DEBUGGING": {
+		"name": "CMAKE_VS_JUST_MY_CODE_DEBUGGING",
+		"description": "使用 Visual Studio 调试器启用“仅我的代码”。"
+	},
+	"CMAKE_VS_MSBUILD_COMMAND": {
+		"name": "CMAKE_VS_MSBUILD_COMMAND",
+		"description": "Visual Studio 12 2013 及更高版本的生成器将此变量设置为使用相应 Visual Studio 版本安装的 MSBuild.exe 命令。"
+	},
+	"CMAKE_VS_NO_COMPILE_BATCHING": {
+		"name": "CMAKE_VS_NO_COMPILE_BATCHING",
+		"description": "使用 Visual Studio 生成器时禁用编译批处理。"
+	},
+	"CMAKE_VS_NsightTegra_VERSION": {
+		"name": "CMAKE_VS_NsightTegra_VERSION",
+		"description": "使用 CMAKE_SYSTEM_NAME 变量设置为 Android 的 Visual Studio 生成器时，此变量包含已安装的 NVIDIA Nsight Tegra Visual Studio Edition 的版本号。"
+	},
+	"CMAKE_VS_NUGET_PACKAGE_RESTORE": {
+		"name": "CMAKE_VS_NUGET_PACKAGE_RESTORE",
+		"description": "使用 Visual Studio 生成器时，此缓存变量控制 msbuild 是否应在生成之前自动尝试还原 NuGet 包。可以使用目标上的 VS_PACKAGE_REFERENCES 属性定义 NuGet 包。如果未定义包引用，则此设置将不执行任何操作。"
+	},
+	"CMAKE_VS_PLATFORM_NAME": {
+		"name": "CMAKE_VS_PLATFORM_NAME",
+		"description": "当前生成器使用的 Visual Studio 目标平台名称。"
+	},
+	"CMAKE_VS_PLATFORM_NAME_DEFAULT": {
+		"name": "CMAKE_VS_PLATFORM_NAME_DEFAULT",
+		"description": "当前生成器的 Visual Studio 目标平台名称的默认值，不考虑 CMAKE_GENERATOR_PLATFORM 变量的值。对于 VS 2017 及更低版本的 Visual Studio 生成器，它始终是 Win32。对于 VS 2019 及更高版本，该值取决于主机平台。"
+	},
+	"CMAKE_VS_PLATFORM_TOOLSET": {
+		"name": "CMAKE_VS_PLATFORM_TOOLSET",
+		"description": "Visual Studio 平台工具集名称。"
+	},
+	"CMAKE_VS_PLATFORM_TOOLSET_CUDA": {
+		"name": "CMAKE_VS_PLATFORM_TOOLSET_CUDA",
+		"description": "要使用其 Visual Studio 工具集的 NVIDIA CUDA 工具包版本。"
+	},
+	"CMAKE_VS_PLATFORM_TOOLSET_CUDA_CUSTOM_DIR": {
+		"name": "CMAKE_VS_PLATFORM_TOOLSET_CUDA_CUSTOM_DIR",
+		"description": "指向独立 NVIDIA CUDA 工具包(例如已从安装程序中提取的工具包)的路径。"
+	},
+	"CMAKE_VS_PLATFORM_TOOLSET_FORTRAN": {
+		"name": "CMAKE_VS_PLATFORM_TOOLSET_FORTRAN",
+		"description": "Visual Studio 项目要使用的 Fortran 编译器。"
+	},
+	"CMAKE_VS_PLATFORM_TOOLSET_HOST_ARCHITECTURE": {
+		"name": "CMAKE_VS_PLATFORM_TOOLSET_HOST_ARCHITECTURE",
+		"description": "Visual Studio 首选工具体系结构。"
+	},
+	"CMAKE_VS_PLATFORM_TOOLSET_VERSION": {
+		"name": "CMAKE_VS_PLATFORM_TOOLSET_VERSION",
+		"description": "Visual Studio 平台工具集版本。"
+	},
+	"CMAKE_VS_SDK_EXCLUDE_DIRECTORIES": {
+		"name": "CMAKE_VS_SDK_EXCLUDE_DIRECTORIES",
+		"description": "此变量允许重写 Visual Studio 默认排除目录。"
+	},
+	"CMAKE_VS_SDK_EXECUTABLE_DIRECTORIES": {
+		"name": "CMAKE_VS_SDK_EXECUTABLE_DIRECTORIES",
+		"description": "此变量允许重写 Visual Studio 默认可执行文件目录。"
+	},
+	"CMAKE_VS_SDK_INCLUDE_DIRECTORIES": {
+		"name": "CMAKE_VS_SDK_INCLUDE_DIRECTORIES",
+		"description": "此变量允许重写 Visual Studio 默认包含目录。"
+	},
+	"CMAKE_VS_SDK_LIBRARY_DIRECTORIES": {
+		"name": "CMAKE_VS_SDK_LIBRARY_DIRECTORIES",
+		"description": "此变量允许重写 Visual Studio 默认库目录。"
+	},
+	"CMAKE_VS_SDK_LIBRARY_WINRT_DIRECTORIES": {
+		"name": "CMAKE_VS_SDK_LIBRARY_WINRT_DIRECTORIES",
+		"description": "此变量允许重写 Visual Studio 默认库 WinRT 目录。"
+	},
+	"CMAKE_VS_SDK_REFERENCE_DIRECTORIES": {
+		"name": "CMAKE_VS_SDK_REFERENCE_DIRECTORIES",
+		"description": "此变量允许重写 Visual Studio 默认引用目录。"
+	},
+	"CMAKE_VS_SDK_SOURCE_DIRECTORIES": {
+		"name": "CMAKE_VS_SDK_SOURCE_DIRECTORIES",
+		"description": "此变量允许重写 Visual Studio 默认源目录。"
+	},
+	"CMAKE_VS_TARGET_FRAMEWORK_IDENTIFIER": {
+		"name": "CMAKE_VS_TARGET_FRAMEWORK_IDENTIFIER",
+		"description": "Visual Studio 目标框架标识符。"
+	},
+	"CMAKE_VS_TARGET_FRAMEWORK_TARGETS_VERSION": {
+		"name": "CMAKE_VS_TARGET_FRAMEWORK_TARGETS_VERSION",
+		"description": "Visual Studio 目标框架面向版本。"
+	},
+	"CMAKE_VS_TARGET_FRAMEWORK_VERSION": {
+		"name": "CMAKE_VS_TARGET_FRAMEWORK_VERSION",
+		"description": "Visual Studio 目标框架版本。"
+	},
+	"CMAKE_VS_USE_DEBUG_LIBRARIES": {
+		"name": "CMAKE_VS_USE_DEBUG_LIBRARIES",
+		"description": "指示 Visual Studio 生成器将哪些配置视为调试配置。这将控制 .vcxproj 文件的每个配置中的 UseDebugLibraries 设置。"
+	},
+	"CMAKE_VS_VERSION_BUILD_NUMBER": {
+		"name": "CMAKE_VS_VERSION_BUILD_NUMBER",
+		"description": "Visual Studio 版本。"
+	},
+	"CMAKE_VS_WINDOWS_TARGET_PLATFORM_MIN_VERSION": {
+		"name": "CMAKE_VS_WINDOWS_TARGET_PLATFORM_MIN_VERSION",
+		"description": "告知 Visual Studio 生成器使用给定的 Windows 目标平台最低版本。"
+	},
+	"CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION": {
+		"name": "CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION",
+		"description": "Visual Studio Windows 目标平台版本。"
+	},
+	"CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION_MAXIMUM": {
+		"name": "CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION_MAXIMUM",
+		"description": "替代 VS 2015 及更高版本的 Windows 10 SDK 最高版本。"
+	},
+	"CMAKE_VS_WINRT_BY_DEFAULT": {
+		"name": "CMAKE_VS_WINRT_BY_DEFAULT",
+		"description": "通知 VS 2010 及以上版本的 Visual Studio 生成器，目标平台默认启用 WinRT 编译，若忽略 /ZW 或 VS_WINRT_COMPONENT，则需显式禁用，若其中任一选项存在，则需启用。"
+	},
+	"CMAKE_WARN_DEPRECATED": {
+		"name": "CMAKE_WARN_DEPRECATED",
+		"description": "是否针对已弃用的功能发出警告。"
+	},
+	"CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION": {
+		"name": "CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION",
+		"description": "在每次遇到带有绝对安装目标的文件时，请求 cmake_install.cmake 脚本发出警告。"
+	},
+	"CMAKE_WATCOM_RUNTIME_LIBRARY": {
+		"name": "CMAKE_WATCOM_RUNTIME_LIBRARY",
+		"description": "选择 Watcom 运行时库以供面向 Watcom ABI 的编译器使用。此变量用于在创建目标时初始化所有目标上的 WATCOM_RUNTIME_LIBRARY 属性。它还通过对 try_compile 命令的调用传播到测试项目中。"
+	},
+	"CMAKE_WIN32_EXECUTABLE": {
+		"name": "CMAKE_WIN32_EXECUTABLE",
+		"description": "目标的 WIN32_EXECUTABLE 的默认值。"
+	},
+	"CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS": {
+		"name": "CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS",
+		"description": "WINDOWS_EXPORT_ALL_SYMBOLS 目标属性的默认值。此变量用于初始化每个目标上的属性(在创建该属性时)。"
+	},
+	"CMAKE_XCODE_ATTRIBUTE_<an-attribute>": {
+		"name": "CMAKE_XCODE_ATTRIBUTE_<an-attribute>",
+		"description": "直接设置 Xcode 目标属性。"
+	},
+	"CMAKE_XCODE_BUILD_SYSTEM": {
+		"name": "CMAKE_XCODE_BUILD_SYSTEM",
+		"description": "Xcode 生成系统选择。"
+	},
+	"CMAKE_XCODE_GENERATE_SCHEME": {
+		"name": "CMAKE_XCODE_GENERATE_SCHEME",
+		"description": "如果已启用，Xcode 生成器将生成架构文件。这些文件对于从命令行调用分析、存档、测试生成和测试操作非常有用。"
+	},
+	"CMAKE_XCODE_GENERATE_TOP_LEVEL_PROJECT_ONLY": {
+		"name": "CMAKE_XCODE_GENERATE_TOP_LEVEL_PROJECT_ONLY",
+		"description": "如果已启用，Xcode 生成器只会为最高级别的 project() 命令生成单个 Xcode 项目文件，而不是为每个 project() 命令生成一个文件。"
+	},
+	"CMAKE_XCODE_LINK_BUILD_PHASE_MODE": {
+		"name": "CMAKE_XCODE_LINK_BUILD_PHASE_MODE",
+		"description": "此变量用于初始化目标上的 XCODE_LINK_BUILD_PHASE_MODE 属性。它会影响 Xcode 生成器用于链接不同类型库的方法。其默认值为“无”。"
+	},
+	"CMAKE_XCODE_PLATFORM_TOOLSET": {
+		"name": "CMAKE_XCODE_PLATFORM_TOOLSET",
+		"description": "Xcode 编译器选项。"
+	},
+	"CMAKE_XCODE_SCHEME_ADDRESS_SANITIZER": {
+		"name": "CMAKE_XCODE_SCHEME_ADDRESS_SANITIZER",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用地址擦除系统。"
+	},
+	"CMAKE_XCODE_SCHEME_ADDRESS_SANITIZER_USE_AFTER_RETURN": {
+		"name": "CMAKE_XCODE_SCHEME_ADDRESS_SANITIZER_USE_AFTER_RETURN",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用检测返回后的堆栈使用情况。"
+	},
+	"CMAKE_XCODE_SCHEME_DEBUG_DOCUMENT_VERSIONING": {
+		"name": "CMAKE_XCODE_SCHEME_DEBUG_DOCUMENT_VERSIONING",
+		"description": "在生成的 Xcode 方案的“选项”部分中是否启用“在使用文档版本浏览器时允许调试”。"
+	},
+	"CMAKE_XCODE_SCHEME_DISABLE_MAIN_THREAD_CHECKER": {
+		"name": "CMAKE_XCODE_SCHEME_DISABLE_MAIN_THREAD_CHECKER",
+		"description": "是否在生成的 Xcode 架构的 Diagnostics 部分禁用 Main Thread Checker"
+	},
+	"CMAKE_XCODE_SCHEME_DYNAMIC_LIBRARY_LOADS": {
+		"name": "CMAKE_XCODE_SCHEME_DYNAMIC_LIBRARY_LOADS",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用动态库加载。"
+	},
+	"CMAKE_XCODE_SCHEME_DYNAMIC_LINKER_API_USAGE": {
+		"name": "CMAKE_XCODE_SCHEME_DYNAMIC_LINKER_API_USAGE",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用动态链接器 API 使用情况。"
+	},
+	"CMAKE_XCODE_SCHEME_ENABLE_GPU_API_VALIDATION": {
+		"name": "CMAKE_XCODE_SCHEME_ENABLE_GPU_API_VALIDATION",
+		"description": "所生成的 Xcode 方案“选项”部分中的 Metal: API 验证的属性值。"
+	},
+	"CMAKE_XCODE_SCHEME_ENABLE_GPU_FRAME_CAPTURE_MODE": {
+		"name": "CMAKE_XCODE_SCHEME_ENABLE_GPU_FRAME_CAPTURE_MODE",
+		"description": "生成的 Xcode 方案的“选项”部分中 GPU 帧捕获的属性值。示例值为 Metal 和 Disabled。"
+	},
+	"CMAKE_XCODE_SCHEME_ENABLE_GPU_SHADER_VALIDATION": {
+		"name": "CMAKE_XCODE_SCHEME_ENABLE_GPU_SHADER_VALIDATION",
+		"description": "所生成的 Xcode 方案“选项”部分中 Metal: 着色器验证的属性值。"
+	},
+	"CMAKE_XCODE_SCHEME_ENVIRONMENT": {
+		"name": "CMAKE_XCODE_SCHEME_ENVIRONMENT",
+		"description": "指定应添加到生成的 Xcode 方案的参数部分的环境变量。"
+	},
+	"CMAKE_XCODE_SCHEME_GUARD_MALLOC": {
+		"name": "CMAKE_XCODE_SCHEME_GUARD_MALLOC",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Guard Malloc。"
+	},
+	"CMAKE_XCODE_SCHEME_LAUNCH_CONFIGURATION": {
+		"name": "CMAKE_XCODE_SCHEME_LAUNCH_CONFIGURATION",
+		"description": "设置生成配置以运行目标。"
+	},
+	"CMAKE_XCODE_SCHEME_LAUNCH_MODE": {
+		"name": "CMAKE_XCODE_SCHEME_LAUNCH_MODE",
+		"description": "生成的 Xcode 方案“信息”部分中“启动”的属性值。"
+	},
+	"CMAKE_XCODE_SCHEME_MAIN_THREAD_CHECKER_STOP": {
+		"name": "CMAKE_XCODE_SCHEME_MAIN_THREAD_CHECKER_STOP",
+		"description": "是否在生成的 Xcode 架构的 Diagnostics 部分启用对问题的 Main Thread Checker 选项 Pause。"
+	},
+	"CMAKE_XCODE_SCHEME_MALLOC_GUARD_EDGES": {
+		"name": "CMAKE_XCODE_SCHEME_MALLOC_GUARD_EDGES",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Malloc Guard Edges。"
+	},
+	"CMAKE_XCODE_SCHEME_MALLOC_SCRIBBLE": {
+		"name": "CMAKE_XCODE_SCHEME_MALLOC_SCRIBBLE",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Malloc Scribble。"
+	},
+	"CMAKE_XCODE_SCHEME_MALLOC_STACK": {
+		"name": "CMAKE_XCODE_SCHEME_MALLOC_STACK",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Malloc Stack。"
+	},
+	"CMAKE_XCODE_SCHEME_THREAD_SANITIZER": {
+		"name": "CMAKE_XCODE_SCHEME_THREAD_SANITIZER",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用线程擦除系统。"
+	},
+	"CMAKE_XCODE_SCHEME_THREAD_SANITIZER_STOP": {
+		"name": "CMAKE_XCODE_SCHEME_THREAD_SANITIZER_STOP",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用“线程擦除系统 - 在出现问题时暂停”。"
+	},
+	"CMAKE_XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER": {
+		"name": "CMAKE_XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用未定义行为擦除系统。"
+	},
+	"CMAKE_XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER_STOP": {
+		"name": "CMAKE_XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER_STOP",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用未定义行为擦除系统选项“在出现问题时暂停”。"
+	},
+	"CMAKE_XCODE_SCHEME_WORKING_DIRECTORY": {
+		"name": "CMAKE_XCODE_SCHEME_WORKING_DIRECTORY",
+		"description": "在生成的 Xcode 方案中指定运行和配置文件操作的工作目录。"
+	},
+	"CMAKE_XCODE_SCHEME_ZOMBIE_OBJECTS": {
+		"name": "CMAKE_XCODE_SCHEME_ZOMBIE_OBJECTS",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Zombie 对象。"
+	},
+	"CMAKE_XCODE_XCCONFIG": {
+		"name": "CMAKE_XCODE_XCCONFIG",
+		"description": "如果设置，Xcode 生成器会将指定的文件注册为全局 XCConfig 文件。有关目标级别 XCConfig 文件，请参阅 XCODE_XCCONFIG 目标属性。"
+	},
+	"CPACK_ABSOLUTE_DESTINATION_FILES": {
+		"name": "CPACK_ABSOLUTE_DESTINATION_FILES",
+		"description": "已使用绝对目标路径安装的文件列表。"
+	},
+	"CPACK_COMPONENT_INCLUDE_TOPLEVEL_DIRECTORY": {
+		"name": "CPACK_COMPONENT_INCLUDE_TOPLEVEL_DIRECTORY",
+		"description": "用于包括/排除顶级目录(组件大小写)的布尔开关。"
+	},
+	"CPACK_CUSTOM_INSTALL_VARIABLES": {
+		"name": "CPACK_CUSTOM_INSTALL_VARIABLES",
+		"description": "CPack 变量(通过例如 cpack -D、CPackConfig.cmake 或 CPACK_PROJECT_CONFIG_FILE 脚本设置)在安装脚本中不直接可见。相反，可以在CPACK_CUSTOM_INSTALL_VARIABLES 变量中传递 varName=value 对的列表。在安装时，每个列表项将导致指定名称(varName)的变量设置为给定值。对于空值，可以省略 =。"
+	},
+	"CPACK_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION": {
+		"name": "CPACK_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION",
+		"description": "让 CPack 在遇到具有绝对安装目标的文件时发出错误。"
+	},
+	"CPACK_INCLUDE_TOPLEVEL_DIRECTORY": {
+		"name": "CPACK_INCLUDE_TOPLEVEL_DIRECTORY",
+		"description": "用于包括/排除顶级目录的布尔开关。"
+	},
+	"CPACK_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS": {
+		"name": "CPACK_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS",
+		"description": "打包期间隐式创建的目录的默认权限。"
+	},
+	"CPACK_PACKAGING_INSTALL_PREFIX": {
+		"name": "CPACK_PACKAGING_INSTALL_PREFIX",
+		"description": "生成包中使用的前缀。"
+	},
+	"CPACK_SET_DESTDIR": {
+		"name": "CPACK_SET_DESTDIR",
+		"description": "用于在打包时使 CPack 使用 DESTDIR 机制的布尔开关。"
+	},
+	"CPACK_WARN_ON_ABSOLUTE_INSTALL_DESTINATION": {
+		"name": "CPACK_WARN_ON_ABSOLUTE_INSTALL_DESTINATION",
+		"description": "让 CPack 在每次遇到具有绝对安装目标的文件时发出警告。"
+	},
+	"CTEST_BINARY_DIRECTORY": {
+		"name": "CTEST_BINARY_DIRECTORY",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest BuildDirectory 设置。"
+	},
+	"CTEST_BUILD_COMMAND": {
+		"name": "CTEST_BUILD_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest MakeCommand 设置。"
+	},
+	"CTEST_BUILD_NAME": {
+		"name": "CTEST_BUILD_NAME",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest BuildName 设置。"
+	},
+	"CTEST_BZR_COMMAND": {
+		"name": "CTEST_BZR_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest BZRCommand 设置。"
+	},
+	"CTEST_BZR_UPDATE_OPTIONS": {
+		"name": "CTEST_BZR_UPDATE_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest BZRUpdateOptions 设置。"
+	},
+	"CTEST_CHANGE_ID": {
+		"name": "CTEST_CHANGE_ID",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest ChangeId 设置。"
+	},
+	"CTEST_CHECKOUT_COMMAND": {
+		"name": "CTEST_CHECKOUT_COMMAND",
+		"description": "指示 ctest_start 命令如何签出或初始化 ctest 仪表板客户端脚本中的源目录。"
+	},
+	"CTEST_CONFIGURATION_TYPE": {
+		"name": "CTEST_CONFIGURATION_TYPE",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest DefaultCTestConfigurationType 设置。"
+	},
+	"CTEST_CONFIGURE_COMMAND": {
+		"name": "CTEST_CONFIGURE_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest ConfigureCommand 设置。"
+	},
+	"CTEST_COVERAGE_COMMAND": {
+		"name": "CTEST_COVERAGE_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest CoverageCommand 设置。"
+	},
+	"CTEST_COVERAGE_EXTRA_FLAGS": {
+		"name": "CTEST_COVERAGE_EXTRA_FLAGS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest CoverageExtraFlags 设置。"
+	},
+	"CTEST_CURL_OPTIONS": {
+		"name": "CTEST_CURL_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest CurlOptions 设置。"
+	},
+	"CTEST_CUSTOM_COVERAGE_EXCLUDE": {
+		"name": "CTEST_CUSTOM_COVERAGE_EXCLUDE",
+		"description": "一个正则表达式列表，将用于通过 ctest_coverage 命令按覆盖输出中的文件路径来执行文件。"
+	},
+	"CTEST_CUSTOM_ERROR_EXCEPTION": {
+		"name": "CTEST_CUSTOM_ERROR_EXCEPTION",
+		"description": "用于通过 ctest_build 命令在生成输出中检测错误消息时执行排除操作的正则表达式的列表。"
+	},
+	"CTEST_CUSTOM_ERROR_MATCH": {
+		"name": "CTEST_CUSTOM_ERROR_MATCH",
+		"description": "用于通过 ctest_build 命令在生成输出中检测错误消息的正则表达式的列表。"
+	},
+	"CTEST_CUSTOM_ERROR_POST_CONTEXT": {
+		"name": "CTEST_CUSTOM_ERROR_POST_CONTEXT",
+		"description": "要以上下文的形式添加的通过 ctest_build 命令显示在错误消息之后的行的数目。默认值为 10。"
+	},
+	"CTEST_CUSTOM_ERROR_PRE_CONTEXT": {
+		"name": "CTEST_CUSTOM_ERROR_PRE_CONTEXT",
+		"description": "要以上下文的形式添加的通过 ctest_build 命令显示在错误消息之前的行的数目。默认值为 10。"
+	},
+	"CTEST_CUSTOM_MAXIMUM_FAILED_TEST_OUTPUT_SIZE": {
+		"name": "CTEST_CUSTOM_MAXIMUM_FAILED_TEST_OUTPUT_SIZE",
+		"description": "保存失败测试的输出时，这是 ctest_test 命令将收集的最大大小(以字节为单位)。默认值为 307200 (300 KiB)。请参阅 CTEST_CUSTOM_TEST_OUTPUT_TRUNCATION 以了解可能的截断模式。"
+	},
+	"CTEST_CUSTOM_MAXIMUM_NUMBER_OF_ERRORS": {
+		"name": "CTEST_CUSTOM_MAXIMUM_NUMBER_OF_ERRORS",
+		"description": "单个生成步骤中将检测到的最大错误数量。超过此数量后，ctest_test 命令将截断输出。默认值为 50。"
+	},
+	"CTEST_CUSTOM_MAXIMUM_NUMBER_OF_WARNINGS": {
+		"name": "CTEST_CUSTOM_MAXIMUM_NUMBER_OF_WARNINGS",
+		"description": "单个生成步骤中将检测到的最大警告数量。超过此数量后，ctest_test 命令将截断输出。默认值为 50。"
+	},
+	"CTEST_CUSTOM_MAXIMUM_PASSED_TEST_OUTPUT_SIZE": {
+		"name": "CTEST_CUSTOM_MAXIMUM_PASSED_TEST_OUTPUT_SIZE",
+		"description": "保存通过测试的输出时，这是 ctest_test 命令将收集的最大大小(以字节为单位)。默认值为 1024 (1 KiB)。请参阅 CTEST_CUSTOM_TEST_OUTPUT_TRUNCATION 以了解可能的截断模式。"
+	},
+	"CTEST_CUSTOM_MEMCHECK_IGNORE": {
+		"name": "CTEST_CUSTOM_MEMCHECK_IGNORE",
+		"description": "一个正则表达式列表，用于在 ctest_memcheck 命令运行期间排除测试。"
+	},
+	"CTEST_CUSTOM_POST_MEMCHECK": {
+		"name": "CTEST_CUSTOM_POST_MEMCHECK",
+		"description": "在 Ctest_memcheck 命令结束时运行的命令列表。"
+	},
+	"CTEST_CUSTOM_POST_TEST": {
+		"name": "CTEST_CUSTOM_POST_TEST",
+		"description": "在 ctest_test 命令结束时运行的命令列表。"
+	},
+	"CTEST_CUSTOM_PRE_MEMCHECK": {
+		"name": "CTEST_CUSTOM_PRE_MEMCHECK",
+		"description": "在 Ctest_memcheck 命令开始时运行的命令列表。"
+	},
+	"CTEST_CUSTOM_PRE_TEST": {
+		"name": "CTEST_CUSTOM_PRE_TEST",
+		"description": "在 ctest_test 命令开始时运行的命令列表。"
+	},
+	"CTEST_CUSTOM_TESTS_IGNORE": {
+		"name": "CTEST_CUSTOM_TESTS_IGNORE",
+		"description": "要从由 ctest_test 命令运行的测试集中排除的测试名称列表。"
+	},
+	"CTEST_CUSTOM_TEST_OUTPUT_TRUNCATION": {
+		"name": "CTEST_CUSTOM_TEST_OUTPUT_TRUNCATION",
+		"description": "设置测试输出截断模式，以防通过 CTEST_CUSTOM_MAXIMUM_PASSED_TEST_OUTPUT_SIZE 或 CTEST_CUSTOM_MAXIMUM_FAILED_TEST_OUTPUT_SIZE 变量配置最大大小。默认情况下，将会截断输出的尾部。其他可能的值为中间值和头值。"
+	},
+	"CTEST_CUSTOM_WARNING_EXCEPTION": {
+		"name": "CTEST_CUSTOM_WARNING_EXCEPTION",
+		"description": "正则表达式列表，用于通过 ctest_build 命令在生成输出中检测到警告消息时进行排除。"
+	},
+	"CTEST_CUSTOM_WARNING_MATCH": {
+		"name": "CTEST_CUSTOM_WARNING_MATCH",
+		"description": "正则表达式列表，用于通过 ctest_build 命令在生成输出中检测警告消息。"
+	},
+	"CTEST_CVS_CHECKOUT": {
+		"name": "CTEST_CVS_CHECKOUT",
+		"description": "已弃用。请改用 CTEST_CHECKOUT_COMMAND。"
+	},
+	"CTEST_CVS_COMMAND": {
+		"name": "CTEST_CVS_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest CVSCommand 设置。"
+	},
+	"CTEST_CVS_UPDATE_OPTIONS": {
+		"name": "CTEST_CVS_UPDATE_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest CVSUpdateOptions 设置。"
+	},
+	"CTEST_DROP_LOCATION": {
+		"name": "CTEST_DROP_LOCATION",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest DropLocation 设置。"
+	},
+	"CTEST_DROP_METHOD": {
+		"name": "CTEST_DROP_METHOD",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest DropMethod 设置。"
+	},
+	"CTEST_DROP_SITE": {
+		"name": "CTEST_DROP_SITE",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest DropSite 设置。"
+	},
+	"CTEST_DROP_SITE_CDASH": {
+		"name": "CTEST_DROP_SITE_CDASH",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest IsCDash 设置。"
+	},
+	"CTEST_DROP_SITE_PASSWORD": {
+		"name": "CTEST_DROP_SITE_PASSWORD",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest DropSitePassword 设置。"
+	},
+	"CTEST_DROP_SITE_USER": {
+		"name": "CTEST_DROP_SITE_USER",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest DropSiteUser 设置。"
+	},
+	"CTEST_EXTRA_COVERAGE_GLOB": {
+		"name": "CTEST_EXTRA_COVERAGE_GLOB",
+		"description": "一个正则表达式列表，将用于通过 ctest_coverage 命令查找要覆盖的文件。"
+	},
+	"CTEST_GIT_COMMAND": {
+		"name": "CTEST_GIT_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest GITCommand 设置。"
+	},
+	"CTEST_GIT_INIT_SUBMODULES": {
+		"name": "CTEST_GIT_INIT_SUBMODULES",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest GITInitSubmodules 设置。"
+	},
+	"CTEST_GIT_UPDATE_CUSTOM": {
+		"name": "CTEST_GIT_UPDATE_CUSTOM",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest GITUpdateCustom 设置。"
+	},
+	"CTEST_GIT_UPDATE_OPTIONS": {
+		"name": "CTEST_GIT_UPDATE_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest GITUpdateOptions 设置。"
+	},
+	"CTEST_HG_COMMAND": {
+		"name": "CTEST_HG_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest HGCommand 设置。"
+	},
+	"CTEST_HG_UPDATE_OPTIONS": {
+		"name": "CTEST_HG_UPDATE_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest HGUpdateOptions 设置。"
+	},
+	"CTEST_LABELS_FOR_SUBPROJECTS": {
+		"name": "CTEST_LABELS_FOR_SUBPROJECTS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest LabelsForSubprojects 设置。"
+	},
+	"CTEST_MEMORYCHECK_COMMAND": {
+		"name": "CTEST_MEMORYCHECK_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest MemoryCheckCommand 设置。"
+	},
+	"CTEST_MEMORYCHECK_COMMAND_OPTIONS": {
+		"name": "CTEST_MEMORYCHECK_COMMAND_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest MemoryCheckCommandOptions 设置。"
+	},
+	"CTEST_MEMORYCHECK_SANITIZER_OPTIONS": {
+		"name": "CTEST_MEMORYCHECK_SANITIZER_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest MemoryCheckSanitizerOptions 设置。"
+	},
+	"CTEST_MEMORYCHECK_SUPPRESSIONS_FILE": {
+		"name": "CTEST_MEMORYCHECK_SUPPRESSIONS_FILE",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest MemoryCheckSuppressionFile 设置。"
+	},
+	"CTEST_MEMORYCHECK_TYPE": {
+		"name": "CTEST_MEMORYCHECK_TYPE",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest MemoryCheckType 设置。有效值为 Valgrind、Purify、BoundsChecker、DrMemory、CudaSanitizer、ThreadSanitizer、AddressSanitizer、LeakSanitizer、MemorySanitizer 以及 UndefinedBehaviorSanitizer。"
+	},
+	"CTEST_NIGHTLY_START_TIME": {
+		"name": "CTEST_NIGHTLY_START_TIME",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest NightlyStartTime 设置。"
+	},
+	"CTEST_P4_CLIENT": {
+		"name": "CTEST_P4_CLIENT",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest P4Client 设置。"
+	},
+	"CTEST_P4_COMMAND": {
+		"name": "CTEST_P4_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest P4Command 设置。"
+	},
+	"CTEST_P4_OPTIONS": {
+		"name": "CTEST_P4_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest P4Options 设置。"
+	},
+	"CTEST_P4_UPDATE_OPTIONS": {
+		"name": "CTEST_P4_UPDATE_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest P4UpdateOptions 设置。"
+	},
+	"CTEST_RESOURCE_SPEC_FILE": {
+		"name": "CTEST_RESOURCE_SPEC_FILE",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest ResourceSpecFile 设置。"
+	},
+	"CTEST_RUN_CURRENT_SCRIPT": {
+		"name": "CTEST_RUN_CURRENT_SCRIPT",
+		"description": "将此值设为 0，可以防止 ctest 在达到通过调用 ctest -S 运行的脚本末尾时再次运行。"
+	},
+	"CTEST_SCP_COMMAND": {
+		"name": "CTEST_SCP_COMMAND",
+		"description": "旧版选项。未使用。"
+	},
+	"CTEST_SCRIPT_DIRECTORY": {
+		"name": "CTEST_SCRIPT_DIRECTORY",
+		"description": "包含顶级 CTest 脚本的目录。概念类似于CMAKE_SOURCE_DIR。"
+	},
+	"CTEST_SITE": {
+		"name": "CTEST_SITE",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest Site 设置。"
+	},
+	"CTEST_SOURCE_DIRECTORY": {
+		"name": "CTEST_SOURCE_DIRECTORY",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest SourceDirectory 设置。"
+	},
+	"CTEST_SUBMIT_INACTIVITY_TIMEOUT": {
+		"name": "CTEST_SUBMIT_INACTIVITY_TIMEOUT",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest SubmitInactivityTimeout 设置。"
+	},
+	"CTEST_SUBMIT_URL": {
+		"name": "CTEST_SUBMIT_URL",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest SubmitURL 设置。"
+	},
+	"CTEST_SVN_COMMAND": {
+		"name": "CTEST_SVN_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest SVNCommand 设置。"
+	},
+	"CTEST_SVN_OPTIONS": {
+		"name": "CTEST_SVN_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest SVNOptions 设置。"
+	},
+	"CTEST_SVN_UPDATE_OPTIONS": {
+		"name": "CTEST_SVN_UPDATE_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest SVNUpdateOptions 设置。"
+	},
+	"CTEST_TEST_LOAD": {
+		"name": "CTEST_TEST_LOAD",
+		"description": "在 ctest 仪表板客户端脚本的 CTest 测试步骤中指定 TestLoad 设置。此操作可设置 ctest_test 命令的 TEST_LOAD 选项的默认值。"
+	},
+	"CTEST_TEST_TIMEOUT": {
+		"name": "CTEST_TEST_TIMEOUT",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest TimeOut 设置。"
+	},
+	"CTEST_TLS_VERIFY": {
+		"name": "CTEST_TLS_VERIFY",
+		"description": "在 ctest 仪表板客户端脚本或项目 CMakeLists.txt 代码中指定 CTest TLSVerify 设置，然后再添加 CTest 模块。该值是一个布尔值，指示在通过 https:// URL 提交到仪表板时是否验证服务器证书。"
+	},
+	"CTEST_TLS_VERSION": {
+		"name": "CTEST_TLS_VERSION",
+		"description": "在 ctest 仪表板客户端脚本或项目 CMakeLists.txt 代码中指定 CTest TLSVersion 设置，然后再添加 CTest 模块。该值是通过 https:// URL 提交到仪表板时允许使用的最低 TLS 版本。"
+	},
+	"CTEST_TRIGGER_SITE": {
+		"name": "CTEST_TRIGGER_SITE",
+		"description": "旧版选项。未使用。"
+	},
+	"CTEST_UPDATE_COMMAND": {
+		"name": "CTEST_UPDATE_COMMAND",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest UpdateCommand 设置。"
+	},
+	"CTEST_UPDATE_OPTIONS": {
+		"name": "CTEST_UPDATE_OPTIONS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest UpdateOptions 设置。"
+	},
+	"CTEST_UPDATE_VERSION_ONLY": {
+		"name": "CTEST_UPDATE_VERSION_ONLY",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest UpdateVersionOnly 设置。"
+	},
+	"CTEST_UPDATE_VERSION_OVERRIDE": {
+		"name": "CTEST_UPDATE_VERSION_OVERRIDE",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest UpdateVersionOverride 设置。"
+	},
+	"CTEST_USE_LAUNCHERS": {
+		"name": "CTEST_USE_LAUNCHERS",
+		"description": "在 ctest 仪表板客户端脚本中指定 CTest UseLaunchers 设置。"
+	},
+	"CYGWIN": {
+		"name": "CYGWIN",
+		"description": "对于 Cygwin，为 true。"
+	},
+	"ENV": {
+		"name": "ENV",
+		"description": "用于读取环境变量的运算符。"
+	},
+	"EXECUTABLE_OUTPUT_PATH": {
+		"name": "EXECUTABLE_OUTPUT_PATH",
+		"description": "旧的可执行位置变量。"
+	},
+	"GHSMULTI": {
+		"name": "GHSMULTI",
+		"description": "使用 Green Hills MULTI 生成器时为 1。"
+	},
+	"IOS": {
+		"name": "IOS",
+		"description": "目标系统(CMAKE_SYSTEM_NAME)为 iOS 时设置为 1。"
+	},
+	"LIBRARY_OUTPUT_PATH": {
+		"name": "LIBRARY_OUTPUT_PATH",
+		"description": "旧的库位置变量。"
+	},
+	"LINUX": {
+		"name": "LINUX",
+		"description": "当目标系统为 Linux 时，设置为 true。"
+	},
+	"MINGW": {
+		"name": "MINGW",
+		"description": "如果在 Windows (MinGW) 上使用面向 GNU ABI 的编译器启用至少一种语言，则设置为 true 值。"
+	},
+	"MSVC": {
+		"name": "MSVC",
+		"description": "当编译器是某版本的 Microsoft Visual C++ 或其他模拟 Visual C++ cl 命令行语法的编译器时，设置为 true。"
+	},
+	"MSVC10": {
+		"name": "MSVC10",
+		"description": "不推荐。请改用 MSVC_VERSION 变量。"
+	},
+	"MSVC11": {
+		"name": "MSVC11",
+		"description": "不推荐。请改用 MSVC_VERSION 变量。"
+	},
+	"MSVC12": {
+		"name": "MSVC12",
+		"description": "不推荐。请改用 MSVC_VERSION 变量。"
+	},
+	"MSVC14": {
+		"name": "MSVC14",
+		"description": "不推荐。请改用 MSVC_VERSION 变量。"
+	},
+	"MSVC60": {
+		"name": "MSVC60",
+		"description": "不推荐。请改用 MSVC_VERSION 变量。"
+	},
+	"MSVC70": {
+		"name": "MSVC70",
+		"description": "不推荐。请改用 MSVC_VERSION 变量。"
+	},
+	"MSVC71": {
+		"name": "MSVC71",
+		"description": "不推荐。请改用 MSVC_VERSION 变量。"
+	},
+	"MSVC80": {
+		"name": "MSVC80",
+		"description": "不推荐。请改用 MSVC_VERSION 变量。"
+	},
+	"MSVC90": {
+		"name": "MSVC90",
+		"description": "不推荐。请改用 MSVC_VERSION 变量。"
+	},
+	"MSVC_IDE": {
+		"name": "MSVC_IDE",
+		"description": "使用 Microsoft Visual C++ IDE 时，为 true。"
+	},
+	"MSVC_TOOLSET_VERSION": {
+		"name": "MSVC_TOOLSET_VERSION",
+		"description": "当前使用的 Microsoft Visual C/C++ 的工具集版本(如果有)。如果使用类似 MSVC 的编译器，则基于 MSVC_VERSION 变量指定的编译器版本设置该变量。"
+	},
+	"MSVC_VERSION": {
+		"name": "MSVC_VERSION",
+		"description": "当前使用的 Microsoft Visual C/C++ 的版本(如果有)。如果使用模拟 Visual C++ 的编译器，则基于 _MSC_VER 预处理器定义指定的模拟的工具集版本设置此变量。"
+	},
+	"MSYS": {
+		"name": "MSYS",
+		"description": "使用 MSYS Makefiles 生成器时为 True。"
+	},
+	"<PackageName>_ROOT": {
+		"name": "<PackageName>_ROOT",
+		"description": "对 find_package(<PackageName>)的调用将搜索 <PackageName>_ROOT CMake 变量指定的前缀，其中 <PackageName> 是为 find_package 指定的(保留大小写的)名称，_ROOT 是文本。例如，find_package(Foo)将搜索 Foo_ROOT CMake 变量中指定的前缀(如果已设置)。请参阅策略 CMP0074。"
+	},
+	"<PROJECT-NAME>_BINARY_DIR": {
+		"name": "<PROJECT-NAME>_BINARY_DIR",
+		"description": "已命名项目的顶级二进制目录。"
+	},
+	"<PROJECT-NAME>_DESCRIPTION": {
+		"name": "<PROJECT-NAME>_DESCRIPTION",
+		"description": "为项目名称为 <PROJECT-NAME> 的项目命令的最近调用的 DESCRIPTION 选项指定的值(如果有)。"
+	},
+	"<PROJECT-NAME>_HOMEPAGE_URL": {
+		"name": "<PROJECT-NAME>_HOMEPAGE_URL",
+		"description": "为项目名称为 <PROJECT-NAME> 的项目命令的最近调用的 HOMEPAGE_URL 选项指定的值(如果有)。"
+	},
+	"<PROJECT-NAME>_IS_TOP_LEVEL": {
+		"name": "<PROJECT-NAME>_IS_TOP_LEVEL",
+		"description": "一个布尔变量，指示在顶级 CMakeLists.txt 文件中是否调用了已命名项目。"
+	},
+	"<PROJECT-NAME>_SOURCE_DIR": {
+		"name": "<PROJECT-NAME>_SOURCE_DIR",
+		"description": "已命名项目的顶级源目录。"
+	},
+	"<PROJECT-NAME>_VERSION": {
+		"name": "<PROJECT-NAME>_VERSION",
+		"description": "为项目名称为 <PROJECT-NAME> 的项目命令的最近调用的 VERSION 选项指定的值(如果有)。"
+	},
+	"<PROJECT-NAME>_VERSION_MAJOR": {
+		"name": "<PROJECT-NAME>_VERSION_MAJOR",
+		"description": "项目命令设置的 <PROJECT-NAME>_VERSION 变量的第一个版本号组件。"
+	},
+	"<PROJECT-NAME>_VERSION_MINOR": {
+		"name": "<PROJECT-NAME>_VERSION_MINOR",
+		"description": "项目命令设置的 <PROJECT-NAME>_VERSION 变量的第二个版本号组件。"
+	},
+	"<PROJECT-NAME>_VERSION_PATCH": {
+		"name": "<PROJECT-NAME>_VERSION_PATCH",
+		"description": "项目命令设置的 <PROJECT-NAME>_VERSION 变量的第三个版本号组件。"
+	},
+	"<PROJECT-NAME>_VERSION_TWEAK": {
+		"name": "<PROJECT-NAME>_VERSION_TWEAK",
+		"description": "项目命令设置的 <PROJECT-NAME>_VERSION 变量的第四个版本号组件。"
+	},
+	"PROJECT_BINARY_DIR": {
+		"name": "PROJECT_BINARY_DIR",
+		"description": "用于生成项目目录的完整路径。"
+	},
+	"PROJECT_DESCRIPTION": {
+		"name": "PROJECT_DESCRIPTION",
+		"description": "为项目命令提供的简短项目描述。"
+	},
+	"PROJECT_HOMEPAGE_URL": {
+		"name": "PROJECT_HOMEPAGE_URL",
+		"description": "项目的主页 URL。"
+	},
+	"PROJECT_IS_TOP_LEVEL": {
+		"name": "PROJECT_IS_TOP_LEVEL",
+		"description": "一个布尔变量，指示当前范围或更高范围内最近调用的项目命令是否在顶级 CMakeLists.txt 文件中。"
+	},
+	"PROJECT_NAME": {
+		"name": "PROJECT_NAME",
+		"description": "为项目命令指定的项目名称。"
+	},
+	"PROJECT_SOURCE_DIR": {
+		"name": "PROJECT_SOURCE_DIR",
+		"description": "这是在当前目录范围或其某个父项中对项目命令进行的最后一次调用的源目录。请注意，在子目录范围内(即在当前范围内对 add_subdirectory 的调用中)对项目进行调用不会影响此目录。"
+	},
+	"PROJECT_VERSION": {
+		"name": "PROJECT_VERSION",
+		"description": "为项目命令的最近调用的 VERSION 选项指定的值(如果有)。"
+	},
+	"PROJECT_VERSION_MAJOR": {
+		"name": "PROJECT_VERSION_MAJOR",
+		"description": "项目命令设置的 PROJECT_VERSION 变量的第一个版本号组件。"
+	},
+	"PROJECT_VERSION_MINOR": {
+		"name": "PROJECT_VERSION_MINOR",
+		"description": "项目命令设置的 PROJECT_VERSION 变量的第二个版本号组件。"
+	},
+	"PROJECT_VERSION_PATCH": {
+		"name": "PROJECT_VERSION_PATCH",
+		"description": "项目命令设置的 PROJECT_VERSION 变量的第三个版本号组件。"
+	},
+	"PROJECT_VERSION_TWEAK": {
+		"name": "PROJECT_VERSION_TWEAK",
+		"description": "项目命令设置的 PROJECT_VERSION 变量的第四个版本号组件。"
+	},
+	"UNIX": {
+		"name": "UNIX",
+		"description": "当目标系统为 UNIX 或 UNIX 类(例如 APPLE 和 CYGWIN)时，设置为 True。如果需要对目标系统进行更具体的了解，则应查询 CMAKE_SYSTEM_NAME 变量。"
+	},
+	"WIN32": {
+		"name": "WIN32",
+		"description": "当目标系统为 Windows 时(包括 Win64)，设置为 True。"
+	},
+	"WINCE": {
+		"name": "WINCE",
+		"description": "将 CMAKE_SYSTEM_NAME 变量设置为 WindowsCE 时，为 true。"
+	},
+	"WINDOWS_PHONE": {
+		"name": "WINDOWS_PHONE",
+		"description": "将 CMAKE_SYSTEM_NAME 变量设置为 WindowsPhone 时，为 true。"
+	},
+	"WINDOWS_STORE": {
+		"name": "WINDOWS_STORE",
+		"description": "将 CMAKE_SYSTEM_NAME 变量设置为 WindowsStore 时，为 true。"
+	},
+	"XCODE": {
+		"name": "XCODE",
+		"description": "使用 Xcode 生成器时，为 true。"
+	},
+	"XCODE_VERSION": {
+		"name": "XCODE_VERSION",
+		"description": "Xcode 版本(仅 Xcode 生成器)。"
+	},
+	"ADVANCED": {
+		"name": "ADVANCED",
+		"description": "如果默认情况下应在 GUI 中隐藏条目，则为 true。"
+	},
+	"HELPSTRING": {
+		"name": "HELPSTRING",
+		"description": "与 GUI 中的条目关联的帮助。"
+	},
+	"MODIFIED": {
+		"name": "MODIFIED",
+		"description": "内部管理属性。请勿设置或获取。"
+	},
+	"STRINGS": {
+		"name": "STRINGS",
+		"description": "为所选 GUI 枚举可能的字符串项值。"
+	},
+	"TYPE": {
+		"name": "TYPE",
+		"description": "GUI 中条目的小组件类型。"
+	},
+	"VALUE": {
+		"name": "VALUE",
+		"description": "缓存项目的值。"
+	},
+	"ADDITIONAL_CLEAN_FILES": {
+		"name": "ADDITIONAL_CLEAN_FILES",
+		"description": "以分号分隔的文件或目录的列表，该列表中的文件或目录将作为全局清理目标的一部分移除。它可用于指定由多个目标或 CMake 自身使用的生成的文件或目录，也可用于指定以无法作为自定义命令的输出或副产品捕获的方式生成的文件或目录。"
+	},
+	"ADDITIONAL_MAKE_CLEAN_FILES": {
+		"name": "ADDITIONAL_MAKE_CLEAN_FILES",
+		"description": "清理阶段要移除的其他文件。"
+	},
+	"BINARY_DIR": {
+		"name": "BINARY_DIR",
+		"description": "此只读目录属性报告与读取二进制目录的源相对应的二进制目录的绝对路径。"
+	},
+	"BUILDSYSTEM_TARGETS": {
+		"name": "BUILDSYSTEM_TARGETS",
+		"description": "此只读目录属性包含生成系统目标的分号分隔列表，这些目标通过调用 add_library、add_executable 和 add_custom_target 命令添加在目录中。该列表中不包含任何导入目标或别名目标，但包含接口库。列表中的每个条目都是目标的逻辑名称，适合传递给 get_property 命令目标选项。"
+	},
+	"CACHE_VARIABLES": {
+		"name": "CACHE_VARIABLES",
+		"description": "当前目录中提供的缓存变量的列表。"
+	},
+	"CLEAN_NO_CUSTOM": {
+		"name": "CLEAN_NO_CUSTOM",
+		"description": "设为 True，指示 Makefile 生成器不在 make clean 操作期间移除此目录的自定义命令的输出。其他生成器会忽略此操作，因为它不可实现。"
+	},
+	"CMAKE_CONFIGURE_DEPENDS": {
+		"name": "CMAKE_CONFIGURE_DEPENDS",
+		"description": "告知 CMake 有关配置过程的其他输入文件的信息。如果修改了任何已命名文件，生成系统会重新运行 CMake 以重新配置文件并再次生成生成系统。"
+	},
+	"COMPILE_DEFINITIONS": {
+		"name": "COMPILE_DEFINITIONS",
+		"description": "用于编译目录源的预处理器定义。"
+	},
+	"COMPILE_DEFINITIONS_<CONFIG>": {
+		"name": "COMPILE_DEFINITIONS_<CONFIG>",
+		"description": "已忽略。请参阅 CMake 策略 CMP0043。"
+	},
+	"COMPILE_OPTIONS": {
+		"name": "COMPILE_OPTIONS",
+		"description": "要传递给编译器的选项列表。"
+	},
+	"DEFINITIONS": {
+		"name": "DEFINITIONS",
+		"description": "仅用于实现 CMake 2.4 兼容性。请改用 COMPILE_DEFINITIONS。"
+	},
+	"EXCLUDE_FROM_ALL": {
+		"name": "EXCLUDE_FROM_ALL",
+		"description": "在子目录中将此目录属性设置为 ture，以从其上级的“全部”目标中排除其目标。如果已排除，则在父目录中执行的运行示例不会生成子目录目标。这不会影响子目录本身的“全部”目标。在子目录内部执行的运行示例仍将生成其目标。"
+	},
+	"IMPLICIT_DEPENDS_INCLUDE_TRANSFORM": {
+		"name": "IMPLICIT_DEPENDS_INCLUDE_TRANSFORM",
+		"description": "为目录中的依赖项指定 #include 行转换。"
+	},
+	"IMPORTED_TARGETS": {
+		"name": "IMPORTED_TARGETS",
+		"description": "此只读目录属性包含通过调用 add_library 和 add_executable 命令在目录中添加的已导入目标的分号分隔列表。列表中的每个条目都是目标的逻辑名称，适合在同一目录中被调用时传递给 get_property 命令 TARGET 选项。"
+	},
+	"INCLUDE_DIRECTORIES": {
+		"name": "INCLUDE_DIRECTORIES",
+		"description": "包括文件搜索目录的预处理器的列表。"
+	},
+	"INCLUDE_REGULAR_EXPRESSION": {
+		"name": "INCLUDE_REGULAR_EXPRESSION",
+		"description": "包括文件扫描正则表达式。"
+	},
+	"INTERPROCEDURAL_OPTIMIZATION": {
+		"name": "INTERPROCEDURAL_OPTIMIZATION",
+		"description": "此目录属性不再存在。"
+	},
+	"INTERPROCEDURAL_OPTIMIZATION_<CONFIG>": {
+		"name": "INTERPROCEDURAL_OPTIMIZATION_<CONFIG>",
+		"description": "此目录属性不再存在。"
+	},
+	"LABELS": {
+		"name": "LABELS",
+		"description": "指定与目录及其所有子目录关联的文本标签的列表。这等效于在当前目录和子目录中的所有目标和测试上设置 LABELS 目标属性和 LABELS 测试属性。注意: 必须启用启动器才能将标签传播到目标。"
+	},
+	"LINK_DIRECTORIES": {
+		"name": "LINK_DIRECTORIES",
+		"description": "链接器搜索目录列表。"
+	},
+	"LINK_OPTIONS": {
+		"name": "LINK_OPTIONS",
+		"description": "用于共享库、模块和可执行文件目标的链接步骤以及设备链接步骤的选项列表。"
+	},
+	"LISTFILE_STACK": {
+		"name": "LISTFILE_STACK",
+		"description": "正在处理的 listfiles 的当前堆栈。"
+	},
+	"MACROS": {
+		"name": "MACROS",
+		"description": "在当前目录中可用的宏命令的列表。"
+	},
+	"PARENT_DIRECTORY": {
+		"name": "PARENT_DIRECTORY",
+		"description": "已添加当前子目录的源目录。"
+	},
+	"RULE_LAUNCH_COMPILE": {
+		"name": "RULE_LAUNCH_COMPILE",
+		"description": "指定编译规则的启动器。"
+	},
+	"RULE_LAUNCH_CUSTOM": {
+		"name": "RULE_LAUNCH_CUSTOM",
+		"description": "指定自定义规则的启动器。"
+	},
+	"RULE_LAUNCH_LINK": {
+		"name": "RULE_LAUNCH_LINK",
+		"description": "指定链接规则的启动器。"
+	},
+	"SOURCE_DIR": {
+		"name": "SOURCE_DIR",
+		"description": "此只读目录属性报告读取该属性的源目录的绝对路径。"
+	},
+	"SUBDIRECTORIES": {
+		"name": "SUBDIRECTORIES",
+		"description": "此只读目录属性包含 add_subdirectory 或 subdirs 命令到目前为止处理的子目录的列表(以分号分隔)。每个条目都是指向源目录的绝对路径(包含 CMakeLists.txt 文件)。这适合传递给 get_property 命令 DIRECTORY 选项。"
+	},
+	"SYSTEM": {
+		"name": "SYSTEM",
+		"description": "此目录属性用于初始化在该目录中创建的非导出目标的 SYSTEM 目标属性。在将 SYSTEM 选项作为参数提供给这些命令时，可通过 add_subdirectory 和 FetchContent_Declare 将此属性设置为 true。"
+	},
+	"TESTS": {
+		"name": "TESTS",
+		"description": "测试列表。"
+	},
+	"TEST_INCLUDE_FILE": {
+		"name": "TEST_INCLUDE_FILE",
+		"description": "已弃用。请改用 TEST_INCLUDE_FILES。"
+	},
+	"TEST_INCLUDE_FILES": {
+		"name": "TEST_INCLUDE_FILES",
+		"description": "运行 ctest 时将包括的 cmake 文件列表。"
+	},
+	"VARIABLES": {
+		"name": "VARIABLES",
+		"description": "在当前目录中定义的变量的列表。"
+	},
+	"VS_GLOBAL_SECTION_POST_<section>": {
+		"name": "VS_GLOBAL_SECTION_POST_<section>",
+		"description": "在 Visual Studio 中指定 postSolution 全局节。"
+	},
+	"VS_GLOBAL_SECTION_PRE_<section>": {
+		"name": "VS_GLOBAL_SECTION_PRE_<section>",
+		"description": "在 Visual Studio 中指定 preSolution 全局节。"
+	},
+	"VS_STARTUP_PROJECT": {
+		"name": "VS_STARTUP_PROJECT",
+		"description": "指定 Visual Studio 解决方案中的默认启动项目。"
+	},
+	"ALLOW_DUPLICATE_CUSTOM_TARGETS": {
+		"name": "ALLOW_DUPLICATE_CUSTOM_TARGETS",
+		"description": "允许创建重复的自定义目标。"
+	},
+	"AUTOGEN_SOURCE_GROUP": {
+		"name": "AUTOGEN_SOURCE_GROUP",
+		"description": "AUTOMOC、AUTORCC 和 AUTOUIC 所生成文件的 source_group 的名称。"
+	},
+	"AUTOGEN_TARGETS_FOLDER": {
+		"name": "AUTOGEN_TARGETS_FOLDER",
+		"description": "*_autogen 目标的文件夹名称，这些目标由 CMake 为启用了 AUTOMOC 的目标自动添加。"
+	},
+	"AUTOMOC_SOURCE_GROUP": {
+		"name": "AUTOMOC_SOURCE_GROUP",
+		"description": "AUTOMOC 生成的文件的 source_group 名称。"
+	},
+	"AUTOMOC_TARGETS_FOLDER": {
+		"name": "AUTOMOC_TARGETS_FOLDER",
+		"description": "*_autogen 目标的文件夹名称，这些目标由 CMake 为启用了 AUTOMOC 的目标自动添加。"
+	},
+	"AUTORCC_SOURCE_GROUP": {
+		"name": "AUTORCC_SOURCE_GROUP",
+		"description": "AUTORCC 生成的文件的 source_group 名称。"
+	},
+	"AUTOUIC_SOURCE_GROUP": {
+		"name": "AUTOUIC_SOURCE_GROUP",
+		"description": "AUTOMOC 所生成文件的 source_group 名称。"
+	},
+	"CMAKE_CUDA_KNOWN_FEATURES": {
+		"name": "CMAKE_CUDA_KNOWN_FEATURES",
+		"description": "此版本的 CMake 的已知 CUDA 功能列表。"
+	},
+	"CMAKE_CXX_KNOWN_FEATURES": {
+		"name": "CMAKE_CXX_KNOWN_FEATURES",
+		"description": "此版本的 CMake 的已知 C++ 功能列表。"
+	},
+	"CMAKE_C_KNOWN_FEATURES": {
+		"name": "CMAKE_C_KNOWN_FEATURES",
+		"description": "此版本的 CMake 的已知 C 功能列表。"
+	},
+	"CMAKE_HIP_KNOWN_FEATURES": {
+		"name": "CMAKE_HIP_KNOWN_FEATURES",
+		"description": "此版本 CMake 的已知 HIP 功能列表。"
+	},
+	"CMAKE_ROLE": {
+		"name": "CMAKE_ROLE",
+		"description": "指示当前正在运行的脚本处于何种模式。可以是以下值之一:"
+	},
+	"DEBUG_CONFIGURATIONS": {
+		"name": "DEBUG_CONFIGURATIONS",
+		"description": "指定用于调试的配置。"
+	},
+	"DISABLED_FEATURES": {
+		"name": "DISABLED_FEATURES",
+		"description": "在运行 CMake 期间禁用的功能的列表。"
+	},
+	"ECLIPSE_EXTRA_CPROJECT_CONTENTS": {
+		"name": "ECLIPSE_EXTRA_CPROJECT_CONTENTS",
+		"description": "要插入到生成的 Eclipse cproject 文件的其他内容。"
+	},
+	"ECLIPSE_EXTRA_NATURES": {
+		"name": "ECLIPSE_EXTRA_NATURES",
+		"description": "要添加到生成的 Eclipse 项目文件的性质的列表。"
+	},
+	"ENABLED_FEATURES": {
+		"name": "ENABLED_FEATURES",
+		"description": "在运行 CMake 期间启用的功能的列表。"
+	},
+	"ENABLED_LANGUAGES": {
+		"name": "ENABLED_LANGUAGES",
+		"description": "包含当前启用的语言列表的只读属性"
+	},
+	"FIND_LIBRARY_USE_LIB32_PATHS": {
+		"name": "FIND_LIBRARY_USE_LIB32_PATHS",
+		"description": "find_library 命令是否应自动搜索 lib32 目录。"
+	},
+	"FIND_LIBRARY_USE_LIB64_PATHS": {
+		"name": "FIND_LIBRARY_USE_LIB64_PATHS",
+		"description": "find_library 是否应自动搜索 lib64 目录。"
+	},
+	"FIND_LIBRARY_USE_LIBX32_PATHS": {
+		"name": "FIND_LIBRARY_USE_LIBX32_PATHS",
+		"description": "find_library 命令是否应自动搜索 libx32 目录。"
+	},
+	"FIND_LIBRARY_USE_OPENBSD_VERSIONING": {
+		"name": "FIND_LIBRARY_USE_OPENBSD_VERSIONING",
+		"description": "find_library 是否应查找 OpenBSD 样式的共享库。"
+	},
+	"GENERATOR_IS_MULTI_CONFIG": {
+		"name": "GENERATOR_IS_MULTI_CONFIG",
+		"description": "在多配置的生成器上为 true 的只读属性。"
+	},
+	"GLOBAL_DEPENDS_DEBUG_MODE": {
+		"name": "GLOBAL_DEPENDS_DEBUG_MODE",
+		"description": "启用全局目标依赖项关系图调试模式。"
+	},
+	"GLOBAL_DEPENDS_NO_CYCLES": {
+		"name": "GLOBAL_DEPENDS_NO_CYCLES",
+		"description": "不允许使用全局目标依赖项关系图循环。"
+	},
+	"INSTALL_PARALLEL": {
+		"name": "INSTALL_PARALLEL",
+		"description": "为 Ninja 生成器启用并行安装选项。"
+	},
+	"IN_TRY_COMPILE": {
+		"name": "IN_TRY_COMPILE",
+		"description": "在“尝试编译”配置中为 true 的只读属性。"
+	},
+	"JOB_POOLS": {
+		"name": "JOB_POOLS",
+		"description": "仅 Ninja: 可用池的列表。"
+	},
+	"PACKAGES_FOUND": {
+		"name": "PACKAGES_FOUND",
+		"description": "在运行 CMake 期间找到的包的列表。"
+	},
+	"PACKAGES_NOT_FOUND": {
+		"name": "PACKAGES_NOT_FOUND",
+		"description": "在运行 CMake 期间未找到的包的列表。"
+	},
+	"PREDEFINED_TARGETS_FOLDER": {
+		"name": "PREDEFINED_TARGETS_FOLDER",
+		"description": "CMake 自动添加的目标的文件夹名称。"
+	},
+	"PROPAGATE_TOP_LEVEL_INCLUDES_TO_TRY_COMPILE": {
+		"name": "PROPAGATE_TOP_LEVEL_INCLUDES_TO_TRY_COMPILE",
+		"description": "当此全局属性设置为 true 时，CMAKE_PROJECT_TOP_LEVEL_INCLUDES 变量将传播到使用整个项目签名的 try_compile 调用中。对源文件签名的调用不受此属性的影响。默认情况下，PROPAGATE_TOP_LEVEL_INCLUDES_TO_TRY_COMPILE 未设置。"
+	},
+	"REPORT_UNDEFINED_PROPERTIES": {
+		"name": "REPORT_UNDEFINED_PROPERTIES",
+		"description": "如果设置，则会向此文件报告所有未定义的属性。"
+	},
+	"RULE_MESSAGES": {
+		"name": "RULE_MESSAGES",
+		"description": "指定是否为每个创建规则报告消息。"
+	},
+	"TARGET_ARCHIVES_MAY_BE_SHARED_LIBS": {
+		"name": "TARGET_ARCHIVES_MAY_BE_SHARED_LIBS",
+		"description": "设置共享库是否可像存档一样命名。"
+	},
+	"TARGET_MESSAGES": {
+		"name": "TARGET_MESSAGES",
+		"description": "指定是否报告每个目标的完成情况。"
+	},
+	"TARGET_SUPPORTS_SHARED_LIBS": {
+		"name": "TARGET_SUPPORTS_SHARED_LIBS",
+		"description": "目标平台是否支持共享库。"
+	},
+	"USE_FOLDERS": {
+		"name": "USE_FOLDERS",
+		"description": "控制是否使用 FOLDER 目标属性将目标整理到文件夹中。顶级 CMakeLists.txt 文件末尾的 USE_FOLDERS 的值决定了行为。"
+	},
+	"XCODE_EMIT_EFFECTIVE_PLATFORM_NAME": {
+		"name": "XCODE_EMIT_EFFECTIVE_PLATFORM_NAME",
+		"description": "通过 Xcode 生成器控制 EFFECTIVE_PLATFORM_NAME 的发送。"
+	},
+	"CPACK_DESKTOP_SHORTCUTS": {
+		"name": "CPACK_DESKTOP_SHORTCUTS",
+		"description": "指定应为此文件在桌面创建的快捷方式名称的列表。"
+	},
+	"CPACK_NEVER_OVERWRITE": {
+		"name": "CPACK_NEVER_OVERWRITE",
+		"description": "请求在安装或重新安装时不覆盖此文件。"
+	},
+	"CPACK_PERMANENT": {
+		"name": "CPACK_PERMANENT",
+		"description": "请求在卸载时不移除此文件。"
+	},
+	"CPACK_STARTUP_SHORTCUTS": {
+		"name": "CPACK_STARTUP_SHORTCUTS",
+		"description": "指定应为此文件在“启动”文件夹中创建的快捷方式名称的列表。"
+	},
+	"CPACK_START_MENU_SHORTCUTS": {
+		"name": "CPACK_START_MENU_SHORTCUTS",
+		"description": "指定应为此文件在“开始”菜单中创建的快捷方式名称的列表。"
+	},
+	"CPACK_WIX_ACL": {
+		"name": "CPACK_WIX_ACL",
+		"description": "指定 WiX 安装程序安装的文件或目录的访问权限。"
+	},
+	"ABSTRACT": {
+		"name": "ABSTRACT",
+		"description": "此源文件是否为抽象类。"
+	},
+	"AUTORCC_OPTIONS": {
+		"name": "AUTORCC_OPTIONS",
+		"description": "使用 AUTORCC 时适用于 rcc 的其他选项"
+	},
+	"AUTOUIC_OPTIONS": {
+		"name": "AUTOUIC_OPTIONS",
+		"description": "使用 AUTOUIC 时适用于 uic 的其他选项"
+	},
+	"COMPILE_FLAGS": {
+		"name": "COMPILE_FLAGS",
+		"description": "编译此源文件时要添加的其他标记。"
+	},
+	"CXX_SCAN_FOR_MODULES": {
+		"name": "CXX_SCAN_FOR_MODULES",
+		"description": "CXX_SCAN_FOR_MODULES 是一个布尔值，指定 CMake 是否将扫描源以查找 C++ 模块依赖项。另请参阅 CXX_SCAN_FOR_MODULES 了解目标范围设置。"
+	},
+	"EXTERNAL_OBJECT": {
+		"name": "EXTERNAL_OBJECT",
+		"description": "如果设置为 true，则此为对象文件。"
+	},
+	"Fortran_FORMAT": {
+		"name": "Fortran_FORMAT",
+		"description": "设置为固定或免费以表示 Fortran 源布局。"
+	},
+	"Fortran_PREPROCESS": {
+		"name": "Fortran_PREPROCESS",
+		"description": "控制是否应无条件地对 Fortran 源文件进行预处理。"
+	},
+	"GENERATED": {
+		"name": "GENERATED",
+		"description": "生成的此源文件是否属于生成或 CMake 进程。"
+	},
+	"HEADER_FILE_ONLY": {
+		"name": "HEADER_FILE_ONLY",
+		"description": "此源文件是否仅为头文件。"
+	},
+	"KEEP_EXTENSION": {
+		"name": "KEEP_EXTENSION",
+		"description": "使输出文件使用与源文件一样的扩展名。"
+	},
+	"LANGUAGE": {
+		"name": "LANGUAGE",
+		"description": "指定编写源文件所采用的编程语言。"
+	},
+	"LOCATION": {
+		"name": "LOCATION",
+		"description": "源文件的完整路径。"
+	},
+	"MACOSX_PACKAGE_LOCATION": {
+		"name": "MACOSX_PACKAGE_LOCATION",
+		"description": "将源文件放在应用程序捆绑包(MACOSX_BUNDLE)、Core Foundation 捆绑包(BUNDLE)或框架捆绑包(FRAMEWORK)内。这适用于 macOS 和 iOS。"
+	},
+	"OBJECT_DEPENDS": {
+		"name": "OBJECT_DEPENDS",
+		"description": "编译的对象文件所依赖的附加文件。"
+	},
+	"OBJECT_OUTPUTS": {
+		"name": "OBJECT_OUTPUTS",
+		"description": "Ninja 或 Makefile 生成器规则的其他输出。"
+	},
+	"SKIP_AUTOGEN": {
+		"name": "SKIP_AUTOGEN",
+		"description": "从 AUTOMOC、AUTOUIC 和 AUTORCC 进程(用于 Qt 项目)中排除源文件。"
+	},
+	"SKIP_AUTOMOC": {
+		"name": "SKIP_AUTOMOC",
+		"description": "从 AUTOMOC 进程(用于 Qt 项目)中排除源文件。"
+	},
+	"SKIP_AUTORCC": {
+		"name": "SKIP_AUTORCC",
+		"description": "从 AUTORCC 进程(用于 Qt 项目)中排除源文件。"
+	},
+	"SKIP_AUTOUIC": {
+		"name": "SKIP_AUTOUIC",
+		"description": "从 AUTOUIC 进程(用于 Qt 项目)中排除源文件。"
+	},
+	"SKIP_LINTING": {
+		"name": "SKIP_LINTING",
+		"description": "通过此属性，可以从 Linting 进程中排除特定源文件。linting 过程涉及在源文件上运行<LANG>_CPPLINT、<LANG>_CLANG_TIDY、<LANG>_CPPCHECK、<LANG>_INCLUDE_WHAT_YOU_USE 等工具，以及编译作为 VERIFY_INTERFACE_HEADER_SETS 一部分的标头文件。通过在源文件上设置 SKIP_LINTING，将不会对该特定文件执行所述的 linting 工具。"
+	},
+	"SKIP_PRECOMPILE_HEADERS": {
+		"name": "SKIP_PRECOMPILE_HEADERS",
+		"description": "PRECOMPILE_HEADERS 功能是否跳过此源文件。"
+	},
+	"SKIP_UNITY_BUILD_INCLUSION": {
+		"name": "SKIP_UNITY_BUILD_INCLUSION",
+		"description": "将此属性设置为 true，可确保在其关联目标的 UNITY_BUILD 属性设置为 true 时，Unity 生成将跳过源文件。源文件将采用禁用 Unity 生成时的方式自行编译。"
+	},
+	"Swift_DEPENDENCIES_FILE": {
+		"name": "Swift_DEPENDENCIES_FILE",
+		"description": "此属性为源设置 Swift 依赖项文件(swiftdeps)的路径。如果未指定，则默认为 <OBJECT>.swiftdeps。"
+	},
+	"Swift_DIAGNOSTICS_FILE": {
+		"name": "Swift_DIAGNOSTICS_FILE",
+		"description": "此属性控制对 Swift 诊断进行序列化的位置。"
+	},
+	"SYMBOLIC": {
+		"name": "SYMBOLIC",
+		"description": "这是否只是规则名称。"
+	},
+	"UNITY_GROUP": {
+		"name": "UNITY_GROUP",
+		"description": "此属性控制在 UNITY_BUILD_MODE 设置为 GROUP 时，源属于哪个存储桶。"
+	},
+	"VS_COPY_TO_OUT_DIR": {
+		"name": "VS_COPY_TO_OUT_DIR",
+		"description": "为 Visual Studio 项目文件中的源文件设置 <CopyToOutputDirectory> 标记。有效值为 Never、Always 和 PreserveNewest。"
+	},
+	"VS_CSHARP_<tagname>": {
+		"name": "VS_CSHARP_<tagname>",
+		"description": "Visual Studio 和 CSharp 特定于源文件的配置。"
+	},
+	"VS_DEPLOYMENT_CONTENT": {
+		"name": "VS_DEPLOYMENT_CONTENT",
+		"description": "将源文件标记为使用 Visual Studio 生成器 <cmake-generators(7)> 进行生成时通过 Windows Phone 或 Microsoft Store 应用程序部署的内容。该值的评估结果必须为 1 或 0，且可以使用生成器表达式 <cmake-generator-expressions(7)> 来根据生成配置做出选择。源文件的 .vcxproj 文件条目将被标记为 DeploymentContent 或 ExcludedFromBuild (分别对应值 1 和 0)。"
+	},
+	"VS_DEPLOYMENT_LOCATION": {
+		"name": "VS_DEPLOYMENT_LOCATION",
+		"description": "在使用 Visual Studio 生成器 <cmake-generators(7)> 进行生成时，使用 Windows Phone 或 Microsoft Store 应用程序指定内容源文件的部署位置。此属性仅在使用 VS_DEPLOYMENT_CONTENT 时适用。该值表示应用包的相对路径，并且应用于所有配置。"
+	},
+	"VS_INCLUDE_IN_VSIX": {
+		"name": "VS_INCLUDE_IN_VSIX",
+		"description": "布尔属性，用于指定该文件是否应包括在 VSIX (Visual Studio 集成扩展)扩展包中。开发 Visual Studio 扩展时需要该属性。"
+	},
+	"VS_RESOURCE_GENERATOR": {
+		"name": "VS_RESOURCE_GENERATOR",
+		"description": "此属性允许指定要在此文件中使用的资源生成器。如果未设置，则默认为 PublicResXFileCodeGenerator。"
+	},
+	"VS_SETTINGS": {
+		"name": "VS_SETTINGS",
+		"description": "在文件上设置任何项元数据。"
+	},
+	"VS_SHADER_DISABLE_OPTIMIZATIONS": {
+		"name": "VS_SHADER_DISABLE_OPTIMIZATIONS",
+		"description": "禁用 .hlsl 源文件的编译器优化。这会将 -Od 标志添加到 FxCompiler 工具的命令行。将此属性的值指定为 true 可禁用编译器优化。"
+	},
+	"VS_SHADER_ENABLE_DEBUG": {
+		"name": "VS_SHADER_ENABLE_DEBUG",
+		"description": "启用 .hlsl 源文件的调试信息。这会将 -Zi 标志添加到 FxCompiler 工具的命令行。将值指定为 true 可以生成编译的着色器的调试信息。"
+	},
+	"VS_SHADER_ENTRYPOINT": {
+		"name": "VS_SHADER_ENTRYPOINT",
+		"description": "指定 .hlsl 源文件的着色器的入口点名称。"
+	},
+	"VS_SHADER_FLAGS": {
+		"name": "VS_SHADER_FLAGS",
+		"description": "设置 .hlsl 源文件的附加 Visual Studio 着色器标志。"
+	},
+	"VS_SHADER_MODEL": {
+		"name": "VS_SHADER_MODEL",
+		"description": "指定 .hlsl 源文件的着色器模型。某些着色器类型只能与最新的着色器模型一起使用"
+	},
+	"VS_SHADER_OBJECT_FILE_NAME": {
+		"name": "VS_SHADER_OBJECT_FILE_NAME",
+		"description": "为 .hlsl 源文件指定编译的着色器对象文件的文件名。这会将 -Fo 标志添加到 FxCompiler 工具的命令行。"
+	},
+	"VS_SHADER_OUTPUT_HEADER_FILE": {
+		"name": "VS_SHADER_OUTPUT_HEADER_FILE",
+		"description": "设置包含 .hlsl 源文件的对象代码的输出头文件的文件名。"
+	},
+	"VS_SHADER_TYPE": {
+		"name": "VS_SHADER_TYPE",
+		"description": "设置 .hlsl 源文件的 Visual Studio 着色器类型。"
+	},
+	"VS_SHADER_VARIABLE_NAME": {
+		"name": "VS_SHADER_VARIABLE_NAME",
+		"description": "设置包含 .hlsl 源文件的对象代码的头文件中的变量名称。"
+	},
+	"VS_TOOL_OVERRIDE": {
+		"name": "VS_TOOL_OVERRIDE",
+		"description": "使用不基于文件扩展名的新工具覆盖将应用于源文件的默认 Visual Studio 工具。"
+	},
+	"VS_XAML_TYPE": {
+		"name": "VS_XAML_TYPE",
+		"description": "将可扩展应用程序标记语言(XAML)源文件标记为与默认页面不同的类型。最常见的用法是将默认的 App.xaml 文件设置为 ApplicationDefinition。"
+	},
+	"WRAP_EXCLUDE": {
+		"name": "WRAP_EXCLUDE",
+		"description": "从任何代码包装方法中排除此源文件。"
+	},
+	"XCODE_EXPLICIT_FILE_TYPE": {
+		"name": "XCODE_EXPLICIT_FILE_TYPE",
+		"description": "在 Xcode explicitFileType 特性引用源文件时对该特性进行设置。CMake 基于文件扩展名计算默认值，但可以通过此属性显式接收通知。"
+	},
+	"XCODE_FILE_ATTRIBUTES": {
+		"name": "XCODE_FILE_ATTRIBUTES",
+		"description": "在 Xcode ATTRIBUTES 设置引用源文件时向该设置中添加值。除其他用途外，这可以用于设置 .mig 文件上的角色:"
+	},
+	"XCODE_LAST_KNOWN_FILE_TYPE": {
+		"name": "XCODE_LAST_KNOWN_FILE_TYPE",
+		"description": "在 Xcode lastKnownFileType 特性引用源文件时对该特性进行设置。CMake 基于文件扩展名计算默认值，但可以通过此属性显式接收通知。"
+	},
+	"ATTACHED_FILES": {
+		"name": "ATTACHED_FILES",
+		"description": "将文件列表附加到仪表板提交。"
+	},
+	"ATTACHED_FILES_ON_FAIL": {
+		"name": "ATTACHED_FILES_ON_FAIL",
+		"description": "如果测试失败，将文件列表附加到仪表板提交。"
+	},
+	"COST": {
+		"name": "COST",
+		"description": "此属性描述测试成本。启用并行测试时，将按成本的降序顺序运行测试集中的测试。项目可以通过将此属性设置为浮点值来显式定义测试成本。"
+	},
+	"DEPENDS": {
+		"name": "DEPENDS",
+		"description": "指定此测试应仅在指定的测试列表之后运行。"
+	},
+	"DISABLED": {
+		"name": "DISABLED",
+		"description": "如果设置为 True，则将跳过测试，且该测试的状态将为“未运行”。禁用的测试不会计入测试总数，且其完成状态将向 CDash 报告为“已禁用”。"
+	},
+	"ENVIRONMENT": {
+		"name": "ENVIRONMENT",
+		"description": "指定针对运行测试应定义的环境变量。"
+	},
+	"ENVIRONMENT_MODIFICATION": {
+		"name": "ENVIRONMENT_MODIFICATION",
+		"description": "指定应为运行测试修改的环境变量。请注意，此属性执行的操作在已应用“环境”属性后完成。"
+	},
+	"FAIL_REGULAR_EXPRESSION": {
+		"name": "FAIL_REGULAR_EXPRESSION",
+		"description": "如果测试输出(stdout 或 stderr)与此正则表达式匹配，则无论进程退出代码如何，测试都将失败。无论 FAIL_REGULAR_EXPRESSION 如何，超出 TIMEOUT 指定的超时值的测试都将失败。任何非零返回代码或系统级测试失败(包括分段错误、信号中止或堆错误)都会使测试失败，即使正则表达式不匹配也是如此。"
+	},
+	"FIXTURES_CLEANUP": {
+		"name": "FIXTURES_CLEANUP",
+		"description": "指定一个固定例程列表，用于这些固定例程的测试会被作为清理测试。这些固定例程名称按测试用例名称进行区分，且不需要与相关测试的名称存在任何相似性。"
+	},
+	"FIXTURES_REQUIRED": {
+		"name": "FIXTURES_REQUIRED",
+		"description": "指定测试所需的固定例程的列表。固定例程名称区分大小写，且不需要与测试名称存在任何相似性。"
+	},
+	"FIXTURES_SETUP": {
+		"name": "FIXTURES_SETUP",
+		"description": "指定一个固定例程列表，用于这些固定例程的测试会被作为设置测试。这些固定例程名称按测试用例名称进行区分，且不需要与相关测试的名称存在任何相似性。"
+	},
+	"GENERATED_RESOURCE_SPEC_FILE": {
+		"name": "GENERATED_RESOURCE_SPEC_FILE",
+		"description": "由此测试生成的动态生成资源规范文件<ctest-resource-dynamic-generated-spec-file> 的路径。"
+	},
+	"MEASUREMENT": {
+		"name": "MEASUREMENT",
+		"description": "指定 CDASH 度量和要针对测试报告的值。"
+	},
+	"PASS_REGULAR_EXPRESSION": {
+		"name": "PASS_REGULAR_EXPRESSION",
+		"description": "测试输出(stdout 或 stderr)必须与此正则表达式匹配，测试才能通过。进程退出代码将被忽略。无论 PASS_REGULAR_EXPRESSION 如何，超出 TIMEOUT 指定的超时值的测试仍会失败。系统级测试失败(包括分段错误、信号中止或堆错误)可能会使测试失败，即使与 PASS_REGULAR_EXPRESSION 匹配也是如此。"
+	},
+	"PROCESSORS": {
+		"name": "PROCESSORS",
+		"description": "设置以指定此测试需要的进程槽数。如果不设置，则默认为 1 个处理器。"
+	},
+	"PROCESSOR_AFFINITY": {
+		"name": "PROCESSOR_AFFINITY",
+		"description": "设为 True 值可使 CTest 为一组固定的处理器启动带有 CPU 相关性的测试进程。如果启用并受当前平台支持，CTest 将在启动测试进程时选择一组处理器放置在 CPU 关联掩码中。这组处理器的数量取决于 PROCESSORS 测试属性或可用于 CTest 的处理器数量(以较小者为准)。选择的这组处理器将与已分配到同样启用 PROCESSOR_AFFINITY 属性的其他同时运行的测试的处理器断开连接。"
+	},
+	"REQUIRED_FILES": {
+		"name": "REQUIRED_FILES",
+		"description": "运行测试所需的文件的列表。文件名与测试 WORKING_DIRECTORY 有关，除非指定了绝对路径。"
+	},
+	"RESOURCE_GROUPS": {
+		"name": "RESOURCE_GROUPS",
+		"description": "指定测试所需的资源，并采用与测试相关的方式进行分组。若要详细了解此属性如何集成到 CTest 资源分配功能，请参阅资源分配 <ctest-resource-allocation>。"
+	},
+	"RESOURCE_LOCK": {
+		"name": "RESOURCE_LOCK",
+		"description": "指定此测试锁定的资源的列表。"
+	},
+	"RUN_SERIAL": {
+		"name": "RUN_SERIAL",
+		"description": "请勿将此测试与任何其他测试并行运行。"
+	},
+	"SKIP_REGULAR_EXPRESSION": {
+		"name": "SKIP_REGULAR_EXPRESSION",
+		"description": "如果测试输出(stderr 或 stdout)与此正则表达式匹配，则无论进程退出代码如何，测试都将标记为跳过。无论 SKIP_REGULAR_EXPRESSION 如何，超出 TIMEOUT 指定的超时值的测试仍会失败。系统级测试失败(包括分段错误、信号中止或堆错误)可能会使测试失败，即使正则表达式匹配也是如此。"
+	},
+	"SKIP_RETURN_CODE": {
+		"name": "SKIP_RETURN_CODE",
+		"description": "返回代码，以将测试标记为跳过。"
+	},
+	"TIMEOUT": {
+		"name": "TIMEOUT",
+		"description": "允许此测试持续的秒数。"
+	},
+	"TIMEOUT_AFTER_MATCH": {
+		"name": "TIMEOUT_AFTER_MATCH",
+		"description": "更改在测试输出中遇到匹配行后的测试超时持续时间。"
+	},
+	"TIMEOUT_SIGNAL_GRACE_PERIOD": {
+		"name": "TIMEOUT_SIGNAL_GRACE_PERIOD",
+		"description": "如果设置了 TIMEOUT_SIGNAL_NAME 测试属性，则此属性将指定发送自定义信号后等待测试进程终止的秒数。否则，此属性将没有意义。"
+	},
+	"TIMEOUT_SIGNAL_NAME": {
+		"name": "TIMEOUT_SIGNAL_NAME",
+		"description": "指定在达到测试进程超时时发送到测试进程的自定义信号。这仅适用于支持 POSIX 信号的平台。它在 Windows 上不可用。"
+	},
+	"WILL_FAIL": {
+		"name": "WILL_FAIL",
+		"description": "如果为 true，则反转通过/失败测试条件。对于 WILL_FAIL 为 true 的测试，失败时将收到返回代码 0，通过时将收到非零返回代码。无论 WILL_FAIL 如何，超出 TIMEOUT 指定的超时值的测试仍会失败。系统级测试失败(包括分段错误、信号中止或堆错误)可能会使测试失败，即使 WILL_FAIL 为 true 也是如此。"
+	},
+	"WORKING_DIRECTORY": {
+		"name": "WORKING_DIRECTORY",
+		"description": "将从中调用测试可执行文件的目录。"
+	},
+	"AIX_EXPORT_ALL_SYMBOLS": {
+		"name": "AIX_EXPORT_ALL_SYMBOLS",
+		"description": "在 AIX 上，CMake 自动导出共享库中以及具有 ENABLE_EXPORTS 目标属性集的可执行文件。默认情况下，显式禁用此布尔属性以取消此行为且不导出符号。在这种情况下，预计项目将使用其他方法导出某些符号。"
+	},
+	"ALIASED_TARGET": {
+		"name": "ALIASED_TARGET",
+		"description": "由此目标指定别名的目标名称。"
+	},
+	"ALIAS_GLOBAL": {
+		"name": "ALIAS_GLOBAL",
+		"description": "只读属性，用于指示别名目标是否全局可见。"
+	},
+	"ANDROID_ANT_ADDITIONAL_OPTIONS": {
+		"name": "ANDROID_ANT_ADDITIONAL_OPTIONS",
+		"description": "设置 Android Ant 生成系统的其他选项。这是包含 Ant 生成的所有命令行选项的字符串值。如果创建目标时已设置 CMAKE_ANDROID_ANT_ADDITIONAL_OPTIONS 变量，则此属性由该变量的值进行初始化。"
+	},
+	"ANDROID_API": {
+		"name": "ANDROID_API",
+		"description": "使用 NVIDIA Nsight Tegra Visual Studio Edition 针对 Android 进行交叉编译时，此属性会设置 Android 目标 API 版本(例如 15)。版本号必须是十进制正整数。如果创建目标时已设置 CMAKE_ANDROID_API，则此属性由该变量的值进行初始化。"
+	},
+	"ANDROID_API_MIN": {
+		"name": "ANDROID_API_MIN",
+		"description": "设置 Android 最低 API 版本(例如 9)。版本号必须是十进制正整数。如果创建目标时已设置 CMAKE_ANDROID_API_MIN，则此属性由该变量的值进行初始化。使用此 API 版本生成本机代码。"
+	},
+	"ANDROID_ARCH": {
+		"name": "ANDROID_ARCH",
+		"description": "使用 NVIDIA Nsight Tegra Visual Studio Edition 针对 Android 进行交叉编译时，此属性设置 Android 目标体系结构。"
+	},
+	"ANDROID_ASSETS_DIRECTORIES": {
+		"name": "ANDROID_ASSETS_DIRECTORIES",
+		"description": "设置要在生成之前复制到主资产目录中的 Android 资产目录。这是一个字符串属性，包含以分号分隔的目录路径。如果创建目标时已设置 CMAKE_ANDROID_ASSETS_DIRECTORIES 变量，则此属性由该变量的值进行初始化。"
+	},
+	"ANDROID_GUI": {
+		"name": "ANDROID_GUI",
+		"description": "使用 NVIDIA Nsight Tegra Visual Studio Edition 针对 Android 进行交叉编译时，此属性指定是否在 Android 上生成可执行文件作为应用程序包。"
+	},
+	"ANDROID_JAR_DEPENDENCIES": {
+		"name": "ANDROID_JAR_DEPENDENCIES",
+		"description": "设置指定 JAR 依赖项的 Android 属性。这是一个字符串值属性。如果创建目标时已设置 CMAKE_ANDROID_JAR_DEPENDENCIES 变量，则此属性由该变量的值进行初始化。"
+	},
+	"ANDROID_JAR_DIRECTORIES": {
+		"name": "ANDROID_JAR_DIRECTORIES",
+		"description": "设置 Android 属性，指定要在其中搜索 JAR 库的目录。"
+	},
+	"ANDROID_JAVA_SOURCE_DIR": {
+		"name": "ANDROID_JAVA_SOURCE_DIR",
+		"description": "设置定义 Java 源代码根目录的 Android 属性。这是一个字符串属性，包含以分号分隔的目录路径。如果创建目标时已设置 CMAKE_ANDROID_JAVA_SOURCE_DIR 变量，则此属性由该变量的值进行初始化。"
+	},
+	"ANDROID_NATIVE_LIB_DEPENDENCIES": {
+		"name": "ANDROID_NATIVE_LIB_DEPENDENCIES",
+		"description": "设置指定 .so 依赖项的 Android 属性。这是一个字符串属性。"
+	},
+	"ANDROID_NATIVE_LIB_DIRECTORIES": {
+		"name": "ANDROID_NATIVE_LIB_DIRECTORIES",
+		"description": "设置 Android 属性，指定要在其中搜索 .so 库的目录。"
+	},
+	"ANDROID_PROCESS_MAX": {
+		"name": "ANDROID_PROCESS_MAX",
+		"description": "设置定义最大并行 Android NDK 编译器进程数(例如 4)的 Android 属性。如果创建目标时已设置 CMAKE_ANDROID_PROCESS_MAX 变量，则此属性由该变量的值进行初始化。"
+	},
+	"ANDROID_PROGUARD": {
+		"name": "ANDROID_PROGUARD",
+		"description": "当此属性设置为 true 时，ProGuard 工具可以通过删除未使用的代码并重命名带有语义模糊名称的类、字段和方法来减少、优化和混淆代码。如果创建目标时已设置 CMAKE_ANDROID_PROGUARD 变量，则此属性由该变量的值进行初始化。"
+	},
+	"ANDROID_PROGUARD_CONFIG_PATH": {
+		"name": "ANDROID_PROGUARD_CONFIG_PATH",
+		"description": "设置指定 ProGuard 配置文件的位置的 Android 属性。留空可使用默认位置。这是一个字符串属性，包含 ProGuard 配置文件的路径。如果创建目标时已设置 CMAKE_ANDROID_PROGUARD_CONFIG_PATH 变量，则此属性由该变量的值进行初始化。"
+	},
+	"ANDROID_SECURE_PROPS_PATH": {
+		"name": "ANDROID_SECURE_PROPS_PATH",
+		"description": "设置表示安全属性文件的位置的 Android 属性。这是一个包含文件路径的字符串属性。如果创建目标时已设置 CMAKE_ANDROID_SECURE_PROPS_PATH 变量，则此属性由该变量的值进行初始化。"
+	},
+	"ANDROID_SKIP_ANT_STEP": {
+		"name": "ANDROID_SKIP_ANT_STEP",
+		"description": "设置定义是否跳过 Ant 生成步骤的 Android 属性。如果创建目标时已设置 CMAKE_ANDROID_SKIP_ANT_STEP 变量，则此布尔值属性由该变量的值进行初始化。"
+	},
+	"ANDROID_STL_TYPE": {
+		"name": "ANDROID_STL_TYPE",
+		"description": "使用 NVIDIA Nsight Tegra Visual Studio Edition 针对 Android 进行交叉编译时，此属性指定项目的 STL 支持类型。这是一个可设置为以下某个值的字符串属性:"
+	},
+	"ARCHIVE_OUTPUT_DIRECTORY": {
+		"name": "ARCHIVE_OUTPUT_DIRECTORY",
+		"description": "在其中生成 XXX 目标文件的输出目录。"
+	},
+	"ARCHIVE_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "ARCHIVE_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "存档目标文件的每配置输出目录。"
+	},
+	"ARCHIVE_OUTPUT_NAME": {
+		"name": "ARCHIVE_OUTPUT_NAME",
+		"description": "XXX 目标文件的输出名称。"
+	},
+	"ARCHIVE_OUTPUT_NAME_<CONFIG>": {
+		"name": "ARCHIVE_OUTPUT_NAME_<CONFIG>",
+		"description": "存档目标文件的每配置输出名称。"
+	},
+	"AUTOGEN_BETTER_GRAPH_MULTI_CONFIG": {
+		"name": "AUTOGEN_BETTER_GRAPH_MULTI_CONFIG",
+		"description": "AUTOGEN_BETTER_GRAPH_MULTI_CONFIG 是一个布尔属性，可以在目标上进行设置，以便为多配置生成器提供更好的依赖项关系图。启用此属性后，CMake 将生成更多基于每个配置的目标。因此，多配置生成器的依赖项关系图将更加准确，并且将避免某些重新编译。"
+	},
+	"AUTOGEN_BUILD_DIR": {
+		"name": "AUTOGEN_BUILD_DIR",
+		"description": "AUTOMOC、AUTOUIC 和 AUTORCC 在其中位目标生成文件的目录。"
+	},
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX": {
+		"name": "AUTOGEN_COMMAND_LINE_LENGTH_MAX",
+		"description": "autogen 目标(即 moc 或 uic)的命令行长度限制，达到该限制时将触发在 Windows 上使用响应文件，而不是将所有参数传递到命令行。"
+	},
+	"AUTOGEN_ORIGIN_DEPENDS": {
+		"name": "AUTOGEN_ORIGIN_DEPENDS",
+		"description": "用于将源目标依赖项转移到相应 <ORIGIN>_autogen 目标的切换选项。"
+	},
+	"AUTOGEN_PARALLEL": {
+		"name": "AUTOGEN_PARALLEL",
+		"description": "使用 AUTOMOC 和 AUTOUIC 时要启动的并行 moc 或 uic 进程数。"
+	},
+	"AUTOGEN_TARGET_DEPENDS": {
+		"name": "AUTOGEN_TARGET_DEPENDS",
+		"description": "相应 <ORIGIN>_autogen 目标的其他目标依赖项。"
+	},
+	"AUTOGEN_USE_SYSTEM_INCLUDE": {
+		"name": "AUTOGEN_USE_SYSTEM_INCLUDE",
+		"description": "AUTOGEN_USE_SYSTEM_INCLUDE 是一个可对目标设置的布尔属性，用于指示应将 autogen 目标包含目录作为系统包含目录或正常包含目录添加到目标。"
+	},
+	"AUTOMOC": {
+		"name": "AUTOMOC",
+		"description": "是否应使用 auto-moc (对于 Qt 项目)处理目标。"
+	},
+	"AUTOMOC_COMPILER_PREDEFINES": {
+		"name": "AUTOMOC_COMPILER_PREDEFINES",
+		"description": "AUTOMOC 用于定义是否应生成编译器预定义文件 moc_predefs.h 的布尔值。"
+	},
+	"AUTOMOC_DEPEND_FILTERS": {
+		"name": "AUTOMOC_DEPEND_FILTERS",
+		"description": "AUTOMOC 用于从源文件中提取文件名的筛选器定义，这些文件名已注册为源文件的 moc 文件的其他依赖项。"
+	},
+	"AUTOMOC_EXECUTABLE": {
+		"name": "AUTOMOC_EXECUTABLE",
+		"description": "AUTOMOC_EXECUTABLE 是指向 moc 可执行文件的文件路径，用于已启用 AUTOMOC 的文件。设置此属性将使 CMake 跳过对 moc 二进制文件的自动检测以及为确保该二进制文件可用且按预期方式工作通常会运行的完整性测试。"
+	},
+	"AUTOMOC_MACRO_NAMES": {
+		"name": "AUTOMOC_MACRO_NAMES",
+		"description": "分号分隔的宏名列表，由 AUTOMOC 用于确定是否需要通过 moc 处理 C++ 文件。"
+	},
+	"AUTOMOC_MOC_OPTIONS": {
+		"name": "AUTOMOC_MOC_OPTIONS",
+		"description": "使用 AUTOMOC 时适用于 moc 的其他选项"
+	},
+	"AUTOMOC_PATH_PREFIX": {
+		"name": "AUTOMOC_PATH_PREFIX",
+		"description": "当此属性处于启用状态时，CMake 将对已启用 AUTOMOC 的 Qt 目标上的 moc 生成 -p 路径前缀选项。"
+	},
+	"AUTORCC": {
+		"name": "AUTORCC",
+		"description": "是否应使用 auto-rcc (对于 Qt 项目)处理目标。"
+	},
+	"AUTORCC_EXECUTABLE": {
+		"name": "AUTORCC_EXECUTABLE",
+		"description": "AUTORCC_EXECUTABLE 是指向 rcc 可执行文件的文件路径，用于已启用 AUTORCC 的文件。设置此属性将使 CMake 跳过对 rcc 二进制文件的自动检测以及为确保该二进制文件可用且按预期方式工作通常会运行的完整性测试。"
+	},
+	"AUTOUIC": {
+		"name": "AUTOUIC",
+		"description": "是否应使用 auto-uic (对于 Qt 项目)处理目标。"
+	},
+	"AUTOUIC_EXECUTABLE": {
+		"name": "AUTOUIC_EXECUTABLE",
+		"description": "AUTOUIC_EXECUTABLE 是指向 uic 可执行文件的文件路径，用于已启用 AUTOUIC 的文件。设置此属性将使 CMake 跳过对 uic 二进制文件的自动检测以及为确保该二进制文件可用且按预期方式工作通常会运行的完整性测试。"
+	},
+	"AUTOUIC_SEARCH_PATHS": {
+		"name": "AUTOUIC_SEARCH_PATHS",
+		"description": "AUTOUIC 用于查找包含的 .ui 文件的搜索路径列表。"
+	},
+	"BUILD_RPATH": {
+		"name": "BUILD_RPATH",
+		"description": "一个分号分隔列表，(为支持生成树的平台)指定要添加到生成树中链接的二进制文件的运行时路径(RPATH)。默认情况下，CMake 设置生成树中二进制文件的运行时路径，以包含找到所链接的共享库所需的搜索路径。项目可以设置 BUILD_RPATH 以指定其他搜索路径。"
+	},
+	"BUILD_RPATH_USE_ORIGIN": {
+		"name": "BUILD_RPATH_USE_ORIGIN",
+		"description": "是否对生成 RPATH 使用相对路径。"
+	},
+	"BUILD_WITH_INSTALL_NAME_DIR": {
+		"name": "BUILD_WITH_INSTALL_NAME_DIR",
+		"description": "BUILD_WITH_INSTALL_NAME_DIR 是一个布尔值，指定生成树中目标的 macOS install_name 是否使用 INSTALL_NAME_DIR 给定的目录。此设置仅适用于 macOS 上的目标。"
+	},
+	"BUILD_WITH_INSTALL_RPATH": {
+		"name": "BUILD_WITH_INSTALL_RPATH",
+		"description": "BUILD_WITH_INSTALL_RPATH 是一个布尔值，指定是否将生成树中的目标与 INSTALL_RPATH 链接。这优先于 SKIP_BUILD_RPATH，并且避免了在安装之前重新链接。"
+	},
+	"BUNDLE": {
+		"name": "BUNDLE",
+		"description": "此目标是 macOS 上的 CFBundle。"
+	},
+	"BUNDLE_EXTENSION": {
+		"name": "BUNDLE_EXTENSION",
+		"description": "用于对 macOS 和 iOS 上的 BUNDLE、FRAMEWORK 或 MACOSX_BUNDLE 目标命名的文件扩展名。"
+	},
+	"COMMON_LANGUAGE_RUNTIME": {
+		"name": "COMMON_LANGUAGE_RUNTIME",
+		"description": "通过设置此目标属性，将目标配置为在 C++/CLI 的支持下生成。"
+	},
+	"COMPATIBLE_INTERFACE_BOOL": {
+		"name": "COMPATIBLE_INTERFACE_BOOL",
+		"description": "必须与其链接接口兼容的属性"
+	},
+	"COMPATIBLE_INTERFACE_NUMBER_MAX": {
+		"name": "COMPATIBLE_INTERFACE_NUMBER_MAX",
+		"description": "将使用其在链接接口中的最大值的属性。"
+	},
+	"COMPATIBLE_INTERFACE_NUMBER_MIN": {
+		"name": "COMPATIBLE_INTERFACE_NUMBER_MIN",
+		"description": "将使用其在链接接口中的最小值的属性。"
+	},
+	"COMPATIBLE_INTERFACE_STRING": {
+		"name": "COMPATIBLE_INTERFACE_STRING",
+		"description": "必须与其链接接口兼容字符串的属性"
+	},
+	"COMPILE_FEATURES": {
+		"name": "COMPILE_FEATURES",
+		"description": "为此目标启用的编译器功能。"
+	},
+	"COMPILE_PDB_NAME": {
+		"name": "COMPILE_PDB_NAME",
+		"description": "在生成源文件时由编译器生成的 MS 调试符号 .pdb 文件的输出名称。"
+	},
+	"COMPILE_PDB_NAME_<CONFIG>": {
+		"name": "COMPILE_PDB_NAME_<CONFIG>",
+		"description": "在生成源文件时由编译器生成的 MS 调试符号 .pdb 文件的基于配置的输出名称。"
+	},
+	"COMPILE_PDB_OUTPUT_DIRECTORY": {
+		"name": "COMPILE_PDB_OUTPUT_DIRECTORY",
+		"description": "在生成源文件时由编译器生成的 MS 调试符号 .pdb 文件的输出目录。"
+	},
+	"COMPILE_PDB_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "COMPILE_PDB_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "在生成源文件时由编译器生成的 MS 调试符号 .pdb 文件的基于配置的输出目录。"
+	},
+	"COMPILE_WARNING_AS_ERROR": {
+		"name": "COMPILE_WARNING_AS_ERROR",
+		"description": "指定是否将编译时出现的警告视为错误。如果启用，则添加一个标志以将编译时出现的警告视为错误。如果在 cmake 命令行上提供了 cmake --compile-no-warning-as-error 选项，则忽略此属性。"
+	},
+	"<CONFIG>_OUTPUT_NAME": {
+		"name": "<CONFIG>_OUTPUT_NAME",
+		"description": "旧的基于配置的目标文件基名称。请改用 OUTPUT_NAME_。"
+	},
+	"<CONFIG>_POSTFIX": {
+		"name": "<CONFIG>_POSTFIX",
+		"description": "要追加到配置 <CONFIG> 的目标文件名的后缀。"
+	},
+	"CROSSCOMPILING_EMULATOR": {
+		"name": "CROSSCOMPILING_EMULATOR",
+		"description": "使用给定仿真器运行交叉编译时创建的可执行文件。此命令会作为前缀添加到 add_test、add_custom_command 和 add_custom_target 命令，用于生成目标系统可执行文件。"
+	},
+	"CUDA_ARCHITECTURES": {
+		"name": "CUDA_ARCHITECTURES",
+		"description": "要为其生成设备代码的体系结构的列表。"
+	},
+	"CUDA_CUBIN_COMPILATION": {
+		"name": "CUDA_CUBIN_COMPILATION",
+		"description": "将 CUDA 资源编译为 .cubin 文件，而不是对象库中的 .obj 文件。"
+	},
+	"CUDA_EXTENSIONS": {
+		"name": "CUDA_EXTENSIONS",
+		"description": "布尔值，指定是否请求特定于编译器的扩展。"
+	},
+	"CUDA_FATBIN_COMPILATION": {
+		"name": "CUDA_FATBIN_COMPILATION",
+		"description": "将 CUDA 资源编译为 .fatbin 文件，而不是对象库中的 .obj 文件。"
+	},
+	"CUDA_OPTIX_COMPILATION": {
+		"name": "CUDA_OPTIX_COMPILATION",
+		"description": "将 CUDA 资源编译为 .optixir 文件，而不是对象库中的 .obj 文件。"
+	},
+	"CUDA_PTX_COMPILATION": {
+		"name": "CUDA_PTX_COMPILATION",
+		"description": "将 CUDA 资源编译为 .ptx 文件，而不是对象库中的 .obj 文件。"
+	},
+	"CUDA_RESOLVE_DEVICE_SYMBOLS": {
+		"name": "CUDA_RESOLVE_DEVICE_SYMBOLS",
+		"description": "仅限 CUDA: 在需要时为特定的库目标启用设备链接。"
+	},
+	"CUDA_RUNTIME_LIBRARY": {
+		"name": "CUDA_RUNTIME_LIBRARY",
+		"description": "选择供面向 CUDA 语言的编译器使用的 CUDA 运行时库。"
+	},
+	"CUDA_SEPARABLE_COMPILATION": {
+		"name": "CUDA_SEPARABLE_COMPILATION",
+		"description": "仅限 CUDA: 启用单独编译设备代码"
+	},
+	"CUDA_STANDARD": {
+		"name": "CUDA_STANDARD",
+		"description": "需要使用其功能生成此目标的 CUDA/C++ 标准。"
+	},
+	"CUDA_STANDARD_REQUIRED": {
+		"name": "CUDA_STANDARD_REQUIRED",
+		"description": "描述 CUDA_STANDARD 的值是否必需的布尔值。"
+	},
+	"CXX_EXTENSIONS": {
+		"name": "CXX_EXTENSIONS",
+		"description": "布尔值，指定是否请求特定于编译器的扩展。"
+	},
+	"CXX_MODULE_DIRS": {
+		"name": "CXX_MODULE_DIRS",
+		"description": "以分号分隔的目标默认 C++ 模块集的基目录列表(即名称和类型为 CXX_MODULES 的文件集)。该属性支持生成器表达式 <cmake-generator-expressions(7)>。"
+	},
+	"CXX_MODULE_DIRS_<NAME>": {
+		"name": "CXX_MODULE_DIRS_<NAME>",
+		"description": "以分号分隔的目标 <NAME> C++ 模块集的基目录列表，该模块集的类型为 CXX_MODULES。该属性支持生成器表达式 <cmake-generator-expressions(7)>。"
+	},
+	"CXX_MODULE_SET": {
+		"name": "CXX_MODULE_SET",
+		"description": "以分号分隔的目标默认 C++ 模块集中文件的列表(即名称和类型为 CXX_MODULES 的文件集)。如果任何路径是相对路径，则会相对于目标的源目录计算这些路径。该属性支持生成器表达式 <cmake-generator-expressions(7)>。"
+	},
+	"CXX_MODULE_SETS": {
+		"name": "CXX_MODULE_SETS",
+		"description": "目标的专用和公开 C++ 模块集的只读列表(即类型为 CXX_MODULES 的所有文件集)。为了实现 IDE 集成，这些文件集中列出的文件被视为源文件。"
+	},
+	"CXX_MODULE_SET_<NAME>": {
+		"name": "CXX_MODULE_SET_<NAME>",
+		"description": "以分号分隔的目标 <NAME> C++ 模块集中文件的列表，该模块集的类型为 CXX_MODULES。如果任何路径是相对路径，则会相对于目标的源目录计算这些路径。该属性支持生成器表达式 <cmake-generator-expressions(7)>。"
+	},
+	"CXX_MODULE_STD": {
+		"name": "CXX_MODULE_STD",
+		"description": "CXX_MODULE_STD 是一个布尔值，指定目标是否可以使用导入 std 及其 C++ 源。"
+	},
+	"CXX_STANDARD": {
+		"name": "CXX_STANDARD",
+		"description": "需要使用其功能生成此目标的 C++ 标准。"
+	},
+	"CXX_STANDARD_REQUIRED": {
+		"name": "CXX_STANDARD_REQUIRED",
+		"description": "描述 CXX_STANDARD 的值是否必需的布尔值。"
+	},
+	"C_EXTENSIONS": {
+		"name": "C_EXTENSIONS",
+		"description": "布尔值，指定是否请求特定于编译器的扩展。"
+	},
+	"C_STANDARD": {
+		"name": "C_STANDARD",
+		"description": "请求使用其功能生成此目标的 C 标准。"
+	},
+	"C_STANDARD_REQUIRED": {
+		"name": "C_STANDARD_REQUIRED",
+		"description": "描述 C_STANDARD 的值是否是必需项的布尔值。"
+	},
+	"DEBUG_POSTFIX": {
+		"name": "DEBUG_POSTFIX",
+		"description": "请参阅目标属性 <CONFIG>_POSTFIX。"
+	},
+	"DEFINE_SYMBOL": {
+		"name": "DEFINE_SYMBOL",
+		"description": "在编译此目标的源时定义符号。"
+	},
+	"DEPLOYMENT_ADDITIONAL_FILES": {
+		"name": "DEPLOYMENT_ADDITIONAL_FILES",
+		"description": "在 Visual Studio 生成器生成的 .vcproj 文件中的 DeploymentTool 中设置 WinCE 项目 AdditionalFiles。要在远程 WinCE 设备上进行调试时，此操作非常有用。请指定将复制到该设备的附加文件。例如:"
+	},
+	"DEPLOYMENT_REMOTE_DIRECTORY": {
+		"name": "DEPLOYMENT_REMOTE_DIRECTORY",
+		"description": "在 Visual Studio 生成器生成的 .vcproj 文件中的 DebuggerTool 中的 DeploymentTool 和 RemoteExecutable 中设置 WinCE 项目 RemoteDirectory。要在远程 WinCE 设备上进行调试时，此操作非常有用。例如:"
+	},
+	"DEPRECATION": {
+		"name": "DEPRECATION",
+		"description": "被导入目标的开发人员弃用的消息。"
+	},
+	"DISABLE_PRECOMPILE_HEADERS": {
+		"name": "DISABLE_PRECOMPILE_HEADERS",
+		"description": "禁用由 PRECOMPILE_HEADERS 属性指定的头文件的预编译。"
+	},
+	"DLL_NAME_WITH_SOVERSION": {
+		"name": "DLL_NAME_WITH_SOVERSION",
+		"description": "此属性控制是否将 SOVERSION 目标属性添加到为 Windows 平台生成的 DLL 文件名的文件名重，该文件名是在设置 WIN32 变量时选择的。"
+	},
+	"DOTNET_SDK": {
+		"name": "DOTNET_SDK",
+		"description": "指定用于 C# 项目的 .NET SDK。例如: Microsoft .NET.Sdk。"
+	},
+	"DOTNET_TARGET_FRAMEWORK": {
+		"name": "DOTNET_TARGET_FRAMEWORK",
+		"description": "指定 .NET 目标框架。"
+	},
+	"DOTNET_TARGET_FRAMEWORK_VERSION": {
+		"name": "DOTNET_TARGET_FRAMEWORK_VERSION",
+		"description": "指定 .NET 目标框架版本。"
+	},
+	"EchoString": {
+		"name": "EchoString",
+		"description": "在生成目标时要显示的消息。"
+	},
+	"ENABLE_EXPORTS": {
+		"name": "ENABLE_EXPORTS",
+		"description": "指定可执行文件还是共享库导出符号。"
+	},
+	"EXCLUDE_FROM_DEFAULT_BUILD": {
+		"name": "EXCLUDE_FROM_DEFAULT_BUILD",
+		"description": "从“生成解决方案”中排除目标。"
+	},
+	"EXCLUDE_FROM_DEFAULT_BUILD_<CONFIG>": {
+		"name": "EXCLUDE_FROM_DEFAULT_BUILD_<CONFIG>",
+		"description": "“生成解决方案”中的目标排除的基于配置的版本。"
+	},
+	"EXPORT_COMPILE_COMMANDS": {
+		"name": "EXPORT_COMPILE_COMMANDS",
+		"description": "在针对目标生成期间启用/禁用编译命令输出。"
+	},
+	"EXPORT_FIND_PACKAGE_NAME": {
+		"name": "EXPORT_FIND_PACKAGE_NAME",
+		"description": "在安装或导出中导出 find_dependency 调用时，控制与依赖项目标关联的包名称。这可用于为所导出的由 CMake 生成的包分配包名称，或替代创建了目标的 find_package 调用中的包。"
+	},
+	"EXPORT_NAME": {
+		"name": "EXPORT_NAME",
+		"description": "目标文件的导出名称。"
+	},
+	"EXPORT_NO_SYSTEM": {
+		"name": "EXPORT_NO_SYSTEM",
+		"description": "当安装和导出命令分别安装或导出目标时，此属性会影响它们的行为。当 EXPORT_NO_SYSTEM 设置为 true 时，这些命令会生成将 SYSTEM 属性设置为 false 的导入目标。"
+	},
+	"EXPORT_PROPERTIES": {
+		"name": "EXPORT_PROPERTIES",
+		"description": "列出要为目标导出的其他属性。"
+	},
+	"FOLDER": {
+		"name": "FOLDER",
+		"description": "对于使用文件夹层次结构显示目标的 IDE，此属性指定要放置目标的文件夹的名称。若要嵌套文件夹，请使用像 GUI/Dialogs 这样的 FOLDER 值，其中的 / 字符用于分隔文件夹级别。没有 FOLDER 属性的目标将显示为顶级实体。具有相同 FOLDER 属性值的目标将显示在同一文件夹中作为同级目标。"
+	},
+	"Fortran_BUILDING_INSTRINSIC_MODULES": {
+		"name": "Fortran_BUILDING_INSTRINSIC_MODULES",
+		"description": "指示 CMake Fortran 预处理器目标是生成 Fortran 内部函数以生成 Fortran 编译器。"
+	},
+	"Fortran_MODULE_DIRECTORY": {
+		"name": "Fortran_MODULE_DIRECTORY",
+		"description": "指定目标提供的 Fortran 模块的输出目录。"
+	},
+	"FRAMEWORK": {
+		"name": "FRAMEWORK",
+		"description": "生成共享库或静态库，用作 macOS 和 iOS 上的框架捆绑包。"
+	},
+	"FRAMEWORK_MULTI_CONFIG_POSTFIX_<CONFIG>": {
+		"name": "FRAMEWORK_MULTI_CONFIG_POSTFIX_<CONFIG>",
+		"description": "在使用多配置生成器(如 Xcode 和 Ninja 多配置生成器)时，将附加到框架文件名称以追加到配置 <CONFIG> 的后缀。"
+	},
+	"FRAMEWORK_VERSION": {
+		"name": "FRAMEWORK_VERSION",
+		"description": "使用 FRAMEWORK 目标属性(例如 A)创建的框架版本。"
+	},
+	"GENERATOR_FILE_NAME": {
+		"name": "GENERATOR_FILE_NAME",
+		"description": "此目标的生成器的文件。"
+	},
+	"GHS_INTEGRITY_APP": {
+		"name": "GHS_INTEGRITY_APP",
+		"description": "ON/OFF 布尔值，用于确定是否应将可执行目标视为完整性应用程序。"
+	},
+	"GHS_NO_SOURCE_GROUP_FILE": {
+		"name": "GHS_NO_SOURCE_GROUP_FILE",
+		"description": "ON/OFF 布尔值，用于控制目标的项目文件应为单个文件还是多个文件。"
+	},
+	"GNUtoMS": {
+		"name": "GNUtoMS",
+		"description": "将 GNU 导入库(.dll.a)转换为 MS 格式(.lib)。"
+	},
+	"HAS_CXX": {
+		"name": "HAS_CXX",
+		"description": "使用 C++ 链接器工具链接目标(已过时)。"
+	},
+	"HEADER_DIRS": {
+		"name": "HEADER_DIRS",
+		"description": "以分号分隔的目标默认标头集的基目录列表(即具有名称和类型 HEADERS 的文件集)。该属性支持生成器表达式<cmake-generator-expressions(7)>。"
+	},
+	"HEADER_DIRS_<NAME>": {
+		"name": "HEADER_DIRS_<NAME>",
+		"description": "目标的 <NAME> 标头集的基目录的分号分隔列表，该标头集的类型为 HEADERS。该属性支持生成器表达式 <cmake-generator-expressions(7)>。"
+	},
+	"HEADER_SET": {
+		"name": "HEADER_SET",
+		"description": "目标的默认标头集中以分号分隔的文件列表(即名称和类型为 HEADERS 的文件集)。如果任何路径是相对路径，则会根据目标的源目录计算这些路径。该属性支持生成器表达式<cmake-generator-expressions(7)>。"
+	},
+	"HEADER_SETS": {
+		"name": "HEADER_SETS",
+		"description": "目标的 PRIVATE 和 PUBLIC 标头集的只读列表(即所有具有 HEADERS 类型的文件集)。为了实现 IDE 集成，这些文件集中列出的文件被视为源文件。这些文件的 HEADER_FILE_ONLY 属性也设置为 TRUE。"
+	},
+	"HEADER_SET_<NAME>": {
+		"name": "HEADER_SET_<NAME>",
+		"description": "目标的 <NAME> 标头集中的文件的分号分隔列表，该标头集的类型为 HEADERS。如果任何路径是相对路径，则会根据目标的源目录计算这些路径。该属性支持生成器表达式<cmake-generator-expressions(7)>。"
+	},
+	"HIP_ARCHITECTURES": {
+		"name": "HIP_ARCHITECTURES",
+		"description": "要为其生成设备代码的 GPU 体系结构列表。根据 CMAKE_HIP_PLATFORM 解释体系结构名称。"
+	},
+	"HIP_EXTENSIONS": {
+		"name": "HIP_EXTENSIONS",
+		"description": "布尔值，指定是否请求特定于编译器的扩展。"
+	},
+	"HIP_STANDARD": {
+		"name": "HIP_STANDARD",
+		"description": "被请求以已生成此目标的 HIP/C++ 标准。"
+	},
+	"HIP_STANDARD_REQUIRED": {
+		"name": "HIP_STANDARD_REQUIRED",
+		"description": "描述 HIP_STANDARD 值是否为必需项的布尔。"
+	},
+	"IMPORTED": {
+		"name": "IMPORTED",
+		"description": "关于目标是否是 IMPORTED 的只读指示。"
+	},
+	"IMPORTED_COMMON_LANGUAGE_RUNTIME": {
+		"name": "IMPORTED_COMMON_LANGUAGE_RUNTIME",
+		"description": "在目标使用 C++/CLI 时要定义的属性。"
+	},
+	"IMPORTED_CONFIGURATIONS": {
+		"name": "IMPORTED_CONFIGURATIONS",
+		"description": "针对导入目标提供的配置。"
+	},
+	"IMPORTED_CXX_MODULES_COMPILE_DEFINITIONS": {
+		"name": "IMPORTED_CXX_MODULES_COMPILE_DEFINITIONS",
+		"description": "用于编译已导入目标的 C++ 模块源的预处理器定义。"
+	},
+	"IMPORTED_CXX_MODULES_COMPILE_FEATURES": {
+		"name": "IMPORTED_CXX_MODULES_COMPILE_FEATURES",
+		"description": "已为此已导入目标的 C++ 模块启用编译器功能。"
+	},
+	"IMPORTED_CXX_MODULES_COMPILE_OPTIONS": {
+		"name": "IMPORTED_CXX_MODULES_COMPILE_OPTIONS",
+		"description": "要传递给此已导入目标 C++ 模块的编译器的选项列表。"
+	},
+	"IMPORTED_CXX_MODULES_INCLUDE_DIRECTORIES": {
+		"name": "IMPORTED_CXX_MODULES_INCLUDE_DIRECTORIES",
+		"description": "编译已导入目标的 C++ 模块时，预处理器列表包括文件搜索目录。"
+	},
+	"IMPORTED_CXX_MODULES_LINK_LIBRARIES": {
+		"name": "IMPORTED_CXX_MODULES_LINK_LIBRARIES",
+		"description": "要用于目标 C++ 模块中 C++ 模块的使用需求的直接依赖项列表。"
+	},
+	"IMPORTED_GLOBAL": {
+		"name": "IMPORTED_GLOBAL",
+		"description": "关于 IMPORTED 目标是否全局可见的指示。"
+	},
+	"IMPORTED_IMPLIB": {
+		"name": "IMPORTED_IMPLIB",
+		"description": "IMPORTED 目标的导入库的完整路径。"
+	},
+	"IMPORTED_IMPLIB_<CONFIG>": {
+		"name": "IMPORTED_IMPLIB_<CONFIG>",
+		"description": "IMPORTED_IMPLIB 属性的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORTED_LIBNAME": {
+		"name": "IMPORTED_LIBNAME",
+		"description": "指定导入的接口库的链接库名称。"
+	},
+	"IMPORTED_LIBNAME_<CONFIG>": {
+		"name": "IMPORTED_LIBNAME_<CONFIG>",
+		"description": "IMPORTED_LIBNAME 属性的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORTED_LINK_DEPENDENT_LIBRARIES": {
+		"name": "IMPORTED_LINK_DEPENDENT_LIBRARIES",
+		"description": "导入的共享库的从属共享库。"
+	},
+	"IMPORTED_LINK_DEPENDENT_LIBRARIES_<CONFIG>": {
+		"name": "IMPORTED_LINK_DEPENDENT_LIBRARIES_<CONFIG>",
+		"description": "IMPORTED_LINK_DEPENDENT_LIBRARIES 的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORTED_LINK_INTERFACE_LANGUAGES": {
+		"name": "IMPORTED_LINK_INTERFACE_LANGUAGES",
+		"description": "编译为 IMPORTED 静态库的语言。"
+	},
+	"IMPORTED_LINK_INTERFACE_LANGUAGES_<CONFIG>": {
+		"name": "IMPORTED_LINK_INTERFACE_LANGUAGES_<CONFIG>",
+		"description": "IMPORTED_LINK_INTERFACE_LANGUAGES 的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORTED_LINK_INTERFACE_LIBRARIES": {
+		"name": "IMPORTED_LINK_INTERFACE_LIBRARIES",
+		"description": "IMPORTED 目标的可传递链接接口。"
+	},
+	"IMPORTED_LINK_INTERFACE_LIBRARIES_<CONFIG>": {
+		"name": "IMPORTED_LINK_INTERFACE_LIBRARIES_<CONFIG>",
+		"description": "IMPORTED_LINK_INTERFACE_LIBRARIES 的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORTED_LINK_INTERFACE_MULTIPLICITY": {
+		"name": "IMPORTED_LINK_INTERFACE_MULTIPLICITY",
+		"description": "IMPORTED 静态库的循环的重复计数。"
+	},
+	"IMPORTED_LINK_INTERFACE_MULTIPLICITY_<CONFIG>": {
+		"name": "IMPORTED_LINK_INTERFACE_MULTIPLICITY_<CONFIG>",
+		"description": "IMPORTED_LINK_INTERFACE_MULTIPLICITY 的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORTED_LOCATION": {
+		"name": "IMPORTED_LOCATION",
+		"description": "IMPORTED 目标的磁盘上的主文件的完整路径。"
+	},
+	"IMPORTED_LOCATION_<CONFIG>": {
+		"name": "IMPORTED_LOCATION_<CONFIG>",
+		"description": "IMPORTED_LOCATION 属性的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORTED_NO_SONAME": {
+		"name": "IMPORTED_NO_SONAME",
+		"description": "指定 IMPORTED 共享库目标没有 soname。"
+	},
+	"IMPORTED_NO_SONAME_<CONFIG>": {
+		"name": "IMPORTED_NO_SONAME_<CONFIG>",
+		"description": "IMPORTED_NO_SONAME 属性的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORTED_NO_SYSTEM": {
+		"name": "IMPORTED_NO_SYSTEM",
+		"description": "在导入的目标上将 IMPORTED_NO_SYSTEM 设置为 true 会指定它不是系统目标。这会产生以下效果:"
+	},
+	"IMPORTED_OBJECTS": {
+		"name": "IMPORTED_OBJECTS",
+		"description": "以分号分隔的列表，包含导入的对象库的对象文件在磁盘上的绝对路径。"
+	},
+	"IMPORTED_OBJECTS_<CONFIG>": {
+		"name": "IMPORTED_OBJECTS_<CONFIG>",
+		"description": "IMPORTED_OBJECTS 属性的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORTED_SONAME": {
+		"name": "IMPORTED_SONAME",
+		"description": "共享库类型的 IMPORTED 目标的 soname。"
+	},
+	"IMPORTED_SONAME_<CONFIG>": {
+		"name": "IMPORTED_SONAME_<CONFIG>",
+		"description": "IMPORTED_SONAME 属性的特定于 <CONFIG> 的版本。"
+	},
+	"IMPORT_PREFIX": {
+		"name": "IMPORT_PREFIX",
+		"description": "导入库名称之前的内容。"
+	},
+	"IMPORT_SUFFIX": {
+		"name": "IMPORT_SUFFIX",
+		"description": "导入库名称之后的内容。"
+	},
+	"INSTALL_NAME_DIR": {
+		"name": "INSTALL_NAME_DIR",
+		"description": "Apple 平台上已安装目标的目录名。"
+	},
+	"INSTALL_REMOVE_ENVIRONMENT_RPATH": {
+		"name": "INSTALL_REMOVE_ENVIRONMENT_RPATH",
+		"description": "控制在安装期间是否应移除工具链定义的 rpath。"
+	},
+	"INSTALL_RPATH": {
+		"name": "INSTALL_RPATH",
+		"description": "用于已安装目标的 rpath。"
+	},
+	"INSTALL_RPATH_USE_LINK_PATH": {
+		"name": "INSTALL_RPATH_USE_LINK_PATH",
+		"description": "添加链接器搜索和已安装的 rpath 的路径。"
+	},
+	"INTERFACE_AUTOMOC_MACRO_NAMES": {
+		"name": "INTERFACE_AUTOMOC_MACRO_NAMES",
+		"description": "要传播到使用者的 AUTOMOC 宏名称的分号分隔列表。"
+	},
+	"INTERFACE_AUTOUIC_OPTIONS": {
+		"name": "INTERFACE_AUTOUIC_OPTIONS",
+		"description": "要传递给 uic 的接口选项的列表。"
+	},
+	"INTERFACE_COMPILE_DEFINITIONS": {
+		"name": "INTERFACE_COMPILE_DEFINITIONS",
+		"description": "库的公共 property_name 要求列表。"
+	},
+	"INTERFACE_COMPILE_FEATURES": {
+		"name": "INTERFACE_COMPILE_FEATURES",
+		"description": "库的公共 property_name 要求列表。"
+	},
+	"INTERFACE_COMPILE_OPTIONS": {
+		"name": "INTERFACE_COMPILE_OPTIONS",
+		"description": "库的公共 property_name 要求列表。"
+	},
+	"INTERFACE_CXX_MODULE_SETS": {
+		"name": "INTERFACE_CXX_MODULE_SETS",
+		"description": "目标的公开 C++ 模块集的只读列表(即类型为 CXX_MODULES 的所有文件集)。通过安装可以安装这些 C++ 模块集中列出的文件，而通过安装和导出则可以导出这些文件。"
+	},
+	"INTERFACE_HEADER_SETS": {
+		"name": "INTERFACE_HEADER_SETS",
+		"description": "目标的 INTERFACE 和 PUBLIC 标头集的只读列表(即所有具有 HEADERS 类型的文件集)。通过安装和导出，可以安装和导出这些标头集中列出的文件。"
+	},
+	"INTERFACE_HEADER_SETS_TO_VERIFY": {
+		"name": "INTERFACE_HEADER_SETS_TO_VERIFY",
+		"description": "用于指定应验证目标的哪些 PUBLIC 和 INTERFACE 标头集。"
+	},
+	"INTERFACE_INCLUDE_DIRECTORIES": {
+		"name": "INTERFACE_INCLUDE_DIRECTORIES",
+		"description": "库的公共 property_name 要求列表。"
+	},
+	"INTERFACE_LINK_DEPENDS": {
+		"name": "INTERFACE_LINK_DEPENDS",
+		"description": "目标二进制文件依赖其进行链接的附加公共接口文件。"
+	},
+	"INTERFACE_LINK_DIRECTORIES": {
+		"name": "INTERFACE_LINK_DIRECTORIES",
+		"description": "库的公共 property_name 要求列表。"
+	},
+	"INTERFACE_LINK_LIBRARIES": {
+		"name": "INTERFACE_LINK_LIBRARIES",
+		"description": "列出库的公共接口库。"
+	},
+	"INTERFACE_LINK_LIBRARIES_DIRECT": {
+		"name": "INTERFACE_LINK_LIBRARIES_DIRECT",
+		"description": "库列表，此库的使用者应将其视为直接链接依赖项。"
+	},
+	"INTERFACE_LINK_LIBRARIES_DIRECT_EXCLUDE": {
+		"name": "INTERFACE_LINK_LIBRARIES_DIRECT_EXCLUDE",
+		"description": "此库的使用者不应将其视为直接链接依赖项的库列表。"
+	},
+	"INTERFACE_LINK_OPTIONS": {
+		"name": "INTERFACE_LINK_OPTIONS",
+		"description": "库的公共 property_name 要求列表。"
+	},
+	"INTERFACE_POSITION_INDEPENDENT_CODE": {
+		"name": "INTERFACE_POSITION_INDEPENDENT_CODE",
+		"description": "使用者是否需要创建独立于位置的目标"
+	},
+	"INTERFACE_PRECOMPILE_HEADERS": {
+		"name": "INTERFACE_PRECOMPILE_HEADERS",
+		"description": "要预编译为使用目标的接口头文件的列表。"
+	},
+	"INTERFACE_SOURCES": {
+		"name": "INTERFACE_SOURCES",
+		"description": "要编译为使用目标的接口源的列表。"
+	},
+	"INTERFACE_SYSTEM_INCLUDE_DIRECTORIES": {
+		"name": "INTERFACE_SYSTEM_INCLUDE_DIRECTORIES",
+		"description": "包括库目录的公共系统的列表。"
+	},
+	"IOS_INSTALL_COMBINED": {
+		"name": "IOS_INSTALL_COMBINED",
+		"description": "在安装时生成组合(设备和模拟器)目标。"
+	},
+	"ISPC_HEADER_DIRECTORY": {
+		"name": "ISPC_HEADER_DIRECTORY",
+		"description": "指定目标提供的 ISPC 标头的相对输出目录。"
+	},
+	"ISPC_HEADER_SUFFIX": {
+		"name": "ISPC_HEADER_SUFFIX",
+		"description": "指定用于目标提供的 ISPC 生成的标头的输出后缀。"
+	},
+	"ISPC_INSTRUCTION_SETS": {
+		"name": "ISPC_INSTRUCTION_SETS",
+		"description": "要为其生成代码的指令集体系结构列表。"
+	},
+	"JOB_POOL_COMPILE": {
+		"name": "JOB_POOL_COMPILE",
+		"description": "仅 Ninja: 用于编译的池。"
+	},
+	"JOB_POOL_LINK": {
+		"name": "JOB_POOL_LINK",
+		"description": "仅 Ninja: 用于链接的池。"
+	},
+	"JOB_POOL_PRECOMPILE_HEADER": {
+		"name": "JOB_POOL_PRECOMPILE_HEADER",
+		"description": "仅限 Ninja: 用于生成预编译标头的池。"
+	},
+	"<LANG>_CLANG_TIDY": {
+		"name": "<LANG>_CLANG_TIDY",
+		"description": "仅当 <LANG> 是 C、CXX、OBJC 或 OBJCXX 时，才实现此属性。"
+	},
+	"<LANG>_CLANG_TIDY_EXPORT_FIXES_DIR": {
+		"name": "<LANG>_CLANG_TIDY_EXPORT_FIXES_DIR",
+		"description": "仅当 <LANG> 为 C、CXX、OBJC 或 OBJCXX 时才实现此属性，并且此属性仅在设置 <LANG>_CLANG_TIDY 后生效。"
+	},
+	"<LANG>_COMPILER_LAUNCHER": {
+		"name": "<LANG>_COMPILER_LAUNCHER",
+		"description": "仅当 <LANG> 是 C、CXX、Fortran、HIP、ISPC、OBJC、OBJCXX 或 CUDA 时，才实现此属性。"
+	},
+	"<LANG>_CPPCHECK": {
+		"name": "<LANG>_CPPCHECK",
+		"description": "仅当 <LANG> 为 C 或 CXX 时，才支持此属性。"
+	},
+	"<LANG>_CPPLINT": {
+		"name": "<LANG>_CPPLINT",
+		"description": "仅当 <LANG> 为 C 或 CXX 时，才支持此属性。"
+	},
+	"<LANG>_EXTENSIONS": {
+		"name": "<LANG>_EXTENSIONS",
+		"description": "变体为:"
+	},
+	"<LANG>_INCLUDE_WHAT_YOU_USE": {
+		"name": "<LANG>_INCLUDE_WHAT_YOU_USE",
+		"description": "仅当 <LANG> 为 C 或 CXX 时，才能实现此属性。"
+	},
+	"<LANG>_LINKER_LAUNCHER": {
+		"name": "<LANG>_LINKER_LAUNCHER",
+		"description": "仅当 <LANG> 是 C、CXX、OBJC 或 OBJCXX 时，才实现此属性。"
+	},
+	"<LANG>_STANDARD": {
+		"name": "<LANG>_STANDARD",
+		"description": "变体为:"
+	},
+	"<LANG>_STANDARD_REQUIRED": {
+		"name": "<LANG>_STANDARD_REQUIRED",
+		"description": "变体为:"
+	},
+	"<LANG>_VISIBILITY_PRESET": {
+		"name": "<LANG>_VISIBILITY_PRESET",
+		"description": "符号可见性编译标志的值"
+	},
+	"LIBRARY_OUTPUT_DIRECTORY": {
+		"name": "LIBRARY_OUTPUT_DIRECTORY",
+		"description": "在其中生成 XXX 目标文件的输出目录。"
+	},
+	"LIBRARY_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "LIBRARY_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "库目标文件的基于配置的输出目录。"
+	},
+	"LIBRARY_OUTPUT_NAME": {
+		"name": "LIBRARY_OUTPUT_NAME",
+		"description": "XXX 目标文件的输出名称。"
+	},
+	"LIBRARY_OUTPUT_NAME_<CONFIG>": {
+		"name": "LIBRARY_OUTPUT_NAME_<CONFIG>",
+		"description": "库目标文件的基于配置的输出名称。"
+	},
+	"LINKER_LANGUAGE": {
+		"name": "LINKER_LANGUAGE",
+		"description": "指定其编译器将调用链接器的语言。"
+	},
+	"LINKER_TYPE": {
+		"name": "LINKER_TYPE",
+		"description": "指定将用于链接步骤的链接器。属性值可以使用生成器表达式 <cmake-generator-expressions(7)>。"
+	},
+	"LINK_DEPENDS": {
+		"name": "LINK_DEPENDS",
+		"description": "目标二进制文件依赖其进行链接的附加文件。"
+	},
+	"LINK_DEPENDS_NO_SHARED": {
+		"name": "LINK_DEPENDS_NO_SHARED",
+		"description": "不依赖于链接的共享库文件。"
+	},
+	"LINK_FLAGS": {
+		"name": "LINK_FLAGS",
+		"description": "如果是共享库、模块库或可执行文件，则为链接此目标时要使用的附加标志。静态库需要使用 STATIC_LIBRARY_OPTIONS 或 STATIC_LIBRARY_FLAGS 属性。"
+	},
+	"LINK_FLAGS_<CONFIG>": {
+		"name": "LINK_FLAGS_<CONFIG>",
+		"description": "共享库、模块或可执行文件目标的基于配置的链接器标志。"
+	},
+	"LINK_INTERFACE_LIBRARIES": {
+		"name": "LINK_INTERFACE_LIBRARIES",
+		"description": "列出共享库或可执行文件的公共接口库。"
+	},
+	"LINK_INTERFACE_LIBRARIES_<CONFIG>": {
+		"name": "LINK_INTERFACE_LIBRARIES_<CONFIG>",
+		"description": "目标的公共接口库的基于配置的列表。"
+	},
+	"LINK_INTERFACE_MULTIPLICITY": {
+		"name": "LINK_INTERFACE_MULTIPLICITY",
+		"description": "具有循环依赖项的静态库的循环计数。"
+	},
+	"LINK_INTERFACE_MULTIPLICITY_<CONFIG>": {
+		"name": "LINK_INTERFACE_MULTIPLICITY_<CONFIG>",
+		"description": "静态库循环的基于配置的循环计数。"
+	},
+	"LINK_LIBRARIES": {
+		"name": "LINK_LIBRARIES",
+		"description": "直接链接依赖项的列表。"
+	},
+	"LINK_LIBRARIES_ONLY_TARGETS": {
+		"name": "LINK_LIBRARIES_ONLY_TARGETS",
+		"description": "强制执行可作为目标名称的链接项实际上是现有的目标。"
+	},
+	"LINK_LIBRARY_OVERRIDE": {
+		"name": "LINK_LIBRARY_OVERRIDE",
+		"description": "替代与 LINK_LIBRARY 生成器表达式中的库关联的库功能。这可用于解析在不同 LINK_LIBRARY 生成器表达式中指定同一库的不同功能所导致的不兼容库功能。"
+	},
+	"LINK_LIBRARY_OVERRIDE_<LIBRARY>": {
+		"name": "LINK_LIBRARY_OVERRIDE_<LIBRARY>",
+		"description": "替代与 LINK_LIBRARY 生成器表达式中 <LIBRARY> 关联的库功能。这可用于解析在不同 LINK_LIBRARY 生成器表达式中指定 <LIBRARY> 的不同功能所导致的不兼容库功能。"
+	},
+	"LINK_SEARCH_END_STATIC": {
+		"name": "LINK_SEARCH_END_STATIC",
+		"description": "结束链接线，以便使用静态系统库。"
+	},
+	"LINK_SEARCH_START_STATIC": {
+		"name": "LINK_SEARCH_START_STATIC",
+		"description": "假设链接器默认查找静态库。"
+	},
+	"LINK_WHAT_YOU_USE": {
+		"name": "LINK_WHAT_YOU_USE",
+		"description": "此为布尔选项，如果其设置为 TRUE，则将在链接后自动在目标上运行变量 CMAKE_LINK_WHAT_YOU_USE_CHECK 的内容。此外，将使用链接命令将变量 CMAKE_<LANG>_LINK_WHAT_YOU_USE_FLAG 指定的链接器标志传递到目标，以便将命令行上指定的所有库链接到目标中。这将导致链接生成库列表，这些库不提供此目标使用的符号，但会链接到该目标。"
+	},
+	"LOCATION_<CONFIG>": {
+		"name": "LOCATION_<CONFIG>",
+		"description": "提供磁盘上的目标位置的只读属性。"
+	},
+	"MACHO_COMPATIBILITY_VERSION": {
+		"name": "MACHO_COMPATIBILITY_VERSION",
+		"description": "Mach-O 二进制文件的此目标的兼容版本号。"
+	},
+	"MACHO_CURRENT_VERSION": {
+		"name": "MACHO_CURRENT_VERSION",
+		"description": "Mach-O 二进制文件的此目标的当前版本号。"
+	},
+	"MACOSX_BUNDLE": {
+		"name": "MACOSX_BUNDLE",
+		"description": "生成可执行文件，用作 MacOS 或 iOS 上的应用程序捆绑包。"
+	},
+	"MACOSX_BUNDLE_INFO_PLIST": {
+		"name": "MACOSX_BUNDLE_INFO_PLIST",
+		"description": "为 macOS 和 iOS 应用程序捆绑包指定自定义 Info.plist 模板。"
+	},
+	"MACOSX_FRAMEWORK_INFO_PLIST": {
+		"name": "MACOSX_FRAMEWORK_INFO_PLIST",
+		"description": "为 macOS 和 iOS 框架指定自定义 Info.plist 模板。"
+	},
+	"MACOSX_RPATH": {
+		"name": "MACOSX_RPATH",
+		"description": "macOS 或 iOS 上的此目标是否位于使用 rpaths 的运行时。"
+	},
+	"MANUALLY_ADDED_DEPENDENCIES": {
+		"name": "MANUALLY_ADDED_DEPENDENCIES",
+		"description": "将手动添加的依赖项添加到其他顶级目标。"
+	},
+	"MAP_IMPORTED_CONFIG_<CONFIG>": {
+		"name": "MAP_IMPORTED_CONFIG_<CONFIG>",
+		"description": "从项目配置映射到导入的目标的配置。"
+	},
+	"MSVC_DEBUG_INFORMATION_FORMAT": {
+		"name": "MSVC_DEBUG_INFORMATION_FORMAT",
+		"description": "在面向 MSVC ABI 时选择调试信息格式。"
+	},
+	"MSVC_RUNTIME_LIBRARY": {
+		"name": "MSVC_RUNTIME_LIBRARY",
+		"description": "选择供面向 MSVC ABI 的编译器使用的 MSVC 运行时库。"
+	},
+	"NAME": {
+		"name": "NAME",
+		"description": "目标的逻辑名称。"
+	},
+	"NO_SONAME": {
+		"name": "NO_SONAME",
+		"description": "在链接共享库时是否设置 soname。"
+	},
+	"NO_SYSTEM_FROM_IMPORTED": {
+		"name": "NO_SYSTEM_FROM_IMPORTED",
+		"description": "请勿将已使用的导入目标接口中的包含目录作为系统目录。"
+	},
+	"OBJCXX_EXTENSIONS": {
+		"name": "OBJCXX_EXTENSIONS",
+		"description": "布尔值，指定是否请求特定于编译器的扩展。"
+	},
+	"OBJCXX_STANDARD": {
+		"name": "OBJCXX_STANDARD",
+		"description": "请求使用其功能生成此目标的 ObjC++ 标准。"
+	},
+	"OBJCXX_STANDARD_REQUIRED": {
+		"name": "OBJCXX_STANDARD_REQUIRED",
+		"description": "描述 OBJCXX_STANDARD 的值是否是必需项的布尔值。"
+	},
+	"OBJC_EXTENSIONS": {
+		"name": "OBJC_EXTENSIONS",
+		"description": "布尔值，指定是否请求特定于编译器的扩展。"
+	},
+	"OBJC_STANDARD": {
+		"name": "OBJC_STANDARD",
+		"description": "请求使用其功能生成此目标的 OBJC 标准。"
+	},
+	"OBJC_STANDARD_REQUIRED": {
+		"name": "OBJC_STANDARD_REQUIRED",
+		"description": "描述 OBJC_STANDARD 的值是否是必需项的布尔值。"
+	},
+	"OPTIMIZE_DEPENDENCIES": {
+		"name": "OPTIMIZE_DEPENDENCIES",
+		"description": "激活静态和对象库的依赖项优化。"
+	},
+	"OSX_ARCHITECTURES": {
+		"name": "OSX_ARCHITECTURES",
+		"description": "适用于 macOS 的目标特定体系结构。"
+	},
+	"OSX_ARCHITECTURES_<CONFIG>": {
+		"name": "OSX_ARCHITECTURES_<CONFIG>",
+		"description": "目标的基于配置的 macOS 和 iOS 二进制体系结构。"
+	},
+	"OUTPUT_NAME": {
+		"name": "OUTPUT_NAME",
+		"description": "目标文件的输出名称。"
+	},
+	"OUTPUT_NAME_<CONFIG>": {
+		"name": "OUTPUT_NAME_<CONFIG>",
+		"description": "基于配置的目标文件基名称。"
+	},
+	"PCH_INSTANTIATE_TEMPLATES": {
+		"name": "PCH_INSTANTIATE_TEMPLATES",
+		"description": "当此属性设置为 true 时，预编译标头编译器选项将包含一个标志，用于在 PCH 生成期间实例化模板(如果支持)。这可以显著降低编译时间。自版本 11 起，在 Clang 中受支持。"
+	},
+	"PCH_WARN_INVALID": {
+		"name": "PCH_WARN_INVALID",
+		"description": "当此属性设置为 true 时，预编译标头编译器选项将包含编译器标志，该标记应针对无效的预编译标头(例如 GNU 编译器的 -Winvalid-pch)发出警告。"
+	},
+	"PDB_NAME": {
+		"name": "PDB_NAME",
+		"description": "可执行文件或共享库目标的链接器生成的 MS 调试符号 .pdb 文件的输出名称。"
+	},
+	"PDB_NAME_<CONFIG>": {
+		"name": "PDB_NAME_<CONFIG>",
+		"description": "基于配置的输出名称，用于可执行文件或共享库目标的链接器生成的 MS 调试符号 .pdb 文件。"
+	},
+	"PDB_OUTPUT_DIRECTORY": {
+		"name": "PDB_OUTPUT_DIRECTORY",
+		"description": "可执行文件或共享库目标的链接器生成的 MS 调试符号 .pdb 文件的输出目录。"
+	},
+	"PDB_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "PDB_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "可执行文件或共享库目标的链接器生成的 MS 调试符号.pdb 文件的基于配置的输出目录。"
+	},
+	"POSITION_INDEPENDENT_CODE": {
+		"name": "POSITION_INDEPENDENT_CODE",
+		"description": "是否创建独立于位置的目标"
+	},
+	"POST_INSTALL_SCRIPT": {
+		"name": "POST_INSTALL_SCRIPT",
+		"description": "已弃用安装支持。"
+	},
+	"PRECOMPILE_HEADERS": {
+		"name": "PRECOMPILE_HEADERS",
+		"description": "要预编译的头文件的列表。"
+	},
+	"PRECOMPILE_HEADERS_REUSE_FROM": {
+		"name": "PRECOMPILE_HEADERS_REUSE_FROM",
+		"description": "要从中重用预编译标头生成项目的目标。"
+	},
+	"PREFIX": {
+		"name": "PREFIX",
+		"description": "库名称之前的内容。"
+	},
+	"PRE_INSTALL_SCRIPT": {
+		"name": "PRE_INSTALL_SCRIPT",
+		"description": "已弃用安装支持。"
+	},
+	"PRIVATE_HEADER": {
+		"name": "PRIVATE_HEADER",
+		"description": "指定框架共享库目标中的专用头文件。"
+	},
+	"PROJECT_LABEL": {
+		"name": "PROJECT_LABEL",
+		"description": "在 IDE 中更改目标名称。"
+	},
+	"PUBLIC_HEADER": {
+		"name": "PUBLIC_HEADER",
+		"description": "在框架共享库目标中指定公共头文件。"
+	},
+	"RESOURCE": {
+		"name": "RESOURCE",
+		"description": "在框架或捆绑包中指定源文件。"
+	},
+	"RUNTIME_OUTPUT_DIRECTORY": {
+		"name": "RUNTIME_OUTPUT_DIRECTORY",
+		"description": "在其中生成 XXX 目标文件的输出目录。"
+	},
+	"RUNTIME_OUTPUT_DIRECTORY_<CONFIG>": {
+		"name": "RUNTIME_OUTPUT_DIRECTORY_<CONFIG>",
+		"description": "运行时目标文件的基于配置的输出目录。"
+	},
+	"RUNTIME_OUTPUT_NAME": {
+		"name": "RUNTIME_OUTPUT_NAME",
+		"description": "XXX 目标文件的输出名称。"
+	},
+	"RUNTIME_OUTPUT_NAME_<CONFIG>": {
+		"name": "RUNTIME_OUTPUT_NAME_<CONFIG>",
+		"description": "运行时目标文件的基于配置的输出名称。"
+	},
+	"SKIP_BUILD_RPATH": {
+		"name": "SKIP_BUILD_RPATH",
+		"description": "rpaths 是否应用于生成树。"
+	},
+	"SOURCES": {
+		"name": "SOURCES",
+		"description": "这指定目标的源文件的路径列表。以下命令全部设置或添加到 SOURCES 目标属性，并且是操作它的常用方法:"
+	},
+	"SOVERSION": {
+		"name": "SOVERSION",
+		"description": "共享库目标的 ABI 版本号。"
+	},
+	"STATIC_LIBRARY_FLAGS": {
+		"name": "STATIC_LIBRARY_FLAGS",
+		"description": "静态库目标的存档程序(或 MSVC 文档管理程序)标志。如果目标是共享库、模块或可执行文件，则目标需要使用 LINK_OPTIONS 或 LINK_FLAGS 目标属性。"
+	},
+	"STATIC_LIBRARY_FLAGS_<CONFIG>": {
+		"name": "STATIC_LIBRARY_FLAGS_<CONFIG>",
+		"description": "静态库目标的基于配置的存档程序(或 MSVC 文档管理程序)标志。"
+	},
+	"STATIC_LIBRARY_OPTIONS": {
+		"name": "STATIC_LIBRARY_OPTIONS",
+		"description": "静态库目标的存档程序(或 MSVC 文档管理程序)标志。如果目标是共享库、模块或可执行文件，则目标需要使用 LINK_OPTIONS 目标属性。"
+	},
+	"SUFFIX": {
+		"name": "SUFFIX",
+		"description": "目标名称之后的内容。"
+	},
+	"Swift_COMPILATION_MODE": {
+		"name": "Swift_COMPILATION_MODE",
+		"description": "指定 Swift 如何编译目标。"
+	},
+	"Swift_LANGUAGE_VERSION": {
+		"name": "Swift_LANGUAGE_VERSION",
+		"description": "此属性设置目标中 Swift 源的语言版本。如果未指定，则默认为 CMAKE_Swift_LANGUAGE_VERSION (如果已指定)，否则将为编译器支持的最新版本。"
+	},
+	"Swift_MODULE_DIRECTORY": {
+		"name": "Swift_MODULE_DIRECTORY",
+		"description": "指定目标提供的 Swift 模块的输出目录。"
+	},
+	"Swift_MODULE_NAME": {
+		"name": "Swift_MODULE_NAME",
+		"description": "此属性指定 Swift 模块的名称。它默认为目标的名称。"
+	},
+	"TEST_LAUNCHER": {
+		"name": "TEST_LAUNCHER",
+		"description": "使用给定的启动器运行可执行文件。此命令将作为前缀添加到编译目标系统可执行文件的 add_test 命令，并将在主机上运行。"
+	},
+	"TRANSITIVE_COMPILE_PROPERTIES": {
+		"name": "TRANSITIVE_COMPILE_PROPERTIES",
+		"description": "目标及其依赖项上的 TARGET_PROPERTY 生成器表达式的属性，计算为从链接依赖项的可传递闭合中收集的值的联合，不包括受 LINK_ONLY 保护的条目。"
+	},
+	"TRANSITIVE_LINK_PROPERTIES": {
+		"name": "TRANSITIVE_LINK_PROPERTIES",
+		"description": "目标及其依赖项上的 TARGET_PROPERTY 生成器表达式的属性，计算为从链接依赖项的可传递闭合中收集的值的联合，包括受 LINK_ONLY 保护的条目。"
+	},
+	"UNITY_BUILD": {
+		"name": "UNITY_BUILD",
+		"description": "当此属性设置为 true 时，目标源文件将合并成批以加快编译速度。这是通过创建一组#include原始源的 Unity 源，然后编译这些 Unity 源而不是原始源来完成的。这被称为 Unity 或 Jumbo 生成。"
+	},
+	"UNITY_BUILD_BATCH_SIZE": {
+		"name": "UNITY_BUILD_BATCH_SIZE",
+		"description": "指定当 UNITY_BUILD 目标属性启用 Unity 生成时，可以合并到任意一个 Unity 源文件中的最大源文件数。原始源文件将根据需要分布在尽可能多的 Unity 源文件中以满足此限制。"
+	},
+	"UNITY_BUILD_CODE_AFTER_INCLUDE": {
+		"name": "UNITY_BUILD_CODE_AFTER_INCLUDE",
+		"description": "在生成的 Unity 源文件中，在每个 #include 语句之后的 UNITY_BUILD 特性逐字包含的代码片段。例如:"
+	},
+	"UNITY_BUILD_CODE_BEFORE_INCLUDE": {
+		"name": "UNITY_BUILD_CODE_BEFORE_INCLUDE",
+		"description": "在生成的 Unity 源文件中，在每个 #include 语句之前的 UNITY_BUILD 特性逐字包含的代码片段。例如:"
+	},
+	"UNITY_BUILD_MODE": {
+		"name": "UNITY_BUILD_MODE",
+		"description": "CMake 提供不同的算法，用于选择将哪些源分组至一个存储桶中。此属性决定了所选内容，可以为以下值:"
+	},
+	"UNITY_BUILD_UNIQUE_ID": {
+		"name": "UNITY_BUILD_UNIQUE_ID",
+		"description": "在 unity 生成期间设置为唯一的基于文件的值的有效 C 标识符的名称。"
+	},
+	"VERIFY_INTERFACE_HEADER_SETS": {
+		"name": "VERIFY_INTERFACE_HEADER_SETS",
+		"description": "用于验证目标的 PUBLIC 和 INTERFACE 标头集中的所有标头是否可以自行包含。"
+	},
+	"VERSION": {
+		"name": "VERSION",
+		"description": "共享库目标的版本号。"
+	},
+	"VISIBILITY_INLINES_HIDDEN": {
+		"name": "VISIBILITY_INLINES_HIDDEN",
+		"description": "是否添加编译标志以隐藏内联函数的符号"
+	},
+	"VS_CONFIGURATION_TYPE": {
+		"name": "VS_CONFIGURATION_TYPE",
+		"description": "Visual Studio 项目配置类型。"
+	},
+	"VS_DEBUGGER_COMMAND": {
+		"name": "VS_DEBUGGER_COMMAND",
+		"description": "为 Visual Studio C++ 目标设置本地调试器命令。属性值可以使用生成器表达式 <cmake-generator-expressions(7)>。这是在 Visual Studio 项目文件的 <LocalDebuggerCommand> 中定义的。如果在创建目标时设置此属性，则此属性由变量 CMAKE_VS_DEBUGGER_COMMAND 的值初始化。"
+	},
+	"VS_DEBUGGER_COMMAND_ARGUMENTS": {
+		"name": "VS_DEBUGGER_COMMAND_ARGUMENTS",
+		"description": "为 Visual Studio C++ 目标设置本地调试器命令行参数。属性值可以使用生成器表达式 <cmake-generator-expressions(7)>。这是在 Visual Studio 项目文件的 <LocalDebuggerCommandArguments> 中定义的。如果在创建目标时设置此属性，则此属性由变量 CMAKE_VS_DEBUGGER_COMMAND_ARGUMENTS 的值初始化。"
+	},
+	"VS_DEBUGGER_ENVIRONMENT": {
+		"name": "VS_DEBUGGER_ENVIRONMENT",
+		"description": "为 Visual Studio C++ 目标设置本地调试器环境。属性值可以使用生成器表达式 <cmake-generator-expressions(7)>。这是在 Visual Studio 项目文件的 <LocalDebuggerEnvironment> 中定义的。如果在创建目标时设置此属性，则此属性由变量 CMAKE_VS_DEBUGGER_ENVIRONMENT 的值初始化。"
+	},
+	"VS_DEBUGGER_WORKING_DIRECTORY": {
+		"name": "VS_DEBUGGER_WORKING_DIRECTORY",
+		"description": "为 Visual Studio C++ 目标设置本地调试器工作目录。属性值可以使用生成器表达式 <cmake-generator-expressions(7)>。这是在 Visual Studio 项目文件的 <LocalDebuggerWorkingDirectory> 中定义的。如果在创建目标时设置此属性，则此属性由变量 CMAKE_VS_DEBUGGER_WORKING_DIRECTORY 的值初始化。"
+	},
+	"VS_DESKTOP_EXTENSIONS_VERSION": {
+		"name": "VS_DESKTOP_EXTENSIONS_VERSION",
+		"description": "Visual Studio Windows 10 桌面扩展版本"
+	},
+	"VS_DOTNET_DOCUMENTATION_FILE": {
+		"name": "VS_DOTNET_DOCUMENTATION_FILE",
+		"description": "Visual Studio 托管项目 .NET 文档输出"
+	},
+	"VS_DOTNET_REFERENCEPROP_<refname>_TAG_<tagname>": {
+		"name": "VS_DOTNET_REFERENCEPROP_<refname>_TAG_<tagname>",
+		"description": "定义 .NET 引用 <refname> 的 XML 属性 <tagname>。"
+	},
+	"VS_DOTNET_REFERENCES": {
+		"name": "VS_DOTNET_REFERENCES",
+		"description": "Visual Studio 托管项目 .NET 引用"
+	},
+	"VS_DOTNET_REFERENCES_COPY_LOCAL": {
+		"name": "VS_DOTNET_REFERENCES_COPY_LOCAL",
+		"description": "为目标中的所有 .NET 提示引用设置 Copy Local 属性"
+	},
+	"VS_DOTNET_REFERENCE_<refname>": {
+		"name": "VS_DOTNET_REFERENCE_<refname>",
+		"description": "名称为 <refname> 且带有提示路径的 Visual Studio 托管项目 .NET 引用。"
+	},
+	"VS_DOTNET_STARTUP_OBJECT": {
+		"name": "VS_DOTNET_STARTUP_OBJECT",
+		"description": "设置 Visual Studio .NET 目标中的启动对象属性。属性值定义了完全限定的类名(包括包名称)，例如: MyCompany.Package.MyStarterClass。"
+	},
+	"VS_DOTNET_TARGET_FRAMEWORK_VERSION": {
+		"name": "VS_DOTNET_TARGET_FRAMEWORK_VERSION",
+		"description": "指定 .NET 目标框架版本。"
+	},
+	"VS_DPI_AWARE": {
+		"name": "VS_DPI_AWARE",
+		"description": "在 Visual Studio 目标项目属性中设置“清单工具”->“输入和输出”->“DPI 感知”。"
+	},
+	"VS_FILTER_PROPS": {
+		"name": "VS_FILTER_PROPS",
+		"description": "设置筛选器属性文件，使其包含在 Visual Studio C++ 项目筛选器文件中。"
+	},
+	"VS_GLOBAL_KEYWORD": {
+		"name": "VS_GLOBAL_KEYWORD",
+		"description": "Visual Studio 项目关键字。"
+	},
+	"VS_GLOBAL_PROJECT_TYPES": {
+		"name": "VS_GLOBAL_PROJECT_TYPES",
+		"description": "Visual Studio 项目类型。"
+	},
+	"VS_GLOBAL_ROOTNAMESPACE": {
+		"name": "VS_GLOBAL_ROOTNAMESPACE",
+		"description": "Visual Studio 项目根命名空间。"
+	},
+	"VS_GLOBAL_<variable>": {
+		"name": "VS_GLOBAL_<variable>",
+		"description": "Visual Studio 特定于项目的全局变量。"
+	},
+	"VS_IOT_EXTENSIONS_VERSION": {
+		"name": "VS_IOT_EXTENSIONS_VERSION",
+		"description": "Visual Studio Windows 10 IoT 扩展版本"
+	},
+	"VS_IOT_STARTUP_TASK": {
+		"name": "VS_IOT_STARTUP_TASK",
+		"description": "Visual Studio Windows 10 IoT 持续后台任务"
+	},
+	"VS_JUST_MY_CODE_DEBUGGING": {
+		"name": "VS_JUST_MY_CODE_DEBUGGING",
+		"description": "使用 Visual Studio 调试器启用“仅我的代码”。"
+	},
+	"VS_KEYWORD": {
+		"name": "VS_KEYWORD",
+		"description": "已移除。这曾为 Visual Studio 9 2008 生成器和更旧版本指定了 Visual Studio 项目关键字，但所有这些生成器都已被删除。"
+	},
+	"VS_MOBILE_EXTENSIONS_VERSION": {
+		"name": "VS_MOBILE_EXTENSIONS_VERSION",
+		"description": "Visual Studio Windows 10 移动扩展版本"
+	},
+	"VS_NO_COMPILE_BATCHING": {
+		"name": "VS_NO_COMPILE_BATCHING",
+		"description": "关闭目标的编译批处理。通常，MSBuild 使用多个 c/cpp 文件调用编译器，然后编译器为每个文件启动子过程，以使生成并行进行。如果希望一次使用一个文件调用编译器，请将 VS_NO_COMPILE_BATCHING 设置为 ON。如果设置了此标志，MSBuild 将一次使用一个 c/cpp 文件调用编译器。当你想要使用替换编译器的工具(例如某些生成缓存工具)时非常有用。"
+	},
+	"VS_NO_SOLUTION_DEPLOY": {
+		"name": "VS_NO_SOLUTION_DEPLOY",
+		"description": "指定目标不应标记为部署到生成的 Visual Studio 解决方案中的 Windows CE 或 Windows Phone 设备。"
+	},
+	"VS_PACKAGE_REFERENCES": {
+		"name": "VS_PACKAGE_REFERENCES",
+		"description": "Nuget 的 Visual Studio 包引用。"
+	},
+	"VS_PLATFORM_TOOLSET": {
+		"name": "VS_PLATFORM_TOOLSET",
+		"description": "重写用于生成目标的平台工具集。"
+	},
+	"VS_PROJECT_IMPORT": {
+		"name": "VS_PROJECT_IMPORT",
+		"description": "Visual Studio 托管项目导入"
+	},
+	"VS_SCC_AUXPATH": {
+		"name": "VS_SCC_AUXPATH",
+		"description": "Visual Studio 源代码管理辅助路径。"
+	},
+	"VS_SCC_LOCALPATH": {
+		"name": "VS_SCC_LOCALPATH",
+		"description": "Visual Studio 源代码管理本地路径。"
+	},
+	"VS_SCC_PROJECTNAME": {
+		"name": "VS_SCC_PROJECTNAME",
+		"description": "Visual Studio 源代码管理项目。"
+	},
+	"VS_SCC_PROVIDER": {
+		"name": "VS_SCC_PROVIDER",
+		"description": "Visual Studio 源代码管理提供程序。"
+	},
+	"VS_SDK_REFERENCES": {
+		"name": "VS_SDK_REFERENCES",
+		"description": "Visual Studio 项目 SDK 引用。指定要添加到生成的 Visual Studio 项目(例如 Microsoft.AdMediatorWindows81, Version=1.0)的 SDK 引用列表(以分号分隔)。"
+	},
+	"VS_SOLUTION_DEPLOY": {
+		"name": "VS_SOLUTION_DEPLOY",
+		"description": "指定在未面向 Windows CE、Windows Phone 或 Microsoft Store 应用程序时，应将目标标记为部署。"
+	},
+	"VS_SOURCE_SETTINGS_<tool>": {
+		"name": "VS_SOURCE_SETTINGS_<tool>",
+		"description": "在使用 <tool> 的所有非生成文件上设置任何项元数据。"
+	},
+	"VS_USER_PROPS": {
+		"name": "VS_USER_PROPS",
+		"description": "设置 Visual Studio C++ 项目文件中要包含的用户属性文件。标准路径为 $(UserRootDir)\\\\Microsoft.Cpp.$(Platform).user.props，在大部分情况下与 %LOCALAPPDATA%\\\\Microsoft\\\\MSBuild\\\\v4.0\\\\Microsoft.Cpp.Win32.user.props 或 %LOCALAPPDATA%\\\\Microsoft\\\\MSBuild\\\\v4.0\\\\Microsoft.Cpp.x64.user.props 相同。"
+	},
+	"VS_USE_DEBUG_LIBRARIES": {
+		"name": "VS_USE_DEBUG_LIBRARIES",
+		"description": "指示 Visual Studio 生成器将哪些配置视为调试配置。这将控制 .vcxproj 文件的每个配置中的 UseDebugLibraries 设置。"
+	},
+	"VS_WINDOWS_TARGET_PLATFORM_MIN_VERSION": {
+		"name": "VS_WINDOWS_TARGET_PLATFORM_MIN_VERSION",
+		"description": "Visual Studio Windows 目标平台最低版本"
+	},
+	"VS_WINRT_COMPONENT": {
+		"name": "VS_WINRT_COMPONENT",
+		"description": "将目标标记为 Visual Studio 生成器的 Windows 运行时组件。使用适用于 Windows 运行时的 C++/CX 语言扩展来编译目标。对于共享库和模块库，这还可定义 _WINRT_DLL preprocessor 宏。"
+	},
+	"VS_WINRT_EXTENSIONS": {
+		"name": "VS_WINRT_EXTENSIONS",
+		"description": "已弃用。请改用 VS_WINRT_COMPONENT。此属性是该属性的实验性部分实现。"
+	},
+	"VS_WINRT_REFERENCES": {
+		"name": "VS_WINRT_REFERENCES",
+		"description": "Visual Studio 项目 Windows 运行时元数据引用"
+	},
+	"WATCOM_RUNTIME_LIBRARY": {
+		"name": "WATCOM_RUNTIME_LIBRARY",
+		"description": "选择 Watcom 运行时库以供面向 Watcom ABI 的编译器使用。"
+	},
+	"WIN32_EXECUTABLE": {
+		"name": "WIN32_EXECUTABLE",
+		"description": "生成可执行文件，其窗口上有 WinMain 入口点。"
+	},
+	"WINDOWS_EXPORT_ALL_SYMBOLS": {
+		"name": "WINDOWS_EXPORT_ALL_SYMBOLS",
+		"description": "仅对 Windows 上的 MS 兼容工具实现此属性。"
+	},
+	"XCODE_ATTRIBUTE_<an-attribute>": {
+		"name": "XCODE_ATTRIBUTE_<an-attribute>",
+		"description": "直接设置 Xcode 目标属性。"
+	},
+	"XCODE_EMBED_FRAMEWORKS_CODE_SIGN_ON_COPY": {
+		"name": "XCODE_EMBED_FRAMEWORKS_CODE_SIGN_ON_COPY",
+		"description": "告知 Xcode 生成器为使用 XCODE_EMBED_FRAMEWORKS <XCODE_EMBED_<type>> 属性嵌入的所有框架和库执行代码签名。"
+	},
+	"XCODE_EMBED_FRAMEWORKS_REMOVE_HEADERS_ON_COPY": {
+		"name": "XCODE_EMBED_FRAMEWORKS_REMOVE_HEADERS_ON_COPY",
+		"description": "告知 Xcode 生成器从使用 XCODE_EMBED_FRAMEWORKS <XCODE_EMBED_<type>> 属性嵌入的所有框架中移除标头。"
+	},
+	"XCODE_EMBED_<type>": {
+		"name": "XCODE_EMBED_<type>",
+		"description": "告诉 Xcode 生成器将指定的项列表嵌入到目标捆绑包中。<type> 指定要使用的嵌入生成阶段。有关每个 <type> 的基位置，请参阅 Xcode 文档。"
+	},
+	"XCODE_EMBED_<type>_CODE_SIGN_ON_COPY": {
+		"name": "XCODE_EMBED_<type>_CODE_SIGN_ON_COPY",
+		"description": "仅由 Xcode 生成器使用的布尔属性。它指定是否对使用 XCODE_EMBED_ 属性嵌入的项执行代码签名。"
+	},
+	"XCODE_EMBED_<type>_PATH": {
+		"name": "XCODE_EMBED_<type>_PATH",
+		"description": "此属性仅由 Xcode 生成器使用。定义后，它指定嵌入由 XCODE_EMBED_ 指定的项时要使用的相对路径。路径相对于与 <type> 关联的嵌入 XXX 生成阶段的基位置。有关每个 <type> 的基位置，请参阅 Xcode 文档。"
+	},
+	"XCODE_EMBED_<type>_REMOVE_HEADERS_ON_COPY": {
+		"name": "XCODE_EMBED_<type>_REMOVE_HEADERS_ON_COPY",
+		"description": "仅由 Xcode 生成器使用的布尔属性。它指定是否从使用 XCODE_EMBED_ 属性嵌入的所有框架中移除标头。"
+	},
+	"XCODE_GENERATE_SCHEME": {
+		"name": "XCODE_GENERATE_SCHEME",
+		"description": "如果已启用，Xcode 生成器将生成架构文件。这些文件对于从命令行调用分析、存档、测试生成和测试操作非常有用。"
+	},
+	"XCODE_LINK_BUILD_PHASE_MODE": {
+		"name": "XCODE_LINK_BUILD_PHASE_MODE",
+		"description": "在使用 Xcode 生成器时，将使用“将二进制文件与库链接”生成阶段或直接作为链接器标志在 Xcode 项目文件中指定要链接的库。前者允许 Xcode 管理生成路径，这在创建 Xcode 存档时可能是必需的，因为它可能使用与常规生成不同的生成路径。"
+	},
+	"XCODE_PRODUCT_TYPE": {
+		"name": "XCODE_PRODUCT_TYPE",
+		"description": "在 Xcode productType 特性引用源目标时对该特性进行设置。CMake 基于目标类型计算默认值，但可以通过此属性显式接收通知。"
+	},
+	"XCODE_SCHEME_ADDRESS_SANITIZER": {
+		"name": "XCODE_SCHEME_ADDRESS_SANITIZER",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用地址擦除系统。"
+	},
+	"XCODE_SCHEME_ADDRESS_SANITIZER_USE_AFTER_RETURN": {
+		"name": "XCODE_SCHEME_ADDRESS_SANITIZER_USE_AFTER_RETURN",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用检测返回后的堆栈使用情况。"
+	},
+	"XCODE_SCHEME_ARGUMENTS": {
+		"name": "XCODE_SCHEME_ARGUMENTS",
+		"description": "指定应添加到生成的 Xcode 方案的参数部分的命令行参数。"
+	},
+	"XCODE_SCHEME_DEBUG_AS_ROOT": {
+		"name": "XCODE_SCHEME_DEBUG_AS_ROOT",
+		"description": "是否将目标调试为 \"root\"。"
+	},
+	"XCODE_SCHEME_DEBUG_DOCUMENT_VERSIONING": {
+		"name": "XCODE_SCHEME_DEBUG_DOCUMENT_VERSIONING",
+		"description": "在生成的 Xcode 方案的“选项”部分中是否启用“在使用文档版本浏览器时允许调试”。"
+	},
+	"XCODE_SCHEME_DISABLE_MAIN_THREAD_CHECKER": {
+		"name": "XCODE_SCHEME_DISABLE_MAIN_THREAD_CHECKER",
+		"description": "是否在生成的 Xcode 架构的 Diagnostics 部分禁用 Main Thread Checker"
+	},
+	"XCODE_SCHEME_DYNAMIC_LIBRARY_LOADS": {
+		"name": "XCODE_SCHEME_DYNAMIC_LIBRARY_LOADS",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用动态库加载。"
+	},
+	"XCODE_SCHEME_DYNAMIC_LINKER_API_USAGE": {
+		"name": "XCODE_SCHEME_DYNAMIC_LINKER_API_USAGE",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用动态链接器 API 使用情况。"
+	},
+	"XCODE_SCHEME_ENABLE_GPU_API_VALIDATION": {
+		"name": "XCODE_SCHEME_ENABLE_GPU_API_VALIDATION",
+		"description": "所生成的 Xcode 方案“选项”部分中的 Metal: API 验证的属性值。"
+	},
+	"XCODE_SCHEME_ENABLE_GPU_FRAME_CAPTURE_MODE": {
+		"name": "XCODE_SCHEME_ENABLE_GPU_FRAME_CAPTURE_MODE",
+		"description": "生成的 Xcode 方案的“选项”部分中 GPU 帧捕获的属性值。示例值为 Metal 和 Disabled。"
+	},
+	"XCODE_SCHEME_ENABLE_GPU_SHADER_VALIDATION": {
+		"name": "XCODE_SCHEME_ENABLE_GPU_SHADER_VALIDATION",
+		"description": "所生成的 Xcode 方案“选项”部分中 Metal: 着色器验证的属性值。"
+	},
+	"XCODE_SCHEME_ENVIRONMENT": {
+		"name": "XCODE_SCHEME_ENVIRONMENT",
+		"description": "指定应添加到生成的 Xcode 方案的参数部分的环境变量。"
+	},
+	"XCODE_SCHEME_EXECUTABLE": {
+		"name": "XCODE_SCHEME_EXECUTABLE",
+		"description": "设置指向生成的 Xcode 方案的信息节中的可执行文件的路径。如果未设置，方案生成器将选择实际可执行的当前目标。"
+	},
+	"XCODE_SCHEME_GUARD_MALLOC": {
+		"name": "XCODE_SCHEME_GUARD_MALLOC",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Guard Malloc。"
+	},
+	"XCODE_SCHEME_LAUNCH_CONFIGURATION": {
+		"name": "XCODE_SCHEME_LAUNCH_CONFIGURATION",
+		"description": "设置生成配置以运行目标。"
+	},
+	"XCODE_SCHEME_LAUNCH_MODE": {
+		"name": "XCODE_SCHEME_LAUNCH_MODE",
+		"description": "生成的 Xcode 方案“信息”部分中“启动”的属性值。"
+	},
+	"XCODE_SCHEME_MAIN_THREAD_CHECKER_STOP": {
+		"name": "XCODE_SCHEME_MAIN_THREAD_CHECKER_STOP",
+		"description": "是否在生成的 Xcode 架构的 Diagnostics 部分启用对问题的 Main Thread Checker 选项 Pause。"
+	},
+	"XCODE_SCHEME_MALLOC_GUARD_EDGES": {
+		"name": "XCODE_SCHEME_MALLOC_GUARD_EDGES",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Malloc Guard Edges。"
+	},
+	"XCODE_SCHEME_MALLOC_SCRIBBLE": {
+		"name": "XCODE_SCHEME_MALLOC_SCRIBBLE",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Malloc Scribble。"
+	},
+	"XCODE_SCHEME_MALLOC_STACK": {
+		"name": "XCODE_SCHEME_MALLOC_STACK",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Malloc Stack。"
+	},
+	"XCODE_SCHEME_THREAD_SANITIZER": {
+		"name": "XCODE_SCHEME_THREAD_SANITIZER",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用线程擦除系统。"
+	},
+	"XCODE_SCHEME_THREAD_SANITIZER_STOP": {
+		"name": "XCODE_SCHEME_THREAD_SANITIZER_STOP",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用“线程擦除系统 - 在出现问题时暂停”。"
+	},
+	"XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER": {
+		"name": "XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用未定义行为擦除系统。"
+	},
+	"XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER_STOP": {
+		"name": "XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER_STOP",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用未定义行为擦除系统选项“在出现问题时暂停”。"
+	},
+	"XCODE_SCHEME_WORKING_DIRECTORY": {
+		"name": "XCODE_SCHEME_WORKING_DIRECTORY",
+		"description": "在生成的 Xcode 方案中指定运行和配置文件操作的工作目录。如果该值包含被计算的生成器表达式。"
+	},
+	"XCODE_SCHEME_ZOMBIE_OBJECTS": {
+		"name": "XCODE_SCHEME_ZOMBIE_OBJECTS",
+		"description": "是否在生成的 Xcode 方案的诊断部分中启用 Zombie 对象。"
+	},
+	"XCODE_XCCONFIG": {
+		"name": "XCODE_XCCONFIG",
+		"description": "如果设置，Xcode 生成器会将指定的文件注册为目标级别 XCConfig 文件。有关全局 XCConfig 文件，请参阅 CMAKE_XCODE_XCCONFIG 变量。"
+	},
+	"XCTEST": {
+		"name": "XCTEST",
+		"description": "此目标是 Mac 上的 XCTest CFBundle。"
+	}
+}

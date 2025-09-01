@@ -1,0 +1,1078 @@
+{
+	"AddFileDependencies": {
+		"name": "AddFileDependencies",
+		"description": "Umožňuje přidat závislosti do zdrojového souboru."
+	},
+	"AndroidTestUtilities": {
+		"name": "AndroidTestUtilities",
+		"description": "Umožňuje vytvořit test, který automaticky načte zadaná data do zařízení s Androidem."
+	},
+	"BundleUtilities": {
+		"name": "BundleUtilities",
+		"description": "Funkce, které pomáhají sestavit aplikaci v samostatné sadě"
+	},
+	"CheckCCompilerFlag": {
+		"name": "CheckCCompilerFlag",
+		"description": "Umožňuje zkontrolovat, jestli kompilátor C podporuje daný příznak."
+	},
+	"CheckCompilerFlag": {
+		"name": "CheckCompilerFlag",
+		"description": "Umožňuje zkontrolovat, jestli kompilátor podporuje daný příznak."
+	},
+	"CheckCSourceCompiles": {
+		"name": "CheckCSourceCompiles",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód C zkompiluje a nalinkuje do spustitelného souboru."
+	},
+	"CheckCSourceRuns": {
+		"name": "CheckCSourceRuns",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód C zkompiluje a nalinkuje do spustitelného souboru a následně spustí."
+	},
+	"CheckCXXCompilerFlag": {
+		"name": "CheckCXXCompilerFlag",
+		"description": "Umožňuje zkontrolovat, jestli kompilátor CXX podporuje daný příznak."
+	},
+	"CheckCXXSourceCompiles": {
+		"name": "CheckCXXSourceCompiles",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód C++ zkompiluje a nalinkuje do spustitelného souboru."
+	},
+	"CheckCXXSourceRuns": {
+		"name": "CheckCXXSourceRuns",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód C++ zkompiluje a nalinkuje do spustitelného souboru a následně spustí."
+	},
+	"CheckCXXSymbolExists": {
+		"name": "CheckCXXSymbolExists",
+		"description": "Umožňuje zkontrolovat, jestli symbol existuje jako funkce, proměnná nebo makro v jazyce C++."
+	},
+	"CheckFortranCompilerFlag": {
+		"name": "CheckFortranCompilerFlag",
+		"description": "Umožňuje zkontrolovat, jestli kompilátor Fortranu podporuje daný příznak."
+	},
+	"CheckFortranFunctionExists": {
+		"name": "CheckFortranFunctionExists",
+		"description": "Umožňuje zkontrolovat, jestli funkce Fortranu existuje."
+	},
+	"CheckFortranSourceCompiles": {
+		"name": "CheckFortranSourceCompiles",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód Fortranu zkompiluje a nalinkuje do spustitelného souboru."
+	},
+	"CheckFortranSourceRuns": {
+		"name": "CheckFortranSourceRuns",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód Fortranu zkompiluje a nalinkuje do spustitelného souboru a následně spustí."
+	},
+	"CheckFunctionExists": {
+		"name": "CheckFunctionExists",
+		"description": "Kontrola, jestli je možné nalinkovat funkci jazyka C"
+	},
+	"CheckIncludeFile": {
+		"name": "CheckIncludeFile",
+		"description": "Poskytuje makro pro kontrolu, jestli je možné v C zahrnout soubor hlaviček."
+	},
+	"CheckIncludeFileCXX": {
+		"name": "CheckIncludeFileCXX",
+		"description": "Poskytuje makro pro kontrolu, jestli je možné v CXX zahrnout soubor hlaviček."
+	},
+	"CheckIncludeFiles": {
+		"name": "CheckIncludeFiles",
+		"description": "Poskytuje makro pro kontrolu, jestli lze seznam jednoho nebo více souborů hlaviček zahrnout dohromady."
+	},
+	"CheckIPOSupported": {
+		"name": "CheckIPOSupported",
+		"description": "Zkontrolujte, jestli kompilátor podporuje meziprocedurální optimalizaci (IPO/LTO). Tuto možnost použijte před povolením cílové vlastnosti INTERPROCEDURAL_OPTIMIZATION."
+	},
+	"CheckLanguage": {
+		"name": "CheckLanguage",
+		"description": "Umožňuje zkontrolovat, jestli příkazy enable_language nebo projektu můžou povolit jazyk:"
+	},
+	"CheckLibraryExists": {
+		"name": "CheckLibraryExists",
+		"description": "Umožňuje zkontrolovat, jestli funkce existuje."
+	},
+	"CheckLinkerFlag": {
+		"name": "CheckLinkerFlag",
+		"description": "Umožňuje zkontrolovat, jestli kompilátor podporuje daný příznak link."
+	},
+	"CheckOBJCCompilerFlag": {
+		"name": "CheckOBJCCompilerFlag",
+		"description": "Umožňuje zkontrolovat, jestli kompilátor Objective-C podporuje daný příznak."
+	},
+	"CheckOBJCSourceCompiles": {
+		"name": "CheckOBJCSourceCompiles",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód Objective-C zkompiluje a nalinkuje do spustitelného souboru."
+	},
+	"CheckOBJCSourceRuns": {
+		"name": "CheckOBJCSourceRuns",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód Objective-C zkompiluje a nalinkuje do spustitelného souboru a následně spustí."
+	},
+	"CheckOBJCXXCompilerFlag": {
+		"name": "CheckOBJCXXCompilerFlag",
+		"description": "Umožňuje zkontrolovat, jestli kompilátor Objective-C++ podporuje daný příznak."
+	},
+	"CheckOBJCXXSourceCompiles": {
+		"name": "CheckOBJCXXSourceCompiles",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód Objective-C++ zkompiluje a nalinkuje do spustitelného souboru."
+	},
+	"CheckOBJCXXSourceRuns": {
+		"name": "CheckOBJCXXSourceRuns",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód Objective-C++ zkompiluje a nalinkuje do spustitelného souboru a následně spustí."
+	},
+	"CheckPIESupported": {
+		"name": "CheckPIESupported",
+		"description": "Umožňuje zkontrolovat, jestli linker u spustitelných souborů podporuje PIE (Position Independent Code) nebo NO_PIE (No Position Independent Code). Pomocí této funkce zajistíte, že se bude při linkování dodržovat hodnota cílové vlastnosti POSITION_INDEPENDENT_CODE pro spustitelné soubory."
+	},
+	"CheckPrototypeDefinition": {
+		"name": "CheckPrototypeDefinition",
+		"description": "Umožňuje zkontrolovat, jestli je očekávaný prototyp správný."
+	},
+	"CheckSourceCompiles": {
+		"name": "CheckSourceCompiles",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód zkompiluje a nalinkuje do spustitelného souboru."
+	},
+	"CheckSourceRuns": {
+		"name": "CheckSourceRuns",
+		"description": "Umožňuje zkontrolovat, jestli se daný zdrojový kód zkompiluje a nalinkuje do spustitelného souboru a následně spustí."
+	},
+	"CheckStructHasMember": {
+		"name": "CheckStructHasMember",
+		"description": "Umožňuje zkontrolovat, jestli daná struktura nebo třída obsahuje zadanou členskou proměnnou."
+	},
+	"CheckSymbolExists": {
+		"name": "CheckSymbolExists",
+		"description": "Poskytuje makro ke kontrole, jestli symbol existuje jako funkce, proměnná nebo makro v jazyce C."
+	},
+	"CheckTypeSize": {
+		"name": "CheckTypeSize",
+		"description": "Kontrola operandu sizeof typu"
+	},
+	"CheckVariableExists": {
+		"name": "CheckVariableExists",
+		"description": "Umožňuje zkontrolovat, jestli proměnná existuje."
+	},
+	"CMakeAddFortranSubdirectory": {
+		"name": "CMakeAddFortranSubdirectory",
+		"description": "Umožňuje přidat podadresář pouze pro fortran, najít kompilátor fortranu a provést sestavení."
+	},
+	"CMakeBackwardCompatibilityCXX": {
+		"name": "CMakeBackwardCompatibilityCXX",
+		"description": "definovat řadu proměnných zpětné kompatibility"
+	},
+	"CMakeDependentOption": {
+		"name": "CMakeDependentOption",
+		"description": "Makro pro poskytnutí možnosti závislé na jiných možnostech"
+	},
+	"CMakeDetermineVSServicePack": {
+		"name": "CMakeDetermineVSServicePack",
+		"description": "Funkce tohoto modulu byla nahrazena proměnnou CMAKE_<LANG>_COMPILER_VERSION, která obsahuje číslo verze kompilátoru."
+	},
+	"CMakeExpandImportedTargets": {
+		"name": "CMakeExpandImportedTargets",
+		"description": "Tento modul byl dříve potřeba k rozšíření importovaných cílů do podkladových knihoven, na které odkazují na disku pro použití s příkazy try_compile a try_run. Tyto příkazy teď podporují importované knihovny v možnostech LINK_LIBRARIES (od verze CMake 2.8.11 pro try_compile a od verze CMake 3.2 pro try_run)."
+	},
+	"CMakeFindDependencyMacro": {
+		"name": "CMakeFindDependencyMacro",
+		"description": "Makro ``find_dependency()`` zabalí volání :command:`find_package` pro závislost balíčku."
+	},
+	"CMakeFindFrameworks": {
+		"name": "CMakeFindFrameworks",
+		"description": "pomocný modul pro vyhledání architektur OSX"
+	},
+	"CMakeFindPackageMode": {
+		"name": "CMakeFindPackageMode",
+		"description": "Tento soubor je proveden nástrojem cmake při vyvolání s parametrem --find-package <Find-Package Tool Mode>. Očekává, že následující proměnné jsou nastaveny pomocí -D:"
+	},
+	"CMakeForceCompiler": {
+		"name": "CMakeForceCompiler",
+		"description": "Makra poskytovaná tímto modulem byla kdysi určena pro použití křížovou kompilací souborů sady nástrojů, když nástroj CMake nedokázal automaticky identifikovat kompilátor. Od zavedení tohoto modulu se schopnosti nástroje CMake identifikovat kompilátor zlepšily a nyní jej lze naučit rozpoznat jakýkoli kompilátor. Kromě toho je soubor informací, které CMake zjišťuje z kompilátoru, nyní příliš rozsáhlý na to, aby jej mohly poskytnout soubory sady nástrojů používající tato makra."
+	},
+	"CMakeGraphVizOptions": {
+		"name": "CMakeGraphVizOptions",
+		"description": "Integrovaná podpora cMake pro Graphviz"
+	},
+	"CMakePackageConfigHelpers": {
+		"name": "CMakePackageConfigHelpers",
+		"description": "Pomocné funkce pro vytváření konfiguračních souborů, které mohou být zahrnuty v jiných projektech k vyhledání a použití balíčku"
+	},
+	"CMakeParseArguments": {
+		"name": "CMakeParseArguments",
+		"description": "Tento modul kdysi implementoval příkaz cmake_parse_arguments, který je nyní nativně implementován nástrojem CMake. Teď je to prázdný zástupný symbol pro kompatibilitu s projekty, které ho obsahují, aby se příkaz získal z nástroje CMake 3.4 a nižší verze."
+	},
+	"CMakePrintHelpers": {
+		"name": "CMakePrintHelpers",
+		"description": "Pomocné funkce pro tisk vlastností a proměnných, užitečné například při ladění."
+	},
+	"CMakePrintSystemInformation": {
+		"name": "CMakePrintSystemInformation",
+		"description": "Tisk informací o systému"
+	},
+	"CMakePushCheckState": {
+		"name": "CMakePushCheckState",
+		"description": "Tento modul definuje tři makra: CMAKE_PUSH_CHECK_STATE() CMAKE_POP_CHECK_STATE() a CMAKE_RESET_CHECK_STATE() Tato makra lze použít k uložení, obnovení a resetování (tzn. vymazání obsahu) stavu proměnných CMAKE_REQUIRED_FLAGS, CMAKE_REQUIRED_DEFINITIONS, CMAKE_REQUIRED_LINK_OPTIONS, CMAKE_REQUIRED_LIBRARIES, CMAKE_REQUIRED_INCLUDES a CMAKE_EXTRA_INCLUDE_FILES, které používají různé kontrolní soubory (check) dodávané s nástrojem CMake, například check_function_exists() atd. Obsah proměnné se nasdílí do zásobníku. Podporuje se vícenásobné nasdílení změn. To je užitečné např. při provádění takových testů v modulu Find, kde je třeba je nastavit, ale po provedení modulu Find by měly mít stejnou hodnotu jako předtím."
+	},
+	"CMakeVerifyManifest": {
+		"name": "CMakeVerifyManifest",
+		"description": "CMakeVerifyManifest.cmake"
+	},
+	"CPack": {
+		"name": "CPack",
+		"description": "Umožňuje nakonfigurovat generátory pro binární instalační programy a zdrojové balíčky."
+	},
+	"CPackArchive": {
+		"name": "CPackArchive",
+		"description": "Dokumentace ke generátoru CPack Archive se přesunula sem: Generátor CPack Archive"
+	},
+	"CPackBundle": {
+		"name": "CPackBundle",
+		"description": "Dokumentace ke generátoru CPack Bundle se přesunula sem: Generátor CPack Bundle"
+	},
+	"CPackComponent": {
+		"name": "CPackComponent",
+		"description": "Umožňuje nakonfigurovat komponenty pro binární instalační programy a zdrojové balíčky."
+	},
+	"CPackCygwin": {
+		"name": "CPackCygwin",
+		"description": "Dokumentace ke generátoru CPack Cygwin se přesunula sem: Generátor CPack Cygwin"
+	},
+	"CPackDeb": {
+		"name": "CPackDeb",
+		"description": "Dokumentace ke generátoru CPack DEB se přesunula sem: Generátor CPack DEB"
+	},
+	"CPackDMG": {
+		"name": "CPackDMG",
+		"description": "Dokumentace ke generátoru CPack DragNDrop se přesunula sem: Generátor CPack DragNDrop"
+	},
+	"CPackFreeBSD": {
+		"name": "CPackFreeBSD",
+		"description": "Dokumentace ke generátoru CPack FreeBSD se přesunula sem: Generátor CPack FreeBSD"
+	},
+	"CPackIFW": {
+		"name": "CPackIFW",
+		"description": "Tento modul vyhledá umístění nástrojů příkazového řádku dodaných s QtIFW (Qt Installer Framework)."
+	},
+	"CPackIFWConfigureFile": {
+		"name": "CPackIFWConfigureFile",
+		"description": "Modul definuje příkaz podobný příkazu configure_file pro konfiguraci šablon souborů připravených ve stylu QtIFW/SDK/Creator."
+	},
+	"CPackNSIS": {
+		"name": "CPackNSIS",
+		"description": "Dokumentace ke generátoru CPack NSIS se přesunula sem: Generátor CPack NSIS"
+	},
+	"CPackNuGet": {
+		"name": "CPackNuGet",
+		"description": "Dokumentace ke generátoru CPack NuGet se přesunula sem: Generátor CPack NuGet"
+	},
+	"CPackProductBuild": {
+		"name": "CPackProductBuild",
+		"description": "Dokumentace ke generátoru CPack productbuild se přesunula sem: Generátor CPack productbuild"
+	},
+	"CPackRPM": {
+		"name": "CPackRPM",
+		"description": "Dokumentace ke generátoru CPack RPM se přesunula sem: Generátor CPack RPM"
+	},
+	"CPackWIX": {
+		"name": "CPackWIX",
+		"description": "Dokumentace ke generátoru CPack WIX se přesunula sem: Generátor CPack WIX"
+	},
+	"CSharpUtilities": {
+		"name": "CSharpUtilities",
+		"description": "Funkce usnadňující konfiguraci cílů CSharp/.NET"
+	},
+	"CTest": {
+		"name": "CTest",
+		"description": "Konfigurace projektu pro testování pomocí CTest/CDash"
+	},
+	"CTestCoverageCollectGCOV": {
+		"name": "CTestCoverageCollectGCOV",
+		"description": "Tento modul poskytuje funkci ctest_coverage_collect_gcov."
+	},
+	"CTestScriptMode": {
+		"name": "CTestScriptMode",
+		"description": "Tento soubor čte ctest v režimu skriptu (-S)."
+	},
+	"CTestUseLaunchers": {
+		"name": "CTestUseLaunchers",
+		"description": "Pokud je zapnutá možnost CTEST_USE_LAUNCHERS, nastavte globální vlastnosti RULE_LAUNCH_*."
+	},
+	"Dart": {
+		"name": "Dart",
+		"description": "Konfigurace projektu pro testování pomocí CTestu nebo starého klienta Dart Tcl"
+	},
+	"DeployQt4": {
+		"name": "DeployQt4",
+		"description": "Funkce, které pomáhají sestavit samostatný spustitelný soubor Qt4"
+	},
+	"Documentation": {
+		"name": "Documentation",
+		"description": "Tento modul poskytuje podporu pro architekturu dokumentace VTK. Je závislý na několika nástrojích (Doxygen, Perl atd.)."
+	},
+	"ExternalData": {
+		"name": "ExternalData",
+		"description": "Správa datových souborů uložených mimo zdrojový strom"
+	},
+	"ExternalProject": {
+		"name": "ExternalProject",
+		"description": "Funkce ExternalProject_Add() vytvoří vlastní cíl pro stažení, aktualizaci/opravu, konfiguraci, sestavení, instalaci a testování kroků externího projektu."
+	},
+	"FeatureSummary": {
+		"name": "FeatureSummary",
+		"description": "Funkce pro generování souhrnu povolených nebo zakázaných funkcí"
+	},
+	"FetchContent": {
+		"name": "FetchContent",
+		"description": "Tento modul umožňuje naplnění obsahu při konfiguraci pomocí jakékoli metody podporované modulem ExternalProject. Zatímco ExternalProject_Add() se stahuje při sestavování, modul FetchContent zpřístupňuje obsah okamžitě a umožňuje kroku konfigurace používat obsah v příkazech, jako jsou operace add_subdirectory(), include() nebo file()."
+	},
+	"FindALSA": {
+		"name": "FindALSA",
+		"description": "Najít ALSA (Advanced Linux Sound Architecture)"
+	},
+	"FindArmadillo": {
+		"name": "FindArmadillo",
+		"description": "Umožňuje najít knihovnu Armadillo C++. Armadillo je knihovna pro lineární algebraické a vědecké výpočty."
+	},
+	"FindASPELL": {
+		"name": "FindASPELL",
+		"description": "Zkusí najít ASPELL."
+	},
+	"FindAVIFile": {
+		"name": "FindAVIFile",
+		"description": "Vyhledat cesty k souborům zahrnutí a knihovnu AVIFILE"
+	},
+	"FindBacktrace": {
+		"name": "FindBacktrace",
+		"description": "Umožňuje najít zprostředkovatele pro backtrace(3)."
+	},
+	"FindBISON": {
+		"name": "FindBISON",
+		"description": "Umožňuje najít spustitelný soubor bison a poskytnout makro pro generování vlastních pravidel sestavení."
+	},
+	"FindBLAS": {
+		"name": "FindBLAS",
+		"description": "Najít knihovnu BLAS (Basic Linear Algebra Subprograms)"
+	},
+	"FindBoost": {
+		"name": "FindBoost",
+		"description": "Najít adresáře souborů zahrnutí a knihovny Boost"
+	},
+	"FindBullet": {
+		"name": "FindBullet",
+		"description": "Zkusí najít fyzikální modul Bullet."
+	},
+	"FindBZip2": {
+		"name": "FindBZip2",
+		"description": "Zkusí najít BZip2."
+	},
+	"FindCABLE": {
+		"name": "FindCABLE",
+		"description": "Najít CABLE"
+	},
+	"FindCoin3D": {
+		"name": "FindCoin3D",
+		"description": "Najít Coin3D (Open Inventor)"
+	},
+	"FindCUDA": {
+		"name": "FindCUDA",
+		"description": "Tento modul už není nutné používat ani volat find_package(CUDA) pro kompilaci kódu CUDA. Místo toho uveďte CUDA mezi jazyky pojmenovanými ve volání příkazu projektu na nejvyšší úrovni nebo volejte příkaz enable_language s CUDA. Pak můžete přidat zdroje CUDA (.cu) přímo k cílům podobným jiným jazykům."
+	},
+	"FindCUDAToolkit": {
+		"name": "FindCUDAToolkit",
+		"description": "Tento skript vyhledá sadu nástrojů NVIDIA CUDA a přidružené knihovny, ale nevyžaduje, aby byl pro daný projekt povolený jazyk CUDA. Tento modul nehledá ukázky NVIDIA CUDA."
+	},
+	"FindCups": {
+		"name": "FindCups",
+		"description": "Umožňuje najít CUPS (Common UNIX Printing System)."
+	},
+	"FindCURL": {
+		"name": "FindCURL",
+		"description": "Umožňuje najít nativní hlavičky a knihovny CURL."
+	},
+	"FindCurses": {
+		"name": "FindCurses",
+		"description": "Umožňuje najít soubor zahrnutí a knihovnu curses nebo ncurses."
+	},
+	"FindCVS": {
+		"name": "FindCVS",
+		"description": "Umožňuje najít CVS (Concurrent Versions System)."
+	},
+	"FindCxxTest": {
+		"name": "FindCxxTest",
+		"description": "Umožňuje najít architekturu testování částí CxxTest."
+	},
+	"FindCygwin": {
+		"name": "FindCygwin",
+		"description": "Najít Cygwin, prostředí kompatibilní s POSIX, které běží nativně v Microsoft Windows"
+	},
+	"FindDart": {
+		"name": "FindDart",
+		"description": "Najít DART"
+	},
+	"FindDCMTK": {
+		"name": "FindDCMTK",
+		"description": "Najít knihovny a aplikace DICOM ToolKit (DCMTK)"
+	},
+	"FindDevIL": {
+		"name": "FindDevIL",
+		"description": "Tento modul vyhledá knihovnu imagí vývojáře. https://openil.sourceforge.net/"
+	},
+	"FindDoxygen": {
+		"name": "FindDoxygen",
+		"description": "Doxygen je nástroj pro generování dokumentace (viz https://www.doxygen.nl). Tento modul hledá Doxygen a některé volitelné nástroje, které podporuje:"
+	},
+	"FindEnvModules": {
+		"name": "FindEnvModules",
+		"description": "Umožňuje vyhledat implementaci modulu prostředí a zpřístupnit skriptům CMake příkazy pro jejich použití. Je kompatibilní s Lmod na bázi Lua i s EnvironmentModules na bázi TCL."
+	},
+	"FindEXPAT": {
+		"name": "FindEXPAT",
+		"description": "Umožňuje najít nativní hlavičky a knihovnu Expat. Expat je knihovna analyzátoru XML orientovaná na stream napsaná v jazyce C."
+	},
+	"FindFLEX": {
+		"name": "FindFLEX",
+		"description": "Umožňuje najít spustitelný soubor Flex (Fast Lexical Analyzer) a poskytnout makro pro generování vlastních pravidel sestavení."
+	},
+	"FindFLTK": {
+		"name": "FindFLTK",
+		"description": "Najít knihovnu FLTK (Fast Light Toolkit)"
+	},
+	"FindFLTK2": {
+		"name": "FindFLTK2",
+		"description": "Najít nativní soubory zahrnutí a knihovnu FLTK 2.0"
+	},
+	"FindFontconfig": {
+		"name": "FindFontconfig",
+		"description": "Umožňuje najít hlavičky a knihovnu Fontconfig."
+	},
+	"FindFreetype": {
+		"name": "FindFreetype",
+		"description": "Umožňuje najít soubory zahrnutí a knihovnu rendereru písem FreeType."
+	},
+	"FindGCCXML": {
+		"name": "FindGCCXML",
+		"description": "Umožňuje najít front-endový spustitelný soubor GCC-XML."
+	},
+	"FindGDAL": {
+		"name": "FindGDAL",
+		"description": "Umožňuje najít knihovnu GDAL (Geospatial Data Abstraction Library)."
+	},
+	"FindGettext": {
+		"name": "FindGettext",
+		"description": "Najít nástroje GNU gettext"
+	},
+	"FindGIF": {
+		"name": "FindGIF",
+		"description": "Vyhledá knihovnu GIF (Graphics Interchange Format) (giflib)."
+	},
+	"FindGit": {
+		"name": "FindGit",
+		"description": "Modul definuje následující proměnné:"
+	},
+	"FindGLEW": {
+		"name": "FindGLEW",
+		"description": "Najít knihovnu OpenGL Extension Wrangler (GLEW)"
+	},
+	"FindGLUT": {
+		"name": "FindGLUT",
+		"description": "Umožňuje najít soubory zahrnutí a knihovnu OpenGL Utility Toolkit (GLUT)."
+	},
+	"FindGnuplot": {
+		"name": "FindGnuplot",
+		"description": "tento modul hledá gnuplot"
+	},
+	"FindGnuTLS": {
+		"name": "FindGnuTLS",
+		"description": "Najít knihovnu GNU Transport Layer Security (gnutls)"
+	},
+	"FindGSL": {
+		"name": "FindGSL",
+		"description": "Umožňuje najít nativní soubory zahrnutí a knihovny GSL (GNU Scientific Library)."
+	},
+	"FindGTest": {
+		"name": "FindGTest",
+		"description": "Umožňuje vyhledat testovací architekturu Google C++."
+	},
+	"FindGTK": {
+		"name": "FindGTK",
+		"description": "Najít GTK, glib a GTKGLArea"
+	},
+	"FindGTK2": {
+		"name": "FindGTK2",
+		"description": "Umožňuje najít knihovny widgetů GTK2 a několik dalších volitelných komponent, jako jsou gtkmm, glade a glademm."
+	},
+	"FindHDF5": {
+		"name": "FindHDF5",
+		"description": "Umožňuje najít HDF5 (Hierarchical Data Format), knihovnu pro čtení a zápis dat pole popisujících sebe sama."
+	},
+	"FindHg": {
+		"name": "FindHg",
+		"description": "Umožňuje extrahovat informace z pracovní kopie mercurial."
+	},
+	"FindHSPELL": {
+		"name": "FindHSPELL",
+		"description": "Zkusí najít kontrolu pravopisu pro hebrejštinu (Hspell) a morfologický modul."
+	},
+	"FindHTMLHelp": {
+		"name": "FindHTMLHelp",
+		"description": "Tento modul hledá kompilátor nápovědy HTML společnosti Microsoft."
+	},
+	"FindIce": {
+		"name": "FindIce",
+		"description": "Umožňuje najít programy, knihovny a datové soubory ZeroC Internet Communication Engine (ICE)."
+	},
+	"FindIconv": {
+		"name": "FindIconv",
+		"description": "Tento modul najde v systému funkce POSIX.1 iconv(). Tyto funkce mohou být poskytovány v běžné knihovně jazyka C nebo externě ve formě další knihovny."
+	},
+	"FindIcotool": {
+		"name": "FindIcotool",
+		"description": "Najít icotool"
+	},
+	"FindICU": {
+		"name": "FindICU",
+		"description": "Umožňuje najít knihovny a programy ICU (International Components for Unicode)."
+	},
+	"FindImageMagick": {
+		"name": "FindImageMagick",
+		"description": "Umožňuje najít ImageMagick, softwarovou sadu pro zobrazování a konverzi rastrových obrázků a manipulaci s nimi."
+	},
+	"FindIntl": {
+		"name": "FindIntl",
+		"description": "Umožňuje najít hlavičky a knihovny Gettext libintl."
+	},
+	"FindITK": {
+		"name": "FindITK",
+		"description": "Tento modul už neexistuje."
+	},
+	"FindJasper": {
+		"name": "FindJasper",
+		"description": "Umožňuje najít knihovnu Jasper JPEG2000."
+	},
+	"FindJava": {
+		"name": "FindJava",
+		"description": "Najít Javu"
+	},
+	"FindJNI": {
+		"name": "FindJNI",
+		"description": "Umožňuje najít hlavičky a knihovny JNI (Java Native Interface)."
+	},
+	"FindJPEG": {
+		"name": "FindJPEG",
+		"description": "Najít knihovnu JPEG (Joint Photographic Experts Group) (libjpeg)"
+	},
+	"FindKDE3": {
+		"name": "FindKDE3",
+		"description": "Najít adresáře souborů zahrnutí a knihovny KDE3, preprocesory KDE a definovat některá makra"
+	},
+	"FindKDE4": {
+		"name": "FindKDE4",
+		"description": "Umožňuje najít prostředí KDE4 a poskytnout pro něj všechny potřebné proměnné a makra pro kompilaci softwaru. Hledá KDE 4 v následujících adresářích v daném pořadí:"
+	},
+	"FindLAPACK": {
+		"name": "FindLAPACK",
+		"description": "Najít knihovnu LAPACK (Linear Algebra PACKage)"
+	},
+	"FindLATEX": {
+		"name": "FindLATEX",
+		"description": "Najít LaTeX"
+	},
+	"FindLibArchive": {
+		"name": "FindLibArchive",
+		"description": "Umožňuje najít knihovnu libarchive a hlavičky. Libarchive je knihovna pro archivaci a kompresi ve více formátech."
+	},
+	"FindLibinput": {
+		"name": "FindLibinput",
+		"description": "Umožňuje najít hlavičky a knihovnu libinput."
+	},
+	"FindLibLZMA": {
+		"name": "FindLibLZMA",
+		"description": "Umožňuje najít hlavičky a knihovnu kompresního algoritmu LZMA."
+	},
+	"FindLibXml2": {
+		"name": "FindLibXml2",
+		"description": "Umožňuje najít knihovnu zpracování XML (libxml2)."
+	},
+	"FindLibXslt": {
+		"name": "FindLibXslt",
+		"description": "Najít knihovny XSLT (Extensible Stylesheet Language Transformations) transformací XSL (LibXslt)"
+	},
+	"FindLTTngUST": {
+		"name": "FindLTTngUST",
+		"description": "Umožňuje najít knihovnu Linux Trace Toolkit Next Generation (LTTng-UST)."
+	},
+	"FindLua": {
+		"name": "FindLua",
+		"description": "Umožňuje vyhledat knihovnu Lua."
+	},
+	"FindLua50": {
+		"name": "FindLua50",
+		"description": "Umožňuje vyhledat knihovnu Lua."
+	},
+	"FindLua51": {
+		"name": "FindLua51",
+		"description": "Umožňuje vyhledat knihovnu Lua. Tento modul definuje:"
+	},
+	"FindMatlab": {
+		"name": "FindMatlab",
+		"description": "Umožňuje najít modul Matlab nebo Matlab Compiler Runtime (MCR) a poskytne nástroji CMake knihovny, kompilátory a nástroje Matlab."
+	},
+	"FindMFC": {
+		"name": "FindMFC",
+		"description": "Najít knihovnu MFC (Microsoft Foundation Class) ve Windows"
+	},
+	"FindMotif": {
+		"name": "FindMotif",
+		"description": "Zkusí najít Motif (nebo lesstif)."
+	},
+	"FindMPEG": {
+		"name": "FindMPEG",
+		"description": "Najít nativní soubory zahrnutí a knihovnu MPEG"
+	},
+	"FindMPEG2": {
+		"name": "FindMPEG2",
+		"description": "Najít nativní soubory zahrnutí a knihovnu MPEG2"
+	},
+	"FindMPI": {
+		"name": "FindMPI",
+		"description": "Umožňuje najít implementaci MPI (Message Passing Interface)."
+	},
+	"FindMsys": {
+		"name": "FindMsys",
+		"description": "Najít MSYS, prostředí kompatibilní s POSIX, které běží nativně v Microsoft Windows"
+	},
+	"FindODBC": {
+		"name": "FindODBC",
+		"description": "Umožňuje najít adresář souborů zahrnutí a knihovnu ODBC (Open Database Connectivity)."
+	},
+	"FindOpenACC": {
+		"name": "FindOpenACC",
+		"description": "Umožňuje rozpoznat podporu OpenACC kompilátorem."
+	},
+	"FindOpenAL": {
+		"name": "FindOpenAL",
+		"description": "Umožňuje najít OpenAL (Open Audio Library)."
+	},
+	"FindOpenCL": {
+		"name": "FindOpenCL",
+		"description": "Umožňuje najít OpenCL (Open Computing Language)."
+	},
+	"FindOpenGL": {
+		"name": "FindOpenGL",
+		"description": "FindModule pro OpenGL a OpenGL Utility Library (GLU)"
+	},
+	"FindOpenMP": {
+		"name": "FindOpenMP",
+		"description": "Umožňuje najít podporu pro OpenMP (Open Multi-Processing)."
+	},
+	"FindOpenSceneGraph": {
+		"name": "FindOpenSceneGraph",
+		"description": "Najít OpenSceneGraph (aplikační programovací rozhraní 3D grafiky)"
+	},
+	"FindOpenSP": {
+		"name": "FindOpenSP",
+		"description": "Zkusí najít knihovnu OpenSP."
+	},
+	"FindOpenSSL": {
+		"name": "FindOpenSSL",
+		"description": "Umožňuje najít knihovnu šifrování OpenSSL."
+	},
+	"FindOpenThreads": {
+		"name": "FindOpenThreads",
+		"description": "OpenThreads je knihovna vláken založená na jazyce C++. Zdá se, že jeho největší uživatelskou základnou je OpenSceneGraph, takže si můžete všimnout, že jako cestu prostředí akceptuji OSGDIR. Považuji ji za součást sady Findosg* používané k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas."
+	},
+	"Findosg": {
+		"name": "Findosg",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgAnimation": {
+		"name": "FindosgAnimation",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgDB": {
+		"name": "FindosgDB",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgFX": {
+		"name": "FindosgFX",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgGA": {
+		"name": "FindosgGA",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgIntrospection": {
+		"name": "FindosgIntrospection",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgManipulator": {
+		"name": "FindosgManipulator",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgParticle": {
+		"name": "FindosgParticle",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgPresentation": {
+		"name": "FindosgPresentation",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgProducer": {
+		"name": "FindosgProducer",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgQt": {
+		"name": "FindosgQt",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgShadow": {
+		"name": "FindosgShadow",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgSim": {
+		"name": "FindosgSim",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgTerrain": {
+		"name": "FindosgTerrain",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgText": {
+		"name": "FindosgText",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgUtil": {
+		"name": "FindosgUtil",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgViewer": {
+		"name": "FindosgViewer",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgVolume": {
+		"name": "FindosgVolume",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"FindosgWidget": {
+		"name": "FindosgWidget",
+		"description": "Jedná se o součást sady Findosg*, která slouží k vyhledávání komponent OpenSceneGraph. Každá komponenta je samostatná a pro každý modul musíte vyjádřit výslovný souhlas. Musíte také vyjádřit výslovný souhlas pro OpenGL a OpenThreads (a v případě potřeby i pro Producer), protože tyto moduly to za vás neudělají. Slouží k tomu, abyste měli kontrolu nad vlastním systémem po částech v případě, že potřebujete vyjádřit výslovný nesouhlas s používáním některých komponent nebo změnit chování modulu Find pro určitý modul (například proto, že výchozí modul FindOpenGL s vaším systémem nefunguje). Pokud chcete použít praktičtější modul, který obsahuje vše, použijte místo modulů Findosg*.cmake modul FindOpenSceneGraph."
+	},
+	"Findosg_functions": {
+		"name": "Findosg_functions",
+		"description": "Tento soubor CMake obsahuje dvě makra, která pomáhají při hledání knihoven OSG a modulů nodekit. Úplná dokumentace viz FindOpenSceneGraph"
+	},
+	"FindPackageHandleStandardArgs": {
+		"name": "FindPackageHandleStandardArgs",
+		"description": "Tento modul poskytuje funkce určené k použití v modulech Find implementujících volání find_package(<PackageName>)."
+	},
+	"FindPackageMessage": {
+		"name": "FindPackageMessage",
+		"description": "Tato funkce je určená k použití v souborech modulů FindXXX.cmake. Zpráva se vytiskne jednou pro každý jedinečný výsledek hledání. To je užitečné pro informování uživatele o tom, kde byl balíček nalezen. První argument určuje název (XXX) balíčku. Druhý argument určuje zprávu, která se má zobrazit. Třetí argument uvádí podrobnosti o výsledku hledání, takže pokud se změní, zpráva se zobrazí znovu. Makro také zohledňuje argument QUIET příkazu find_package."
+	},
+	"FindPatch": {
+		"name": "FindPatch",
+		"description": "Modul definuje následující proměnné:"
+	},
+	"FindPerl": {
+		"name": "FindPerl",
+		"description": "Umožňuje najít interpret jazyka Perl."
+	},
+	"FindPerlLibs": {
+		"name": "FindPerlLibs",
+		"description": "Najít knihovny Perl"
+	},
+	"FindPHP4": {
+		"name": "FindPHP4",
+		"description": "Najít PHP4"
+	},
+	"FindPhysFS": {
+		"name": "FindPhysFS",
+		"description": "Umožňuje vyhledat knihovnu PhysFS. Tento modul definuje:"
+	},
+	"FindPike": {
+		"name": "FindPike",
+		"description": "Najít Pike"
+	},
+	"FindPkgConfig": {
+		"name": "FindPkgConfig",
+		"description": "Modul pkg-config pro nástroj CMake"
+	},
+	"FindPNG": {
+		"name": "FindPNG",
+		"description": "Umožňuje najít libpng, oficiální referenční knihovnu pro formát obrázků PNG."
+	},
+	"FindPostgreSQL": {
+		"name": "FindPostgreSQL",
+		"description": "Umožňuje najít instalaci PostgreSQL."
+	},
+	"FindProducer": {
+		"name": "FindProducer",
+		"description": "Ačkoli Producer není přímo součástí OpenSceneGraph, jeho hlavním uživatelem je OSG, takže jej považuji za součást sady Findosg* používané k vyhledávání komponent OpenSceneGraph. Jak si můžete všimnout, jako cestu prostředí akceptuji OSGDIR."
+	},
+	"FindProtobuf": {
+		"name": "FindProtobuf",
+		"description": "Umožňuje vyhledat a nakonfigurovat knihovnu Google Protocol Buffers."
+	},
+	"FindPython": {
+		"name": "FindPython",
+		"description": "Umožňuje najít interpret, kompilátor a vývojové prostředí Pythonu (adresáře souborů zahrnutí a knihovny)."
+	},
+	"FindPython2": {
+		"name": "FindPython2",
+		"description": "Umožňuje najít interpret, kompilátor a vývojové prostředí Pythonu 2 (adresáře souborů zahrnutí a knihovny)."
+	},
+	"FindPython3": {
+		"name": "FindPython3",
+		"description": "Umožňuje najít interpret, kompilátor a vývojové prostředí Pythonu 3 (adresáře souborů zahrnutí a knihovny)."
+	},
+	"FindPythonInterp": {
+		"name": "FindPythonInterp",
+		"description": "Najít interpret Pythonu"
+	},
+	"FindPythonLibs": {
+		"name": "FindPythonLibs",
+		"description": "Najít knihovny Pythonu"
+	},
+	"FindQt": {
+		"name": "FindQt",
+		"description": "Umožňuje vyhledat všechny nainstalované verze Qt3 nebo Qt4."
+	},
+	"FindQt3": {
+		"name": "FindQt3",
+		"description": "Vyhledat cesty k souborům zahrnutí a knihovny Qt"
+	},
+	"FindQt4": {
+		"name": "FindQt4",
+		"description": "Tento modul lze použít k vyhledání Qt4. Nejdůležitější je, že Qt4 qmake je dostupný přes systémovou cestu. Tento qmake se pak používá k detekci v podstatě všeho ostatního. Tento modul definuje řadu cílů, maker a proměnných IMPORTED."
+	},
+	"FindQuickTime": {
+		"name": "FindQuickTime",
+		"description": "Umožňuje vyhledat QuickTime. Tento modul definuje:"
+	},
+	"FindRTI": {
+		"name": "FindRTI",
+		"description": "Zkusí najít knihovny M&S HLA RTI."
+	},
+	"FindRuby": {
+		"name": "FindRuby",
+		"description": "Najít Ruby"
+	},
+	"FindSDL": {
+		"name": "FindSDL",
+		"description": "Vyhledat knihovnu SDL"
+	},
+	"FindSDL_gfx": {
+		"name": "FindSDL_gfx",
+		"description": "Vyhledat knihovnu SDL_gfx"
+	},
+	"FindSDL_image": {
+		"name": "FindSDL_image",
+		"description": "Vyhledat knihovnu SDL_image"
+	},
+	"FindSDL_mixer": {
+		"name": "FindSDL_mixer",
+		"description": "Vyhledat knihovnu SDL_mixer"
+	},
+	"FindSDL_net": {
+		"name": "FindSDL_net",
+		"description": "Vyhledat knihovnu SDL_net"
+	},
+	"FindSDL_sound": {
+		"name": "FindSDL_sound",
+		"description": "Umožňuje vyhledat knihovnu SDL_sound."
+	},
+	"FindSDL_ttf": {
+		"name": "FindSDL_ttf",
+		"description": "Vyhledat knihovnu SDL_ttf"
+	},
+	"FindSelfPackers": {
+		"name": "FindSelfPackers",
+		"description": "Najít upx"
+	},
+	"FindSQLite3": {
+		"name": "FindSQLite3",
+		"description": "Najít knihovny SQLite, v3"
+	},
+	"FindSquish": {
+		"name": "FindSquish",
+		"description": "-- Typické použití"
+	},
+	"FindSubversion": {
+		"name": "FindSubversion",
+		"description": "Umožňuje extrahovat informace z pracovní kopie subversion."
+	},
+	"FindSWIG": {
+		"name": "FindSWIG",
+		"description": "Umožňuje najít spustitelný soubor pro SWIG (Simplified Wrapper and Interface Generator)."
+	},
+	"FindTCL": {
+		"name": "FindTCL",
+		"description": "Proměnná TK_INTERNAL_PATH byla odebrána."
+	},
+	"FindTclsh": {
+		"name": "FindTclsh",
+		"description": "Najít tclsh"
+	},
+	"FindTclStub": {
+		"name": "FindTclStub",
+		"description": "Proměnné TCL_STUB_LIBRARY_DEBUG a TK_STUB_LIBRARY_DEBUG byly odebrány."
+	},
+	"FindThreads": {
+		"name": "FindThreads",
+		"description": "Tento modul určuje knihovnu vláken systému."
+	},
+	"FindTIFF": {
+		"name": "FindTIFF",
+		"description": "Umožňuje najít knihovnu TIFF (libtiff, https://libtiff.gitlab.io/libtiff/)."
+	},
+	"FindUnixCommands": {
+		"name": "FindUnixCommands",
+		"description": "Najít příkazy Unixu, včetně příkazů z kolekce Cygwin"
+	},
+	"FindVTK": {
+		"name": "FindVTK",
+		"description": "Tento modul už neexistuje."
+	},
+	"FindVulkan": {
+		"name": "FindVulkan",
+		"description": "Umožňuje najít Vulkan, což je multiplatformní 3D grafické a výpočetní rozhraní API s nízkými režijními náklady."
+	},
+	"FindWget": {
+		"name": "FindWget",
+		"description": "Najít wget"
+	},
+	"FindWish": {
+		"name": "FindWish",
+		"description": "Najít instalaci wish"
+	},
+	"FindwxWidgets": {
+		"name": "FindwxWidgets",
+		"description": "Umožňuje najít instalaci knihovny wxWidgets (wxWindows)."
+	},
+	"FindwxWindows": {
+		"name": "FindwxWindows",
+		"description": "Najít instalaci knihovny wxWindows (wxWidgets)"
+	},
+	"FindX11": {
+		"name": "FindX11",
+		"description": "Najít instalaci X11"
+	},
+	"FindXalanC": {
+		"name": "FindXalanC",
+		"description": "Umožňuje najít hlavičky a knihovny procesoru transformace XSL Apache Xalan-C++."
+	},
+	"FindXCTest": {
+		"name": "FindXCTest",
+		"description": "Funkce, které pomáhají vytvářet a spouštět sady XCTest"
+	},
+	"FindXercesC": {
+		"name": "FindXercesC",
+		"description": "Umožňuje najít hlavičky a knihovny validačního parseru XML Apache Xerces-C++."
+	},
+	"FindXMLRPC": {
+		"name": "FindXMLRPC",
+		"description": "Najít xmlrpc"
+	},
+	"FindZLIB": {
+		"name": "FindZLIB",
+		"description": "Umožňuje najít nativní soubory zahrnutí a knihovnu ZLIB."
+	},
+	"FortranCInterface": {
+		"name": "FortranCInterface",
+		"description": "Detekce rozhraní jazyka Fortran/C"
+	},
+	"GenerateExportHeader": {
+		"name": "GenerateExportHeader",
+		"description": "Funkce pro generování maker exportu pro knihovny"
+	},
+	"GetPrerequisites": {
+		"name": "GetPrerequisites",
+		"description": "Funkce pro analýzu a výpis požadavků na spustitelný soubor"
+	},
+	"GNUInstallDirs": {
+		"name": "GNUInstallDirs",
+		"description": "Definovat standardní instalační adresáře GNU"
+	},
+	"GoogleTest": {
+		"name": "GoogleTest",
+		"description": "Tento modul definuje funkce, které vám pomůžou používat infrastrukturu Google Test. Jsou k dispozici dva mechanismy pro přidávání testů. gtest_add_tests existuje již nějakou dobu, původně prostřednictvím find_package(GTest). gtest_discover_tests byl zaveden v CMake 3.10."
+	},
+	"InstallRequiredSystemLibraries": {
+		"name": "InstallRequiredSystemLibraries",
+		"description": "Zahrnutí tohoto modulu vám umožní vyhledat systémové knihovny modulu runtime poskytované kompilátorem a přidat pro ně pravidla instalace. Některé volitelné proměnné je možné nastavit před zahrnutím modulu pro úpravu chování:"
+	},
+	"MacroAddFileDependencies": {
+		"name": "MacroAddFileDependencies",
+		"description": "Tento příkaz nepoužívejte v novém kódu. Je to jen obálka kolem:"
+	},
+	"ProcessorCount": {
+		"name": "ProcessorCount",
+		"description": "ProcessorCount(var)"
+	},
+	"SelectLibraryConfigurations": {
+		"name": "SelectLibraryConfigurations",
+		"description": "Toto makro přijímá jako argument základní název knihovny a vybere vhodné hodnoty proměnných."
+	},
+	"SquishTestScript": {
+		"name": "SquishTestScript",
+		"description": "Tento skript spustí test grafického uživatelského rozhraní pomocí Squish. Skript byste neměli volat přímo. Místo toho byste k němu měli přistupovat prostřednictvím makra SQUISH_ADD_TEST definovaného v FindSquish.cmake."
+	},
+	"TestBigEndian": {
+		"name": "TestBigEndian",
+		"description": "Umožňuje zkontrolovat, jestli je cílová architektura big endian nebo little endian."
+	},
+	"TestCXXAcceptsFlag": {
+		"name": "TestCXXAcceptsFlag",
+		"description": "Umožňuje zkontrolovat, jestli kompilátor CXX přijímá příznak."
+	},
+	"TestForANSIForScope": {
+		"name": "TestForANSIForScope",
+		"description": "Kontrola ANSI ohledně podpory oboru"
+	},
+	"TestForANSIStreamHeaders": {
+		"name": "TestForANSIStreamHeaders",
+		"description": "Test podpory kompilátoru pro iostream hlaviček streamu ANSI atd."
+	},
+	"TestForSSTREAM": {
+		"name": "TestForSSTREAM",
+		"description": "Test podpory kompilátoru hlavičky streamu ANSI"
+	},
+	"TestForSTDNamespace": {
+		"name": "TestForSTDNamespace",
+		"description": "Test pro podporu oboru názvů std::"
+	},
+	"UseEcos": {
+		"name": "UseEcos",
+		"description": "Tento modul definuje proměnné a makra potřebné k sestavení aplikace eCos."
+	},
+	"UseJava": {
+		"name": "UseJava",
+		"description": "Tento soubor poskytuje podporu pro Javu. Předpokládá se, že již byl načten modul FindJava. Informace o tom, jak načíst Javu do projektu CMake, najdete v podrobnostech o modulu FindJava."
+	},
+	"UseJavaClassFilelist": {
+		"name": "UseJavaClassFilelist",
+		"description": "Tento modul byl dříve zdokumentován omylem a nikdy nebyl určen k přímému začlenění do kódu projektu.  Viz modul :module:`UseJava`."
+	},
+	"UseJavaSymlinks": {
+		"name": "UseJavaSymlinks",
+		"description": "Tento modul byl dříve zdokumentován omylem a nikdy nebyl určen k přímému začlenění do kódu projektu.  Viz modul :module:`UseJava`."
+	},
+	"UsePkgConfig": {
+		"name": "UsePkgConfig",
+		"description": "Zastaralý modul pkg-config pro CMake. Místo něj použijte modul FindPkgConfig."
+	},
+	"UseSWIG": {
+		"name": "UseSWIG",
+		"description": "Tento soubor poskytuje podporu pro SWIG. Předpokládá se, že již byl načten modul FindSWIG."
+	},
+	"UsewxWidgets": {
+		"name": "UsewxWidgets",
+		"description": "Pomocný soubor zahrnutí pro používání knihovny wxWidgets."
+	},
+	"Use_wxWindows": {
+		"name": "Use_wxWindows",
+		"description": "Tento pomocný soubor zahrnutí zjistí, jestli je nainstalován wxWindows, a nastaví příslušné knihovny, adresáře souborů zahrnutí, příznaky atd. autor: Jan Woetzel <jw -at- mip.informatik.uni-kiel.de> (07/2003)"
+	},
+	"WriteBasicConfigVersionFile": {
+		"name": "WriteBasicConfigVersionFile",
+		"description": "Zastaralé od verze 3.0: Použijte identický příkaz write_basic_package_version_file() z modulu CMakePackageConfigHelpers."
+	},
+	"WriteCompilerDetectionHeader": {
+		"name": "WriteCompilerDetectionHeader",
+		"description": "Tento modul poskytuje funkci write_compiler_detection_header()."
+	}
+}

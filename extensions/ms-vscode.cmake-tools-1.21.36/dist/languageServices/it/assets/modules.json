@@ -1,0 +1,1078 @@
+{
+	"AddFileDependencies": {
+		"name": "AddFileDependencies",
+		"description": "Aggiungere dipendenze a un file di origine."
+	},
+	"AndroidTestUtilities": {
+		"name": "AndroidTestUtilities",
+		"description": "Creare un test che carica automaticamente i dati specificati in un dispositivo Android."
+	},
+	"BundleUtilities": {
+		"name": "BundleUtilities",
+		"description": "Funzioni che consentono di assemblare un’applicazione in bundle autonoma."
+	},
+	"CheckCCompilerFlag": {
+		"name": "CheckCCompilerFlag",
+		"description": "Controllare se il compilatore C supporta un flag specificato."
+	},
+	"CheckCompilerFlag": {
+		"name": "CheckCompilerFlag",
+		"description": "Controllare se il compilatore supporta un flag specificato."
+	},
+	"CheckCSourceCompiles": {
+		"name": "CheckCSourceCompiles",
+		"description": "Controllare se l'origine C specificata viene compilata e collegata in un eseguibile."
+	},
+	"CheckCSourceRuns": {
+		"name": "CheckCSourceRuns",
+		"description": "Controllare se l'origine C specificata viene compilata e collegata in un eseguibile e se può essere eseguita in seguito."
+	},
+	"CheckCXXCompilerFlag": {
+		"name": "CheckCXXCompilerFlag",
+		"description": "Controllare se il compilatore CXX supporta un flag specificato."
+	},
+	"CheckCXXSourceCompiles": {
+		"name": "CheckCXXSourceCompiles",
+		"description": "Controllare se l'origine C++ specificata viene compilata e collegata in un eseguibile."
+	},
+	"CheckCXXSourceRuns": {
+		"name": "CheckCXXSourceRuns",
+		"description": "Controllare se l'origine C++ specificata viene compilata e collegata in un eseguibile e se può essere eseguita in seguito."
+	},
+	"CheckCXXSymbolExists": {
+		"name": "CheckCXXSymbolExists",
+		"description": "Verificare se un simbolo esiste come funzione, variabile o macro in C++."
+	},
+	"CheckFortranCompilerFlag": {
+		"name": "CheckFortranCompilerFlag",
+		"description": "Controllare se il compilatore Fortran supporta un flag specificato."
+	},
+	"CheckFortranFunctionExists": {
+		"name": "CheckFortranFunctionExists",
+		"description": "Controllare se esiste una funzione Fortran."
+	},
+	"CheckFortranSourceCompiles": {
+		"name": "CheckFortranSourceCompiles",
+		"description": "Controllare se l'origine Fortran specificata viene compilata e collegata in un eseguibile."
+	},
+	"CheckFortranSourceRuns": {
+		"name": "CheckFortranSourceRuns",
+		"description": "Controllare se l'origine Fortran specificata viene compilata e collegata in un eseguibile e se può essere eseguita in seguito."
+	},
+	"CheckFunctionExists": {
+		"name": "CheckFunctionExists",
+		"description": "Controllare se una funzione C può essere collegata"
+	},
+	"CheckIncludeFile": {
+		"name": "CheckIncludeFile",
+		"description": "Fornisce una macro per verificare se un file di intestazione può essere incluso in C."
+	},
+	"CheckIncludeFileCXX": {
+		"name": "CheckIncludeFileCXX",
+		"description": "Fornisce una macro per verificare se un file di intestazione può essere incluso in CXX."
+	},
+	"CheckIncludeFiles": {
+		"name": "CheckIncludeFiles",
+		"description": "Fornisce una macro per verificare se è possibile includere insieme un elenco di uno o più file di intestazione."
+	},
+	"CheckIPOSupported": {
+		"name": "CheckIPOSupported",
+		"description": "Controllare se il compilatore supporta un'ottimizzazione tra le procedure (IPO/LTO). Usare questa opzione prima di abilitare la proprietà di destinazione INTERPROCEDURAL_OPTIMIZATION."
+	},
+	"CheckLanguage": {
+		"name": "CheckLanguage",
+		"description": "Controllare se una lingua può essere abilitata da enable_language o dai comandi del progetto:"
+	},
+	"CheckLibraryExists": {
+		"name": "CheckLibraryExists",
+		"description": "Controllare se la funzione esiste."
+	},
+	"CheckLinkerFlag": {
+		"name": "CheckLinkerFlag",
+		"description": "Controllare se il compilatore supporta un flag di collegamento specificato."
+	},
+	"CheckOBJCCompilerFlag": {
+		"name": "CheckOBJCCompilerFlag",
+		"description": "Controllare se il compilatore Objective-C supporta un flag specificato."
+	},
+	"CheckOBJCSourceCompiles": {
+		"name": "CheckOBJCSourceCompiles",
+		"description": "Controllare se l'origine Objective-C specificata viene compilata e collegata in un eseguibile."
+	},
+	"CheckOBJCSourceRuns": {
+		"name": "CheckOBJCSourceRuns",
+		"description": "Controllare se l'origine Objective-C specificata viene compilata e collegata in un eseguibile e se può essere eseguita in seguito."
+	},
+	"CheckOBJCXXCompilerFlag": {
+		"name": "CheckOBJCXXCompilerFlag",
+		"description": "Controllare se il compilatore Objective-C++ supporta un flag specificato."
+	},
+	"CheckOBJCXXSourceCompiles": {
+		"name": "CheckOBJCXXSourceCompiles",
+		"description": "Controllare se l'origine Objective-C++ specificata viene compilata e collegata in un eseguibile."
+	},
+	"CheckOBJCXXSourceRuns": {
+		"name": "CheckOBJCXXSourceRuns",
+		"description": "Controllare se l'origine Objective-C++ specificata viene compilata e collegata in un eseguibile e se può essere eseguita in seguito."
+	},
+	"CheckPIESupported": {
+		"name": "CheckPIESupported",
+		"description": "Controllare se il linker supporta il codice PIE (Position Independent Code) o NO_PIE (No Position Independent Code) per gli eseguibili. Usare questa opzione per assicurarsi che la proprietà di destinazione POSITION_INDEPENDENT_CODE per i file eseguibili venga rispettata in fase di collegamento."
+	},
+	"CheckPrototypeDefinition": {
+		"name": "CheckPrototypeDefinition",
+		"description": "Controllare se il prototipo previsto è corretto."
+	},
+	"CheckSourceCompiles": {
+		"name": "CheckSourceCompiles",
+		"description": "Controllare se l'origine specificata viene compilata e collegata in un eseguibile."
+	},
+	"CheckSourceRuns": {
+		"name": "CheckSourceRuns",
+		"description": "Controllare se l'origine specificata viene compilata e collegata in un eseguibile e se può essere eseguita in seguito."
+	},
+	"CheckStructHasMember": {
+		"name": "CheckStructHasMember",
+		"description": "Controllare se lo struct o la classe specificata include la variabile membro specificata"
+	},
+	"CheckSymbolExists": {
+		"name": "CheckSymbolExists",
+		"description": "Fornisce una macro per verificare se un simbolo esiste come funzione, variabile o macro in C."
+	},
+	"CheckTypeSize": {
+		"name": "CheckTypeSize",
+		"description": "Controllare le dimensioni di un tipo"
+	},
+	"CheckVariableExists": {
+		"name": "CheckVariableExists",
+		"description": "Controllare se la variabile esiste."
+	},
+	"CMakeAddFortranSubdirectory": {
+		"name": "CMakeAddFortranSubdirectory",
+		"description": "Aggiungere una sottodirectory solo Fortran, trovare un compilatore Fortran e compilare."
+	},
+	"CMakeBackwardCompatibilityCXX": {
+		"name": "CMakeBackwardCompatibilityCXX",
+		"description": "Definire una serie di variabili di compatibilità con le versioni precedenti"
+	},
+	"CMakeDependentOption": {
+		"name": "CMakeDependentOption",
+		"description": "Macro per fornire un'opzione dipendente da altre opzioni."
+	},
+	"CMakeDetermineVSServicePack": {
+		"name": "CMakeDetermineVSServicePack",
+		"description": "La funzionalità di questo modulo è stata superata dalla variabile CMAKE_<LANG>_COMPILER_VERSION che contiene il numero di versione del compilatore."
+	},
+	"CMakeExpandImportedTargets": {
+		"name": "CMakeExpandImportedTargets",
+		"description": "Questo modulo era necessario una volta per espandere le destinazioni importate nelle librerie sottostanti a cui fanno riferimento su disco per l'uso con i comandi try_compile e try_run. Questi comandi supportano ora le librerie importate nelle opzioni di LINK_LIBRARIES (a partire da CMake 2.8.11 per try_compile e da CMake 3.2 per try_run)."
+	},
+	"CMakeFindDependencyMacro": {
+		"name": "CMakeFindDependencyMacro",
+		"description": "La macro ``find_dependency()`` esegue il wrapping di una chiamata :command:`find_package` per una dipendenza del pacchetto."
+	},
+	"CMakeFindFrameworks": {
+		"name": "CMakeFindFrameworks",
+		"description": "Modulo helper per trovare framework OSX"
+	},
+	"CMakeFindPackageMode": {
+		"name": "CMakeFindPackageMode",
+		"description": "Questo file viene eseguito da CMake quando viene richiamato con --find-package <Find-Package Tool Mode>. È previsto che le variabili seguenti vengano impostate con -D:"
+	},
+	"CMakeForceCompiler": {
+		"name": "CMakeForceCompiler",
+		"description": "Le macro fornite da questo modulo erano in precedenza destinate all'uso tramite la compilazione incrociata di file della toolchain quando CMake non era in grado di rilevare automaticamente l'identificazione del compilatore. Dopo l'introduzione di questo modulo, le funzionalità di identificazione del compilatore di CMake sono migliorate e ora è possibile addestrarle a riconoscere qualsiasi compilatore. Inoltre, la suite di informazioni rilevate da CMake da un compilatore è ora troppo estesa per essere fornita dai file toolchain tramite queste macro."
+	},
+	"CMakeGraphVizOptions": {
+		"name": "CMakeGraphVizOptions",
+		"description": "Supporto Graphviz predefinito di CMake."
+	},
+	"CMakePackageConfigHelpers": {
+		"name": "CMakePackageConfigHelpers",
+		"description": "Funzioni helper per la creazione di file di configurazione che possono essere inclusi da altri progetti per trovare e usare un pacchetto."
+	},
+	"CMakeParseArguments": {
+		"name": "CMakeParseArguments",
+		"description": "Questo modulo implementava in precedenza il comando cmake_parse_arguments che è ora implementato in modo nativo da CMake. È ora un segnaposto vuoto per la compatibilità con i progetti che lo includono per ottenere il comando da CMake 3.4 e versioni precedenti."
+	},
+	"CMakePrintHelpers": {
+		"name": "CMakePrintHelpers",
+		"description": "Funzioni di praticità per la stampa di proprietà e variabili, utili, ad esempio per il debug."
+	},
+	"CMakePrintSystemInformation": {
+		"name": "CMakePrintSystemInformation",
+		"description": "Informazioni sul sistema di stampa."
+	},
+	"CMakePushCheckState": {
+		"name": "CMakePushCheckState",
+		"description": "Questo modulo definisce tre macro: CMAKE_PUSH_CHECK_STATE(), CMAKE_POP_CHECK_STATE() e CMAKE_RESET_CHECK_STATE(). Queste macro possono essere usate per salvare, ripristinare e reimpostare (ad esempio cancellare il contenuto) lo stato delle variabili CMAKE_REQUIRED_FLAGS, CMAKE_REQUIRED_DEFINITIONS, CMAKE_REQUIRED_LINK_OPTIONS, CMAKE_REQUIRED_LIBRARIES, CMAKE_REQUIRED_INCLUDES e CMAKE_EXTRA_INCLUDE_FILES usati dai vari file Check in forniti con CMake, ad esempio check_function_exists() e così via. Viene eseguito il push dei contenuti della variabile in uno stack; è supporta l’esecuzione di più push. Ciò è utile, ad esempio quando si eseguono test di questo tipo in un modulo Find, in cui devono essere impostati, ma mantenere lo stesso valore dopo l'esecuzione del modulo Find."
+	},
+	"CMakeVerifyManifest": {
+		"name": "CMakeVerifyManifest",
+		"description": "CMakeVerifyManifest.cmake"
+	},
+	"CPack": {
+		"name": "CPack",
+		"description": "Configurare i generatori per i programmi di installazione binari e i pacchetti di origine."
+	},
+	"CPackArchive": {
+		"name": "CPackArchive",
+		"description": "La documentazione per il generatore CPack Archive è stata spostata qui: CPack Archive Generator"
+	},
+	"CPackBundle": {
+		"name": "CPackBundle",
+		"description": "La documentazione per il generatore CPack Bundle è stata spostata qui: CPack Bundle Generator"
+	},
+	"CPackComponent": {
+		"name": "CPackComponent",
+		"description": "Configurare i componenti per i programmi di installazione binari e i pacchetti di origine."
+	},
+	"CPackCygwin": {
+		"name": "CPackCygwin",
+		"description": "La documentazione per il generatore CPack Cygwin è stata spostata qui: CPack Cygwin Generator"
+	},
+	"CPackDeb": {
+		"name": "CPackDeb",
+		"description": "La documentazione per il generatore CPack DEB è stata spostata qui: CPack DEB Generator"
+	},
+	"CPackDMG": {
+		"name": "CPackDMG",
+		"description": "La documentazione per il generatore CPack DragNDrop è stata spostata qui: CPack DragNDrop Generator"
+	},
+	"CPackFreeBSD": {
+		"name": "CPackFreeBSD",
+		"description": "La documentazione per il generatore CPack FreeBSD è stata spostata qui: CPack FreeBSD Generator"
+	},
+	"CPackIFW": {
+		"name": "CPackIFW",
+		"description": "Questo modulo cerca il percorso delle utilità della riga di comando fornite con Qt Installer Framework (QtIFW)."
+	},
+	"CPackIFWConfigureFile": {
+		"name": "CPackIFWConfigureFile",
+		"description": "Il modulo definisce il comando simile a configure_file per configurare i modelli di file preparati nello stile QtIFW/SDK/Creator."
+	},
+	"CPackNSIS": {
+		"name": "CPackNSIS",
+		"description": "La documentazione per il generatore CPack NSIS è stata spostata qui: CPack NSIS Generator"
+	},
+	"CPackNuGet": {
+		"name": "CPackNuGet",
+		"description": "La documentazione per il generatore CPack NuGet è stata spostata qui: CPack NuGet Generator"
+	},
+	"CPackProductBuild": {
+		"name": "CPackProductBuild",
+		"description": "La documentazione per il generatore CPack productbuild è stata spostata qui: CPack productbuild Generator"
+	},
+	"CPackRPM": {
+		"name": "CPackRPM",
+		"description": "La documentazione per il generatore CPack RPM è stata spostata qui: CPack RPM Generator"
+	},
+	"CPackWIX": {
+		"name": "CPackWIX",
+		"description": "La documentazione per il generatore CPack WIX è stata spostata qui: CPack WIX Generator"
+	},
+	"CSharpUtilities": {
+		"name": "CSharpUtilities",
+		"description": "Funzioni per semplificare la configurazione delle destinazioni CSharp/.NET."
+	},
+	"CTest": {
+		"name": "CTest",
+		"description": "Configurare un progetto per il test con CTest/CDash"
+	},
+	"CTestCoverageCollectGCOV": {
+		"name": "CTestCoverageCollectGCOV",
+		"description": "Questo modulo fornisce la funzione ctest_coverage_collect_gcov."
+	},
+	"CTestScriptMode": {
+		"name": "CTestScriptMode",
+		"description": "Questo file viene letto da ctest in modalità script (-S)"
+	},
+	"CTestUseLaunchers": {
+		"name": "CTestUseLaunchers",
+		"description": "Impostare le proprietà globali RULE_LAUNCH_* quando CTEST_USE_LAUNCHERS è attivato."
+	},
+	"Dart": {
+		"name": "Dart",
+		"description": "Configurare un progetto per il test con CTest o il client TCL DART precedente"
+	},
+	"DeployQt4": {
+		"name": "DeployQt4",
+		"description": "Funzioni che consentono di assemblare un eseguibile Qt4 autonomo."
+	},
+	"Documentation": {
+		"name": "Documentation",
+		"description": "Questo modulo fornisce supporto per il framework della documentazione VTK. Si basa su diversi strumenti (Doxygen, Perl e così via)."
+	},
+	"ExternalData": {
+		"name": "ExternalData",
+		"description": "Gestire i file di dati archiviati all'esterno dell'albero di origine"
+	},
+	"ExternalProject": {
+		"name": "ExternalProject",
+		"description": "La funzione ExternalProject_Add() crea una destinazione personalizzata per eseguire operazioni di download, aggiornamento/applicazione di patch, configurazione, compilazione, installazione e test di un progetto esterno"
+	},
+	"FeatureSummary": {
+		"name": "FeatureSummary",
+		"description": "Funzioni per la generazione di un riepilogo delle funzionalità abilitate/disabilitate."
+	},
+	"FetchContent": {
+		"name": "FetchContent",
+		"description": "Questo modulo consente di popolare il contenuto in fase di configurazione tramite qualsiasi metodo supportato dal modulo ExternalProject. Mentre ExternalProject_Add() esegue il download in fase di compilazione, il modulo FetchContent rende immediatamente disponibile il contenuto, consentendo al passaggio di configurazione di usare il contenuto in comandi come le operazioni add_subdirectory(), include() o file()."
+	},
+	"FindALSA": {
+		"name": "FindALSA",
+		"description": "Trovare Advanced Linux Sound Architecture (ALSA)"
+	},
+	"FindArmadillo": {
+		"name": "FindArmadillo",
+		"description": "Trovare la libreria C++ di Armadillo. Armadillo è una libreria per l'algebra lineare e il calcolo scientifico."
+	},
+	"FindASPELL": {
+		"name": "FindASPELL",
+		"description": "Provare a trovare ASPELL"
+	},
+	"FindAVIFile": {
+		"name": "FindAVIFile",
+		"description": "Individuare la libreria AVIFILE e includere i percorsi"
+	},
+	"FindBacktrace": {
+		"name": "FindBacktrace",
+		"description": "Trovare il provider per l’analisi (3)."
+	},
+	"FindBISON": {
+		"name": "FindBISON",
+		"description": "Trovare l'eseguibile Bison e fornire una macro per generare regole di compilazione personalizzate."
+	},
+	"FindBLAS": {
+		"name": "FindBLAS",
+		"description": "Trovare la libreria BLAS (Basic Linear Algebra Subprograms)"
+	},
+	"FindBoost": {
+		"name": "FindBoost",
+		"description": "Find Boost include directory e librerie"
+	},
+	"FindBullet": {
+		"name": "FindBullet",
+		"description": "Provare a trovare il motore fisico Bullet"
+	},
+	"FindBZip2": {
+		"name": "FindBZip2",
+		"description": "Provare a trovare BZip2"
+	},
+	"FindCABLE": {
+		"name": "FindCABLE",
+		"description": "Trovare CABLE"
+	},
+	"FindCoin3D": {
+		"name": "FindCoin3D",
+		"description": "Trovare Coin3D (inventario aperto)"
+	},
+	"FindCUDA": {
+		"name": "FindCUDA",
+		"description": "Non è più necessario usare questo modulo o chiamare find_package(CUDA) per compilare il codice CUDA. Elencare invece CUDA tra i linguaggi denominati nella chiamata di primo livello al comando del progetto oppure chiamare il comando enable_language con CUDA. È quindi possibile aggiungere origini CUDA (con estensione .cu) direttamente a destinazioni simili ad altri linguaggi."
+	},
+	"FindCUDAToolkit": {
+		"name": "FindCUDAToolkit",
+		"description": "Questo script individua il toolkit NVIDIA CUDA e le librerie associate, ma non richiede l'abilitazione del linguaggio CUDA per un determinato progetto. Questo modulo non cerca gli esempi NVIDIA CUDA."
+	},
+	"FindCups": {
+		"name": "FindCups",
+		"description": "Trovare il sistema Common UNIX Printing System (CUPS)."
+	},
+	"FindCURL": {
+		"name": "FindCURL",
+		"description": "Trovare le intestazioni e le librerie CURL native."
+	},
+	"FindCurses": {
+		"name": "FindCurses",
+		"description": "Trovare i file e le librerie che includono i file curse o gli ncurse."
+	},
+	"FindCVS": {
+		"name": "FindCVS",
+		"description": "Trovare il sistema di versioni simultanee (CVS)."
+	},
+	"FindCxxTest": {
+		"name": "FindCxxTest",
+		"description": "Trovare il framework di testing di unità CxxTest."
+	},
+	"FindCygwin": {
+		"name": "FindCygwin",
+		"description": "Trovare Cygwin, un ambiente compatibile con POSIX eseguito in modo nativo in Microsoft Windows"
+	},
+	"FindDart": {
+		"name": "FindDart",
+		"description": "Trovare DART"
+	},
+	"FindDCMTK": {
+		"name": "FindDCMTK",
+		"description": "Trovare librerie e applicazioni DICOM ToolKit (DCMTK)"
+	},
+	"FindDevIL": {
+		"name": "FindDevIL",
+		"description": "Questo modulo individua la libreria di immagini per sviluppatori. https://openil.sourceforge.net/"
+	},
+	"FindDoxygen": {
+		"name": "FindDoxygen",
+		"description": "Dappositogen è uno strumento di generazione di documentazione (vedere https://www.doxygen.nl). Questo modulo cerca Doxygen e alcuni strumenti facoltativi supportati:"
+	},
+	"FindEnvModules": {
+		"name": "FindEnvModules",
+		"description": "Individuare un'implementazione del modulo di ambiente e rendere disponibili i comandi agli script CMake per usarli. Questa funzionalità è compatibile sia con i Lmod basati su Lua che con gli EnvironmentModules basati su TCL."
+	},
+	"FindEXPAT": {
+		"name": "FindEXPAT",
+		"description": "Trovare le intestazioni e le librerie Expat native. Expat è una libreria di parser XML orientata al flusso scritta in C."
+	},
+	"FindFLEX": {
+		"name": "FindFLEX",
+		"description": "Trova l'eseguibile Fast Lexical Analyzer (Flex) e fornisce una macro per generare regole di compilazione personalizzate"
+	},
+	"FindFLTK": {
+		"name": "FindFLTK",
+		"description": "Trovare la libreria Fast Light Toolkit (FLTK)"
+	},
+	"FindFLTK2": {
+		"name": "FindFLTK2",
+		"description": "Trovare le inclusioni e la libreria native di FLTK 2.0"
+	},
+	"FindFontconfig": {
+		"name": "FindFontconfig",
+		"description": "Trovare le intestazioni e la libreria Fontconfig."
+	},
+	"FindFreetype": {
+		"name": "FindFreetype",
+		"description": "Trovare le inclusioni e la libreria del renderer del tipo di carattere FreeType."
+	},
+	"FindGCCXML": {
+		"name": "FindGCCXML",
+		"description": "Trovare l'eseguibile front-end GCC-XML."
+	},
+	"FindGDAL": {
+		"name": "FindGDAL",
+		"description": "Trovare la libreria GDAL (Geospatial Data Abstraction Library)."
+	},
+	"FindGettext": {
+		"name": "FindGettext",
+		"description": "Trovare gli strumenti GNU gettext"
+	},
+	"FindGIF": {
+		"name": "FindGIF",
+		"description": "Viene trovata la libreria Graphics Interchange Format (GIF) (giflib)"
+	},
+	"FindGit": {
+		"name": "FindGit",
+		"description": "Il modulo definisce le variabili seguenti:"
+	},
+	"FindGLEW": {
+		"name": "FindGLEW",
+		"description": "Trovare la libreria GLEW (OpenGL Extension Wrangler Library)"
+	},
+	"FindGLUT": {
+		"name": "FindGLUT",
+		"description": "Trovare la libreria OpenGL Utility Toolkit (GLUT) e includere i file."
+	},
+	"FindGnuplot": {
+		"name": "FindGnuplot",
+		"description": "Questo modulo cerca gnuplot"
+	},
+	"FindGnuTLS": {
+		"name": "FindGnuTLS",
+		"description": "Trovare la libreria GNU Transport Layer Security (gnutls)"
+	},
+	"FindGSL": {
+		"name": "FindGSL",
+		"description": "Trovare le librerie e le inclusioni native di GNU Scientific Library (GSL)."
+	},
+	"FindGTest": {
+		"name": "FindGTest",
+		"description": "Individuare il framework di test per C++ di Google."
+	},
+	"FindGTK": {
+		"name": "FindGTK",
+		"description": "Trovare GTK, glib e GTKGLArea"
+	},
+	"FindGTK2": {
+		"name": "FindGTK2",
+		"description": "Trovare le librerie dei widget GTK2 e molti altri componenti facoltativi, ad esempio gtkmm, glade e glademm."
+	},
+	"FindHDF5": {
+		"name": "FindHDF5",
+		"description": "Trovare HDF5 (Hierarchical Data Format), una libreria per la lettura e la scrittura di dati di matrice autodescrittivi."
+	},
+	"FindHg": {
+		"name": "FindHg",
+		"description": "Estrarre le informazioni da una copia di lavoro di tipo Mercurial."
+	},
+	"FindHSPELL": {
+		"name": "FindHSPELL",
+		"description": "Provare a trovare il correttore ortografico ebraico (Hspell) e il motore morfologico."
+	},
+	"FindHTMLHelp": {
+		"name": "FindHTMLHelp",
+		"description": "Questo modulo cerca il compilatore della Guida HTML Microsoft"
+	},
+	"FindIce": {
+		"name": "FindIce",
+		"description": "Trovare i programmi, le librerie e i file di dati ICE (Internet Communication Engine) ZeroC."
+	},
+	"FindIconv": {
+		"name": "FindIconv",
+		"description": "Questo modulo trova le funzioni inconv() POSIX.1 nel sistema. Queste funzioni possono essere fornite nella normale libreria C o esternamente sotto forma di libreria aggiuntiva."
+	},
+	"FindIcotool": {
+		"name": "FindIcotool",
+		"description": "Trovare icotool"
+	},
+	"FindICU": {
+		"name": "FindICU",
+		"description": "Trovare le librerie e i programmi ICU (International Components for Unicode)."
+	},
+	"FindImageMagick": {
+		"name": "FindImageMagick",
+		"description": "Trovare ImageMagick, la suite software per la visualizzazione, la conversione e la modifica di immagini raster."
+	},
+	"FindIntl": {
+		"name": "FindIntl",
+		"description": "Trovare le intestazioni e le librerie Gettext libintl."
+	},
+	"FindITK": {
+		"name": "FindITK",
+		"description": "Questo modulo non esiste più."
+	},
+	"FindJasper": {
+		"name": "FindJasper",
+		"description": "Trovare la libreria Jasper JPEG2000."
+	},
+	"FindJava": {
+		"name": "FindJava",
+		"description": "Trova Java"
+	},
+	"FindJNI": {
+		"name": "FindJNI",
+		"description": "Trovare le intestazioni e le librerie JNI (Java Native Interface)."
+	},
+	"FindJPEG": {
+		"name": "FindJPEG",
+		"description": "Trovare la libreria Joint Photographic Experts Group (JPEG) (libjpeg)"
+	},
+	"FindKDE3": {
+		"name": "FindKDE3",
+		"description": "Trovare le directory della libreria e di inclusione KDE3, i preprocessori KDE e definire alcune macro"
+	},
+	"FindKDE4": {
+		"name": "FindKDE4",
+		"description": "Trovare KDE4 e fornire tutte le variabili e le macro necessarie per compilare il software. Cerca KDE 4 nelle directory seguenti nell'ordine specificato:"
+	},
+	"FindLAPACK": {
+		"name": "FindLAPACK",
+		"description": "Trovare la libreria Linear Algebra PACKage (LAPACK)"
+	},
+	"FindLATEX": {
+		"name": "FindLATEX",
+		"description": "Trovare LaTeX"
+	},
+	"FindLibArchive": {
+		"name": "FindLibArchive",
+		"description": "Trovare la libreria libarchive e le intestazioni. Libarchive è una libreria di archiviazione e compressione multiformato."
+	},
+	"FindLibinput": {
+		"name": "FindLibinput",
+		"description": "Trovare le intestazioni e la libreria libinput."
+	},
+	"FindLibLZMA": {
+		"name": "FindLibLZMA",
+		"description": "Trovare le intestazioni e la libreria dell'algoritmo di compressione LZMA."
+	},
+	"FindLibXml2": {
+		"name": "FindLibXml2",
+		"description": "Trovare la libreria di elaborazione XML (libxml2)."
+	},
+	"FindLibXslt": {
+		"name": "FindLibXslt",
+		"description": "Trovare le trasformazioni XSL, la libreria Extensible Stylesheet Language Transformations (XSLT) (LibXslt)"
+	},
+	"FindLTTngUST": {
+		"name": "FindLTTngUST",
+		"description": "Trovare la libreria Linux Trace Toolkit Next Generation (LTTng-UST)."
+	},
+	"FindLua": {
+		"name": "FindLua",
+		"description": "Individuare la libreria Lua."
+	},
+	"FindLua50": {
+		"name": "FindLua50",
+		"description": "Individuare la libreria Lua."
+	},
+	"FindLua51": {
+		"name": "FindLua51",
+		"description": "Individuare la libreria Lua. Questo modulo definisce:"
+	},
+	"FindMatlab": {
+		"name": "FindMatlab",
+		"description": "Trova Matlab o Matlab Compiler Runtime (MCR) e fornisce strumenti, librerie e compilatori Matlab a CMake."
+	},
+	"FindMFC": {
+		"name": "FindMFC",
+		"description": "Libreria Microsoft Foundation Class (MFC) in Windows"
+	},
+	"FindMotif": {
+		"name": "FindMotif",
+		"description": "Provare a trovare Motif (o Lessitif)"
+	},
+	"FindMPEG": {
+		"name": "FindMPEG",
+		"description": "Trovare le inclusioni e la libreria native di MPEG"
+	},
+	"FindMPEG2": {
+		"name": "FindMPEG2",
+		"description": "Trovare le inclusioni e la libreria native di MPEG2"
+	},
+	"FindMPI": {
+		"name": "FindMPI",
+		"description": "Trovare un'implementazione di Message Passing Interface (MPI)."
+	},
+	"FindMsys": {
+		"name": "FindMsys",
+		"description": "Trovare MSYS, un ambiente compatibile con POSIX eseguito in modo nativo in Microsoft Windows"
+	},
+	"FindODBC": {
+		"name": "FindODBC",
+		"description": "Trovare una directory di inclusione e una libreria Open Database Connectivity (ODBC)."
+	},
+	"FindOpenACC": {
+		"name": "FindOpenACC",
+		"description": "Rilevare il supporto di OpenACC dal compilatore."
+	},
+	"FindOpenAL": {
+		"name": "FindOpenAL",
+		"description": "Trovare Open Audio Library (OpenAL)."
+	},
+	"FindOpenCL": {
+		"name": "FindOpenCL",
+		"description": "Trova il linguaggio Open Computing (OpenCL)"
+	},
+	"FindOpenGL": {
+		"name": "FindOpenGL",
+		"description": "FindModule per OpenGL e GLU (OpenGL Utility Library)."
+	},
+	"FindOpenMP": {
+		"name": "FindOpenMP",
+		"description": "Trova il supporto Open Multi-Processing (OpenMP)."
+	},
+	"FindOpenSceneGraph": {
+		"name": "FindOpenSceneGraph",
+		"description": "Trovare OpenSceneGraph (interfaccia di programmazione di applicazioni grafiche 3D)"
+	},
+	"FindOpenSP": {
+		"name": "FindOpenSP",
+		"description": "Provare a trovare la libreria OpenSP."
+	},
+	"FindOpenSSL": {
+		"name": "FindOpenSSL",
+		"description": "Trovare la libreria di crittografia OpenSSL."
+	},
+	"FindOpenThreads": {
+		"name": "FindOpenThreads",
+		"description": "OpenThreads è una libreria di threading basata su C++. La sua base di utenti più grande sembra OpenSceneGraph, quindi si potrebbe notare che si accetta OSGDIR come percorso di ambiente. Viene presa in considerazione questa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo."
+	},
+	"Findosg": {
+		"name": "Findosg",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgAnimation": {
+		"name": "FindosgAnimation",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgDB": {
+		"name": "FindosgDB",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgFX": {
+		"name": "FindosgFX",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgGA": {
+		"name": "FindosgGA",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgIntrospection": {
+		"name": "FindosgIntrospection",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgManipulator": {
+		"name": "FindosgManipulator",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgParticle": {
+		"name": "FindosgParticle",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgPresentation": {
+		"name": "FindosgPresentation",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgProducer": {
+		"name": "FindosgProducer",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgQt": {
+		"name": "FindosgQt",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgShadow": {
+		"name": "FindosgShadow",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgSim": {
+		"name": "FindosgSim",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgTerrain": {
+		"name": "FindosgTerrain",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgText": {
+		"name": "FindosgText",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgUtil": {
+		"name": "FindosgUtil",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgViewer": {
+		"name": "FindosgViewer",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgVolume": {
+		"name": "FindosgVolume",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"FindosgWidget": {
+		"name": "FindosgWidget",
+		"description": "Fa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Ogni componente è separato ed è necessario acconsentire esplicitamente a ogni modulo. È anche necessario acconsentire esplicitamente a OpenGL e OpenThreads (e Producer, se necessario), perché questi moduli non eseguono automaticamente questa operazione. Ciò consente di controllare il proprio sistema a fasi nel caso in cui sia necessario rifiutare esplicitamente determinati componenti o modificare il comportamento di ricerca per un modulo specifico (ad esempio, perché il modulo FindOpenGL predefinito non funziona con il sistema). Se si vuole usare un modulo più pratico che includa tutto, usare FindOpenSceneGraph invece dei moduli Findosg*.cmake."
+	},
+	"Findosg_functions": {
+		"name": "Findosg_functions",
+		"description": "Questo file CMake contiene due macro che facilitano la ricerca di librerie OSDG e nodekit. Per la documentazione completa, vedere FindOpenSceneGraph."
+	},
+	"FindPackageHandleStandardArgs": {
+		"name": "FindPackageHandleStandardArgs",
+		"description": "Questo modulo fornisce funzioni da usare in Find Modules che implementano chiamate find_package(<PackageName>)."
+	},
+	"FindPackageMessage": {
+		"name": "FindPackageMessage",
+		"description": "Questa funzione deve essere usata nei file dei moduli FindXXX.cmake. Verrà stampato un messaggio una volta per ogni risultato di ricerca univoco. Ciò è utile per indicare all'utente dove è stato trovato un pacchetto. Il primo argomento specifica il nome (XXX) del pacchetto. Il secondo argomento specifica il messaggio da visualizzare. Il terzo argomento elenca i dettagli sul risultato della ricerca in modo che, se tali dettagli cambiano, il messaggio venga visualizzato di nuovo. La macro rispetta anche l'argomento QUIET al comando find_package."
+	},
+	"FindPatch": {
+		"name": "FindPatch",
+		"description": "Il modulo definisce le variabili seguenti:"
+	},
+	"FindPerl": {
+		"name": "FindPerl",
+		"description": "Trovare un interprete Perl."
+	},
+	"FindPerlLibs": {
+		"name": "FindPerlLibs",
+		"description": "Trovare le librerie Perl"
+	},
+	"FindPHP4": {
+		"name": "FindPHP4",
+		"description": "Trovare PHP4"
+	},
+	"FindPhysFS": {
+		"name": "FindPhysFS",
+		"description": "Individuare la libreria PhysFS Questo modulo definisce:"
+	},
+	"FindPike": {
+		"name": "FindPike",
+		"description": "Trovare Pike"
+	},
+	"FindPkgConfig": {
+		"name": "FindPkgConfig",
+		"description": "Modulo pkg-config per CMake."
+	},
+	"FindPNG": {
+		"name": "FindPNG",
+		"description": "Trovare libpng, la libreria di riferimento ufficiale per il formato immagine PNG."
+	},
+	"FindPostgreSQL": {
+		"name": "FindPostgreSQL",
+		"description": "Trovare l'installazione di PostgreSQL."
+	},
+	"FindProducer": {
+		"name": "FindProducer",
+		"description": "Anche se Producer non fa direttamente parte di OpenSceneGraph, il suo utente principale è OSG, quindi si considera questa parte della suite Findosg* usata per trovare i componenti OpenSceneGraph. Si noterà che si accetta OSGDIR come percorso di ambiente."
+	},
+	"FindProtobuf": {
+		"name": "FindProtobuf",
+		"description": "Individuare e configurare la libreria Google Protocol Buffers."
+	},
+	"FindPython": {
+		"name": "FindPython",
+		"description": "Trovare l'interprete Python, il compilatore e l'ambiente di sviluppo (incluse directory e librerie)."
+	},
+	"FindPython2": {
+		"name": "FindPython2",
+		"description": "Trovare l'interprete Python 2, il compilatore e l'ambiente di sviluppo (incluse directory e librerie)."
+	},
+	"FindPython3": {
+		"name": "FindPython3",
+		"description": "Trovare l'interprete Python 3, il compilatore e l'ambiente di sviluppo (incluse directory e librerie)."
+	},
+	"FindPythonInterp": {
+		"name": "FindPythonInterp",
+		"description": "Trovare l’interprete Python"
+	},
+	"FindPythonLibs": {
+		"name": "FindPythonLibs",
+		"description": "Trovare le librerie Python"
+	},
+	"FindQt": {
+		"name": "FindQt",
+		"description": "Cerca tutte le versioni installate di Qt3 o Qt4."
+	},
+	"FindQt3": {
+		"name": "FindQt3",
+		"description": "Individuare i percorsi e le librerie di inclusione Qt"
+	},
+	"FindQt4": {
+		"name": "FindQt4",
+		"description": "Questo modulo può essere usato per trovare Qt4. Il problema più importante è che Qt4 qmake è disponibile tramite il percorso di sistema. qmake viene quindi usato per rilevare praticamente tutto il resto. Questo modulo definisce una serie di destinazioni, macro e variabili IMPORTED."
+	},
+	"FindQuickTime": {
+		"name": "FindQuickTime",
+		"description": "Individuare QuickTime Questo modulo definisce:"
+	},
+	"FindRTI": {
+		"name": "FindRTI",
+		"description": "Provare a trovare le librerie RTI di M&S HLA"
+	},
+	"FindRuby": {
+		"name": "FindRuby",
+		"description": "Trovare Ruby"
+	},
+	"FindSDL": {
+		"name": "FindSDL",
+		"description": "Individuare la libreria SDL"
+	},
+	"FindSDL_gfx": {
+		"name": "FindSDL_gfx",
+		"description": "Individuare la libreria SDL_gfx"
+	},
+	"FindSDL_image": {
+		"name": "FindSDL_image",
+		"description": "Individuare la libreria SDL_image"
+	},
+	"FindSDL_mixer": {
+		"name": "FindSDL_mixer",
+		"description": "Individuare la libreria SDL_mixer"
+	},
+	"FindSDL_net": {
+		"name": "FindSDL_net",
+		"description": "Individuare la libreria SDL_net"
+	},
+	"FindSDL_sound": {
+		"name": "FindSDL_sound",
+		"description": "Individua la libreria SDL_sound"
+	},
+	"FindSDL_ttf": {
+		"name": "FindSDL_ttf",
+		"description": "Individuare la libreria SDL_ttf"
+	},
+	"FindSelfPackers": {
+		"name": "FindSelfPackers",
+		"description": "Trovare upx"
+	},
+	"FindSQLite3": {
+		"name": "FindSQLite3",
+		"description": "Trovare le librerie SQLite, v3"
+	},
+	"FindSquish": {
+		"name": "FindSquish",
+		"description": "-- Uso tipico"
+	},
+	"FindSubversion": {
+		"name": "FindSubversion",
+		"description": "Estrarre le informazioni da una copia di lavoro di Subversion."
+	},
+	"FindSWIG": {
+		"name": "FindSWIG",
+		"description": "Trovare l’eseguibile di SWIG (Simplified Wrapper and Interface Generator)."
+	},
+	"FindTCL": {
+		"name": "FindTCL",
+		"description": "TK_INTERNAL_PATH è stato rimosso."
+	},
+	"FindTclsh": {
+		"name": "FindTclsh",
+		"description": "Trova tclsh"
+	},
+	"FindTclStub": {
+		"name": "FindTclStub",
+		"description": "TCL_STUB_LIBRARY_DEBUG e TK_STUB_LIBRARY_DEBUG sono stati rimossi."
+	},
+	"FindThreads": {
+		"name": "FindThreads",
+		"description": "Questo modulo determina la libreria di thread del sistema."
+	},
+	"FindTIFF": {
+		"name": "FindTIFF",
+		"description": "Trovare la libreria TIFF (libtiff, https://libtiff.gitlab.io/libtiff/)."
+	},
+	"FindUnixCommands": {
+		"name": "FindUnixCommands",
+		"description": "Trovare i comandi Unix, inclusi quelli di Cygwin"
+	},
+	"FindVTK": {
+		"name": "FindVTK",
+		"description": "Questo modulo non esiste più."
+	},
+	"FindVulkan": {
+		"name": "FindVulkan",
+		"description": "Trovare Vulkan, un'API di elaborazione e grafica 3D multipiattaforma con sovraccarico ridotto."
+	},
+	"FindWget": {
+		"name": "FindWget",
+		"description": "Trovare wget"
+	},
+	"FindWish": {
+		"name": "FindWish",
+		"description": "Trovare l’installazione desiderata"
+	},
+	"FindwxWidgets": {
+		"name": "FindwxWidgets",
+		"description": "Trovare un'installazione wxWidgets (ovvero wxWindows)."
+	},
+	"FindwxWindows": {
+		"name": "FindwxWindows",
+		"description": "Trovare l'installazione di wxWindows (wxWidgets)"
+	},
+	"FindX11": {
+		"name": "FindX11",
+		"description": "Trovare l'installazione di X11"
+	},
+	"FindXalanC": {
+		"name": "FindXalanC",
+		"description": "Trovare le intestazioni e le librerie del processore di trasformazione XSL Apache Xalan-C++."
+	},
+	"FindXCTest": {
+		"name": "FindXCTest",
+		"description": "Funzioni utili per la creazione e l'esecuzione di bundle XCTest."
+	},
+	"FindXercesC": {
+		"name": "FindXercesC",
+		"description": "Trovare le intestazioni e le librerie del parser XML di convalida Apache Xerces-C++."
+	},
+	"FindXMLRPC": {
+		"name": "FindXMLRPC",
+		"description": "Trovare xmlrpc"
+	},
+	"FindZLIB": {
+		"name": "FindZLIB",
+		"description": "Trovare le inclusioni e la libreria native di ZLIB."
+	},
+	"FortranCInterface": {
+		"name": "FortranCInterface",
+		"description": "Rilevamento dell’interfaccia Fortran/C"
+	},
+	"GenerateExportHeader": {
+		"name": "GenerateExportHeader",
+		"description": "Funzione per la generazione di macro di esportazione per le librerie"
+	},
+	"GetPrerequisites": {
+		"name": "GetPrerequisites",
+		"description": "Funzioni per analizzare ed elencare i prerequisiti dei file eseguibili."
+	},
+	"GNUInstallDirs": {
+		"name": "GNUInstallDirs",
+		"description": "Definire le directory di installazione standard GNU"
+	},
+	"GoogleTest": {
+		"name": "GoogleTest",
+		"description": "Questo modulo definisce le funzioni che consentono di usare l'infrastruttura di Google Test. Vengono forniti due meccanismi per l'aggiunta di test. gtest_add_tests è in uso da diverso tempo, in origine era disponibile tramite find_package(GTest). gtest_discover_tests è stato introdotto in CMake 3.10."
+	},
+	"InstallRequiredSystemLibraries": {
+		"name": "InstallRequiredSystemLibraries",
+		"description": "Includere questo modulo per cercare le librerie di runtime di sistema fornite dal compilatore e aggiungervi regole di installazione. Alcune variabili facoltative possono essere impostate prima di includere il modulo per modificare il comportamento:"
+	},
+	"MacroAddFileDependencies": {
+		"name": "MacroAddFileDependencies",
+		"description": "Non usare questo comando nel nuovo codice. Si tratta solo di un wrapper:"
+	},
+	"ProcessorCount": {
+		"name": "ProcessorCount",
+		"description": "ProcessorCount(var)"
+	},
+	"SelectLibraryConfigurations": {
+		"name": "SelectLibraryConfigurations",
+		"description": "Questa macro accetta un nome di base della libreria come argomento e sceglierà valori validi per le variabili"
+	},
+	"SquishTestScript": {
+		"name": "SquishTestScript",
+		"description": "Questo script avvia un test dell'interfaccia utente grafica usando Squish. Non chiamare direttamente lo script. È invece necessario accedervi tramite la macro SQUISH_ADD_TEST definita in FindSquish.cmake."
+	},
+	"TestBigEndian": {
+		"name": "TestBigEndian",
+		"description": "Verificare se l'architettura di destinazione è big endian o little endian."
+	},
+	"TestCXXAcceptsFlag": {
+		"name": "TestCXXAcceptsFlag",
+		"description": "Controllare se il compilatore CXX accetta un flag."
+	},
+	"TestForANSIForScope": {
+		"name": "TestForANSIForScope",
+		"description": "Verificare la presenza di ANSI per il supporto dell'ambito"
+	},
+	"TestForANSIStreamHeaders": {
+		"name": "TestForANSIStreamHeaders",
+		"description": "Testare il supporto del compilatore di iostream dell'intestazione stream ANSI e così via."
+	},
+	"TestForSSTREAM": {
+		"name": "TestForSSTREAM",
+		"description": "Testare il supporto del compilatore dell'intestazione sstream ANSI"
+	},
+	"TestForSTDNamespace": {
+		"name": "TestForSTDNamespace",
+		"description": "Test per std:: supporto dello spazio dei nomi"
+	},
+	"UseEcos": {
+		"name": "UseEcos",
+		"description": "Questo modulo definisce le variabili e le macro necessarie per compilare l'applicazione eCos."
+	},
+	"UseJava": {
+		"name": "UseJava",
+		"description": "Questo file fornisce il supporto per Java. Si presuppone che FindJava sia già stato caricato. Per informazioni su come caricare Java nel progetto CMake, vedere FindJava."
+	},
+	"UseJavaClassFilelist": {
+		"name": "UseJavaClassFilelist",
+		"description": "Questo modulo è stato documentato in precedenza per errore e non è mai stato progettato per l'inclusione diretta nel codice del progetto.  Vedere il modulo :module:`UseJava`."
+	},
+	"UseJavaSymlinks": {
+		"name": "UseJavaSymlinks",
+		"description": "Questo modulo è stato documentato in precedenza per errore e non è mai stato progettato per l'inclusione diretta nel codice del progetto.  Vedere il modulo :module:`UseJava`."
+	},
+	"UsePkgConfig": {
+		"name": "UsePkgConfig",
+		"description": "Modulo pkg-config obsoleto per CMake. In alternativa, usare FindPkgConfig."
+	},
+	"UseSWIG": {
+		"name": "UseSWIG",
+		"description": "Questo file fornisce il supporto per SWIG. Si presuppone che il modulo FindSWIG sia già stato caricato."
+	},
+	"UsewxWidgets": {
+		"name": "UsewxWidgets",
+		"description": "Per praticità viene incluso l'uso della libreria wxWidgets."
+	},
+	"Use_wxWindows": {
+		"name": "Use_wxWindows",
+		"description": "Questa praticità include la possibilità di determinare se wxWindows è installato e di impostare le librerie, le directory di inclusione, i flag e così via appropriati. Autore Jan Woetwindow <jw -at- mip.informatik.uni-kiel.de> (07/2003)"
+	},
+	"WriteBasicConfigVersionFile": {
+		"name": "WriteBasicConfigVersionFile",
+		"description": "Deprecato a partire dalla versione 3.0: usare il comando identico write_basic_package_version_file() del modulo CMakePackageConfigHelpers."
+	},
+	"WriteCompilerDetectionHeader": {
+		"name": "WriteCompilerDetectionHeader",
+		"description": "Questo modulo fornisce la funzione write_compiler_detection_header()."
+	}
+}

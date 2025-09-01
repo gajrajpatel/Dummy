@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Could not open coverage info file: {0}. Skipping..."
+	],
+	"keys": [
+		"test.openCoverageInfoFile"
+	],
+	"filePath": "src\\coverage"
+}
