@@ -99,6 +99,7 @@ int main() {
         printf("Result = %d\n", a - b);
     else if (op == '*')
         printf("Result = %d\n", a * b);
+        
     else if (op == '/')
         printf("Result = %d\n", a / b);
     else
