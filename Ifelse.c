@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-    int n; 
+   /* int n; 
     scanf("%d", &n);
-    if (n%2 == 0)
+    if (n%10 == 8)
     printf("even\n");
     else
     printf("odd\n");
     return 0;
-}
+}*/
 
 
 /*int n;

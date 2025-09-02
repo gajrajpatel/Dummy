@@ -3,19 +3,20 @@
 int main(){
     int a=5;
     int b=3;
-    int sum=a++ + ++b + --b + b-- + ++a;
+    int sum = a++ + ++b + --b + b-- + ++a;
     
-    printf("%d",sum);
+    printf("%d\n",sum);
 
 
 
     int a=10;
     int b=21;
-    if(a==10 || b>25){
+    if(a==10 || b > 25){
         printf("hello");
-   /}
+   }
     else{printf("hii");
-  }
+   }
+   return 0;
 /*  int a=76;
   int m=78;
      if(a>75 && m>75){

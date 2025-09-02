@@ -43,7 +43,7 @@ int main() {
     }
 
     return 0;*/
-    /*#include <stdio.h>
+    #include <stdio.h>
 
 int main() {
     char op;
@@ -76,9 +76,9 @@ int main() {
     }
 
     return 0;
-}*/
+}
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
     int a, b;
@@ -106,5 +106,5 @@ int main() {
         printf("Invalid operator\n");
 
     return 0;
-}
+}*/
 
