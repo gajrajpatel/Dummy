@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-    int n; 
+   /* int n; 
     scanf("%d", &n);
-    if (n%2 == 0)
+    if (n%10 == 8)
     printf("even\n");
     else
     printf("odd\n");
     return 0;
-}
+}*/
 
 
 /*int n;
@@ -47,7 +47,7 @@ return 0;
 }*/
 
 
-/*int marks;
+int marks;
 scanf("%d" , &marks);
 if (marks>= 90) printf("grade: A\n");
 {printf("88\n;");
@@ -61,4 +61,4 @@ else printf("grade: F\n");
 if (marks >= 33) printf("pass\n");
 else printf("fail\n");
 return 0;
-}*/
+}
