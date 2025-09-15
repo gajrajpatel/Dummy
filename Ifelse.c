@@ -47,7 +47,7 @@ return 0;
 }*/
 
 
-/*int marks;
+int marks;
 scanf("%d" , &marks);
 if (marks>= 90) printf("grade: A\n");
 {printf("88\n;");
@@ -61,4 +61,4 @@ else printf("grade: F\n");
 if (marks >= 33) printf("pass\n");
 else printf("fail\n");
 return 0;
-}*/
+}

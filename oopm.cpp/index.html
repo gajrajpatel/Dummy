@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: #fff;
+      padding: 20px 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 350px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    input {
+      padding: 10px;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      padding: 10px 15px;
+      border: none;
+      background: #4facfe;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+    button:hover {
+      background: #00c6fb;
+    }
+    .result {
+      margin-top: 20px;
+    }
+    .result img {
+      width: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌤 Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button onclick="getWeather()">Search</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script>
+    async function getWeather() {
+      const city = document.getElementById("cityInput").value;
+      const resultDiv = document.getElementById("result");
+
+      if (!city) {
+        resultDiv.innerHTML = "<p style='color:red;'>Please enter a city name!</p>";
+        return;
+      }
+
+      try {
+        const response = await fetch(
+          `http://api.weatherapi.com/v1/current.json?key=ec42c0b222e243aaa47151158251409&q=${city}&aqi=yes`
+        );
+        if (!response.ok) throw new Error("City not found");
+        const data = await response.json();
+
+        resultDiv.innerHTML = `
+          <h2>${data.location.name}, ${data.location.country}</h2>
+          <p><strong>Condition:</strong> ${data.current.condition.text}</p>
+          <img src="${data.current.condition.icon}" alt="Weather icon"/>
+          <p><strong>Temperature:</strong> ${data.current.temp_c} °C</p>
+          <p><strong>Humidity:</strong> ${data.current.humidity}%</p>
+          <p><strong>Wind:</strong> ${data.current.wind_kph} kph</p>
+        `;
+      } catch (error) {
+        resultDiv.innerHTML = `<p style="color:red;">${error.message}</p>`;
+      }
+    }
+  </script>
+</body>
+</html>
